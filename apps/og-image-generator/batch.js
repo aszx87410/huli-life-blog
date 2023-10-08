@@ -69,8 +69,7 @@ async function main() {
     }
 
     if (typeof postMeta.attributes.date === "string") {
-      console.log("is String");
-      continue;
+      postMeta.attributes.date = new Date(postMeta.attributes.date);
     }
 
     const template = fs
