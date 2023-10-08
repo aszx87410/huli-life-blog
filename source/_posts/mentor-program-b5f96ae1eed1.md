@@ -1,6 +1,6 @@
 ---
 title: 從零到一：程式導師實驗計畫
-date: '2017-12-21T13:37:21.439Z'
+date: "2017-12-21T13:37:21.439Z"
 categories:
   - 教學計劃
 tags:
@@ -20,10 +20,7 @@ tags:
 你問我哪部分是我做的嗎？全部。  
 （其實是我接手上一個同事的，但是後來有大改版，所以看到的基本上都是出自我手。不過我離職之後有新的同事來接，所以有部分功能例如說排行榜之類的是我同事寫的）
 
-喜歡分享，也喜歡教學，寫過最多人看的程式相關文章應該是這篇：
-
-[**\[心得\] 十年程式自學之路 " Huli's Blog**  
-_（原文發表於 ptt soft\_job 版，調整排版之後轉在於此） 前言 從國中開始自學程式到現在，已經有十年了 所以我應該算是個資深的自學者吧XD 有滿多心得想跟大家分享 這篇主要是分享一些我..._huli.logdown.com](http://huli.logdown.com/posts/703835-experience-ten-year-programming-of-self-study-road "http://huli.logdown.com/posts/703835-experience-ten-year-programming-of-self-study-road")[](http://huli.logdown.com/posts/703835-experience-ten-year-programming-of-self-study-road)
+喜歡分享，也喜歡教學，寫過最多人看的程式相關文章應該是這篇：[十年程式自學之路](http://huli.logdown.com/posts/703835-experience-ten-year-programming-of-self-study-road)
 
 教學部份的話，在 Hahow 上面有一門付費線上課程：[初心者的計概與 coding 火球術](https://hahow.in/cr/cs-the-easy-way)，課程宗旨是把計算機概論講得更簡單，幫初學者打基礎。
 
@@ -45,10 +42,7 @@ _（原文發表於 ptt soft\_job 版，調整排版之後轉在於此） 前言
 
 以上列舉幾篇我覺得寫得比較不錯的，如果想看更多的話，可以到[我的部落格](http://huli.logdown.com/archives)或是參考我去年參加鐵人賽的主題：[Half-Stack Developer 養成計畫](https://ithelp.ithome.com.tw/users/20091346/ironman/1150)。
 
-最後則是喜歡紀錄一些自己的故事，例如說[我與 Stripe ：一段愛與夢想的故事](https://medium.com/hulis-blog/stripe-and-i-df35a6f0a799)跟[一個工程師的履歷進化史](https://medium.com/hulis-blog/resume-evolution-4c337ff30729)。如果你想更瞭解我的背景，可以直接參考這系列文章：
-
-[**自學、哲學、講學：我的程式之路（上）**  
-_無意間看到一篇文章在分享自己學網頁的歷程與心得，而這類型的文章其實我也曾經想要寫過…_medium.com](https://medium.com/hulis-blog/the-programming-journey-1-b9b19c0ef05b "https://medium.com/hulis-blog/the-programming-journey-1-b9b19c0ef05b")[](https://medium.com/hulis-blog/the-programming-journey-1-b9b19c0ef05b)
+最後則是喜歡紀錄一些自己的故事，例如說[我與 Stripe ：一段愛與夢想的故事](https://medium.com/hulis-blog/stripe-and-i-df35a6f0a799)跟[一個工程師的履歷進化史](https://medium.com/hulis-blog/resume-evolution-4c337ff30729)。如果你想更瞭解我的背景，可以直接參考這系列文章：[自學、哲學、講學：我的程式之路（上）](https://medium.com/hulis-blog/the-programming-journey-1-b9b19c0ef05b)
 
 從上面零零總總應該就能看得出來，我是個很喜歡分享跟教學的人，但其實我最想做的事情，卻一直沒能做到。
 
@@ -70,10 +64,7 @@ _無意間看到一篇文章在分享自己學網頁的歷程與心得，而這�
 
 > 四個月內，把你培養成一個找得到工作的網頁工程師（前端或後端）
 
-那實際上怎麼做呢？之前我有寫了一份學習計畫，是希望給那些沒有方向的初學者參考用的，這次課程基本上會照著這個走（大致上一樣，但會有些小幅修正）：
-
-[**教學實驗計畫 - HackMD**  
-_教學實驗計畫 ==== # 計劃簡介 藉由團體內的互助合作以及助教的帶領，照著計劃自主學習，試圖營造出一個適合學習的環境，大家互相切磋，互相成長。 之前跟一個也在做免費教學的前輩交換了一下心得，有_hackmd.io](https://hackmd.io/s/H1L4FEb5Z "https://hackmd.io/s/H1L4FEb5Z")[](https://hackmd.io/s/H1L4FEb5Z)
+那實際上怎麼做呢？之前我有寫了一份學習計畫，是希望給那些沒有方向的初學者參考用的，這次課程基本上會照著這個走（大致上一樣，但會有些小幅修正）：[教學實驗計畫 - HackMD](https://hackmd.io/s/H1L4FEb5Z)
 
 不過如果你想走前端的話，前端會多教一些東西，例如說 React 之類的。總之呢會教的東西就是基本的前端後端，搭配一些基礎程式能力培養（避免你連雙層迴圈或是字串反轉都寫不出來）
 
@@ -97,7 +88,7 @@ _教學實驗計畫 ==== # 計劃簡介 藉由團體內的互助合作以及助�
 
 所以基本的流程就是：
 
-1.  白天你自己做作業，找資料練習（因為我在上班QQ）
+1.  白天你自己做作業，找資料練習（因為我在上班 QQ）
 2.  白天有問題也可以問，但我可能要晚上才能回答
 3.  晚上是統一回答問題時間或是上課時間，但不會每天都上課，大概兩三天一次
 
@@ -135,7 +126,7 @@ _教學實驗計畫 ==== # 計劃簡介 藉由團體內的互助合作以及助�
 1.  [填寫 Google 表單](https://goo.gl/forms/HAPsG8ry4em98vm72)（一些基本資料）
 2.  去研究什麼是 [Scratch](https://scratch.mit.edu/)，並且做出一個小作品，只要是任何你覺得完整的作品就好，沒有 idea 的話可以參考 [CS50](https://youtu.be/y62zj9ozPOM?t=50m21s)。這個只是想測驗你有基本的自學能力而已，所以不用做得太複雜（不用有關卡）。
 3.  寫信到：aszx87410@gmail.com  
-    標題請打：\[報名\] 程式導師實驗計畫 — huli  
+    標題請打：\[報名\] 程式導師實驗計畫  — huli  
     （請把 huli 換成你自己的暱稱）
 
 信件內容麻煩附上：

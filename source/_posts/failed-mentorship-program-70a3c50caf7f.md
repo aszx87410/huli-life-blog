@@ -1,16 +1,13 @@
 ---
 title: 前端引路人計畫失敗心得
-date: '2020-10-02T10:24:13.014Z'
+date: "2020-10-02T10:24:13.014Z"
 categories:
   - 教學計劃
 tags:
   - 教學計劃
 ---
 
-一年前，我在 Medium 上面發布了這篇文章：
-
-[**真正的 Mentorship program：前端引路人計畫**  
-_若是這時候有個 mentor 可以幫你點出方向或是給你一些協助，讓你能進步得更快，不也是件好事嗎？_medium.com](https://medium.com/@hulitw/mentorship-program-350db93d5c9c "https://medium.com/@hulitw/mentorship-program-350db93d5c9c")[](https://medium.com/@hulitw/mentorship-program-350db93d5c9c)
+一年前，我在 Medium 上面發布了這篇文章：[真正的 Mentorship program：前端引路人計畫](https://medium.com/@hulitw/mentorship-program-350db93d5c9c)
 
 內容主要是我想當 mentor 所以在找 mentee，可以指導的範圍大概是：
 
@@ -22,7 +19,7 @@ _若是這時候有個 mentor 可以幫你點出方向或是給你一些協助�
 
 過了一年，該是時候跟大家報告結果了（雖然標題已經有了就是了）。在報告結果之前，我們先跟著時間回顧一下這個計畫吧。
 
-### 計畫初期（2019 年 8 月）
+### 計畫初期（2019 年 8  月）
 
 這個計畫大約 46 個人報名，一共有 22 位錄取。
 
@@ -117,10 +114,7 @@ Huli 大大一如往常給了許多好的學習建議，非常謝謝
 
 #### 學生心得 #2
 
-請參考：
-
-[**Huli 引路人計畫 52 週過後 & 這一年學習分享**  
-_1\. 為什麼會有引路人計畫 ? 如果有個比較有工作經驗的前輩來當我 mentor，給我一些方向或是跟我討論一些問題，無論是生活上的、職涯上的或是技術上的都好，我相信那會是很不錯的一件事。 但沒有，…_www.maxlist.xyz](https://www.maxlist.xyz/2020/09/21/huli-mentor/ "https://www.maxlist.xyz/2020/09/21/huli-mentor/")[](https://www.maxlist.xyz/2020/09/21/huli-mentor/)
+請參考：[Huli 引路人計畫 52 週過後 & 這一年學習分享](https://www.maxlist.xyz/2020/09/21/huli-mentor/)
 
 ### 結語
 

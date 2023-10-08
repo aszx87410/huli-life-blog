@@ -1,6 +1,6 @@
 ---
 title: CoolWallet Pro 冷錢包開箱文
-date: '2023-09-22T09:09:26.673Z'
+date: "2023-09-22T09:09:26.673Z"
 categories:
   - Others
 tags:
@@ -9,10 +9,7 @@ tags:
 
 利益揭露：此為與 CoolWallet Pro 合作的體驗文章，但使用心得是真實的。
 
-之前我寫了一篇在加密貨幣世界工作的感想：
-
-[**在加密貨幣世界工作 0.75 年後的感想**  
-_去年十一月的時候我有寫了一篇《近況更新：轉職資安的一年後》，文章最後有提到我換去了一個做 Web3 的團隊，接觸了全新的工作內容。換團隊以後過了大概 9 個月，也就是標題所指的 0.75…_hulitw.medium.com](https://hulitw.medium.com/after-working-at-web3-industry-for-8-months-60954d84ff0e "https://hulitw.medium.com/after-working-at-web3-industry-for-8-months-60954d84ff0e")[](https://hulitw.medium.com/after-working-at-web3-industry-for-8-months-60954d84ff0e)
+之前我寫了一篇[在加密貨幣世界工作的感想](https://hulitw.medium.com/after-working-at-web3-industry-for-8-months-60954d84ff0e)
 
 最後有提到說我自己不會想要投入加密貨幣，一個不玩加密貨幣的人寫冷錢包開箱文，不是很奇怪嗎？但其實我在那一段後面還寫了：
 
@@ -22,7 +19,7 @@ _去年十一月的時候我有寫了一篇《近況更新：轉職資安的一�
 
 無論之後會不會再次投入，只要你手上有幣，就有可能需要冷錢包。而我之前其實從來沒有使用過冷錢包，所以也是個滿特別的體驗，思考一陣子之後就決定接下這個邀約了。
 
-先講一下，這篇基本上會著重在使用冷錢包的體驗跟過程，有關於安全性的部分可以自行參考他們網站上的說明：[https://www.coolwallet.io/zh-hant/coolwallet\_pro/](https://www.coolwallet.io/zh-hant/coolwallet_pro/)
+先講一下，這篇基本上會著重在使用冷錢包的體驗跟過程，有關於安全性的部分可以自行參考他們網站上的說明：[https://www.coolwallet.io/zh-hant/coolwallet_pro/](https://www.coolwallet.io/zh-hant/coolwallet_pro/)
 
 有一點很值得鼓勵的是，CoolWallet 其實有不少東西都是開源的，包括手機 App 等等，更多資訊可以參考他們的部落格文章：[CoolWallet 不藏私 宣佈支持開源](https://www.coolwallet.io/zh-hant/coolwallet-will-open-source-its-hardware-wallets-secure-element-chip-code/)。
 
@@ -60,7 +57,7 @@ CoolWallet Pro 主打的是輕量化設計，儘管事前已經知道，收到�
 
 畢竟跟智慧合約串接這件事情本身就有一些風險，以安全性的角度來說，當然是能多少控制一些風險比較好。
 
-但個人使用的話應該通常也不會到這麼多手續，畢竟自己錢包互轉還是要收 gas fee，有可能是我看多了交易所的流程所以才會這樣想XD
+但個人使用的話應該通常也不會到這麼多手續，畢竟自己錢包互轉還是要收 gas fee，有可能是我看多了交易所的流程所以才會這樣想 XD
 
 啟用了錢包之後，就順便從幣安那邊轉了一些錢進來：
 

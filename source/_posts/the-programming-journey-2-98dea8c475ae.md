@@ -1,6 +1,6 @@
 ---
 title: 自學、哲學、講學：我的程式之路（中）
-date: '2017-10-05T15:44:40.705Z'
+date: "2017-10-05T15:44:40.705Z"
 categories:
   - Others
 tags:
@@ -9,8 +9,7 @@ tags:
 
 此篇為系列文章第二篇，若是你錯過了第一篇誤打誤撞進來這裡，傳送門在這：
 
-[**自學、哲學、講學：我的程式之路（上）**  
-_無意間看到一篇文章在分享自己學網頁的歷程與心得，而這類型的文章其實我也曾經想要寫過。_medium.com](https://medium.com/hulis-blog/the-programming-journey-1-b9b19c0ef05b "https://medium.com/hulis-blog/the-programming-journey-1-b9b19c0ef05b")[](https://medium.com/hulis-blog/the-programming-journey-1-b9b19c0ef05b)
+[自學、哲學、講學：我的程式之路（上）](https://medium.com/hulis-blog/the-programming-journey-1-b9b19c0ef05b)
 
 ### 眼界的開闊與自信的泉源：高中的競賽人生
 
@@ -44,7 +43,7 @@ TOI 就是[臺灣資訊奧林匹亞研習營 Taiwan Olympiad in Informatics](htt
 
 那時幫助我最大的網站是[演算法筆記](https://web.ntnu.edu.tw/~algo/)，可以看著上面的文章來練習，再利用解題的方式去驗證自己到底有沒有搞懂。
 
-國中跟高中那幾年裡面，我大概學了一些基本的東西，像是：DFS, BFS, 最短路徑, 最小生成🌲, 背包問題等等。
+國中跟高中那幾年裡面，我大概學了一些基本的東西，像是：DFS, BFS, 最短路徑, 最小生成 🌲, 背包問題等等。
 
 但其實對我來說幫助最大的不是學了哪些演算法，知道哪些資料結構，而是在解題過程中培養的能力。可以從題目快速的就猜到大概是哪一種題型，大概要怎麼解。這些思考的過程跟方法都是很重要的收穫。
 
@@ -168,7 +167,4 @@ TOI 就是[臺灣資訊奧林匹亞研習營 Taiwan Olympiad in Informatics](htt
 
 續集傳送門：
 
-[**自學、哲學、講學：我的程式之路（下）**  
-_此篇為系列文章的最後一篇，如果你錯過前兩篇，傳送門在這：  
-自學、哲學、講學：我的程式之路（上）  
-自學、哲學、講學：我的程式之路（中）_medium.com](https://medium.com/hulis-blog/the-programming-journey-3-ebd9e995a4eb "https://medium.com/hulis-blog/the-programming-journey-3-ebd9e995a4eb")[](https://medium.com/hulis-blog/the-programming-journey-3-ebd9e995a4eb)
+[自學、哲學、講學：我的程式之路（下）](https://medium.com/hulis-blog/the-programming-journey-3-ebd9e995a4eb)

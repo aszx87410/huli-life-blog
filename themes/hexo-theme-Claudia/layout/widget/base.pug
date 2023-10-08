@@ -27,18 +27,6 @@ html(lang=config.language class= `appearance-${ appearance }`)
         ga('send', 'pageview');
     <!-- End Google Analytics -->
 
-    <!-- Baidu Analytics -->
-    if (theme.ba_track_id)
-      script.
-        var _hmt = _hmt || [];
-        (function() {
-        var hm = document.createElement("script");
-        hm.src = "//hm.baidu.com/hm.js?" + '#{theme.ba_track_id}';
-        var s = document.getElementsByTagName("script")[0];
-        s.parentNode.insertBefore(hm, s);
-        })();
-    <!-- End Baidu Analytics -->
-
     link(rel="icon" href= url_for(theme.favicon))
     link(rel="stylesheet" href= url_for('/style/common/bulma.css'))
     link(rel="stylesheet" href= url_for('/style/base.css'))

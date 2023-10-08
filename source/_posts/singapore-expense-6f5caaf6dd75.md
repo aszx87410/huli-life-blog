@@ -1,6 +1,6 @@
 ---
 title: 撇除娛樂不談，在新加坡生活一個月要多少錢？
-date: '2018-10-14T10:49:52.056Z'
+date: "2018-10-14T10:49:52.056Z"
 categories:
   - Others
 tags:
@@ -92,10 +92,7 @@ tags:
 
 不過誠如我上面所說，吃飯也是要看地區的，如果你在某些熱門辦公區吃飯，可能一餐要到 10 塊錢。不過以我現在待的跟之前待的（one north 那一區）來說，吃一餐大概是 5~8 塊錢左右。
 
-至於假日的話我都懶得出門，所以都叫外送來吃，叫外送絕對是最花錢的選項之一，畢竟用金錢換時間嘛，在新加坡的外送主要有四間，我之前有特地寫一篇文章來介紹：
-
-[**四款訂餐外送 App 不專業評測**  
-_以前在台北只要隨便走個路就滿街都是吃的，或者之前住新加坡 HDB 的時候，家裡附近也有 Hawker centre 能夠覓食。_medium.com](https://medium.com/hulis-blog/delivery-services-2d90ec1e3555 "https://medium.com/hulis-blog/delivery-services-2d90ec1e3555")[](https://medium.com/hulis-blog/delivery-services-2d90ec1e3555)
+至於假日的話我都懶得出門，所以都叫外送來吃，叫外送絕對是最花錢的選項之一，畢竟用金錢換時間嘛，在新加坡的外送主要有四間，我之前有特地寫一篇文章來介紹：[四款訂餐外送 App 不專業評測](https://medium.com/hulis-blog/delivery-services-2d90ec1e3555)
 
 不過這篇文章也有點過時了，現在 Uber eats 已經被 Grab Food 取代，deliveroo 也做了幾次改版，UI 變好看了，誠實蜜蜂的全館免運費也沒了。
 

@@ -1,6 +1,6 @@
 ---
 title: 我與 Stripe ：一段愛與夢想的故事
-date: '2017-10-22T06:53:15.822Z'
+date: "2017-10-22T06:53:15.822Z"
 categories:
   - 職涯
 tags:
@@ -21,22 +21,16 @@ Stripe 是我心目中的第一志願，是我「最想進去」的公司，沒�
 
 好，還是沒印象嗎？那你可以參考底下這兩篇新聞：
 
-[**線上金流明星Stripe再獲1.5億美元投資，市值達90億美元｜數位時代**  
-_線上金流服務新創Stipe宣布再獲得1.5億美元D輪融資，公司市值估計達90億美元。_www.bnext.com.tw](https://www.bnext.com.tw/article/42046/stripe-raises-d-round-funding "https://www.bnext.com.tw/article/42046/stripe-raises-d-round-funding")[](https://www.bnext.com.tw/article/42046/stripe-raises-d-round-funding)
-
-[**Stripe：連 PayPal 創辦人都投資的金流公司 - INSIDE 硬塞的網路趨勢觀察**  
-_說到矽谷知名的育成中心 Y Combinator，大家可能會先想到 Dropbox 與 Airbnb 兩家市值百億的公司，不過 Stripe 這家由一對愛爾蘭兄弟檔創辦、被視為 PayPal 挑戰者的線上金流公司，經歷今年一月一輪高…_www.inside.com.tw](https://www.inside.com.tw/2014/04/24/stripe "https://www.inside.com.tw/2014/04/24/stripe")[](https://www.inside.com.tw/2014/04/24/stripe)
+1. [線上金流明星 Stripe 再獲 1.5 億美元投資，市值達 90 億美元｜數位時代](https://www.bnext.com.tw/article/42046/stripe-raises-d-round-funding)
+2. [Stripe：連 PayPal 創辦人都投資的金流公司 - INSIDE 硬塞的網路趨勢觀察](https://www.inside.com.tw/2014/04/24/stripe)
 
 簡單來說，Stripe 就是一間提供金流服務的公司，只要是跟金流有關的一切，都找他就對了。你也可以想成是 Paypal 或是台灣的歐付寶，但其實有些差異就是了。
 
-### 為何 Stripe 是我的夢想公司？
+### 為何 Stripe  是我的夢想公司？
 
 Stripe 在我心目中的地位崇高，總是會有個理由，一定是有些事情或者是某些 Stripe 的特點有打到我，才會讓我這麼喜愛這一間公司。
 
-我第一次注意到 Stripe 這間公司，是因為看到他們的這篇部落格文章：
-
-[**How Stripe teaches employees to code**  
-_Code is central to Stripe: we build APIs, software tools, and infrastructure that are in turn used by other software…_stripe.com](https://stripe.com/blog/teaching-employees-to-code "https://stripe.com/blog/teaching-employees-to-code")[](https://stripe.com/blog/teaching-employees-to-code)
+我第一次注意到 Stripe 這間公司，是因為看到他們的這篇部落格文章：[How Stripe teaches employees to code](https://stripe.com/blog/teaching-employees-to-code)
 
 大意就是他們希望所有員工都有一點技術背景，這樣溝通起來比較方便，因此在內部開了一個程式的訓練課程，讓員工自由報名去上課。
 
@@ -46,15 +40,9 @@ _Code is central to Stripe: we build APIs, software tools, and infrastructure th
 
 簡單來說，就是我的理念跟 Stripe 的理念相符，而且做了同樣的事。這是一種找到知音的感覺：「哇，原來你們也這麼做！」
 
-除了這個，我之後也無意間看到跟他們有關的一些新聞，例如說開放求職者可以帶自己的 team 一起來應徵，整組人一起加入公司：
+除了這個，我之後也無意間看到跟他們有關的一些新聞，例如說開放求職者可以帶自己的 team 一起來應徵，整組人一起加入公司：[BYOT](https://stripe.com/blog/bring-your-own-team)
 
-[**BYOT**  
-_Do you know anyone who makes you incredibly better at what you do? People who motivate and inspire you, complement your…_stripe.com](https://stripe.com/blog/bring-your-own-team "https://stripe.com/blog/bring-your-own-team")[](https://stripe.com/blog/bring-your-own-team)
-
-或者是他們的創辦人上 Quora 回答一則有關於面試流程的問題，並且直接在網路上公開他們的 onsite interview 流程：
-
-[**What is the engineering interview process like at Stripe?**  
-_Answer: Update (April 21, 2015): For a description of the latest iteration of our interview process, see https://stripe…_www.quora.com](https://www.quora.com/What-is-the-engineering-interview-process-like-at-Stripe "https://www.quora.com/What-is-the-engineering-interview-process-like-at-Stripe")[](https://www.quora.com/What-is-the-engineering-interview-process-like-at-Stripe)
+或者是他們的創辦人上 Quora 回答一則有關於面試流程的問題，並且直接在網路上公開他們的 onsite interview 流程：[What is the engineering interview process like at Stripe?](https://www.quora.com/What-is-the-engineering-interview-process-like-at-Stripe)
 
 其實上面幾點說明了一件事，那就是 Stripe 是一間會公開揭露很多資訊的公司（至少比其他一大堆公司公開透明），尤其是公開面試流程這個也完完全全打到我。
 
@@ -70,10 +58,7 @@ _Answer: Update (April 21, 2015): For a description of the latest iteration of o
 
 公開這些流程讓求職者能夠更清楚準備的方向，也能夠知道公司想要找的是怎樣的人。
 
-最後，Stripe 還有一篇文章讓我大大加分：
-
-[**Connect: behind the front-end experience**  
-_We recently released a new and improved version of Connect, our suite of tools designed for platforms and marketplaces…_stripe.com](https://stripe.com/blog/connect-front-end-experience "https://stripe.com/blog/connect-front-end-experience")[](https://stripe.com/blog/connect-front-end-experience)
+最後，Stripe 還有一篇文章讓我大大加分：[Connect: behind the front-end experience](https://stripe.com/blog/connect-front-end-experience)
 
 這一篇是他們打造其中一個產品頁面的經驗分享，由於我是個前端工程師，所以看這種前端的分享文特別興奮。對我來說，這種願意分享經驗 po 到部落格的公司絕對都是大大的加分。
 
@@ -122,7 +107,7 @@ _We recently released a new and improved version of Connect, our suite of tools 
 
 而我腦中第一個想到的是：
 
-> 我來做個教大家如何串接 Stripe API 的影片，放到 Youtube 上吧！
+> 我來做個教大家如何串接 Stripe API 的影片，放到 Youtube  上吧！
 
 第二個想到的是在他們的 IRC 或是 StackOverflow 上面去回答別人對 Stripe API 的問題，就可以證明說：「嘿，你看，我現在就很像一個 Support Engineer 了！」
 
@@ -134,10 +119,7 @@ _We recently released a new and improved version of Connect, our suite of tools 
 
 那我後來附了什麼？我後來再看了一次 JD，想說這個職缺的人應該很需要「debug 別人的 code」的能力，又想起我之前參加的 Hacktoberfest 的活動，就附上跟那個活動相關的資料了。
 
-Hacktoberfest 是 Github 主辦的活動，簡單來說就是你在十月提交四個 Pull Request 就能夠拿一件免費的衣服，詳情可參考我之前寫過的：
-
-[**Hacktoberfest：一起踏入 open source 的世界吧！**  
-_TechBridge Weekly 技術週刊團隊是一群對用技術改變世界懷抱熱情的團隊。本技術共筆部落格初期專注於Web前後端、行動網路、機器人/物聯網、數據分析與產品設計等技術分享。_blog.techbridge.cc](http://blog.techbridge.cc/2016/10/14/hacktoberfest-2016/ "http://blog.techbridge.cc/2016/10/14/hacktoberfest-2016/")[](http://blog.techbridge.cc/2016/10/14/hacktoberfest-2016/)
+Hacktoberfest 是 Github 主辦的活動，簡單來說就是你在十月提交四個 Pull Request 就能夠拿一件免費的衣服，詳情可參考我之前寫過的：[Hacktoberfest：一起踏入 open source 的世界吧！](http://blog.techbridge.cc/2016/10/14/hacktoberfest-2016/)
 
 除此之外，還提到了我的 blog 以及之前的 CS50 導讀計畫。我最後附上的檔案長這樣（全文複製貼上，一刀未剪）：
 
@@ -311,7 +293,7 @@ _TechBridge Weekly 技術週刊團隊是一群對用技術改變世界懷抱熱�
 
 幾次溝通下來他看我一臉迷茫，只好跟我說：one zero zero，我就：「喔～」了之後改成 100，他才終於露出無奈的笑容。
 
-還有一段是我想把搜尋改成二分搜，但是是有點變化的那種，就是找第一個 ≥ 的數字，lower\_bound 還是 upper\_bound 什麼的。這邊我不太熟，我就問了我可以搜中文的資料嗎？他說可以，我就說因為我之前寫過一篇 blog 在講這個。你看，這就是寫部落格的好處。
+還有一段是我想把搜尋改成二分搜，但是是有點變化的那種，就是找第一個 ≥ 的數字，lower_bound 還是 upper_bound 什麼的。這邊我不太熟，我就問了我可以搜中文的資料嗎？他說可以，我就說因為我之前寫過一篇 blog 在講這個。你看，這就是寫部落格的好處。
 
 總之技術面試比我想像中的簡單滿多，我在下週一就收到了進入下一關的通知。
 
@@ -327,10 +309,7 @@ _TechBridge Weekly 技術週刊團隊是一群對用技術改變世界懷抱熱�
 
 接著我把 behavior questions 有關的題目都準備了一遍，心得我前面有分享過。除此之外，我把 Stripe 的每一篇部落格都掃過一遍，挑出幾篇我比較有興趣的，以備不時之需。
 
-像是這篇我就覺得很有趣：
-
-[**Scaling email transparency**  
-_In February 2013, we blogged about email transparency at Stripe. Since then a number of other companies have…_stripe.com](https://stripe.com/blog/scaling-email-transparency "https://stripe.com/blog/scaling-email-transparency")[](https://stripe.com/blog/scaling-email-transparency)
+像是這篇我就覺得很有趣：[Scaling email transparency](https://stripe.com/blog/scaling-email-transparency)
 
 準備就緒以後，就到了決一死戰的時刻。
 

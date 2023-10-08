@@ -1,0 +1,30 @@
+archive:
+  one: '文章列表'
+  other: '文章列表'
+
+category:
+  one: '分類'
+  other: '分類'
+tag:
+  one: '標籤'
+  other: '標籤'
+post:
+  one: '文章'
+  other: '文章'
+page:
+  one: '頁面'
+  other: '頁面'
+prev: '上一頁'
+next: '下一頁'
+
+all: '全部'
+home: '首頁'
+title: '標題'
+about: '關於我'
+recent: '最近'
+read_more: '更多'
+user_name: '名字'
+friends: '其他連結'
+click_back_to_the_top: '點擊返回開頭'
+search_input_placeholder: '搜尋內容..'
+

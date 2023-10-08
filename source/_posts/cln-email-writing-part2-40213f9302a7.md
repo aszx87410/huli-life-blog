@@ -1,16 +1,13 @@
 ---
 title: CLN 新貴語文電郵寫作班心得（下）
-date: '2020-03-02T04:25:57.466Z'
+date: "2020-03-02T04:25:57.466Z"
 categories:
   - 學習
 tags:
   - 學習
 ---
 
-這篇是下集，還沒看過上集的可以先看上集：
-
-[**CLN 新貴語文電郵寫作班心得（上）**  
-_雖然說身為一個軟體工程師，與其他職位相比，在工作時會需要與他人溝通的機會已經少很多了，但還是有些時候會需要寫信與他人溝通。_medium.com](https://medium.com/@hulitw/cln-email-writing-part1-5262fcd9ff79 "https://medium.com/@hulitw/cln-email-writing-part1-5262fcd9ff79")[](https://medium.com/@hulitw/cln-email-writing-part1-5262fcd9ff79)
+這篇是下集，還沒看過上集的可以先看上集：[CLN 新貴語文電郵寫作班心得（上）](https://medium.com/@hulitw/cln-email-writing-part1-5262fcd9ff79)
 
 上集的內容是上完了一半的課程以後寫的，主要談到了三點：教學內容、風格以及課堂氣氛，而下集的內容就是來講講上完全部課程（一共十堂，外加一堂加課）以後的心得。
 

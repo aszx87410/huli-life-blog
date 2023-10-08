@@ -1,6 +1,6 @@
 ---
 title: 寫技術部落格不需要那麼大費周章
-date: '2020-01-28T06:26:34.078Z'
+date: "2020-01-28T06:26:34.078Z"
 categories:
   - 寫作
 tags:
@@ -10,7 +10,7 @@ tags:
 身為一個喜歡寫東西而且從中獲益的人，會一直推廣寫作這回事並不意外，像是之前就有寫過幾篇相關的文章：
 
 1.  [我是如何完成一篇文章的？](https://medium.com/@hulitw/how-do-i-write-965328ae91fe)
-2.  [每一篇心得都有價值 — — 為什麼初學者才更應該要寫心得筆記](https://medium.com/hulis-blog/why-blogging-ab77fd8c6ffa)
+2.  [每一篇心得都有價值  — — 為什麼初學者才更應該要寫心得筆記](https://medium.com/hulis-blog/why-blogging-ab77fd8c6ffa)
 3.  [我為什麼寫部落格，以及部落格帶給我的影響](https://medium.com/@hulitw/blog-e7a23a74ae2b)
 
 但同時，我也在寫作上面碰到了許多問題。
@@ -104,7 +104,7 @@ tags:
 
 只是想寫個技術部落格而已，有必要這麼麻煩嗎？
 
-### CoderBridge to the Rescue
+#### CoderBridge to the Rescue
 
 首先，前面我提到技術部落格的時候，我都只關注到了自己。我並沒有提到社群這件事，而這些元素在自架的部落格當中都是沒辦法實現的，畢竟整個網站就你一個人嘛。
 

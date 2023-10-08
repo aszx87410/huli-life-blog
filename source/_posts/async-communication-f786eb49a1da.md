@@ -1,6 +1,6 @@
 ---
 title: 非同步溝通
-date: '2021-04-03T02:22:29.365Z'
+date: "2021-04-03T02:22:29.365Z"
 categories:
   - Others
 tags:
@@ -17,8 +17,10 @@ tags:
 
 因此在程式領域中，同步指的就是「做一件事情時要等它結束，才做下一件事」。以讀檔案為例好了，程式碼可能會長成下面這樣：
 
-let content = read\_file('note.txt') // 讀取檔案  
+```js
+let content = read\_file('note.txt') // 讀取檔案
 print content // 印出
+```
 
 第一行指示電腦去讀取一個檔案，等到讀取完畢之後會把內容指定給叫做 content 的變數，第二行則是把它，也就是把檔案內容印出。
 
@@ -28,8 +30,10 @@ print content // 印出
 
 以同樣的程式碼為例：
 
-let content = read\_file('note.txt') // 讀取檔案  
+```js
+let content = read\_file('note.txt') // 讀取檔案
 print content // 印出
+```
 
 在執行第一行時，程式只負責「叫系統去讀檔案」，然後等檔案讀取完的時候再跟他說。因此就算讀檔要十秒，也不需要在這邊等待十秒，而是可以立即執行第二行，但在執行第二行時的 content 就不會是檔案內容了，因為這時候檔案根本沒讀取完。
 
@@ -39,21 +43,25 @@ print content // 印出
 
 因此非同步的程式碼會像這樣：
 
-function done(content) {  
-  print content // 印出  
+```js
+function done(content) {
+ print content // 印出
 }
 
-read\_file('note.txt', done) // 讀取檔案，讀取完時呼叫 done()
+read_file('note.txt', done) // 讀取檔案，讀取完時呼叫 done()
+```
 
 讀檔的函式現在沒有回傳值了，而是需要傳入一個 function，等到讀檔完成時再去呼叫你提供的函式。
 
 化為點餐的範例就是這樣：
 
-function 呼叫器() {  
-  // 呼叫器響了，來拿餐囉  
+```js
+function 呼叫器() {
+  // 呼叫器響了，來拿餐囉
 }
 
-點餐('排骨飯', 呼叫器) // 點餐，做好的時候呼叫呼叫器
+點餐("排骨飯", 呼叫器); // 點餐，做好的時候呼叫呼叫器
+```
 
 所以在非同步的模式之下那些耗時的操作不會阻礙你做下一件事，你不會被卡在那邊。在瀏覽器上面跑的程式就必須要是非同步的，因為你想想，如果是同步的話，那你去 server 拿個資料花十秒，你畫面就停住十秒不動了，因此這操作必須是非同步的。
 

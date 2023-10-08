@@ -1,6 +1,6 @@
 ---
 title: Lidemy 新課程上架以及課程說明
-date: '2019-08-20T06:21:49.779Z'
+date: "2019-08-20T06:21:49.779Z"
 categories:
   - 教學計劃
 tags:
@@ -9,10 +9,7 @@ tags:
 
 ![](/img/lidemy-courses-fda610c7ff9b/1____Jndg6GFlBuNHbqrjMQRkA.png)
 
-[Lidemy](https://www.lidemy.com) 是我在幾年前自己開設的線上課程平台，上一次有相關消息是在一年前我把 Hahow 課程下架的時候，寫了這一篇：
-
-[**把 Hahow 的課程下架之後，我的下一步是什麼？**  
-_這一天我在 Hahow 上的課程《初心者的計概與 coding 火球術》正式滿兩週年了，而它是我的第一堂線上課程，所以特別有意義，而這天也是我在 Hahow 上面要把它給下架的日子。_medium.com](https://medium.com/@hulitw/hahow-and-lidemy-2dab35919bb8 "https://medium.com/@hulitw/hahow-and-lidemy-2dab35919bb8")[](https://medium.com/@hulitw/hahow-and-lidemy-2dab35919bb8)
+[Lidemy](https://www.lidemy.com) 是我在幾年前自己開設的線上課程平台，上一次有相關消息是在一年前我把 Hahow 課程下架的時候，寫了這一篇：[把 Hahow 的課程下架之後，我的下一步是什麼？](https://medium.com/@hulitw/hahow-and-lidemy-2dab35919bb8)
 
 從這之後，就沒有新的課程上架了。
 
@@ -59,8 +56,8 @@ _這一天我在 Hahow 上的課程《初心者的計概與 coding 火球術》�
 7.  [\[FE102\] 前端必備：JavaScript](https://www.lidemy.com/p/fe102-javascript)
 8.  [\[JS201\] JavaScript 進階：那些你一直搞不懂的地方](https://www.lidemy.com/p/js201-javascript)
 9.  [\[BE101\] 用 PHP 與 MySQL 學習後端基礎](https://www.lidemy.com/p/be101-php-mysql)
-10.  [\[BE201\] 後端中階：Express 與 Sequelize](https://www.lidemy.com/p/be201-express-sequelize)
-11.  [\[FE301\] React 基礎](https://www.lidemy.com/p/fe301-react)
+10. [\[BE201\] 後端中階：Express 與 Sequelize](https://www.lidemy.com/p/be201-express-sequelize)
+11. [\[FE301\] React 基礎](https://www.lidemy.com/p/fe301-react)
 
 這些課程之前是讓我學生搭配著[程式導師實驗計畫第三期](https://github.com/Lidemy/mentor-program-3rd)在看的，現在把它全部公開出來販售。有興趣的朋友可以自己參考課綱來決定要購買哪些課程。
 

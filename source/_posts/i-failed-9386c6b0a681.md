@@ -1,16 +1,13 @@
 ---
 title: 提早出關，大家安安
-date: '2020-02-03T06:18:55.623Z'
+date: "2020-02-03T06:18:55.623Z"
 categories:
   - Others
 tags:
   - Others
 ---
 
-去年 12 月 1 號，我在 Medium 發了這麼一篇文：
-
-[**閉關修煉，一年後見**  
-_以前一直認為機會來了就是要好好把握，深怕錯過了就很難等到下一個了。但追根究底，其實機會一直都在，我會害怕是因為我不夠強。如果真的夠強，哪裡都去得了。我不需要去找機會，機會自己會來找我。_medium.com](https://medium.com/@hulitw/best-one-year-696aa373207d "https://medium.com/@hulitw/best-one-year-696aa373207d")[](https://medium.com/@hulitw/best-one-year-696aa373207d)
+去年 12 月 1 號，我在 Medium 發了這麼一篇文：[閉關修煉，一年後見](https://medium.com/@hulitw/best-one-year-696aa373207d)
 
 大意就是我要進行為期一年的閉關修煉，希望能重拾以前學生時期準備大考的狀態，潛心修練，把自己一直想要補強卻一直偷懶的東西都補齊。
 

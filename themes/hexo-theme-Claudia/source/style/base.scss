@@ -4,18 +4,24 @@
 @import "themes/theme";
 
 :root {
-
   body {
     margin: 0;
     height: 100vh;
     padding-top: 45px;
+    font-size: 18px;
+
+    p {
+      word-break: break-word;
+    }
 
     a {
       color: inherit;
+      word-break: break-word;
 
-      &:hover, &:hover .iconfont {
+      &:hover,
+      &:hover .iconfont {
         text-decoration: none;
-        color: $activeColor!important;
+        color: $activeColor !important;
       }
     }
 

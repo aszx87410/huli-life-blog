@@ -1,6 +1,6 @@
 ---
 title: 一週年報告：在 Medium 上寫程式與科技類文章成效如何？
-date: '2018-11-15T12:40:13.103Z'
+date: "2018-11-15T12:40:13.103Z"
 categories:
   - Others
 tags:
@@ -15,13 +15,13 @@ tags:
 
 直到過了五個月，我原來用的部落格服務 logdown 前景堪憂，只好積極找尋逃難之處，最後決定落腳在 Medium，在 10 月 5 號把我舊的文章修一下貼過來，並在 10 月 18 正式開始寫文。
 
-前陣子看到滿多人發表自己經營 Medium 的心得，像是[佛系經營 Medium 一年的成效報告](https://medium.com/@manzoo/medium-stats-2018-1-of-3-b32ab42b30d8)與[我開始寫Medium一年之後發現的事](https://medium.com/@evonneyifangtsai/%E6%88%91%E9%96%8B%E5%A7%8B%E5%AF%ABmedium%E4%B8%80%E5%B9%B4%E4%B9%8B%E5%BE%8C%E7%99%BC%E7%8F%BE%E7%9A%84%E4%BA%8B-d4a492292b05)，才讓我有了想 po 這篇文的念頭。原本是想在剛好一週年左右的時候來寫這篇的，但無奈拖延症又發作，不過幸好才隔一個月而已，說是「一週年」我覺得還是 ok 的。
+前陣子看到滿多人發表自己經營 Medium 的心得，像是[佛系經營 Medium 一年的成效報告](https://medium.com/@manzoo/medium-stats-2018-1-of-3-b32ab42b30d8)與[我開始寫 Medium 一年之後發現的事](https://medium.com/@evonneyifangtsai/%E6%88%91%E9%96%8B%E5%A7%8B%E5%AF%ABmedium%E4%B8%80%E5%B9%B4%E4%B9%8B%E5%BE%8C%E7%99%BC%E7%8F%BE%E7%9A%84%E4%BA%8B-d4a492292b05)，才讓我有了想 po 這篇文的念頭。原本是想在剛好一週年左右的時候來寫這篇的，但無奈拖延症又發作，不過幸好才隔一個月而已，說是「一週年」我覺得還是 ok 的。
 
 話不多說，直接在開頭先給幾個相關數據：
 
-> 24 篇文章，2600 個追隨者
+> 24 篇文章，2600  個追隨者
 
-> 45000 個拍手，20 萬瀏覽次數
+> 45000 個拍手，20  萬瀏覽次數
 
 如果直接拿來算平均數據很好看，每篇平均 **1875 個拍手，8300 瀏覽次數**。
 
@@ -33,16 +33,13 @@ tags:
 
 ### 年度冠軍寶座到底是什麼來頭？
 
-這是第一名的文章，介紹在新加坡的四個外送 App：
-
-[**四款訂餐外送 App 不專業評測**  
-_以前在台北只要隨便走個路就滿街都是吃的，或者之前住新加坡 HDB 的時候，家裡附近也有 Hawker centre 能夠覓食。_medium.com](https://medium.com/hulis-blog/delivery-services-2d90ec1e3555 "https://medium.com/hulis-blog/delivery-services-2d90ec1e3555")[](https://medium.com/hulis-blog/delivery-services-2d90ec1e3555)
+這是第一名的文章，介紹在新加坡的四個外送 App：[四款訂餐外送 App 不專業評測](https://medium.com/hulis-blog/delivery-services-2d90ec1e3555)
 
 一共拿到了 35000 次瀏覽次數，可是卻只有 5100 次閱讀，閱讀率 14% 低得嚇人，拍手數居然也只有 108，是全部文章裡面第二低的。
 
 為什麼？
 
-> 因為這篇文章的流量來源，90% 是從 Google 來的。
+> 因為這篇文章的流量來源，90% 是從 Google  來的。
 
 不知道為什麼但這篇的 SEO 好像特別好，不信的話你現在去 Google 搜尋「外送」，看看在第一頁有沒有這篇文章。
 

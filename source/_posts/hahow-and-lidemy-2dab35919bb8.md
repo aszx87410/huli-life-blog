@@ -1,6 +1,6 @@
 ---
 title: 把 Hahow 的課程下架之後，我的下一步是什麼？
-date: '2018-09-18T12:42:19.354Z'
+date: "2018-09-18T12:42:19.354Z"
 categories:
   - 教學計劃
 tags:
@@ -48,7 +48,7 @@ Hi,
 在課程一週年以前（2017/09/18）購買的學生，可以獲得我之後課程等值 2000 的折價券。  
 在一週年以後，兩週年（2018/09/18）以前仍然願意購買的學生，可以獲得等值 1000 元的折價券。
 
-折價券發放的時機會再另行公告，但麻煩大家等我一些時間，畢竟要等我新的課程平台有足夠多的課以後發折價券才有意義嘛XD
+折價券發放的時機會再另行公告，但麻煩大家等我一些時間，畢竟要等我新的課程平台有足夠多的課以後發折價券才有意義嘛 XD
 
 最後，再次感謝大家願意支持這門課程，也很感謝大家給的意見，我會繼續試著創造出更適合初學者入門的課程。如果想關注我新的課程平台的發展，可以關注一下 [Facebook 粉絲專頁](https://www.facebook.com/lidemytw)，感謝。
 
@@ -64,10 +64,7 @@ Hi,
 
 ### Hahow 的好與壞
 
-其實早在兩年之前，我就已經寫過一篇在 Hahow 上面開課的心得了：
-
-[**在 hahow 開課心得分享 " Huli's Blog**  
-_前言 今年，我在 hahow 上面開設了一門課程：初心者的計概與 coding 火球術 這篇將分為四個部分，代表四段不同的時間，講講自己在這一段期間的心得 募資前（為什麼選擇 hahow、決..._huli.logdown.com](http://huli.logdown.com/posts/1007851-to-be-a-teacher-in-hahow "http://huli.logdown.com/posts/1007851-to-be-a-teacher-in-hahow")[](http://huli.logdown.com/posts/1007851-to-be-a-teacher-in-hahow)
+其實早在兩年之前，我就已經寫過一篇在 Hahow 上面開課的心得了：[在 hahow 開課心得分享](http://huli.logdown.com/posts/1007851-to-be-a-teacher-in-hahow)
 
 而前陣子去拜訪 Hahow 的時候也有聊到這篇，發現兩年過去了，我上面的提出的建議其實他們也修得差不多了，感謝飛天小女警與 Hahow 的努力，也要感謝以前協助過我的 Alice、涵涵與子葳。
 
@@ -184,7 +181,4 @@ _前言 今年，我在 hahow 上面開設了一門課程：初心者的計概�
 
 其實上面那麼多課程我也不知道到底做不做得完，但我把它寫在這裡，也是給自己一個壓力，如果你真的很希望某堂課開成的話可以留言告訴我，或是你有任何想學的也可以留言告知，像是假如有一堂專門給 PM 上的程式基礎，好像會滿有趣的。
 
-最後，既然你都看到這了，如果你對以後的相關訊息有興趣，歡迎追蹤 Lidemy 粉絲專頁：
-
-[**Lidemy 鋰學院**  
-_Lidemy 鋰學院. 2.4K likes. Lidemy 鋰學院，一個為初學者而生的線上程式課程平台 目前以一些免費的線上課程為主，因為才剛成立所以只有一堂課，但將來會有更多更豐富的內容_www.facebook.com](https://www.facebook.com/lidemytw/ "https://www.facebook.com/lidemytw/")[](https://www.facebook.com/lidemytw/)
+最後，既然你都看到這了，如果你對以後的相關訊息有興趣，歡迎追蹤 Lidemy 粉絲專頁：[Lidemy 鋰學院](https://www.facebook.com/lidemytw/)

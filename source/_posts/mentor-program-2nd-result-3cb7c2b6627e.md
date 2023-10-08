@@ -1,16 +1,13 @@
 ---
 title: 27% 的人找到工作——程式導師實驗計畫第二期成果報吿
-date: '2019-03-13T13:09:12.307Z'
+date: "2019-03-13T13:09:12.307Z"
 categories:
   - 教學計劃
 tags:
   - 教學計劃
 ---
 
-兩個月前我 po 了這篇：
-
-[**四個月過去了，來找我學程式的學生們怎麼樣了？**  
-_程式導師實驗計畫第二期差不多告了一個段落，從九月計畫開始到十一月我做了期中檢討，再到現在一月底，四個月的計畫結束得比我想像中還快。_medium.com](https://medium.com/hulis-blog/mentor-program-2nd-review-e7c15f24dfb8 "https://medium.com/hulis-blog/mentor-program-2nd-review-e7c15f24dfb8")[](https://medium.com/hulis-blog/mentor-program-2nd-review-e7c15f24dfb8)
+兩個月前我 po 了這篇：[四個月過去了，來找我學程式的學生們怎麼樣了？](https://medium.com/hulis-blog/mentor-program-2nd-review-e7c15f24dfb8)
 
 那時跟大家簡短報告一下從計畫開始後四個月的狀況，並承諾會在 3/14 計劃正式結束時給大家一個完整的成果報告。
 
@@ -76,7 +73,7 @@ _程式導師實驗計畫第二期差不多告了一個段落，從九月計畫�
 4.  面試時的心得，課程有給了你哪些幫助？如果可以的話希望還能獲得哪方面的幫助？
 5.  總結一下整個課程的心得感想，像是修完之後跟原本的期待是否有出入，是否推薦其他人參與課程，優點與缺點等等的
 
-若是有時間的話，很推薦大家把所有心得都看一看。如果沒時間的話，可以先看[**轉職失敗**](https://github.com/Lidemy/mentor-program-2nd/issues?q=is%3Aopen+is%3Aissue+label%3A%E8%BD%89%E8%81%B7%E5%A4%B1%E6%95%97)的心得，因為這類心得在其他地方幾乎都看不到。
+若是有時間的話，很推薦大家把所有心得都看一看。如果沒時間的話，可以先看[轉職失敗](https://github.com/Lidemy/mentor-program-2nd/issues?q=is%3Aopen+is%3Aissue+label%3A%E8%BD%89%E8%81%B7%E5%A4%B1%E6%95%97)的心得，因為這類心得在其他地方幾乎都看不到。
 
 如果你真的很沒時間，可以先看這兩篇最完整的：
 

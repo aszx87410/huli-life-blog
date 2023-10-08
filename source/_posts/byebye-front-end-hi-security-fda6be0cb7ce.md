@@ -1,6 +1,6 @@
 ---
 title: 暫別前端，重新開始
-date: '2021-06-05T09:46:04.714Z'
+date: "2021-06-05T09:46:04.714Z"
 categories:
   - 職涯
 tags:
@@ -47,10 +47,7 @@ tags:
 
 但在資訊安全的領域就完全是另外一回事了，我從我自以為熟悉的前端領域中，得到了很多新的知識。這感覺就像是別人如果跟我說飛機的知識，我會覺得哇好酷，以前都不知道，但如果別人跟我說 JavaScript 其實可以這樣運用來達成攻擊，我就會覺得「哇操勒，居然可以這樣嗎！！太屌了吧！！我寫這麼久怎麼完全沒想過！」
 
-像我前陣子看到的這一篇：
-
-[**An XSS on Facebook via PNGs & Wonky Content Types**  
-_Content uploaded to Facebook is stored on their CDN, which is served via various domains (most of which are sub-domains…_whitton.io](https://whitton.io/articles/xss-on-facebook-via-png-content-types/ "https://whitton.io/articles/xss-on-facebook-via-png-content-types/")[](https://whitton.io/articles/xss-on-facebook-via-png-content-types/)
+像我前陣子看到的這一篇：[An XSS on Facebook via PNGs & Wonky Content Types](https://whitton.io/articles/xss-on-facebook-via-png-content-types)
 
 這篇真的很讚，先發現了一個可以把 PNG 當 HTML 來 render 的 bug，然後在 PNG 裡面塞入資訊，讓它用文字顯示時可以順利轉成 script tag，就得到了一個 CDN domain 的 XSS。
 
@@ -58,10 +55,7 @@ _Content uploaded to Facebook is stored on their CDN, which is served via variou
 
 就是這些小漏洞一步步串起來然後變成最後這個樣子。
 
-還有這篇：
-
-[**Attacking SSL VPN - Part 3: The Golden Pulse Secure SSL VPN RCE Chain, with Twitter as Case Study…**  
-_Author: Orange Tsai(@orange\_8361) and Meh Chang(@mehqq\_) Hi, this is the last part of Attacking SSL VPN series. If you…_devco.re](https://devco.re/blog/2019/09/02/attacking-ssl-vpn-part-3-the-golden-Pulse-Secure-ssl-vpn-rce-chain-with-Twitter-as-case-study/ "https://devco.re/blog/2019/09/02/attacking-ssl-vpn-part-3-the-golden-Pulse-Secure-ssl-vpn-rce-chain-with-Twitter-as-case-study/")[](https://devco.re/blog/2019/09/02/attacking-ssl-vpn-part-3-the-golden-Pulse-Secure-ssl-vpn-rce-chain-with-Twitter-as-case-study/)
+還有這篇：[Attacking SSL VPN - Part 3: The Golden Pulse Secure SSL VPN RCE Chain, with Twitter as Case Study](https://devco.re/blog/2019/09/02/attacking-ssl-vpn-part-3-the-golden-Pulse-Secure-ssl-vpn-rce-chain-with-Twitter-as-case-study/)
 
 原本以為繞不過的限制，換個角度去思考，把錯誤訊息當作程式碼來執行，就能順利繞過，真的很強！
 

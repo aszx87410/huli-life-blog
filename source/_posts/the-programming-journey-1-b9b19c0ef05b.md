@@ -1,6 +1,6 @@
 ---
 title: 自學、哲學、講學：我的程式之路（上）
-date: '2017-10-05T15:42:51.248Z'
+date: "2017-10-05T15:42:51.248Z"
 categories:
   - Others
 tags:
@@ -41,7 +41,7 @@ tags:
 
 找到學習目標之後，一樣先用關鍵字去搜尋大家推薦的書籍（沒錯，就跟所有初學者都會做的事情一樣），最後得到了一些清單，再去書店裡面找實體書來翻翻看，看一下前幾章的內容自己是否能夠理解。
 
-確認自己能夠理解之後，就買下了我人生中的第一本程式設計書籍：[Visual Basic 2005完美的演繹](http://www.books.com.tw/products/0010328166?loc=M_001_025)。
+確認自己能夠理解之後，就買下了我人生中的第一本程式設計書籍：[Visual Basic 2005 完美的演繹](http://www.books.com.tw/products/0010328166?loc=M_001_025)。
 
 那時候我就知道，我選 VB 真的是選對程式語言了。為什麼？因為在眾多程式語言之中，VB 是最簡單開發 GUI 程式的一個。你只要在畫面左方選擇你要的控制項並且丟到右邊去，你的介面就這樣做完了。整個流程根本超級簡單，馬上就可以做出一個看得到的程式。
 
@@ -53,9 +53,9 @@ tags:
 
 現在我之所以會[極力推薦](http://huli.logdown.com/posts/772671-why-you-should-start-from-scratch-to-learning-program) Scratch 作為新手入門的第一個程式語言，其中一個原因就是因為 Scratch 能夠很輕易地做出互動式的介面，會讓你剛開始學程式時的成就感更大，也能夠馬上看到回饋。比起 C 入門萬年不變的黑底白字 Terminal 畫面，我相信 Scratch 或是 VB 寫出來的程式會讓你覺得更有趣一點。
 
-學 VB 還有一個重點，那就是當時的電腦內建都可以跑 VB6，只要丟一個 exe 檔給你的朋友，他們就能夠執行。原本我學的是 VB2005，後來跑去寫 VB6，因為 VB2005 寫出來的程式需要安裝 .NET framework，那時候 XP 還沒有內建這個東西，所以要安裝很麻煩，但 VB6 寫出來的程式，什麼都不用裝就可以執行了。
+學 VB 還有一個重點，那就是當時的電腦內建都可以跑 VB6，只要丟一個 exe 檔給你的朋友，他們就能夠執行。原本我學的是 VB2005，後來跑去寫 VB6，因為 VB2005 寫出來的程式需要安裝  .NET framework，那時候 XP 還沒有內建這個東西，所以要安裝很麻煩，但 VB6 寫出來的程式，什麼都不用裝就可以執行了。
 
-而那時候我也跟所有剛入門程式的人一樣，會問一些「程式設計師之後會沒落或興起嗎？」之類的問題，現在看起來有點好笑，但那是我國一時候問的問題，應該還算是合情合理吧，畢竟才國一嘛！問題連結：[只學VB的話,可以走上程式設計師這條路嘛？](http://www.programmer-club.com.tw/ShowSameTitleN/newuser/4737.html)
+而那時候我也跟所有剛入門程式的人一樣，會問一些「程式設計師之後會沒落或興起嗎？」之類的問題，現在看起來有點好笑，但那是我國一時候問的問題，應該還算是合情合理吧，畢竟才國一嘛！問題連結：[只學 VB 的話,可以走上程式設計師這條路嘛？](http://www.programmer-club.com.tw/ShowSameTitleN/newuser/4737.html)
 
 我學程式的時候是小六升國一的暑假，利用暑假的時間把那本書的前半段都看過了，後半段什麼 DAO 跟資料庫的因為太懶惰就直接忽略不看。我印象最深刻的一件事情是迴圈，我怎麼看都看不懂迴圈到底在做什麼。但過了一兩個禮拜之後，不知道為什麼我就突然看懂了。這讓我學習到一件事，時間是最好的武器，有些解不開的問題時間一久，就不知道為什麼自動解開了。
 
@@ -69,7 +69,7 @@ tags:
 
 （標題來自：[Gea-Suan Lin’s BLOG](https://blog.gslin.org/)）
 
-這一條支線來自於國中階段無意間發現有一個網站叫做恰吉網（現在去搜尋，只能搜到這篇新聞：[架「恰吉網」炫耀 大學駭客攻擊網站 po教學](http://www.appledaily.com.tw/appledaily/article/headline/20101030/32924455/)），裡面有一些影片教學，全部都是在講駭客有關的東西。
+這一條支線來自於國中階段無意間發現有一個網站叫做恰吉網（現在去搜尋，只能搜到這篇新聞：[架「恰吉網」炫耀 大學駭客攻擊網站 po 教學](http://www.appledaily.com.tw/appledaily/article/headline/20101030/32924455/)），裡面有一些影片教學，全部都是在講駭客有關的東西。
 
 駭客對一個國中生來講絕對是很有趣的東西。為什麼？因為很帥、很酷，可以入侵網站耶！超酷的吧！
 
@@ -180,7 +180,7 @@ tags:
 > _測試資料只有⼀⾏包含五個整數 Y, M, D, X, T，分別代表年份、⽉份、⽇期、星期幾、有沒有颱⾵。當 X = 7，代表當天是星期天。當 T = 0 代表當天沒有颱⾵、T = 1 代表當天有颱⾵。_
 
 > _如果頗旺當天開⼼，請輸出 “happy” 於⼀⾏，否則請輸出 “unhappy” 於⼀⾏，皆不包  
->  含引號。輸出後請記得換⾏。_
+>   含引號。輸出後請記得換⾏。_
 
 > _Sample Input: 2016 9 28 3 1 , Sample Output: happy  
 > Sample Input: 2016 10 21 5 0 , Sample Output: unhappy_
@@ -197,10 +197,5 @@ tags:
 
 續集傳送門：
 
-[**自學、哲學、講學：我的程式之路（中）**  
-_此篇為系列文章第二篇，若是你錯過了第一篇誤打誤撞進來這裡，傳送門在這：自學、哲學、講學：我的程式之路（上）_medium.com](https://medium.com/hulis-blog/the-programming-journey-2-98dea8c475ae "https://medium.com/hulis-blog/the-programming-journey-2-98dea8c475ae")[](https://medium.com/hulis-blog/the-programming-journey-2-98dea8c475ae)
-
-[**自學、哲學、講學：我的程式之路（下）**  
-_此篇為系列文章的最後一篇，如果你錯過前兩篇，傳送門在這：  
-自學、哲學、講學：我的程式之路（上）  
-自學、哲學、講學：我的程式之路（中）_medium.com](https://medium.com/hulis-blog/the-programming-journey-3-ebd9e995a4eb "https://medium.com/hulis-blog/the-programming-journey-3-ebd9e995a4eb")[](https://medium.com/hulis-blog/the-programming-journey-3-ebd9e995a4eb)
+[自學、哲學、講學：我的程式之路（中）](https://medium.com/hulis-blog/the-programming-journey-2-98dea8c475ae)
+[自學、哲學、講學：我的程式之路（下）](https://medium.com/hulis-blog/the-programming-journey-3-ebd9e995a4eb)

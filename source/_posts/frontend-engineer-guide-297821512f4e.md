@@ -1,6 +1,6 @@
 ---
 title: 零基礎的小明要如何成為前端工程師？
-date: '2018-06-10T10:33:37.313Z'
+date: "2018-06-10T10:33:37.313Z"
 categories:
   - 技術白話文
 tags:
@@ -23,7 +23,7 @@ tags:
 
 身為一個從小學二年級就開始用電腦的人，小明自認為對電腦操作都很熟悉，心想網頁應該也不難，就決定接受這個挑戰。並且在回到家之後 ，上了奇摩知識+發問：
 
-> \[急\]請問要怎麼寫網頁？ 求解20點
+> \[急\]請問要怎麼寫網頁？ 求解 20 點
 
 底下熱心的網友們給了他兩個關鍵字：FrontPage 跟 Dreamweaver，並且跟他說寫網頁其實很簡單，這兩個軟體提供了很多現成的元件，你就想成是在打一份 word 文件就好，只是你可以加上按鈕、表單等等只有網頁會出現的東西。你只要用拖拉的方式，就能夠很輕易地寫出一個網頁來。
 
@@ -57,10 +57,10 @@ tags:
 
 原本小明想把視窗關掉，可是卻轉念想說再看一眼好了，而這一看卻讓他發現了一些規律：
 
-1.  <xxx>似乎都是成雙成對出現的，有<xxx>就會有</xxx>
+1.  `<xxx>`似乎都是成雙成對出現的，有`<xxx>`就會有`</xxx>`
 2.  style 看起來好像跟背景顏色之類的樣式有關
 
-觀察到規律之後，小明心想那不然我來改改看，看會發生什麼事情好了。於是他就把 <li>通訊錄</li> 複製了幾次並且改成其他文字，也把 body 那邊的 background 換成 #666666。
+觀察到規律之後，小明心想那不然我來改改看，看會發生什麼事情好了。於是他就把 `<li>通訊錄</li>` 複製了幾次並且改成其他文字，也把 body 那邊的 background 換成 #666666。
 
 接著存檔，不用記事本而是用網頁來打開，小明看到了下面的景象：
 
@@ -70,7 +70,7 @@ tags:
 
 一直到日後小明去書店翻書才知道，原來網頁本人其實就是那個用記事本打開的文字檔，而 FrontPage 在做的事不過就是自動幫你產生這些文字而已。而那些成雙成對的<>我們叫它標籤，不同標籤有不同的用途。
 
-舉例來說，<li>就是 list item 的意思，而標籤裡面放的就是你的內容。至於 style 則是人如其名，負責管理所有跟樣式有關的操作，background 就是背景，color 就是文字顏色。
+舉例來說，`<li>`就是 list item 的意思，而標籤裡面放的就是你的內容。至於 style 則是人如其名，負責管理所有跟樣式有關的操作，background 就是背景，color 就是文字顏色。
 
 這些標籤跟內容我們叫它 HTML（HyperText Markup Language），那些樣式叫做 CSS（Cascading Style Sheets），這就是構成網頁最基本的兩大元素。
 
@@ -140,7 +140,7 @@ tags:
 
 小明雖然只是個 junior student，但自認為是 super junior，花了兩個禮拜的時間就把版面切好，帶到公司去跟對方 demo。案主起初相當滿意，但卻問了一個小明從未想過的問題：
 
-> 你有在其他瀏覽器上面看過這個網站嗎？舊版 IE、FireFox 或是 Safari？
+> 你有在其他瀏覽器上面看過這個網站嗎？舊版 IE、FireFox 或是  Safari？
 
 沒有，小明從來沒有考慮到，他甚至連這世界上有這麼多瀏覽器都不太清楚。而案主當場把他自信滿滿的作品用其他瀏覽器打開，第一個跑版、第二個跳出警告、第三個連畫面都跑不出來，直接白畫面顯示 JavaScript Error。
 
@@ -158,7 +158,7 @@ tags:
 
 正在焦頭爛額之際，有些已經在業界工作的網友跟他說：
 
-> 你可以用 jQuery 啊！
+> 你可以用 jQuery  啊！
 
 得到了這個關鍵字之後，小明立馬去研究這到底是個什麼樣的玩意兒。噢對了，如果你好奇他怎麼跟這些網友認識的話，他們是在程式設計俱樂部還有藍色小舖認識的。
 
@@ -266,7 +266,7 @@ CSS preprocessor，翻成中文就叫做 CSS 「預處理器」，簡單來說�
 
 ![](/img/frontend-engineer-guide-297821512f4e/1__gnhLMEBhsUQVKP7aYLkSFg.png)
 
-現在你可以直接在程式碼裡面寫：var A = require(‘libraryA’) 去引入一個 library，而不是用 <script /> 標籤去引入。而背後的原理就是靠著 browserify 去幫你實作 require 這個函式，自動幫你處理好背後的相依性問題。
+現在你可以直接在程式碼裡面寫：`var A = require(‘libraryA’)` 去引入一個 library，而不是用 `<script />` 標籤去引入。而背後的原理就是靠著 browserify 去幫你實作 require 這個函式，自動幫你處理好背後的相依性問題。
 
 有了 require 的機制以後，在寫 JavaScript 的時候你就可以分成好幾個檔案來寫，最後再透過 browserify 把程式碼組裝起來：
 
@@ -345,7 +345,7 @@ webpack 用起來其實跟 browserify 很像，差別在於前者把更多東西
 
 ### 如何讓 UI 跟程式內部的狀態同步？
 
-如果你現在有個 Todo List 的 App，假設你的程式裡面有一個 array 叫做 todo\_list，你這個 array 長什麼樣子，你的介面就應該要長什麼樣子，這樣就叫做 UI 跟程式內部的狀態同步。
+如果你現在有個 Todo List 的 App，假設你的程式裡面有一個 array 叫做 todo_list，你這個 array 長什麼樣子，你的介面就應該要長什麼樣子，這樣就叫做 UI 跟程式內部的狀態同步。
 
 難嗎？乍看之下沒那麼難，我們可以寫出以下的程式碼，在操作 todo 的時候同時操作 UI 以及程式內部的狀態：
 
@@ -357,7 +357,7 @@ Google 針對這個問題的解法是：那我自動讓這兩者綁定好了，�
 
 而 Facebook 針對這個問題的解法非常非常非常直覺，真的非常直覺，是我認為從概念上最好理解、最簡單的一個解法：
 
-> 阿就每次 state 改變的時候都重新渲染 UI 不就好了
+> 阿就每次 state 改變的時候都重新渲染 UI  不就好了
 
 你要刪除 todo，你直接刪除 state 的 todo，不用管網頁上的元件。你要新增也是一樣，完全不用管畫面上的東西，因為只要 state 一改變，整個 UI 就會改變。以這個概念來實作的話，大概會變成這樣：
 
@@ -407,8 +407,6 @@ Google 針對這個問題的解法是：那我自動讓這兩者綁定好了，�
 
 若是你對前端相關文章有興趣，下面這一個系列文其實是我最早把這樣子的寫作及教學方式實現出來的實驗品，而最下面的文章則是實際示範前端工程師在找工作時應該要有的技能是什麼，別擔心，那些專有名詞你應該都知道是什麼了。
 
-[**Half-Stack Developer 養成計畫 系列文章列表 - iT 邦幫忙::一起幫忙解決難題，拯救 IT 人的一天**  
-_iT 邦幫忙是 IT 領域的技術問答與分享社群，透過 IT 人互相幫忙，一起解決每天面臨的靠北時刻。一起來當 IT 人的超級英雄吧，拯救下一個卡關的 IT 人_ithelp.ithome.com.tw](https://ithelp.ithome.com.tw/users/20091346/ironman/1150?page=1 "https://ithelp.ithome.com.tw/users/20091346/ironman/1150?page=1")[](https://ithelp.ithome.com.tw/users/20091346/ironman/1150?page=1)
+[Half-Stack Developer 養成計畫](https://ithelp.ithome.com.tw/users/20091346/ironman/1150?page=1)
 
-[**該如何知道就業所需技能？以前端工程師為例**  
-_這種類似的問題有一大堆人問過我，我想說乾脆就寫成一篇文章，以後有人問同樣問題的時候我就丟這篇給他看，就不用一直重複回答相同的問題了。…_medium.com](https://medium.com/hulis-blog/guide-for-getting-frontend-engineer-job-e73e04c2bec4 "https://medium.com/hulis-blog/guide-for-getting-frontend-engineer-job-e73e04c2bec4")[](https://medium.com/hulis-blog/guide-for-getting-frontend-engineer-job-e73e04c2bec4)
+[該如何知道就業所需技能？以前端工程師為例](https://medium.com/hulis-blog/guide-for-getting-frontend-engineer-job-e73e04c2bec4)

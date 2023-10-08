@@ -1,6 +1,6 @@
 ---
 title: 2023 年 7 月南韓十日遊心得：釜山篇
-date: '2023-07-27T12:59:41.315Z'
+date: "2023-07-27T12:59:41.315Z"
 categories:
   - 旅遊
 tags:
@@ -131,10 +131,7 @@ tags:
 
 ![](/img/2023-july-korea-trip-busan-a475e484e1fc/1__2Brmrttc6UGfKja3__R2BBw.jpeg)
 
-下午在飯店睡覺滑手機看 YouTube，看看韓國人都在看什麼，發現一直被推薦這個韓國大胃王，有著 800 萬訂閱，超猛：
-
-[**tzuyang**  
-_We currently do NOT take inquiries related to advertisement and sponsorship of: \* Beauty-related (cosmetics, plastic…_www.youtube.com](https://www.youtube.com/@tzuyang6145 "https://www.youtube.com/@tzuyang6145")[](https://www.youtube.com/@tzuyang6145)
+下午在飯店睡覺滑手機看 YouTube，看看韓國人都在看什麼，發現一直被推薦這個韓國大胃王，有著 800 萬訂閱，超猛：https://www.youtube.com/@tzuyang6145
 
 晚上的話吃了附近的這個豆腐鍋，小小碗的但是價格也相對便宜，一碗是 7000 韓元，170 台幣：
 

@@ -1,6 +1,6 @@
 ---
 title: 當我們在學程式時，要學的到底是什麼？
-date: '2018-10-29T14:46:11.429Z'
+date: "2018-10-29T14:46:11.429Z"
 categories:
   - 學習
 tags:
@@ -222,14 +222,14 @@ tags:
 
 直到 JSONP 的出現。
 
-什麼是 JSONP？大家還記得 <script> 標籤嗎？這個標籤的 src 是不受網域限制的，你可以去載入其他 domain 的 script，例如說 Google Analytics 啦，或是一些 Public CDN 的資源。
+什麼是 JSONP？大家還記得 `<script>` 標籤嗎？這個標籤的 src 是不受網域限制的，你可以去載入其他 domain 的 script，例如說 Google Analytics 啦，或是一些 Public CDN 的資源。
 
 既然這個標籤可以跨網域，假如載入的 script 內容可以幫我把資料帶回來，我不就達成了跨網域的 Ajax 嗎？因此我只要帶一個 callback 的參數到 server，server 輸出資料時去呼叫我帶的那個 function，不就 ok 了嗎？
 
 舉例來說，我在頁面中安插一段 code 是：  
-<script src=”https://example.com?callback=receiveData” />
+`<script src=”https://example.com?callback=receiveData” />`
 
-然後 server 的 response 是：receiveData(\[id: 1, name: ….\])
+然後 server 的 response 是：`receiveData([id: 1, name: ….])`
 
 這樣子我只要在我的程式碼裡面寫了個 receiveData 的 callback function，我就能夠非同步的去拿到 Server 帶過來的資料了！
 

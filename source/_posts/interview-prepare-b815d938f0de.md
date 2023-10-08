@@ -1,6 +1,6 @@
 ---
 title: 面試問答準備心得之考前猜題
-date: '2017-10-18T12:43:08.535Z'
+date: "2017-10-18T12:43:08.535Z"
 categories:
   - 職涯
 tags:
@@ -13,8 +13,7 @@ tags:
 
 如果對履歷相關心得有興趣的，可以參考下面這篇，我的做法也十分類似（只是沒有那麼認真），就是從 JD 上面畫重點，整理出這個職缺注重的能力，再回推到自己有哪些相關的經驗。
 
-[**\[分享\] 從0到1的求職指南：那些年我做過的「白工」**  
-medium.com](https://medium.com/akichy/%E5%88%86%E4%BA%AB-%E5%BE%9E0%E5%88%B01%E7%9A%84%E6%B1%82%E8%81%B7%E6%8C%87%E5%8D%97-%E9%82%A3%E4%BA%9B%E5%B9%B4%E6%88%91%E5%81%9A%E9%81%8E%E7%9A%84-%E7%99%BD%E5%B7%A5-7ca36a4632a2 "https://medium.com/akichy/%E5%88%86%E4%BA%AB-%E5%BE%9E0%E5%88%B01%E7%9A%84%E6%B1%82%E8%81%B7%E6%8C%87%E5%8D%97-%E9%82%A3%E4%BA%9B%E5%B9%B4%E6%88%91%E5%81%9A%E9%81%8E%E7%9A%84-%E7%99%BD%E5%B7%A5-7ca36a4632a2")[](https://medium.com/akichy/%E5%88%86%E4%BA%AB-%E5%BE%9E0%E5%88%B01%E7%9A%84%E6%B1%82%E8%81%B7%E6%8C%87%E5%8D%97-%E9%82%A3%E4%BA%9B%E5%B9%B4%E6%88%91%E5%81%9A%E9%81%8E%E7%9A%84-%E7%99%BD%E5%B7%A5-7ca36a4632a2)
+[從 0 到 1 的求職指南：那些年我做過的「白工」](https://medium.com/akichy/%E5%88%86%E4%BA%AB-%E5%BE%9E0%E5%88%B01%E7%9A%84%E6%B1%82%E8%81%B7%E6%8C%87%E5%8D%97-%E9%82%A3%E4%BA%9B%E5%B9%B4%E6%88%91%E5%81%9A%E9%81%8E%E7%9A%84-%E7%99%BD%E5%B7%A5-7ca36a4632a2)
 
 以工程師來說，會被問到的問題幾乎都是技術問題。而這類問題的相關準備網路上資源已經很多了，反正不外乎就是跟你應徵的領域有關，以及共同科目資料結構、演算法、作業系統、網路 TCP/IP 等等。
 
@@ -87,7 +86,7 @@ medium.com](https://medium.com/akichy/%E5%88%86%E4%BA%AB-%E5%BE%9E0%E5%88%B01%E7
 
 1.  [HOW TO ANSWER: Describe your current position.](https://biginterview.com/blog/2013/05/describe-your-position.html)
 2.  [面試準備與技巧](https://www.contactsingapore.sg/Media/ContactSingapore/TC/Job%20Seeker/Find%20a%20Job/Self%20Help%20Guide/Trad-Chinese-Self-help-Guide-Interview.pdf)
-3.  [【商用英語】電話英語面試5步驟，前進外商不是問題！](https://tw.blog.voicetube.com/archives/15749)
+3.  [【商用英語】電話英語面試 5 步驟，前進外商不是問題！](https://tw.blog.voicetube.com/archives/15749)
 4.  [Phone Interview Questions and the Best Answers](https://www.thebalance.com/phone-interview-questions-and-answers-2061217)
 
 ### 自身相關問題
@@ -218,8 +217,8 @@ R: 修好之後趕快上線，隔天上班補足相關測試
 6.  [Effective Interviewing Skills](http://www.newcomerwomen.org/2011/pdfs/Chn_Interviewing_Workshop_july2011%5B1%5D.pdf)
 7.  [How to Answer “Behavior Based Interview Questions” — Interview Tip](https://www.youtube.com/watch?v=qKBubKO-798)
 8.  [Interview Question: Tell me about a time you handled a difficult situation](https://www.indeed.com/career-advice/interviewing/handled-difficult-situation-interview-question)
-9.  [英文面試系列: Behavioral行為問題答題技巧及破解口試陷阱](http://www.essaycrafter.org/evon-writing/behavioral-interview-questions-preparation-model-answers/)
-10.  [Behavior Interview－－我的一点经验（节选） by Xumin Hu](http://www.consultingincubation.org/cin-insight/2014/2/4/behavior-interview-by-xumin)
+9.  [英文面試系列: Behavioral 行為問題答題技巧及破解口試陷阱](http://www.essaycrafter.org/evon-writing/behavioral-interview-questions-preparation-model-answers/)
+10. [Behavior Interview－－我的一点经验（节选） by Xumin Hu](http://www.consultingincubation.org/cin-insight/2014/2/4/behavior-interview-by-xumin)
 
 ### 最後一關：有什麼想問我的嗎？
 
@@ -243,7 +242,7 @@ R: 修好之後趕快上線，隔天上班補足相關測試
 
 1.  你如何知道你每天要做什麼？（How do you know what to work on each day）
 2.  可以試著描述你的一天在做什麼嗎？
-3.  假設上線後發現一個bug，處理流程會是什麼
+3.  假設上線後發現一個 bug，處理流程會是什麼
 4.  用什麼版本控制工具？如果是 git，那對於 branch 的處理流程為何？例如說：bug/feature 各開一個 branch? What version control system do you use?
 
 #### 團隊相關
@@ -301,9 +300,9 @@ R: 修好之後趕快上線，隔天上班補足相關測試
 有關於這些問公司的問題，底下這些都是很好的參考資料：
 
 1.  [Questions I’m asking in interviews](https://jvns.ca/blog/2013/12/30/questions-im-asking-in-interviews/)
-2.  [開發人員的面試指南 — A developer’s guide to interviewing](https://blog.louie.lu/2017/04/30/%E9%96%8B%E7%99%BC%E4%BA%BA%E5%93%A1%E7%9A%84%E9%9D%A2%E8%A9%A6%E6%8C%87%E5%8D%97-a-developers-guide-to-interviewing/)
+2.  [開發人員的面試指南  — A developer’s guide to interviewing](https://blog.louie.lu/2017/04/30/%E9%96%8B%E7%99%BC%E4%BA%BA%E5%93%A1%E7%9A%84%E9%9D%A2%E8%A9%A6%E6%8C%87%E5%8D%97-a-developers-guide-to-interviewing/)
 3.  [「Any questions?」英文面試的最後一題，你該這樣答！](https://www.managertoday.com.tw/dictionary/cond/52235)
-4.  [【職場英文】沒問題就是有問題！ 面試時你應該問的9個好問題！](https://tw.blog.voicetube.com/archives/21421)
+4.  [【職場英文】沒問題就是有問題！ 面試時你應該問的 9 個好問題！](https://tw.blog.voicetube.com/archives/21421)
 
 ### 總結
 

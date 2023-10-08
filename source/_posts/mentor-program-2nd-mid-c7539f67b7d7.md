@@ -1,6 +1,6 @@
 ---
 title: 這是一堂沒那麼適合初學者的課程——程式導師實驗計畫第二期期中反思
-date: '2018-11-04T09:11:38.826Z'
+date: "2018-11-04T09:11:38.826Z"
 categories:
   - 教學計劃
 tags:
@@ -211,7 +211,7 @@ huli
 
 如果你跟不上，那很正常，不要灰心，你就把這課程想成是進階班，你一個無基礎小白兔能慢慢跟已經很厲害了，只要多延長兩個月把課程跟完，一樣很有機會找到工作。
 
-如果你跟得上，那也很不錯，只要能繼續保持，我覺得四個月出來以後找工作應該不是什麼問題（只是「我覺得」，現實狀況還是要等大家出去面試才知道XD）
+如果你跟得上，那也很不錯，只要能繼續保持，我覺得四個月出來以後找工作應該不是什麼問題（只是「我覺得」，現實狀況還是要等大家出去面試才知道 XD）
 
 就是這樣啦，有什麼意見都可以再跟我說，感謝大家。
 
@@ -249,10 +249,7 @@ huli
 
 還有一件事情我一直跟我的學生強調，那就是我這堂課的「基礎」其實跟很多人定義的基礎不太一樣，我覺得我這堂課的基礎扎實很多，儘管在我這邊稱作基礎，可能在其他課程就當作是進階的內容來上了。
 
-下面是課程大綱，歡迎路過的工程師大大們幫我鑑定一下我這樣的課綱深度如何：
-
-[**Lidemy/mentor-program-2nd**  
-_程式導師實驗計畫第二期教材. Contribute to Lidemy/mentor-program-2nd development by creating an account on GitHub._github.com](https://github.com/Lidemy/mentor-program-2nd "https://github.com/Lidemy/mentor-program-2nd")[](https://github.com/Lidemy/mentor-program-2nd)
+下面是課程大綱，歡迎路過的工程師大大們幫我鑑定一下我這樣的課綱深度如何：[Lidemy/mentor-program-2nd](https://github.com/Lidemy/mentor-program-2nd)
 
 ### 總結
 

@@ -1,6 +1,6 @@
 ---
 title: 為什麼我們從 Medium 搬到自建部落格？
-date: '2021-07-30T07:35:37.385Z'
+date: "2021-07-30T07:35:37.385Z"
 categories:
   - Others
 tags:
@@ -86,8 +86,5 @@ Google Analytics 可以設置了，可以知道流量到底多少，讀者到底
 未來有沒有可能再搬？確實有可能，但若是真的到那時候，搬家的成本也會少很多，因為舊的網址都是我們自己的 domain，所以可以自己設置重新導向，在盡量不影響 SEO 的狀況下搬家。
 
 我們在 Medium 上的文章會繼續留著，但未來新的文章都只會更新在我們自己架的部落格上面：[https://tech-blog.cymetrics.io/](https://tech-blog.cymetrics.io/)
-
-[**Cymetrics Tech Blog**  
-_分享資訊安全與技術開發相關內容_tech-blog.cymetrics.io](https://tech-blog.cymetrics.io/ "https://tech-blog.cymetrics.io/")[](https://tech-blog.cymetrics.io/)
 
 新的部落格提供了 RSS 訂閱，若是不習慣用 RSS，也可以在[臉書](https://www.facebook.com/Cymetrics-100957872049641)上面追蹤我們，有新文章時就能看到。

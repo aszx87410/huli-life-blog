@@ -1,6 +1,6 @@
 ---
 title: 華麗謝幕：程式導師實驗計畫第三期成果以及未來走向
-date: '2019-12-15T14:23:34.247Z'
+date: "2019-12-15T14:23:34.247Z"
 categories:
   - 教學計劃
 tags:
@@ -56,7 +56,7 @@ tags:
 
 這一期的課程我也做了兩個，第一個是：[Lidemy HTTP Challenge](https://lidemy-http-challenge.herokuapp.com/start)，目的是想讓學生熟悉 HTTP 的相關操作以及概念，是純文字的，所以就算是用 curl 也可以順利遊玩。
 
-第二個是[異世界?r3:0挑戰](https://r30challenge.herokuapp.com/)，是跟學生 [Min](https://medium.com/u/c7713dd3b6f6) 合作的作品，關卡的 idea 主要是我出的，其他都交給學生來處理，最後做出了一個 MUD 風格的遊戲，裡面的題目都與網站前後端有關。
+第二個是[異世界?r3:0 挑戰](https://r30challenge.herokuapp.com/)，是跟學生 [Min](https://medium.com/u/c7713dd3b6f6) 合作的作品，關卡的 idea 主要是我出的，其他都交給學生來處理，最後做出了一個 MUD 風格的遊戲，裡面的題目都與網站前後端有關。
 
 再來不太算遊戲，是 [Lazy Hackathon](https://github.com/Lidemy/lazy-hackathon)，是與另外一名學生 [Yakim Hsu](https://medium.com/u/1b8faea10a91) 合作的作品，我也只是大概提供了 idea，其餘實作皆由學生自行完成。就是故意做一個速度很慢的網站，讓大家想辦法去優化。
 
@@ -68,7 +68,7 @@ tags:
 
 除此之外，也寫出了一些不錯的文章，並不一定跟技術有關，底下稍微舉幾篇當作範例：
 
-1.  [轉職網頁工程師最初的一段路 — — Lidemy 程式導師實驗計畫心得](https://cianscribe.com/lidemy-mentor-program-first-review/) by cian
+1.  [轉職網頁工程師最初的一段路  — — Lidemy 程式導師實驗計畫心得](https://cianscribe.com/lidemy-mentor-program-first-review/) by cian
 2.  [記在程式導師計劃之後（下）：求職天堂路](https://medium.com/@minw/%E8%A8%98%E5%9C%A8%E7%A8%8B%E5%BC%8F%E5%B0%8E%E5%B8%AB%E8%A8%88%E5%8A%83%E4%B9%8B%E5%BE%8C-%E4%B8%8B-%E6%B1%82%E8%81%B7%E5%A4%A9%E5%A0%82%E8%B7%AF-1dbf2f93de03) by minw
 3.  [淺談：我的前端學習之路](https://medium.com/@ClayGao/%E8%AB%87%E8%AB%87%E6%88%91%E7%9A%84%E5%89%8D%E7%AB%AF%E5%AD%B8%E7%BF%92%E4%B9%8B%E8%B7%AF-aeb1cbe55e6a) by ClayGao
 4.  [\[資訊安全\] 密碼存明碼，怎麼不直接去裸奔算了？淺談 Hash , 用雜湊保護密碼](https://medium.com/@brad61517/%E8%B3%87%E8%A8%8A%E5%AE%89%E5%85%A8-%E5%AF%86%E7%A2%BC%E5%AD%98%E6%98%8E%E7%A2%BC-%E6%80%8E%E9%BA%BC%E4%B8%8D%E7%9B%B4%E6%8E%A5%E5%8E%BB%E8%A3%B8%E5%A5%94%E7%AE%97%E4%BA%86-%E6%B7%BA%E8%AB%87-hash-%E7%94%A8%E9%9B%9C%E6%B9%8A%E4%BF%9D%E8%AD%B7%E5%AF%86%E7%A2%BC-d561ad2a7d84) by CodingCoke
@@ -228,7 +228,7 @@ tags:
 如同另外一篇文章：[《閉關修煉，一年後見》](https://medium.com/@hulitw/best-one-year-696aa373207d)所提到的，之後我會休息一年，這一年之間 Lidemy 還是正常運作，問我問題一樣還是會回，不用擔心。我自己也有一些新課程的 idea，因為怕自己拖延症發作，所以決定在這邊先講出來：
 
 1.  **CS50 輔助課程**：以自己的話把 CS50 教的東西再教一遍並且做補充。以前有做過導讀，但導讀只是帶大家稍微理解，而輔助課程的目標是只看這堂課也可以完成 CS50 的作業。
-2.  [**Xojo**](https://www.xojo.com/) **教學課程**：我自己是從 VB2005 開始入門寫程式的，過程十分愉快，拖拉式的 GUI 加上簡單的程式碼，讓我認為這比其他程式語言更適合拿來當作新手入門的教材。而 Xojo 的前身是 REALbasic，與 VB 十分類似，又是跨平台的開發工具，我想讓大家透過 Xojo 學會「寫程式」。
+2.  [Xojo](https://www.xojo.com/) 教學課程：我自己是從 VB2005 開始入門寫程式的，過程十分愉快，拖拉式的 GUI 加上簡單的程式碼，讓我認為這比其他程式語言更適合拿來當作新手入門的教材。而 Xojo 的前身是 REALbasic，與 VB 十分類似，又是跨平台的開發工具，我想讓大家透過 Xojo 學會「寫程式」。
 3.  **先別急著寫 leetcode**：如同我之前在[《程式解題新手入門注意事項》](https://blog.huli.tw/2019/11/01/before-start-leetcode/)提過的，我認為對有些人來說寫 leetcode 還太早，去看演算法相關書籍也還太早。如果連印出九九乘法表都不會，那我不覺得去學 DP 跟 IDA\* 對這個問題有幫助。因此我想出一堂課程帶大家寫寫「水題」，確保基本的題目都 ok，再去學那些經典演算法。
 
 以上三個課程都會是免費的，因為我自己認為這些概念很棒，很想推廣給大家，收費會讓事情變得麻煩許多。不過現在這三個課程都只有 idea 而已，連個雛形或是大綱都還沒有，若是你對以上課程很期待，歡迎填寫 [Google 表單](https://forms.gle/TVb834BNkNk9GpbL8)，每次有回應我就會收到信，就會有種被催促的感覺，就不敢拖延了。
@@ -237,7 +237,7 @@ tags:
 
 也因為暫時沒打算開第四期，因此我決定分享一些我個人推薦的學習資源。
 
-第一個是網頁切版以及 CSS 的相關資源，因為我個人極度不擅長這一塊，所以在我的教學中也講得比較淺。這邊推薦 Amos 大大的教學影片以及文章：[史上最完整的新手網頁入門學習地圖 — 金魚都懂的網頁學習路徑懶人包](https://ithelp.ithome.com.tw/articles/10228708)。
+第一個是網頁切版以及 CSS 的相關資源，因為我個人極度不擅長這一塊，所以在我的教學中也講得比較淺。這邊推薦 Amos 大大的教學影片以及文章：[史上最完整的新手網頁入門學習地圖  —  金魚都懂的網頁學習路徑懶人包](https://ithelp.ithome.com.tw/articles/10228708)。
 
 第二個推薦的是[六角學院](https://www.hexschool.com/)，但課程部份因為我沒有上過，所以無法評論。我推薦的是這個學院能夠為你帶來的資源以及社群。
 

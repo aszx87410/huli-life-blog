@@ -1,16 +1,13 @@
 ---
 title: 程式導師實驗計畫第一期成果與心得
-date: '2018-06-26T13:29:42.421Z'
+date: "2018-06-26T13:29:42.421Z"
 categories:
   - 教學計劃
 tags:
   - 教學計劃
 ---
 
-在觀看此文章之前，如果你不知道什麼是程式導師實驗計畫，請點擊下方連結，但簡單來說就是一個小班教學的程式課程：
-
-[**從零到一：程式導師實驗計畫**  
-_前幾天我在滑臉書的時候，看到了這個 UX Mentorship Program，覺得很有趣。其實我之前也有想過類似的東西，但始終沒有付諸行動，這次趁著熱度還在，下定決心要來弄一個程式版的導師計畫。_medium.com](https://medium.com/@hulitw/mentor-program-b5f96ae1eed1 "https://medium.com/@hulitw/mentor-program-b5f96ae1eed1")[](https://medium.com/@hulitw/mentor-program-b5f96ae1eed1)
+在觀看此文章之前，如果你不知道什麼是程式導師實驗計畫，請點擊下方連結，但簡單來說就是一個小班教學的程式課程：[從零到一：程式導師實驗計畫](https://medium.com/@hulitw/mentor-program-b5f96ae1eed1)
 
 其實我自己也忘記這個計畫居然是去年 po 的文了，轉眼間半年過去了，這個計畫也正式告一段落，這篇來跟大家分享一下這半年間的教學心得以及最後的成果。
 
@@ -39,9 +36,9 @@ _前幾天我在滑臉書的時候，看到了這個 UX Mentorship Program，覺
 7.  女性 25~30 歲，人在英國，有跟完課程，但還沒完成 final project
 8.  女性 25~30 歲，有跟完課程，剛寫完 final project，正準備求職
 9.  女性 30~35 歲，人在美國，因為要籌備婚禮而退出
-10.  男性 35~40 歲，因家人健康出問題而退出
-11.  男性 35~40 歲，因老婆生小孩而退出
-12.  男性 35~40 歲，順利結業，也順利找到工作
+10. 男性 35~40 歲，因家人健康出問題而退出
+11. 男性 35~40 歲，因老婆生小孩而退出
+12. 男性 35~40 歲，順利結業，也順利找到工作
 
 一共 8 個男生 5 個女生，年齡範圍滿廣的，而最後總共有 3 個人順利結業（結業標準為有跟完課程並且有做出 final project），1 個人順利找到工作。
 
@@ -52,7 +49,7 @@ _前幾天我在滑臉書的時候，看到了這個 UX Mentorship Program，覺
 下面是其中兩位學生做出來的 final project：
 
 1.  咖啡豆購物網站 [http://thinkr.tw/coffee-beans/](http://thinkr.tw/coffee-beans/)
-2.  模仿 sukiya 做出來的網站（React + Redux）[http://tomlee0122.tw/static/sukiya\_project/sukiya/index.html#/](http://tomlee0122.tw/static/sukiya_project/sukiya/index.html#/)
+2.  模仿 sukiya 做出來的網站（React + Redux）[http://tomlee0122.tw/static/sukiya_project/sukiya/index.html#/](http://tomlee0122.tw/static/sukiya_project/sukiya/index.html#/)
 
 ### 所以，這計劃成功了嗎？
 
@@ -72,10 +69,7 @@ _前幾天我在滑臉書的時候，看到了這個 UX Mentorship Program，覺
 
 ### **我們教了什麼？**
 
-這邊有完整的課程大綱跟作業，我把一切東西都開源在網路上了，有人想拿這份東西當教材的話也歡迎使用，但可以的話麻煩告知我一下：
-
-[**Lidemy/mentor-program**  
-_mentor-program - 從零到一：導師實驗計畫的教材_github.com](https://github.com/Lidemy/mentor-program "https://github.com/Lidemy/mentor-program")[](https://github.com/Lidemy/mentor-program)
+這邊有完整的課程大綱跟作業，我把一切東西都開源在網路上了，有人想拿這份東西當教材的話也歡迎使用，但可以的話麻煩告知我一下：[Lidemy/mentor-program](https://github.com/Lidemy/mentor-program)
 
 簡單講一下，我教了下面這些東西：
 
@@ -123,10 +117,7 @@ _mentor-program - 從零到一：導師實驗計畫的教材_github.com](https:/
 
 除此之外，甚至還可以串上 CI，完成某些作業的自動批改。例如說我第一週也教了一點 unit test，作業是一些簡單的程式基本題目，學生上傳 PR 之後會自動串到 CI 跑測試，直接把結果回傳到 PR 上面，學生就能知道自己到底寫的是不是對的。
 
-這部分我有特地寫一篇文章記錄下來：
-
-[**利用 Github Classroom 加 Travis CI 打造改作業系統**  
-_TechBridge Weekly 技術週刊團隊是一群對用技術改變世界懷抱熱情的團隊。本技術共筆部落格初期專注於Web前後端、行動網路、機器人/物聯網、數據分析與產品設計等技術分享。_blog.techbridge.cc](https://blog.techbridge.cc/2018/02/03/github-classroom-and-travis-ci/ "https://blog.techbridge.cc/2018/02/03/github-classroom-and-travis-ci/")[](https://blog.techbridge.cc/2018/02/03/github-classroom-and-travis-ci/)
+這部分我有特地寫一篇文章記錄下來：[利用 Github Classroom 加 Travis CI 打造改作業系統](https://blog.techbridge.cc/2018/02/03/github-classroom-and-travis-ci/)
 
 以後我甚至想嘗試看看用 JIRA 開 ticket，例如說：week1 作業一、week1 作業二之類的，讓學生提早熟悉 JIRA 這套工具。
 
@@ -159,7 +150,7 @@ _TechBridge Weekly 技術週刊團隊是一群對用技術改變世界懷抱熱�
 
 1.  學生不會搞混 cookie 跟 session
 2.  學生可以很明確知道 session 是拿來做什麼的
-3.  學生知道他用的 session\_start() 這條指令背後的實作大概長怎樣
+3.  學生知道他用的 session_start() 這條指令背後的實作大概長怎樣
 
 同樣都是教 session，我自己認為目前的這個教學流程很不錯。我先「故意製造缺點」，再讓你自己去修補這個缺點，讓你**親身經歷**這個流程，就能知道為什麼我們需要 session。
 
@@ -224,13 +215,13 @@ _TechBridge Weekly 技術週刊團隊是一群對用技術改變世界懷抱熱�
 2\. 寫上課筆記會花太多的時間。建議能否將講義寫的詳細點，或是直接附上該觀念的資料連結。
 
 \# 4  
-這個計畫最大的收穫，就是讓我明白自己當初到底有多廢。在這個計畫之前，光是HTML/CSS/JS，我就覺得自己已經算是會很多了。直到參加計畫，我才發現很多我會的東西在專業工程師眼前就是一片小蛋糕，跟呼吸一樣是理所當然。
+這個計畫最大的收穫，就是讓我明白自己當初到底有多廢。在這個計畫之前，光是 HTML/CSS/JS，我就覺得自己已經算是會很多了。直到參加計畫，我才發現很多我會的東西在專業工程師眼前就是一片小蛋糕，跟呼吸一樣是理所當然。
 
 剛開始，還會覺得世界觀很崩潰。不過到後面也就習慣了….反正不會就學起來吧，然後慢慢就會變強了。藉由跟高手一步步學習，原本許多被大腦分類成「看起來很難耶，應該不用學吧」的知識會慢慢被轉變成那些「應該知道的基本功」。即使在學習的當下可能還不是很理解，但由於大腦已經對這些東西有印象，因此就會知道應該要把它當成學習目標。
 
-因此比起某些具體的技術，我覺得「見識」是我在Huli身上覺得最有收穫的地方。他讓我們有機會可以看看一個專業人士眼中的「基礎」是什麼，讓我們能摸清自己的定位，而不是只會在一個人的小世界中自娛自樂。
+因此比起某些具體的技術，我覺得「見識」是我在 Huli 身上覺得最有收穫的地方。他讓我們有機會可以看看一個專業人士眼中的「基礎」是什麼，讓我們能摸清自己的定位，而不是只會在一個人的小世界中自娛自樂。
 
-因此真的要相當感激Huli，謝謝世界上有像他們這些願意站出來做教學的人，因為有他們，我這樣的外行人才有機會可以看看高手眼中的世界是怎樣，並因此能有學習楷模與方向。謝謝Huli。
+因此真的要相當感激 Huli，謝謝世界上有像他們這些願意站出來做教學的人，因為有他們，我這樣的外行人才有機會可以看看高手眼中的世界是怎樣，並因此能有學習楷模與方向。謝謝 Huli。
 
 \# 5 唯一一位找到工作的那位學生的心得  
 （[https://github.com/Lidemy/mentor-program-kristxeng/issues/70](https://github.com/Lidemy/mentor-program-kristxeng/issues/70)）  

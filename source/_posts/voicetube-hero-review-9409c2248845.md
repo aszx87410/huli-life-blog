@@ -1,6 +1,6 @@
 ---
 title: 「真正的」看影片學英文：VoiceTube Hero使用心得
-date: '2019-04-10T05:18:48.617Z'
+date: "2019-04-10T05:18:48.617Z"
 categories:
   - Others
 tags:
@@ -17,10 +17,7 @@ tags:
 
 總之呢就是很自然地答應了，在分享這套課程的使用心得以前，先來講講自己學英文的相關歷程。
 
-有關我在學時的英文成績跟故事，之前我都寫在這了：
-
-[**我是如何緩慢提升英文能力的？**  
-_其實我從來沒有計劃要寫這種類型的文章，只是最近有個網友透過 Medium 的 private note 功能問我如何提升英文能力，我就想到說這已經不是第一次有人問過我這個問題了。_medium.com](https://medium.com/hulis-blog/english-174bd9b7c0ce "https://medium.com/hulis-blog/english-174bd9b7c0ce")[](https://medium.com/hulis-blog/english-174bd9b7c0ce)
+有關我在學時的英文成績跟故事，之前我都寫在這了：[我是如何緩慢提升英文能力的？](https://medium.com/hulis-blog/english-174bd9b7c0ce)
 
 今天這篇想先來談談：學英文的方式。
 

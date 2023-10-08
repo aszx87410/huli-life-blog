@@ -1,6 +1,6 @@
 ---
 title: 跟著小明一起搞懂技術名詞：MVC、SPA 與 SSR
-date: '2018-05-05T01:45:34.464Z'
+date: "2018-05-05T01:45:34.464Z"
 categories:
   - 技術白話文
 tags:
@@ -63,10 +63,7 @@ PHP 程式碼、商業邏輯、HTML，全部東西都混在一起做撒尿牛丸
 
 所以 MVC 是什麼？就是一種設計模式，你只要把你的 code 像這樣子切開，都可以叫做 MVC，所以你不可能只看一個畫面就跟你朋友說：「欸欸，這個網站是 MVC，因為他有好多個頁面」，除非你可以通靈看到背後程式碼的架構長什麼樣子。
 
-話說後來又陸陸續續出現很多種模式，而且 MVC 其實也沒有想像中的職責這麼分明，在這邊我就不細講了，我自己對那整段歷史也沒有很熟，有興趣的可以參考：
-
-[**MVC是一個巨大誤會**  
-_我是web工程師，從剛開始學MVC就深感困惑： 怎麼每個地方說的MVC都不太一樣？ 有些文章講的MVC，跟我正在用的MVC，怎麼像完全不同的東西？…_blog.turn.tw](http://blog.turn.tw/?p=1539 "http://blog.turn.tw/?p=1539")[](http://blog.turn.tw/?p=1539)
+話說後來又陸陸續續出現很多種模式，而且 MVC 其實也沒有想像中的職責這麼分明，在這邊我就不細講了，我自己對那整段歷史也沒有很熟，有興趣的可以參考：[MVC 是一個巨大誤會](http://blog.turn.tw/?p=1539)
 
 然後我上面那段 code 是亂寫的，如果你對真實世界的 MVC 框架寫出來的 code 有興趣的話，會長成這樣：
 
@@ -130,14 +127,14 @@ Gmail 就是利用這樣的原理，才能達成寄信不換頁。
 
 我們再舉一個簡單的小例子，假設小明今天寫了一個沒有用 Ajax 的 Minmail，他刪除一封信的流程是這樣的：
 
-1.  點擊刪除之後，利用 Form 表單 POST 資料去 /server/delete\_email
-2.  /server/delete\_email 處理完之後 redirect 回去信件列表
+1.  點擊刪除之後，利用 Form 表單 POST 資料去 /server/delete_email
+2.  /server/delete_email 處理完之後 redirect 回去信件列表
 3.  瀏覽器重新載入信件列表（在載入之前你都會看到全白畫面）
 
 可是如果是像 Gmail 那樣子全部改成 Ajax 的話，就會變成：
 
-1.  點擊刪除之後，利用 Ajax POST 資料去 /server/api/delete\_email
-2.  /server/api/delete\_email 處理完之後回傳 Response
+1.  點擊刪除之後，利用 Ajax POST 資料去 /server/api/delete_email
+2.  /server/api/delete_email 處理完之後回傳 Response
 3.  利用 JavaScript 在前端把那封信的從畫面上移除
 
 後者利用 Ajax 跟後端同步資料，並且在前端用 JavaScript 更改畫面，所以你無論做什麼操作都不會換頁，也可以保證前後端的資料是同步的。
@@ -148,7 +145,7 @@ Gmail 就是利用這樣的原理，才能達成寄信不換頁。
 
 此時，小明突然有個非常驚人的發現：
 
-> 咦，如果我全部畫面都是由前端利用 JavaScript 動態產生的話，那我原本後端的 View 要幹嘛？
+> 咦，如果我全部畫面都是由前端利用 JavaScript 動態產生的話，那我原本後端的 View  要幹嘛？
 
 咦，對啊，既然現在所有畫面都是在前端由 JavaScript 動態產生，那我後端不就永遠都輸出同一個檔案就好？如此一來，使用者看到的其實都是**同一個頁面**，而我們利用 JavaScript 在這個頁面上做變化。
 
@@ -174,10 +171,7 @@ Gmail 就是利用這樣的原理，才能達成寄信不換頁。
 
 在這種時候，前端也可以參考我們前面所說的 MVC 架構或是其他相關架構來讓程式碼的職責變得更分明，讓整個專案更好維護。所以你可以又有 MVC 又有 SPA，或是沒有 MVC 但有 SPA，這兩者是完全不同的概念。
 
-我之前寫過另外一篇文章，有興趣的話可以參考看看：
-
-[**前後端分離與 SPA**  
-_TechBridge Weekly 技術週刊團隊是一群對用技術改變世界懷抱熱情的團隊。本技術共筆部落格初期專注於Web前後端、行動網路、機器人/物聯網、數據分析與產品設計等技術分享。_blog.techbridge.cc](https://blog.techbridge.cc/2017/09/16/frontend-backend-mvc/ "https://blog.techbridge.cc/2017/09/16/frontend-backend-mvc/")[](https://blog.techbridge.cc/2017/09/16/frontend-backend-mvc/)
+我之前寫過另外一篇文章，有興趣的話可以參考看看：[前後端分離與 SPA](https://blog.techbridge.cc/2017/09/16/frontend-backend-mvc/)
 
 最後我舉一個一定要用 SPA 的例子：音樂播放網站。
 
