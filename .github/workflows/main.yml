@@ -1,0 +1,22 @@
+name: Build Claudia blog
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    types: [ closed ]
+    branches: [ master ]
+
+jobs:
+  build-deploy:
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v2
+      - run: npm install hexo-cli -g
+      - run: npm ci
+      - run: hexo generate
+      - name: deploy
+        uses: JamesIves/github-pages-deploy-action@releases/v3
+        with:
+          CLEAN: true
+          BRANCH: gh-pages
+          FOLDER: public/
