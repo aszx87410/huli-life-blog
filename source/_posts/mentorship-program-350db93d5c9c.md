@@ -20,7 +20,7 @@ photos: /img/mentorship-program-350db93d5c9c/cover.png
 
 ### 緣起
 
-事情是這樣子的，兩年前我開始了一個《[從零到一：程式導師實驗計畫](https://medium.com/@hulitw/mentor-program-b5f96ae1eed1)》，一開始其實是想做成 mentorship program 的形式，想說我一個人大概帶個四五個人，以指點大方向為主，讓 mentee 們在技術海裡面不會迷失。
+事情是這樣子的，兩年前我開始了一個《[從零到一：程式導師實驗計畫](/2017/12/21/mentor-program-b5f96ae1eed1/)》，一開始其實是想做成 mentorship program 的形式，想說我一個人大概帶個四五個人，以指點大方向為主，讓 mentee 們在技術海裡面不會迷失。
 
 但做著做著其實越來越偏離當初想要的形式，變成了像是 Bootcamp，把毫無基礎的人從零到一帶起來，而且教學也變得越來越詳細，跟 mentor 一點關係都沒有了。
 
@@ -32,7 +32,7 @@ photos: /img/mentorship-program-350db93d5c9c/cover.png
 
 先說一下為什麼我想開這個計畫好了。
 
-理由很簡單，跟我之前在[《每一篇心得都有價值 — — 為什麼初學者才更應該要寫心得筆記》](https://medium.com/hulis-blog/why-blogging-ab77fd8c6ffa)裡寫的一樣：
+理由很簡單，跟我之前在[《每一篇心得都有價值 — — 為什麼初學者才更應該要寫心得筆記》](/2019/02/06/why-blogging-ab77fd8c6ffa/)裡寫的一樣：
 
 > 幫助以前的自己。
 
@@ -76,8 +76,8 @@ photos: /img/mentorship-program-350db93d5c9c/cover.png
 
 如果你沒看過我寫的文章，可以先看這兩篇：
 
-1.  [跟著小明一起搞懂技術名詞：MVC、SPA 與 SSR](https://medium.com/@hulitw/introduction-mvc-spa-and-ssr-545c941669e9)
-2.  [零基礎的小明要如何成為前端工程師？](https://medium.com/hulis-blog/frontend-engineer-guide-297821512f4e)
+1.  [跟著小明一起搞懂技術名詞：MVC、SPA 與 SSR](/2018/05/04/introduction-mvc-spa-and-ssr-545c941669e9/)
+2.  [零基礎的小明要如何成為前端工程師？](/2018/06/10/frontend-engineer-guide-297821512f4e/)
 
 若是想看更硬的技術文章，可以參考這兩篇：
 
@@ -116,7 +116,7 @@ photos: /img/mentorship-program-350db93d5c9c/cover.png
 
 然後我的背景基本上是前端，所以會希望能帶到前端工程師。這個計畫的目的是想讓已經具備一定基礎的前端工程師快速成長，所以會希望報名的人已經具備前端基礎，而不是透過這個計畫才開始學前端。
 
-超出我能力範圍的也不會收。如果你想知道我能力大概在哪，可以參考[我寫過的技術文章列表](https://github.com/aszx87410/blog)、[我寫過的 Medium 文章列表](https://github.com/aszx87410/blog/blob/master/medium.md)或者是[我以前的工作經歷](https://medium.com/hulis-blog/4-years-review-7fb7edc52687)。
+超出我能力範圍的也不會收。如果你想知道我能力大概在哪，可以參考[我寫過的技術文章列表](/2019/04/13/4-years-review-7fb7edc52687/)。
 
 預計收 5 個人左右，但依照情況調整。
 

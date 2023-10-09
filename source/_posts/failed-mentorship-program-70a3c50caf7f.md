@@ -8,7 +8,7 @@ tags:
 photos: /img/failed-mentorship-program-70a3c50caf7f/cover.png
 ---
 
-一年前，我在 Medium 上面發布了這篇文章：[真正的 Mentorship program：前端引路人計畫](https://medium.com/@hulitw/mentorship-program-350db93d5c9c)
+一年前，我在 Medium 上面發布了這篇文章：[真正的 Mentorship program：前端引路人計畫](/2019/07/25/mentorship-program-350db93d5c9c/)
 
 內容主要是我想當 mentor 所以在找 mentee，可以指導的範圍大概是：
 

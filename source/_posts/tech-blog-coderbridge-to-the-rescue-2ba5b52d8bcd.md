@@ -10,9 +10,9 @@ photos: /img/tech-blog-coderbridge-to-the-rescue-2ba5b52d8bcd/cover.png
 
 身為一個喜歡寫東西而且從中獲益的人，會一直推廣寫作這回事並不意外，像是之前就有寫過幾篇相關的文章：
 
-1.  [我是如何完成一篇文章的？](https://medium.com/@hulitw/how-do-i-write-965328ae91fe)
-2.  [每一篇心得都有價值  — — 為什麼初學者才更應該要寫心得筆記](https://medium.com/hulis-blog/why-blogging-ab77fd8c6ffa)
-3.  [我為什麼寫部落格，以及部落格帶給我的影響](https://medium.com/@hulitw/blog-e7a23a74ae2b)
+1.  [我是如何完成一篇文章的？](/2019/08/22/how-do-i-write-965328ae91fe/)
+2.  [每一篇心得都有價值  — — 為什麼初學者才更應該要寫心得筆記](/2019/02/06/why-blogging-ab77fd8c6ffa/)
+3.  [我為什麼寫部落格，以及部落格帶給我的影響](/2018/06/13/blog-e7a23a74ae2b/)
 
 但同時，我也在寫作上面碰到了許多問題。
 
@@ -72,7 +72,7 @@ photos: /img/tech-blog-coderbridge-to-the-rescue-2ba5b52d8bcd/cover.png
 
 #### 第四個部落格：Medium
 
-後來我就發現 Medium 並且來到這裡了，整體的感覺還滿滿意的。雖然一度有思考過[要不要離開](https://medium.com/@hulitw/freecodecamp-hackernoon-are-leaving-medium-1b7319d7a8a7)，但最後還是因為方便性留下來了。
+後來我就發現 Medium 並且來到這裡了，整體的感覺還滿滿意的。雖然一度有思考過[要不要離開](/2019/06/04/freecodecamp-hackernoon-are-leaving-medium-1b7319d7a8a7/)，但最後還是因為方便性留下來了。
 
 不過有一點要特別注意，因為 Medium 不適合寫技術類文章，所以我都在 Medium 上面發表「不太需要什麼程式碼」的文章，而那些需要展示程式碼的文章，還是需要一個地方來放。
 

@@ -8,7 +8,7 @@ tags:
 photos: /img/mentor-program-4th-review-f8e8de92eea2/cover.png
 ---
 
-時間過得好快，上一次更新課程相關的東西是去年十月的這篇：[程式導師實驗計畫第四期課程做了哪些改動？](https://hulitw.medium.com/lidemy-mentor-program-4th-updates-c344302c8a2d)，轉眼間就已經過完年，然後整個第四期就這樣結束了。
+時間過得好快，上一次更新課程相關的東西是去年十月的這篇：[程式導師實驗計畫第四期課程做了哪些改動？](/2020/10/03/lidemy-mentor-program-4th-updates-c344302c8a2d/)，轉眼間就已經過完年，然後整個第四期就這樣結束了。
 
 開頭一樣直接破題，先給一些數字。
 

@@ -12,7 +12,7 @@ photos: /img/frontend-engineer-guide-297821512f4e/cover.png
 
 然後我希望你能搜尋到我這一篇，讓我來好好告訴你。
 
-有鑒於上一篇（如果你還沒看過的話：[跟著小明一起搞懂技術名詞：MVC、SPA 與 SSR](https://medium.com/@hulitw/introduction-mvc-spa-and-ssr-545c941669e9)）的反應出乎意料的好，因此這次還是由小明出馬，由一段虛構的故事慢慢帶你看前端工程師到底需要會哪些東西，故事看完了，你也差不多知道你到底該學什麼了。
+有鑒於上一篇（如果你還沒看過的話：[跟著小明一起搞懂技術名詞：MVC、SPA 與 SSR](/2018/05/04/introduction-mvc-spa-and-ssr-545c941669e9/)）的反應出乎意料的好，因此這次還是由小明出馬，由一段虛構的故事慢慢帶你看前端工程師到底需要會哪些東西，故事看完了，你也差不多知道你到底該學什麼了。
 
 這篇文章的目標是你沒什麼程式基礎也能夠看得懂，比上篇的門檻再低一點。故事情節的發展順序**不一定**代表真實世界中這些技術出現的順序，順序的安排只是因為我覺得這樣子能幫助初學者更好理解這些技術到底在幹嘛。
 
@@ -410,4 +410,4 @@ Google 針對這個問題的解法是：那我自動讓這兩者綁定好了，�
 
 [Half-Stack Developer 養成計畫](https://ithelp.ithome.com.tw/users/20091346/ironman/1150?page=1)
 
-[該如何知道就業所需技能？以前端工程師為例](https://medium.com/hulis-blog/guide-for-getting-frontend-engineer-job-e73e04c2bec4)
+[該如何知道就業所需技能？以前端工程師為例](/2018/06/03/guide-for-getting-frontend-engineer-job-e73e04c2bec4/)

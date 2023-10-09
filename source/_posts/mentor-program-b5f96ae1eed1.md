@@ -43,7 +43,7 @@ photos: /img/mentor-program-b5f96ae1eed1/cover.png
 
 以上列舉幾篇我覺得寫得比較不錯的，如果想看更多的話，可以到[我的部落格](http://huli.logdown.com/archives)或是參考我去年參加鐵人賽的主題：[Half-Stack Developer 養成計畫](https://ithelp.ithome.com.tw/users/20091346/ironman/1150)。
 
-最後則是喜歡紀錄一些自己的故事，例如說[我與 Stripe ：一段愛與夢想的故事](https://medium.com/hulis-blog/stripe-and-i-df35a6f0a799)跟[一個工程師的履歷進化史](https://medium.com/hulis-blog/resume-evolution-4c337ff30729)。如果你想更瞭解我的背景，可以直接參考這系列文章：[自學、哲學、講學：我的程式之路（上）](https://medium.com/hulis-blog/the-programming-journey-1-b9b19c0ef05b)
+最後則是喜歡紀錄一些自己的故事，例如說[我與 Stripe ：一段愛與夢想的故事](/2017/10/21/stripe-and-i-df35a6f0a799/)跟[一個工程師的履歷進化史](/2017/10/09/resume-evolution-4c337ff30729/)。如果你想更瞭解我的背景，可以直接參考這系列文章：[自學、哲學、講學：我的程式之路（上）](/2017/10/05/the-programming-journey-1-b9b19c0ef05b/)
 
 從上面零零總總應該就能看得出來，我是個很喜歡分享跟教學的人，但其實我最想做的事情，卻一直沒能做到。
 

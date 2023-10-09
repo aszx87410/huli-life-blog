@@ -8,7 +8,7 @@ tags:
 photos: /img/mentor-program-2nd-result-3cb7c2b6627e/cover.png
 ---
 
-兩個月前我 po 了這篇：[四個月過去了，來找我學程式的學生們怎麼樣了？](https://medium.com/hulis-blog/mentor-program-2nd-review-e7c15f24dfb8)
+兩個月前我 po 了這篇：[四個月過去了，來找我學程式的學生們怎麼樣了？](/2019/01/21/mentor-program-2nd-review-e7c15f24dfb8/)
 
 那時跟大家簡短報告一下從計畫開始後四個月的狀況，並承諾會在 3/14 計劃正式結束時給大家一個完整的成果報告。
 
@@ -85,7 +85,7 @@ photos: /img/mentor-program-2nd-result-3cb7c2b6627e/cover.png
 
 用一句話來總結：
 
-> [這是一堂沒那麼適合初學者的課程](https://medium.com/hulis-blog/mentor-program-2nd-mid-c7539f67b7d7)。
+> [這是一堂沒那麼適合初學者的課程](/2018/11/04/mentor-program-2nd-mid-c7539f67b7d7/)。
 
 如果你本來就有程式基礎，那些語法跟基本運算對你來說都不成問題，那你來這裡之後能夠成功轉職的機率很高，超級高。這邊教的東西都是對你有幫助的，而且我認為不只是找工作，在你開始工作後的第一年也都很有幫助。
 
@@ -99,7 +99,7 @@ photos: /img/mentor-program-2nd-result-3cb7c2b6627e/cover.png
 
 但這還不夠，離我最想做的還差得遠呢。
 
-我最想達成的目標是什麼？[我在這裡寫過](https://medium.com/hulis-blog/qa-be72946f0b23)：
+我最想達成的目標是什麼？[我在這裡寫過](/2019/02/05/qa-be72946f0b23/)：
 
 > 我想做的只是自我實現，想證明我很能教，證明我的教學比任何人都厲害。第一階段我想做到的是只要你願意付出時間，我就一定能教會你。例如說你真的能夠每週四十小時持續六個月，我就保證你一定能學成功，這是我想達到的目標。如果你學不成功，我不會說是你沒天份，我會說是我可以教得更好。
 

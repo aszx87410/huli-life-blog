@@ -10,7 +10,7 @@ photos: /img/mentor-program-s2-f876c4e13d3b/cover.png
 
 ![](/img/mentor-program-s2-f876c4e13d3b/0__zS9ldrKDTqtmtVR8.jpg)
 
-如果你不知道什麼是程式導師實驗計畫，請先看這篇，裡面有附第一期的介紹跟檢討：[程式導師實驗計畫第一期成果與心得](https://medium.com/hulis-blog/mentor-program-review-a9c6668dfb)
+如果你不知道什麼是程式導師實驗計畫，請先看這篇，裡面有附第一期的介紹跟檢討：[程式導師實驗計畫第一期成果與心得](/2018/06/26/mentor-program-review-a9c6668dfb/)
 
 自我介紹的部分在第一期的文章裡面都有了，在這邊我就稍微提一下就好，想看完整經歷的話第一期都有。
 

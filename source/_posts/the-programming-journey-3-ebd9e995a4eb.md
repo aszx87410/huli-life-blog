@@ -10,8 +10,8 @@ photos: /img/the-programming-journey-3-ebd9e995a4eb/cover.png
 
 此篇為系列文章的最後一篇，如果你錯過前兩篇，傳送門在這：
 
-[自學、哲學、講學：我的程式之路（上）](https://medium.com/hulis-blog/the-programming-journey-1-b9b19c0ef05b)
-[自學、哲學、講學：我的程式之路（中）](https://medium.com/hulis-blog/the-programming-journey-2-98dea8c475ae)
+[自學、哲學、講學：我的程式之路（上）](/2017/10/05/the-programming-journey-1-b9b19c0ef05b/)
+[自學、哲學、講學：我的程式之路（中）](/2017/10/05/the-programming-journey-2-98dea8c475ae/)
 
 ### 會寫程式的文組生
 

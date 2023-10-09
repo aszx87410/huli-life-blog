@@ -10,7 +10,7 @@ photos: /img/travel-part1-46e50a306467/cover.png
 
 ![](/img/travel-part1-46e50a306467/1__o7__ljnqfQejDNyBmuFQb5g.jpeg)
 
-之前我在《[成為前端工程師的四週年回顧](https://medium.com/hulis-blog/4-years-review-7fb7edc52687)》裡面提到了自己的旅遊計畫，以七八月為分界，可以分成兩個部分：
+之前我在《[成為前端工程師的四週年回顧](/2019/04/13/4-years-review-7fb7edc52687/)》裡面提到了自己的旅遊計畫，以七八月為分界，可以分成兩個部分：
 
 2019–05–08 ~ 2019–05–31 日本（東京、京都、福岡、仙台、札幌…）  
 2019–06–03 ~ 2019–06–09 河內  
@@ -119,7 +119,7 @@ photos: /img/travel-part1-46e50a306467/cover.png
 
 可以啊，但很多時候你沒辦法透過自省得出一些體悟。這是有沒有主動嘗試以及時間早晚的問題。想成長最快的方式就是透過各種事件，讓外力推著你前進，並引發一些新的想法。
 
-這邊直接引用我之前寫在《[我是如何緩慢提升英文能力的？](https://medium.com/hulis-blog/english-174bd9b7c0ce)》的一段：
+這邊直接引用我之前寫在《[我是如何緩慢提升英文能力的？](/2018/06/12/english-174bd9b7c0ce/)》的一段：
 
 > _「親身經歷」很重要，那是看再多書、知道再多知識都無法帶給你的東西，因為這種體驗只存在於現實生活的互動當中。_
 
@@ -199,4 +199,4 @@ photos: /img/travel-part1-46e50a306467/cover.png
 
 ![](/img/travel-part1-46e50a306467/1__viTqqAS3ZuX1qjeVAiAw0w.jpeg)
 
-下集傳送門：[旅行的意義（下）：寫在遊阿布達比、歐洲與韓國後](https://hulitw.medium.com/travel-part2-818482a90bc9)
+下集傳送門：[旅行的意義（下）：寫在遊阿布達比、歐洲與韓國後](/2019/10/31/travel-part2-818482a90bc9/)

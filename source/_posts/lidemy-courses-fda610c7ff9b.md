@@ -10,7 +10,7 @@ photos: /img/lidemy-courses-fda610c7ff9b/cover.png
 
 ![](/img/lidemy-courses-fda610c7ff9b/1____Jndg6GFlBuNHbqrjMQRkA.png)
 
-[Lidemy](https://www.lidemy.com) 是我在幾年前自己開設的線上課程平台，上一次有相關消息是在一年前我把 Hahow 課程下架的時候，寫了這一篇：[把 Hahow 的課程下架之後，我的下一步是什麼？](https://medium.com/@hulitw/hahow-and-lidemy-2dab35919bb8)
+[Lidemy](/2018/09/18/hahow-and-lidemy-2dab35919bb8/)
 
 從這之後，就沒有新的課程上架了。
 

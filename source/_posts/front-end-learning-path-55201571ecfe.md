@@ -24,8 +24,8 @@ photos: /img/front-end-learning-path-55201571ecfe/cover.png
 
 如果有時間，可以先參考這兩篇我以前寫過的文章：
 
-1.  [當我們在學程式時，要學的到底是什麼？](https://medium.com/@hulitw/learn-coding-9c572c2fb2)
-2.  [There is no magic in my classroom](https://medium.com/hulis-blog/there-is-no-magic-in-my-classroom-4926b67c06f5)
+1.  [當我們在學程式時，要學的到底是什麼？](/2018/10/29/learn-coding-9c572c2fb2/)
+2.  [There is no magic in my classroom](/2018/11/22/there-is-no-magic-in-my-classroom-4926b67c06f5/)
 
 底下的學習路線基本上是從我之前的[課綱](https://github.com/Lidemy/mentor-program-3rd)改編而來，而且是秉持著上面這些原則在設計的。另外，下面比較多其實都是告訴你該學哪些工具，但請記住在學工具的時候，還必須去思考為什麼需要用到這些工具，它們解決了哪些問題。此篇文章只專注於網頁前端的領域，其餘工程師的基本功（例如說拆解問題或是定義問題範圍等等）不包含在裡面。
 
@@ -684,6 +684,6 @@ React 的學習資源我推薦從 [React 小書](http://huziketang.mangojuice.to
 
 最後，感謝幫我先看過文章並給予建議的朋友們。
 
-想持續關注的話可以 follow 一下。單純手癢想按按鈕也可以按個 follow，或是考慮一下關注 [Lidemy 粉絲專頁](https://www.facebook.com/lidemytw/)。最近剛把 [Lidemy](https://www.lidemy.com/) 整理了一下，公開了許多錄給我自己學生的教材，詳情可以參考：[Lidemy 新課程上架以及課程說明](https://medium.com/@hulitw/lidemy-courses-fda610c7ff9b)。
+想持續關注的話可以 follow 一下。單純手癢想按按鈕也可以按個 follow，或是考慮一下關注 [Lidemy 粉絲專頁](/2019/08/19/lidemy-courses-fda610c7ff9b/)。
 
 想看更多文章可以參考我的 Medium 文章列表：[https://aszx87410.github.io/blog/medium](https://aszx87410.github.io/blog/medium)

@@ -10,7 +10,7 @@ photos: /img/lidemy-mentor-program-4th-39f58a00067c/cover.png
 
 ![](/img/lidemy-mentor-program-4th-39f58a00067c/0__XSsBHNBIe02MwNtz.png)
 
-之前在[第三期的心得](https://medium.com/@hulitw/mentor-program-3rd-result-df178bb55f4)裡面說過暫時不會有第四期，不過世事難料，我自己的個人規劃也是變來變去，在今年二月的文章[提早出關，大家安安](https://medium.com/@hulitw/i-failed-9386c6b0a681)裡面，已經預告了第四期的復活。
+之前在[第三期的心得](/2020/02/02/i-failed-9386c6b0a681/)裡面，已經預告了第四期的復活。
 
 然後依照規劃好的時間軸，今天，也就是 5/1，程式導師實驗計畫第四期正式開放報名囉！
 

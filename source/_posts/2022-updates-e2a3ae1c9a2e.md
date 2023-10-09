@@ -10,7 +10,7 @@ photos: /img/2022-updates-e2a3ae1c9a2e/cover.png
 
 ![](/img/2022-updates-e2a3ae1c9a2e/0__KbaEPsqjRGFtp__tr.jpg)
 
-去年的 6 月 5 號，我在 Medium 發了這篇文章：[暫別前端，重新開始](https://hulitw.medium.com/byebye-front-end-hi-security-fda6be0cb7ce)，裡面提到了我從 2021 年 5 月份開始在公司內轉成資安工程師，暫時不寫前端了。
+去年的 6 月 5 號，我在 Medium 發了這篇文章：[暫別前端，重新開始](/2021/06/05/byebye-front-end-hi-security-fda6be0cb7ce/)，裡面提到了我從 2021 年 5 月份開始在公司內轉成資安工程師，暫時不寫前端了。
 
 過了一年半之後，我過得還好嗎？我做得還好嗎？想說來寫篇文章更新一下近況，也順便記錄我這一年之間到底做了哪些事情。
 
@@ -113,7 +113,7 @@ WordPress 的使用人數超多，套件也一大堆，成為了一整個生態�
 
 之前本來打 CTF 都是自己當作興趣打打，反正也拿不了名次，只打自己喜歡的題目，想不出來就果斷放棄。
 
-然而，在 2022 年 2 月的時候加入了一個國際戰隊叫做 Water Paddler，裡面有來自世界各地的好手，也跟著他們打了一些重大的賽事，像是 PlaidCTF 或是 GoogleCTF 之類的，以及最重要的 DEF CON CTF，也順利打進了決賽，去了拉斯維加斯一趟，心得可參考：[DEF CON 30 CTF final 遊記（上）](https://hulitw.medium.com/def-con-30-ctf-final-1-79220bba7f02)
+然而，在 2022 年 2 月的時候加入了一個國際戰隊叫做 Water Paddler，裡面有來自世界各地的好手，也跟著他們打了一些重大的賽事，像是 PlaidCTF 或是 GoogleCTF 之類的，以及最重要的 DEF CON CTF，也順利打進了決賽，去了拉斯維加斯一趟，心得可參考：[DEF CON 30 CTF final 遊記（上）](/2022/08/16/def-con-30-ctf-final-1-79220bba7f02/)
 
 以前一直聽說 DEF CON CTF 是 CTF 的最高殿堂，我就自動腦補成像是 IOI 或是 ICPC World Finals 之於打資訊競賽的人那樣。直到打了今年的 DEF CON CTF 以後，對它的想像有點破滅，理想很美好，現實很…tick 196。希望今年只是意外，明年會更好。
 
@@ -175,7 +175,7 @@ WordPress 的使用人數超多，套件也一大堆，成為了一整個生態�
 
 最後呢，在認真考慮了一週以及找了幾個同事聊聊之後，我在九月初已經正式轉入這個新成立的團隊：[OneInfinity](https://oneinfinity.global/)。
 
-咦？怎麼前面才說我想去專門做攻擊與研究的公司，到了這邊又不是這麼一回事了？對，因為「[關於求職，連我自己都不知道我要什麼](https://hulitw.medium.com/i-dont-know-what-i-want-about-career-383bee0be733)」，我以為我要的是 A，結果聊一聊發現 B 其實也不錯，滿有趣的，也可以是一個選項，我一直以來都是這個樣子的。
+咦？怎麼前面才說我想去專門做攻擊與研究的公司，到了這邊又不是這麼一回事了？對，因為「[關於求職，連我自己都不知道我要什麼](/2020/04/26/i-dont-know-what-i-want-about-career-383bee0be733/)」，我以為我要的是 A，結果聊一聊發現 B 其實也不錯，滿有趣的，也可以是一個選項，我一直以來都是這個樣子的。
 
 其實我自己也對這個轉換猶豫了一陣子，以興趣來說我覺得是符合的，也覺得可以學到不少新東西，但我擔心的是：「這樣是不是把職涯走歪了？」，換個方式問：「如果我離開這邊，我下一份工作該找什麼？」
 

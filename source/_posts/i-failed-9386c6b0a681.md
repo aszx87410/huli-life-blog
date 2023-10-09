@@ -8,7 +8,7 @@ tags:
 photos: /img/i-failed-9386c6b0a681/cover.png
 ---
 
-去年 12 月 1 號，我在 Medium 發了這麼一篇文：[閉關修煉，一年後見](https://medium.com/@hulitw/best-one-year-696aa373207d)
+去年 12 月 1 號，我在 Medium 發了這麼一篇文：[閉關修煉，一年後見](/2019/12/01/best-one-year-696aa373207d/)
 
 大意就是我要進行為期一年的閉關修煉，希望能重拾以前學生時期準備大考的狀態，潛心修練，把自己一直想要補強卻一直偷懶的東西都補齊。
 
@@ -36,7 +36,7 @@ photos: /img/i-failed-9386c6b0a681/cover.png
 
 對我來說，「我想改變」是沒有用的，一點用都沒有。想減肥、想健身、想培養運動習慣；想認真念演算法、想認真念 JavaScript、想認真把本科系的課修好——這些事情想了多少次了？
 
-但沒有用就是沒有，關於這件事情，其實我在以前寫的[《致跟我一樣的拖延症患者：動力是需要刻意創造的》](https://medium.com/hulis-blog/procrastination-ba12754ada49)這篇文章裡已經講過了。而閉關修煉，是因為我想再試一次，憑著「我想改變」這個信念，有沒有辦法做事。
+但沒有用就是沒有，關於這件事情，其實我在以前寫的[《致跟我一樣的拖延症患者：動力是需要刻意創造的》](/2018/09/26/procrastination-ba12754ada49/)這篇文章裡已經講過了。而閉關修煉，是因為我想再試一次，憑著「我想改變」這個信念，有沒有辦法做事。
 
 事實證明沒有。
 
@@ -66,4 +66,4 @@ photos: /img/i-failed-9386c6b0a681/cover.png
 
 就是這樣，敬請期待。
 
-話說如果你對我閉關這幾天做了什麼有興趣，可以參考：[我與拖延症對抗的五十天](https://medium.com/@hulitw/fight-against-procrastination-but-lost-b43d3c4164e1)。
+話說如果你對我閉關這幾天做了什麼有興趣，可以參考：[我與拖延症對抗的五十天](/2020/02/02/fight-against-procrastination-but-lost-b43d3c4164e1/)。

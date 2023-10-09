@@ -14,7 +14,7 @@ photos: /img/fight-against-procrastination-but-lost-b43d3c4164e1/cover.png
 
 話說文有點長，請自己斟酌要不要觀看，底下大概有個兩萬字。
 
-然後這篇是日記，另外一篇講出關的請參考：[提早出關，大家安安](https://medium.com/@hulitw/i-failed-9386c6b0a681)。
+然後這篇是日記，另外一篇講出關的請參考：[提早出關，大家安安](/2020/02/02/i-failed-9386c6b0a681/)。
 
 ### Day1：2019–11–26
 

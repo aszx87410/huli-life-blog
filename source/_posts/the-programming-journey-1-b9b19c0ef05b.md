@@ -198,5 +198,5 @@ photos: /img/the-programming-journey-1-b9b19c0ef05b/cover.png
 
 續集傳送門：
 
-[自學、哲學、講學：我的程式之路（中）](https://medium.com/hulis-blog/the-programming-journey-2-98dea8c475ae)
-[自學、哲學、講學：我的程式之路（下）](https://medium.com/hulis-blog/the-programming-journey-3-ebd9e995a4eb)
+[自學、哲學、講學：我的程式之路（中）](/2017/10/05/the-programming-journey-2-98dea8c475ae/)
+[自學、哲學、講學：我的程式之路（下）](/2017/10/05/the-programming-journey-3-ebd9e995a4eb/)

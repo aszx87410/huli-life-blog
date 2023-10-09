@@ -10,9 +10,9 @@ photos: /img/mentor-program-3rd-result-df178bb55f4/cover.png
 
 ![](/img/mentor-program-3rd-result-df178bb55f4/1__aXzbFu9____Bd7lFxHMaxWOw.jpeg)
 
-為期八個月（六個月學習加兩個月找工作）的[程式導師實驗計畫第三期](https://medium.com/hulis-blog/mentor-program-3rd-47a2e85e33b3)在今天正式告一個段落。依照慣例，這一篇要來分享第三期的成果，還有未來改進的方向跟後續。
+為期八個月（六個月學習加兩個月找工作）的[程式導師實驗計畫第三期](/2019/03/14/mentor-program-3rd-47a2e85e33b3/)在今天正式告一個段落。依照慣例，這一篇要來分享第三期的成果，還有未來改進的方向跟後續。
 
-首先呢，針對第二期的改進之前已經寫過一篇分享（[從線上到線下：第三期教學實驗滿月心得分享](https://medium.com/hulis-blog/from-online-to-offline-bd99e545277a)），這邊就不再多說了。
+首先呢，針對第二期的改進之前已經寫過一篇分享（[從線上到線下：第三期教學實驗滿月心得分享](/2019/05/29/from-online-to-offline-bd99e545277a/)），這邊就不再多說了。
 
 接下來直接從第三期的成果開始好了。
 
@@ -154,7 +154,7 @@ photos: /img/mentor-program-3rd-result-df178bb55f4/cover.png
 
 #### 學生自助餐
 
-這個詞我在[隨意談看學生求職心得感想](https://medium.com/@hulitw/about-interview-95bfaa4273ba)裡面有提到過：
+這個詞我在[隨意談看學生求職心得感想](/2019/11/10/about-interview-95bfaa4273ba/)裡面有提到過：
 
 > _因為如果是這樣的話，很容易就會造成「學生自助餐」，外面表現不好的學生一律切割，說那都是他們的問題；表現好的就通通把功勞攬在自己身上，說這都是自己厲害。_
 
@@ -192,8 +192,8 @@ photos: /img/mentor-program-3rd-result-df178bb55f4/cover.png
 
 第三，針對第三期常卡關的地方以及沒講清楚的概念做加強。其實這我已經有在做了，例如說：
 
-1.  API 觀念不熟，寫了：[從拉麵店的販賣機理解什麼是 API](https://medium.com/@hulitw/ramen-and-api-6238437dc544)
-2.  Session 與 Cookie 搞不清楚，寫了：[白話 Session 與 Cookie：從經營雜貨店開始](https://medium.com/@hulitw/session-and-cookie-15e47ed838bc)
+1.  API 觀念不熟，寫了：[從拉麵店的販賣機理解什麼是 API](/2019/06/20/ramen-and-api-6238437dc544/)
+2.  Session 與 Cookie 搞不清楚，寫了：[白話 Session 與 Cookie：從經營雜貨店開始](/2019/08/09/session-and-cookie-15e47ed838bc/)
 3.  非同步不熟，寫了：[JavaScript 中的同步與非同步（上）：先成為 callback 大師吧！](https://github.com/aszx87410/blog/issues/49)
 
 但還是有加強的空間，尤其是非同步，應該再多加一個單元特別講。CSS 的部分也講得有點少， 要嘛自己再補充，要嘛多貼一些參考資料給他們看。在 JS 進階觀念那邊也應該多加一些應用的例子，例如說 this 到底用在哪裡？closure 用在哪裡？
@@ -226,7 +226,7 @@ photos: /img/mentor-program-3rd-result-df178bb55f4/cover.png
 
 ### 未來走向
 
-如同另外一篇文章：[《閉關修煉，一年後見》](https://medium.com/@hulitw/best-one-year-696aa373207d)所提到的，之後我會休息一年，這一年之間 Lidemy 還是正常運作，問我問題一樣還是會回，不用擔心。我自己也有一些新課程的 idea，因為怕自己拖延症發作，所以決定在這邊先講出來：
+如同另外一篇文章：[《閉關修煉，一年後見》](/2019/12/01/best-one-year-696aa373207d/)所提到的，之後我會休息一年，這一年之間 Lidemy 還是正常運作，問我問題一樣還是會回，不用擔心。我自己也有一些新課程的 idea，因為怕自己拖延症發作，所以決定在這邊先講出來：
 
 1.  **CS50 輔助課程**：以自己的話把 CS50 教的東西再教一遍並且做補充。以前有做過導讀，但導讀只是帶大家稍微理解，而輔助課程的目標是只看這堂課也可以完成 CS50 的作業。
 2.  [Xojo](https://www.xojo.com/) 教學課程：我自己是從 VB2005 開始入門寫程式的，過程十分愉快，拖拉式的 GUI 加上簡單的程式碼，讓我認為這比其他程式語言更適合拿來當作新手入門的教材。而 Xojo 的前身是 REALbasic，與 VB 十分類似，又是跨平台的開發工具，我想讓大家透過 Xojo 學會「寫程式」。

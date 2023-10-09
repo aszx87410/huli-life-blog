@@ -34,7 +34,7 @@ photos: /img/one-year-review-2963f072572d/cover.png
 
 ### 年度冠軍寶座到底是什麼來頭？
 
-這是第一名的文章，介紹在新加坡的四個外送 App：[四款訂餐外送 App 不專業評測](https://medium.com/hulis-blog/delivery-services-2d90ec1e3555)
+這是第一名的文章，介紹在新加坡的四個外送 App：[四款訂餐外送 App 不專業評測](/2017/10/21/delivery-services-2d90ec1e3555/)
 
 一共拿到了 35000 次瀏覽次數，可是卻只有 5100 次閱讀，閱讀率 14% 低得嚇人，拍手數居然也只有 108，是全部文章裡面第二低的。
 

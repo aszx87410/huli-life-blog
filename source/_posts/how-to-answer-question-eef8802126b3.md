@@ -10,7 +10,7 @@ photos: /img/how-to-answer-question-eef8802126b3/cover.png
 
 ![](/img/how-to-answer-question-eef8802126b3/0__40uNERe3eBaqyIFH.jpg)
 
-[程式導師實驗計畫第三期](https://medium.com/hulis-blog/mentor-program-3rd-47a2e85e33b3)開始快一個月了。有了前兩期的累積，第三期到目前為止執行得滿順利的，我也嘗試了很多想嘗試的新東西，這部分之後可以再寫一篇文章跟大家分享。
+[程式導師實驗計畫第三期](/2019/03/14/mentor-program-3rd-47a2e85e33b3/)開始快一個月了。有了前兩期的累積，第三期到目前為止執行得滿順利的，我也嘗試了很多想嘗試的新東西，這部分之後可以再寫一篇文章跟大家分享。
 
 有滿多文章都在談「如何問一個好問題」，例如說最經典的：[提問的智慧](https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way)。但好像比較少文章在談：「如何給出一個好答案」。
 

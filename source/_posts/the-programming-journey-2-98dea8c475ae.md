@@ -10,7 +10,7 @@ photos: /img/the-programming-journey-2-98dea8c475ae/cover.png
 
 此篇為系列文章第二篇，若是你錯過了第一篇誤打誤撞進來這裡，傳送門在這：
 
-[自學、哲學、講學：我的程式之路（上）](https://medium.com/hulis-blog/the-programming-journey-1-b9b19c0ef05b)
+[自學、哲學、講學：我的程式之路（上）](/2017/10/05/the-programming-journey-1-b9b19c0ef05b/)
 
 ### 眼界的開闊與自信的泉源：高中的競賽人生
 
@@ -168,4 +168,4 @@ TOI 就是[臺灣資訊奧林匹亞研習營 Taiwan Olympiad in Informatics](htt
 
 續集傳送門：
 
-[自學、哲學、講學：我的程式之路（下）](https://medium.com/hulis-blog/the-programming-journey-3-ebd9e995a4eb)
+[自學、哲學、講學：我的程式之路（下）](/2017/10/05/the-programming-journey-3-ebd9e995a4eb/)

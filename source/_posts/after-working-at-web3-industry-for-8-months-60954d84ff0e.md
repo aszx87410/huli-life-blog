@@ -10,7 +10,7 @@ photos: /img/after-working-at-web3-industry-for-8-months-60954d84ff0e/cover.png
 
 ![](/img/after-working-at-web3-industry-for-8-months-60954d84ff0e/1__aALCTHDXCeACQg__nbfGT9w.jpeg)
 
-去年十一月的時候我有寫了一篇[《近況更新：轉職資安的一年後》](https://medium.com/@hulitw/2022-updates-e2a3ae1c9a2e)，文章最後有提到我換去了一個做 Web3 的團隊，接觸了全新的工作內容。換團隊以後過了大概 9 個月，也就是標題所指的 0.75 年，寫篇心得來幫自己在加密貨幣產業相關業界打滾的職涯做個總結。
+去年十一月的時候我有寫了一篇[《近況更新：轉職資安的一年後》](/2022/11/08/2022-updates-e2a3ae1c9a2e/)，文章最後有提到我換去了一個做 Web3 的團隊，接觸了全新的工作內容。換團隊以後過了大概 9 個月，也就是標題所指的 0.75 年，寫篇心得來幫自己在加密貨幣產業相關業界打滾的職涯做個總結。
 
 ### 加入前對於加密貨幣的了解
 

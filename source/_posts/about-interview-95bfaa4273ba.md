@@ -16,7 +16,7 @@ photos: /img/about-interview-95bfaa4273ba/cover.png
 
 ### 談薪水
 
-我會依據自己所知道的市場狀況以及上一期學生的[求職狀況](https://medium.com/hulis-blog/mentor-program-2nd-result-3cb7c2b6627e)給大家一個薪水範圍，讓大家在開價的時候能夠參考。
+我會依據自己所知道的市場狀況以及上一期學生的[求職狀況](/2019/03/13/mentor-program-2nd-result-3cb7c2b6627e/)給大家一個薪水範圍，讓大家在開價的時候能夠參考。
 
 我給的範圍是 40k~50k，這是一般學生的參考範圍，如果表現更好的話可以再往上提升。
 
@@ -102,7 +102,7 @@ photos: /img/about-interview-95bfaa4273ba/cover.png
 
 ### 談自信
 
-之前就有[說過](https://medium.com/hulis-blog/4-years-review-7fb7edc52687)自信真的是靠北難掌握的一個東西。
+之前就有[說過](/2019/04/13/4-years-review-7fb7edc52687/)自信真的是靠北難掌握的一個東西。
 
 學生在求職的時候也能看出來這個現象，雖然學了半年但沒什麼自信，覺得自己好像還是找不到工作之類的。但這不是一件好事情，因為他們其實是有能力的，是能找到工作的。
 

@@ -10,7 +10,7 @@ photos: /img/coolwallet-pro-b381f545878/cover.png
 
 利益揭露：此為與 CoolWallet Pro 合作的體驗文章，但使用心得是真實的。
 
-之前我寫了一篇[在加密貨幣世界工作的感想](https://hulitw.medium.com/after-working-at-web3-industry-for-8-months-60954d84ff0e)
+之前我寫了一篇[在加密貨幣世界工作的感想](/2023/05/12/after-working-at-web3-industry-for-8-months-60954d84ff0e/)
 
 最後有提到說我自己不會想要投入加密貨幣，一個不玩加密貨幣的人寫冷錢包開箱文，不是很奇怪嗎？但其實我在那一段後面還寫了：
 

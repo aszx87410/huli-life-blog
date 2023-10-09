@@ -122,9 +122,9 @@ JavaScript 面試中最常考的不外乎就幾個概念：hoisting、this、pro
 
 #### 教學相關理念
 
-1.  [如何幫助學生解決程式問題？我認為的好方法跟壞方法](https://medium.com/hulis-blog/how-to-answer-question-eef8802126b3)
-2.  [學程式的第零課：心態調整](https://medium.com/hulis-blog/before-learning-b9b933b6078e)
-3.  [當我們在學程式時，要學的到底是什麼？](https://medium.com/@hulitw/learn-coding-9c572c2fb2)
+1.  [如何幫助學生解決程式問題？我認為的好方法跟壞方法](/2019/05/10/how-to-answer-question-eef8802126b3/)
+2.  [學程式的第零課：心態調整](/2019/04/13/before-learning-b9b933b6078e/)
+3.  [當我們在學程式時，要學的到底是什麼？](/2018/10/29/learn-coding-9c572c2fb2/)
 
 ### 教學相關資歷
 
@@ -133,7 +133,7 @@ JavaScript 面試中最常考的不外乎就幾個概念：hoisting、this、pro
 學生 50 人左右，經由六個月的教學希望能把學生從無到有培養成一個合格的工程師。這一期新增了自製的學習系統以及跟學生合作了幾個有趣的小專案，也寫了一些技術白話文。
 
 課程大綱：[https://github.com/Lidemy/mentor-program-3rd](https://github.com/Lidemy/mentor-program-3rd)  
-心得：[從線上到線下：第三期教學實驗滿月心得分享](https://medium.com/hulis-blog/from-online-to-offline-bd99e545277a)
+心得：[從線上到線下：第三期教學實驗滿月心得分享](/2019/05/29/from-online-to-offline-bd99e545277a/)
 
 #### 程式導師實驗計畫第二期：2018 年 8月～2019 年 1 月
 
@@ -141,16 +141,16 @@ JavaScript 面試中最常考的不外乎就幾個概念：hoisting、this、pro
 
 課程大綱：[https://github.com/Lidemy/mentor-program-2nd](https://github.com/Lidemy/mentor-program-2nd)  
 心得：  
-1\. [這是一堂沒那麼適合初學者的課程 — — 程式導師實驗計畫第二期期中反思](https://medium.com/hulis-blog/mentor-program-2nd-mid-c7539f67b7d7)  
-2\. [四個月過去了，來找我學程式的學生們怎麼樣了？](https://medium.com/hulis-blog/mentor-program-2nd-review-e7c15f24dfb8)  
-3\. [27% 的人找到工作 — — 程式導師實驗計畫第二期成果報吿](https://medium.com/hulis-blog/mentor-program-2nd-result-3cb7c2b6627e)
+1\. [這是一堂沒那麼適合初學者的課程 — — 程式導師實驗計畫第二期期中反思](/2018/11/04/mentor-program-2nd-mid-c7539f67b7d7/)  
+2\. [四個月過去了，來找我學程式的學生們怎麼樣了？](/2019/01/21/mentor-program-2nd-review-e7c15f24dfb8/)  
+3\. [27% 的人找到工作 — — 程式導師實驗計畫第二期成果報吿](/2019/03/13/mentor-program-2nd-result-3cb7c2b6627e/)
 
 #### 程式導師實驗計畫第一期：2018 年 1 月～2018 年 6月
 
 為期四個月的實驗計畫，學生必須每週投入 40 小時學習，最終目標是找到工作成為工程師，教學內容前後端皆有，後端主要教 PHP + node.js，前端則是 React + Redux，學生人數為 12 人，2 人順利轉職。
 
 課程大綱： [https://github.com/Lidemy/mentor-program](https://github.com/Lidemy/mentor-program)  
-心得：[程式導師實驗計畫第一期成果與心得](https://medium.com/hulis-blog/mentor-program-review-a9c6668dfb)
+心得：[程式導師實驗計畫第一期成果與心得](/2018/06/26/mentor-program-review-a9c6668dfb/)
 
 #### CS50 課程導讀：2017 年 7 月～2017 年 10 月
 
@@ -185,9 +185,9 @@ JavaScript 面試中最常考的不外乎就幾個概念：hoisting、this、pro
 
 範例文章：
 
-1.  [零基礎的小明要如何成為前端工程師？](https://medium.com/hulis-blog/frontend-engineer-guide-297821512f4e)
-2.  [從拉麵店的販賣機理解什麼是 API](https://medium.com/@hulitw/ramen-and-api-6238437dc544)
-3.  [白話 Session 與 Cookie：從經營雜貨店開始](https://medium.com/@hulitw/session-and-cookie-15e47ed838bc)
+1.  [零基礎的小明要如何成為前端工程師？](/2018/06/10/frontend-engineer-guide-297821512f4e/)
+2.  [從拉麵店的販賣機理解什麼是 API](/2019/06/20/ramen-and-api-6238437dc544/)
+3.  [白話 Session 與 Cookie：從經營雜貨店開始](/2019/08/09/session-and-cookie-15e47ed838bc/)
 
 #### **TechBridge 技術共筆部落格**
 

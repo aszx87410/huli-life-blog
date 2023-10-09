@@ -10,7 +10,7 @@ photos: /img/why-blogging-ab77fd8c6ffa/cover.png
 
 ![](/img/why-blogging-ab77fd8c6ffa/0__4QR4TdySNRh58yJO.jpg)
 
-91 哥寫過一篇文章叫做[《我為什麼鼓勵工程師寫 blog》](https://dotblogs.com.tw/hatelove/2017/03/26/why-engineers-should-keep-blogging)，裡面提到工程師應該要經營 blog 的原因以及常見的藉口；而我自己也寫過一篇[《我為什麼寫部落格，以及部落格帶給我的影響》](https://medium.com/@hulitw/blog-e7a23a74ae2b)，跟大家談談我經營部落格的原因以及部落格成長的歷史。
+91 哥寫過一篇文章叫做[《我為什麼鼓勵工程師寫 blog》](/2018/06/13/blog-e7a23a74ae2b/)，跟大家談談我經營部落格的原因以及部落格成長的歷史。
 
 呼籲工程師要來寫部落格的文章不少，但儘管如此，還是許多人遲遲沒有開始行動。前陣子的教學帶了一些學生，我也是不斷提醒他們寫部落格的好處並且建議他們有空的時候可以寫寫心得，但是會這樣做的人還是不多。
 

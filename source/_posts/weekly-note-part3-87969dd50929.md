@@ -10,8 +10,8 @@ photos: /img/weekly-note-part3-87969dd50929/cover.png
 
 上中傳送門：
 
-上集：[https://medium.com/@hulitw/weekly-note-part1-197335682a61](https://medium.com/@hulitw/weekly-note-part1-197335682a61)  
-中集：[https://medium.com/@hulitw/weekly-note-part2-20fb2472d432](https://medium.com/@hulitw/weekly-note-part2-20fb2472d432)
+上集：[/2019/12/26/weekly-note-part1-197335682a61/)  
+中集：[/2020/01/12/weekly-note-part2-20fb2472d432/)
 
 #### 第二十六週
 
@@ -176,7 +176,7 @@ Class 的話開頭要大寫然後不會有複數，例如說 class Car，不是 
 先跟大家公告幾件事情
 
 第一件事情是這次隨意聊的部分內容我寫在這裡了  
-[https://medium.com/@hulitw/its-just-a-beginning-184b954df8a9](https://medium.com/@hulitw/its-just-a-beginning-184b954df8a9)  
+[/2019/10/29/its-just-a-beginning-184b954df8a9/)  
 想說寫在 medium 好像比較好，以後還要開其他期的話就不用再寫一次XD
 
 第二件事情是下一次的直播  
@@ -274,7 +274,7 @@ happy coding, happy learning!
 #### 第三十週
 
 最近看學生求職的心得寫在 medium 上面了：  
-[https://medium.com/@hulitw/about-interview-95bfaa4273ba](https://medium.com/@hulitw/about-interview-95bfaa4273ba)
+[/2019/11/10/about-interview-95bfaa4273ba/)
 
 我剛才有再看了一下大家的進度  
 比較可惜的是有些同學停在二十幾週然後就消失了（？）  
@@ -587,7 +587,7 @@ Pablo 同學之前的心得就有寫過：
 連帶 spectrum 跟 lidemy 上的課程都會一起被拿掉，就像是沒有參加這個計畫過  
 有想要退的可以再私訊我～  
 沒有退的話就是保持原狀，之後交的作業我依然會改  
-再來附上已經對外公開的第三期心得：[https://medium.com/@hulitw/mentor-program-3rd-result-df178bb55f4](https://medium.com/@hulitw/mentor-program-3rd-result-df178bb55f4)  
+再來附上已經對外公開的第三期心得：[/2019/12/15/mentor-program-3rd-result-df178bb55f4/)  
 在這邊的隨意聊就來講一些上面沒有寫到的  
 每一期的學生組成其實都很不一樣，而這一期如果你問我最開心的是什麼  
 大概就是看到很多同學找到理想中的工作吧  

@@ -26,9 +26,9 @@ photos: /img/how-do-i-write-965328ae91fe/cover.png
 
 #### 範例文章
 
-1.  [白話 Session 與 Cookie：從經營雜貨店開始](https://medium.com/@hulitw/session-and-cookie-15e47ed838bc)
-2.  [從拉麵店的販賣機理解什麼是 API](https://medium.com/@hulitw/ramen-and-api-6238437dc544)
-3.  [零基礎的小明要如何成為前端工程師？](https://medium.com/hulis-blog/frontend-engineer-guide-297821512f4e)
+1.  [白話 Session 與 Cookie：從經營雜貨店開始](/2019/08/09/session-and-cookie-15e47ed838bc/)
+2.  [從拉麵店的販賣機理解什麼是 API](/2019/06/20/ramen-and-api-6238437dc544/)
+3.  [零基礎的小明要如何成為前端工程師？](/2018/06/10/frontend-engineer-guide-297821512f4e/)
 
 我從以前就一直很喜歡用白話文解釋艱澀技術名詞的這種風格，例如說 PTT 的[水精靈](https://disp.cc/b/163-4QHS)就是我的偶像之一，以前高中時也買過那種靠著有趣的故事理解歷史的書籍，例如說[《歷史是個什麼玩意兒，袁騰飛說中國史》](https://www.books.com.tw/products/0010497392)，或前陣子買的《[臺灣史上最有梗的臺灣史](https://www.books.com.tw/products/0010722013)》。
 
@@ -64,7 +64,7 @@ photos: /img/how-do-i-write-965328ae91fe/cover.png
 
 教學上的靈感來源是因為樣本數比較大（30~50 人），當你發現了集體卡關的現象時，就知道那邊一定有問題。例如說學生可能很多人卡在 API 的觀念，去找了很多資料還是不懂什麼是 API，這就是你表現的時候了，就可以來寫一篇有關 API 的白話科普文。
 
-所以《[從拉麵店的販賣機理解什麼是 API](https://medium.com/@hulitw/ramen-and-api-6238437dc544)》其實就是這樣來的。
+所以《[從拉麵店的販賣機理解什麼是 API](/2019/06/20/ramen-and-api-6238437dc544/)》其實就是這樣來的。
 
 #### 第二步：蒐集資料
 
@@ -74,7 +74,7 @@ photos: /img/how-do-i-write-965328ae91fe/cover.png
 
 所以我會盡量去找一些有權威性的資料來看，以網頁前端的領域來說就是 RFC、W3C 或是 ECMAScript 規格之類的，看你想寫的主題是什麼，這些東西的深度一定最深。
 
-在寫《[白話 Session 與 Cookie：從經營雜貨店開始](https://medium.com/@hulitw/session-and-cookie-15e47ed838bc)》這一系列的時候，我大概花了三天看了三份 RFC 還有一篇像是論文的東西，就是為了想要徹底理解 Cookie 的歷史。
+在寫《[白話 Session 與 Cookie：從經營雜貨店開始](/2019/08/09/session-and-cookie-15e47ed838bc/)》這一系列的時候，我大概花了三天看了三份 RFC 還有一篇像是論文的東西，就是為了想要徹底理解 Cookie 的歷史。
 
 總之，這個階段的目標有兩個。
 
@@ -88,7 +88,7 @@ photos: /img/how-do-i-write-965328ae91fe/cover.png
 
 同樣的主題可以有千百種不同的寫法，也有許多種方式可以用來舉例。有時候比起常見的例子，我會想要舉一個不太一樣卻也貼切的，才能有驚喜感。
 
-例如說我在《[白話 Session 與 Cookie：從經營雜貨店開始](https://medium.com/@hulitw/session-and-cookie-15e47ed838bc)》裡面舉的雜貨店加上臉盲症（？）的例子，就跟常見的通行證或是飲料店例子不太一樣，雖然故事誇張了點，但反而更幫助記憶，因為太離奇了所以比較有記憶點。
+例如說我在《[白話 Session 與 Cookie：從經營雜貨店開始](/2019/08/09/session-and-cookie-15e47ed838bc/)》裡面舉的雜貨店加上臉盲症（？）的例子，就跟常見的通行證或是飲料店例子不太一樣，雖然故事誇張了點，但反而更幫助記憶，因為太離奇了所以比較有記憶點。
 
 這一步會花最久的時間，因為你必須等待。你要讓它自然產生而不是去逼迫它，所以才叫醞釀。心裡有了一個點子，然後放著，偶爾沒事做的時候就想一下大概要怎麼寫，要怎麼開頭怎麼結尾，中間要用什麼故事來舉例，會有哪些情節。
 
@@ -216,9 +216,9 @@ photos: /img/how-do-i-write-965328ae91fe/cover.png
 
 #### 範例
 
-1.  [四款訂餐外送 App 不專業評測](https://medium.com/hulis-blog/delivery-services-2d90ec1e3555)
-2.  [撇除娛樂不談，在新加坡生活一個月要多少錢？](https://medium.com/hulis-blog/singapore-expense-6f5caaf6dd75)
-3.  [非典型微 JGC 修行（JMB 水晶卡）之旅](https://medium.com/hulis-blog/jgc-and-jal-ctystal-862f2bb4af8b)
+1.  [四款訂餐外送 App 不專業評測](/2017/10/21/delivery-services-2d90ec1e3555/)
+2.  [撇除娛樂不談，在新加坡生活一個月要多少錢？](/2018/10/14/singapore-expense-6f5caaf6dd75/)
+3.  [非典型微 JGC 修行（JMB 水晶卡）之旅](/2019/06/01/jgc-and-jal-ctystal-862f2bb4af8b/)
 
 相較於前兩種分類，心得文比較平易近人一點，都是一些比較生活化的文章。
 
@@ -228,9 +228,9 @@ photos: /img/how-do-i-write-965328ae91fe/cover.png
 
 這個分類的靈感通常都來自於生活，例如說你做了某件事之後有了一些心得，所以想把這些心得分享給大家。或也有可能初衷不是為了分享，而是為了幫自己留下紀錄，這樣子也很好。
 
-以《[撇除娛樂不談，在新加坡生活一個月要多少錢？](https://medium.com/hulis-blog/singapore-expense-6f5caaf6dd75)》為例，其實想寫這一篇很久了，因為我那時能找到的新加坡生活相關文章我覺得參考價值都不大，所以想寫一篇以自己當作實際案例的文章，附上一些我覺得有參考價值的資料。
+以《[撇除娛樂不談，在新加坡生活一個月要多少錢？](/2018/10/14/singapore-expense-6f5caaf6dd75/)》為例，其實想寫這一篇很久了，因為我那時能找到的新加坡生活相關文章我覺得參考價值都不大，所以想寫一篇以自己當作實際案例的文章，附上一些我覺得有參考價值的資料。
 
-而《[四款訂餐外送 App 不專業評測](https://medium.com/hulis-blog/delivery-services-2d90ec1e3555)》則是因為那時在新加坡實在是叫太多外送了，每一款訂餐 App 都使用過。在使用的時候你就會發現有些 App 真的難用，但也有些細節做得很好，就特別想跟普羅大眾分享這些小發現。
+而《[四款訂餐外送 App 不專業評測](/2017/10/21/delivery-services-2d90ec1e3555/)》則是因為那時在新加坡實在是叫太多外送了，每一款訂餐 App 都使用過。在使用的時候你就會發現有些 App 真的難用，但也有些細節做得很好，就特別想跟普羅大眾分享這些小發現。
 
 我認為心得文是最容易發想靈感的一個類別——如果你本來是個喜歡分享的人的話。因為可以分享的主題太多了，例如說：
 

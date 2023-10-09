@@ -151,4 +151,4 @@ LiveCTF 則是繼續比總決賽，拿了冠軍的隊伍加分之後變成了第
 
 說實在的覺得滿可惜，雖然前兩天問題不斷但也都覺得還 OK，第三天就是真的大爆炸沒辦法救了。只能期待明年 infra 會穩一點，然後繼續努力繼續加油。
 
-第三篇傳送門：[https://hulitw.medium.com/def-con-30-ctf-final-3-e19eeeed8e44](https://hulitw.medium.com/def-con-30-ctf-final-3-e19eeeed8e44)
+第三篇傳送門：[/2022/08/17/def-con-30-ctf-final-3-e19eeeed8e44/)

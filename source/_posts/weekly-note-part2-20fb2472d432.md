@@ -8,7 +8,7 @@ tags:
 photos: /img/weekly-note-part2-20fb2472d432/cover.png
 ---
 
-上集在這邊：https://medium.com/@hulitw/weekly-note-part1-197335682a61
+上集在這邊：/2019/12/26/weekly-note-part1-197335682a61/
 
 #### 第十四週
 
@@ -770,4 +770,4 @@ Silbermond — Ja：[https://www.youtube.com/watch?v=iRs56yxg3sw](https://ww
 這週的隨意聊就到這邊  
 希望我能趕快到一個 wifi 穩定的地方然後直播 XD
 
-下集傳送門：https://medium.com/@hulitw/weekly-note-part3-87969dd50929
+下集傳送門：/2020/01/12/weekly-note-part3-87969dd50929/

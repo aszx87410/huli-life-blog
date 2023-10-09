@@ -22,7 +22,7 @@ photos: /img/session-and-cookie-15e47ed838bc/cover.png
 
 三篇的完整連結如下：
 
-1\. [白話 Session 與 Cookie：從經營雜貨店開始](https://medium.com/@hulitw/session-and-cookie-15e47ed838bc)  
+1\. [白話 Session 與 Cookie：從經營雜貨店開始](/2019/08/09/session-and-cookie-15e47ed838bc/)  
 2\. [淺談 Session 與 Cookie：一起來讀 RFC](https://github.com/aszx87410/blog/issues/45)  
 3\. [深入 Session 與 Cookie：Express、PHP 與 Rails 的實作](https://github.com/aszx87410/blog/issues/46)
 
@@ -268,7 +268,7 @@ Session 是什麼？就是一種讓 Request 變成 stateful 的機制。以小�
 
 三篇的完整連結如下：
 
-1\. [白話 Session 與 Cookie：從經營雜貨店開始](https://medium.com/@hulitw/session-and-cookie-15e47ed838bc)  
+1\. [白話 Session 與 Cookie：從經營雜貨店開始](/2019/08/09/session-and-cookie-15e47ed838bc/)  
 2\. [淺談 Session 與 Cookie：一起來讀 RFC](https://github.com/aszx87410/blog/issues/45)  
 3\. [深入 Session 與 Cookie：Express、PHP 與 Rails 的實作](https://github.com/aszx87410/blog/issues/46)
 

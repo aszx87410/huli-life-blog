@@ -113,7 +113,7 @@ DEF CON 是一個每年都會在美國舉辦的資安研討會，許多最新的
 
 DEF CON CTF 的比賽方式也不是我開頭講的那種，而是另一種叫做 Attack & Defense 的玩法，除了攻擊別人以外，你也要修復自己的服務，把漏洞修掉。這個模式更有競賽的感覺而且戰況瞬息萬變，除了考驗找出漏洞的能力以外，也更考驗選手們自行準備的 infrastructure。
 
-我去年有幸參加了 DEF CON CTF，有寫了幾篇心得，結論是我好像想的太盛大了，實際參與就覺得有點失望，更詳細的心得可以參考這篇：[DEF CON 30 CTF final 遊記（中）](https://hulitw.medium.com/def-con-30-ctf-final-2-4444cf3645e)
+我去年有幸參加了 DEF CON CTF，有寫了幾篇心得，結論是我好像想的太盛大了，實際參與就覺得有點失望，更詳細的心得可以參考這篇：[DEF CON 30 CTF final 遊記（中）](/2022/08/16/def-con-30-ctf-final-2-4444cf3645e/)
 
 比起 CTF Time 的排行榜，各個戰隊最想拿到的應該還是 DEF CON CTF 的冠軍。
 

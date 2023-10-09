@@ -10,7 +10,7 @@ photos: /img/travel-part2-818482a90bc9/cover.png
 
 ![](/img/travel-part2-818482a90bc9/1__8ukUiIC3lg6zRaz5bOprbg.jpeg)
 
-這是系列文的下集，如果沒看過上集的可以點這邊：[旅行的意義（上）：寫在遊日本、越南與美國後](https://medium.com/@hulitw/travel-part1-46e50a306467)。
+這是系列文的下集，如果沒看過上集的可以點這邊：[旅行的意義（上）：寫在遊日本、越南與美國後](/2019/07/13/travel-part1-46e50a306467/)。
 
 上集去了日本三個禮拜，越南兩個禮拜然後美國一個月左右。
 
@@ -132,7 +132,7 @@ photos: /img/travel-part2-818482a90bc9/cover.png
 18\. ISG（石垣）-> HND（羽田）  
 19\. HND（羽田）-> TSA（松山）
 
-一共 19 個班次，全部都 JL 經濟艙，一共 45454 元。（為什麼要搭這麼多飛機請參考：[非典型微 JGC 修行（JMB 水晶卡）之旅](https://medium.com/hulis-blog/jgc-and-jal-ctystal-862f2bb4af8b)）
+一共 19 個班次，全部都 JL 經濟艙，一共 45454 元。（為什麼要搭這麼多飛機請參考：[非典型微 JGC 修行（JMB 水晶卡）之旅](/2019/06/01/jgc-and-jal-ctystal-862f2bb4af8b/)）
 
 總共待了 23 個晚上，4 個晚上靠朋友，19 個晚上自費  
 住宿費共 18487 元，平均一個晚上 973 元（有住飯店也有住膠囊旅館跟 hostel）
@@ -186,7 +186,7 @@ BA 倫敦到阿姆斯特丹 1653 元
 U2 阿姆斯特丹到柏林 3294 元  
 IB 威尼斯到巴塞隆納 2407 元  
 EY 阿布達比到首爾升級頭等 26256 元  
-（心得可參考：[EY876 AUH-ICN A380 阿提哈德頭等艙體驗心得](https://medium.com/@hulitw/etihad-a380-auh-icn-first-class-352fdbbc08db)）
+（心得可參考：[EY876 AUH-ICN A380 阿提哈德頭等艙體驗心得](/2019/10/14/etihad-a380-auh-icn-first-class-352fdbbc08db/)）
 
 11 個班次，共 103613 元
 

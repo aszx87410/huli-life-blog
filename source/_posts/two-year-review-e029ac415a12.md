@@ -8,7 +8,7 @@ tags:
 photos: /img/two-year-review-e029ac415a12/cover.png
 ---
 
-原本沒有注意到已經經營兩週年了，是在回顧文章的時候突然看到去年寫的[《一週年報告：在 Medium 上寫程式與科技類文章的成效如何？》](https://medium.com/@hulitw/one-year-review-2963f072572d)才發現的。
+原本沒有注意到已經經營兩週年了，是在回顧文章的時候突然看到去年寫的[《一週年報告：在 Medium 上寫程式與科技類文章的成效如何？》](/2018/11/15/one-year-review-2963f072572d/)才發現的。
 
 但這一年來其實也沒有什麼特別的心得，大致上都跟去年差不多，不過還是想要寫一篇來記錄一下這一年間發生的事情。因此比起心得，這篇會更像是給自己看的回顧文，檢視一下在這期間我發了哪些文章，做了哪些事。
 
@@ -34,10 +34,10 @@ photos: /img/two-year-review-e029ac415a12/cover.png
 
 我每隔兩三個月就會 po 一些與程式教學相關的心得文或者是成果，這一年也不例外，底下是其中一些範例：
 
-1.  [四個月過去了，來找我學程式的學生們怎麼樣了？](https://medium.com/hulis-blog/mentor-program-2nd-review-e7c15f24dfb8)
-2.  [程式相關問題一網打盡：談自學、轉職、出國、職涯、教學、補習、騙錢、產業以及努力](https://medium.com/hulis-blog/qa-be72946f0b23)
-3.  [27% 的人找到工作 — — 程式導師實驗計畫第二期成果報吿](https://medium.com/hulis-blog/mentor-program-2nd-result-3cb7c2b6627e)
-4.  [從線上到線下：第三期教學實驗滿月心得分享](https://medium.com/hulis-blog/from-online-to-offline-bd99e545277a)
+1.  [四個月過去了，來找我學程式的學生們怎麼樣了？](/2019/01/21/mentor-program-2nd-review-e7c15f24dfb8/)
+2.  [程式相關問題一網打盡：談自學、轉職、出國、職涯、教學、補習、騙錢、產業以及努力](/2019/02/05/qa-be72946f0b23/)
+3.  [27% 的人找到工作 — — 程式導師實驗計畫第二期成果報吿](/2019/03/13/mentor-program-2nd-result-3cb7c2b6627e/)
+4.  [從線上到線下：第三期教學實驗滿月心得分享](/2019/05/29/from-online-to-offline-bd99e545277a/)
 
 因為我的教學實驗計畫是每半年一期，所以開始招生的時候固定會有一篇招生簡介文，結束的時候也固定會有一篇心得成果文，中間會有一篇以上的中場心得，所以加一加最少會有三篇。
 
@@ -51,9 +51,9 @@ photos: /img/two-year-review-e029ac415a12/cover.png
 
 今年一共寫了三篇文章講解三個不同的觀念：API、Session 與 Cookie，還有基本網路概念。
 
-1.  [從拉麵店的販賣機理解什麼是 API](https://medium.com/@hulitw/ramen-and-api-6238437dc544)
-2.  [白話 Session 與 Cookie：從經營雜貨店開始](https://medium.com/@hulitw/session-and-cookie-15e47ed838bc)
-3.  [從傳紙條輕鬆學習基本網路概念](https://medium.com/@hulitw/learning-tcp-ip-http-via-sending-letter-5d3299203660)
+1.  [從拉麵店的販賣機理解什麼是 API](/2019/06/20/ramen-and-api-6238437dc544/)
+2.  [白話 Session 與 Cookie：從經營雜貨店開始](/2019/08/09/session-and-cookie-15e47ed838bc/)
+3.  [從傳紙條輕鬆學習基本網路概念](/2019/09/25/learning-tcp-ip-http-via-sending-letter-5d3299203660/)
 
 ### 多了更多旅遊相關文章
 
@@ -63,10 +63,10 @@ photos: /img/two-year-review-e029ac415a12/cover.png
 
 底下幾篇是旅遊寫下的心得文：
 
-1.  [非典型微 JGC 修行（JMB 水晶卡）之旅](https://medium.com/hulis-blog/jgc-and-jal-ctystal-862f2bb4af8b)
-2.  [EY876 AUH-ICN A380 阿提哈德頭等艙體驗心得](https://medium.com/@hulitw/etihad-a380-auh-icn-first-class-352fdbbc08db)
-3.  [旅行的意義（上）：寫在遊日本、越南與美國後](https://medium.com/@hulitw/travel-part1-46e50a306467)
-4.  [旅行的意義（下）：寫在遊阿布達比、歐洲與韓國後](https://medium.com/@hulitw/travel-part2-818482a90bc9)
+1.  [非典型微 JGC 修行（JMB 水晶卡）之旅](/2019/06/01/jgc-and-jal-ctystal-862f2bb4af8b/)
+2.  [EY876 AUH-ICN A380 阿提哈德頭等艙體驗心得](/2019/10/14/etihad-a380-auh-icn-first-class-352fdbbc08db/)
+3.  [旅行的意義（上）：寫在遊日本、越南與美國後](/2019/07/13/travel-part1-46e50a306467/)
+4.  [旅行的意義（下）：寫在遊阿布達比、歐洲與韓國後](/2019/10/31/travel-part2-818482a90bc9/)
 
 ### 接到業配啦
 
@@ -76,13 +76,13 @@ photos: /img/two-year-review-e029ac415a12/cover.png
 
 總之業配文我一定標明是業配，然後心得也是完全真實。比起「業配」這個詞，我比較喜歡「與廠商合作」之類的字眼，廣告嫌疑好像不會那麼重。畢竟我的心得就是真的使用的心得，而不是廠商叫我寫的。
 
-目前唯一一篇與廠商合作的文章：[「真正的」看影片學英文：VoiceTube HERO 使用心得](https://medium.com/hulis-blog/voicetube-hero-review-9409c2248845)。
+目前唯一一篇與廠商合作的文章：[「真正的」看影片學英文：VoiceTube HERO 使用心得](/2019/04/09/voicetube-hero-review-9409c2248845/)。
 
 有其他相關的合作機會也歡迎來找我 😂
 
 ### 談論 Medium 出走潮
 
-六月的時候看到一些國外的文章講到了 Medium 政策的轉變以及一些大咖紛紛離開 Medium，稍微調查了之後寫下：[Medium 出走潮：freeCodeCamp 與 Hacker Noon 相繼離開，為什麼？](https://medium.com/@hulitw/freecodecamp-hackernoon-are-leaving-medium-1b7319d7a8a7)
+六月的時候看到一些國外的文章講到了 Medium 政策的轉變以及一些大咖紛紛離開 Medium，稍微調查了之後寫下：[Medium 出走潮：freeCodeCamp 與 Hacker Noon 相繼離開，為什麼？](/2019/06/04/freecodecamp-hackernoon-are-leaving-medium-1b7319d7a8a7/)
 
 後來有引起了一些社群的討論跟關注，不過那時我也沒有決定之後要怎麼辦，就想說繼續待著好了。
 
@@ -90,7 +90,7 @@ photos: /img/two-year-review-e029ac415a12/cover.png
 
 ### 發布 Medium 中文寫作者相關統計資料
 
-七月的時候寫了這篇：[Medium 中文寫作者追蹤人數排名與不專業數據分析](https://medium.com/@hulitw/medium-analysis-40752b9efa03)，那時候自己的追蹤人數排在第十二名。發出去之後跟預料中的差不多，滿多人轉貼的，而且有在榜上的人通常都會轉貼一下，所以擴散的還不錯，排行榜上的作者追蹤人數都有增加，而我的則是增加最多的。
+七月的時候寫了這篇：[Medium 中文寫作者追蹤人數排名與不專業數據分析](/2019/07/02/medium-analysis-40752b9efa03/)，那時候自己的追蹤人數排在第十二名。發出去之後跟預料中的差不多，滿多人轉貼的，而且有在榜上的人通常都會轉貼一下，所以擴散的還不錯，排行榜上的作者追蹤人數都有增加，而我的則是增加最多的。
 
 以最新的數據來看，我的追蹤人數大約是 6000 人，變成第七名了，上升了五個名次，可喜可賀，可喜可賀。
 

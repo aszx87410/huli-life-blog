@@ -28,7 +28,7 @@ DEF CON 簡單來說就是一個資安相關的研討會，而其中有一個活
 
 ![](/img/def-con-30-ctf-final-1-79220bba7f02/1____vVM____M5vYMI3tGXP__kT1g.jpeg)
 
-因為我有 JL（日本航空）的高卡會員（詳情可參考[《非典型微 JGC 修行（JMB 水晶卡）之旅》](https://medium.com/hulis-blog/jgc-and-jal-ctystal-862f2bb4af8b)），所以可以進貴賓室，目前松山機場只有唯一一間貴賓室，而且很空：
+因為我有 JL（日本航空）的高卡會員（詳情可參考[《非典型微 JGC 修行（JMB 水晶卡）之旅》](/2019/06/01/jgc-and-jal-ctystal-862f2bb4af8b/)），所以可以進貴賓室，目前松山機場只有唯一一間貴賓室，而且很空：
 
 ![](/img/def-con-30-ctf-final-1-79220bba7f02/1__CzTj__la6nq2RjaWTct3hRw.jpeg)
 
@@ -144,4 +144,4 @@ DEF CON 簡單來說就是一個資安相關的研討會，而其中有一個活
 
 ![](/img/def-con-30-ctf-final-1-79220bba7f02/1__SK2__EH9DeuD73FfM7A5GGw.jpeg)
 
-第二篇傳送門：[https://hulitw.medium.com/def-con-30-ctf-final-2-4444cf3645e](https://hulitw.medium.com/def-con-30-ctf-final-2-4444cf3645e)
+第二篇傳送門：[/2022/08/16/def-con-30-ctf-final-2-4444cf3645e/)

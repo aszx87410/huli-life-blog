@@ -14,12 +14,12 @@ photos: /img/mentor-program-3rd-47a2e85e33b3/cover.png
 
 如果你只是剛好路過點進來或是朋友丟個連結你就點進來了，完全不知道這計畫是什麼碗糕，請你務必把前兩期的一些資料看過，我希望你能了解這計劃在幹嘛，以及前兩期的成效如何，再來決定要不要報名。
 
-1.  [27% 的人找到工作 — — 程式導師實驗計畫第二期成果報吿](https://medium.com/hulis-blog/mentor-program-2nd-result-3cb7c2b6627e)
-2.  [四個月過去了，來找我學程式的學生們怎麼樣了？](https://medium.com/hulis-blog/mentor-program-2nd-review-e7c15f24dfb8)
-3.  [這是一堂沒那麼適合初學者的課程 — — 程式導師實驗計畫第二期期中反思](https://medium.com/hulis-blog/mentor-program-2nd-mid-c7539f67b7d7)
-4.  [程式導師實驗計畫第二期報名簡章](https://medium.com/hulis-blog/mentor-program-s2-f876c4e13d3b)
-5.  [程式導師實驗計畫第一期成果與心得](https://medium.com/hulis-blog/mentor-program-review-a9c6668dfb)
-6.  [從零到一：程式導師實驗計畫](https://medium.com/@hulitw/mentor-program-b5f96ae1eed1)
+1.  [27% 的人找到工作 — — 程式導師實驗計畫第二期成果報吿](/2019/03/13/mentor-program-2nd-result-3cb7c2b6627e/)
+2.  [四個月過去了，來找我學程式的學生們怎麼樣了？](/2019/01/21/mentor-program-2nd-review-e7c15f24dfb8/)
+3.  [這是一堂沒那麼適合初學者的課程 — — 程式導師實驗計畫第二期期中反思](/2018/11/04/mentor-program-2nd-mid-c7539f67b7d7/)
+4.  [程式導師實驗計畫第二期報名簡章](/2018/07/12/mentor-program-s2-f876c4e13d3b/)
+5.  [程式導師實驗計畫第一期成果與心得](/2018/06/26/mentor-program-review-a9c6668dfb/)
+6.  [從零到一：程式導師實驗計畫](/2017/12/21/mentor-program-b5f96ae1eed1/)
 
 雖然看完上面這些資料，你應該對我有點理解了，但我還是不免俗地再自我介紹一次。
 
@@ -229,7 +229,7 @@ photos: /img/mentor-program-3rd-47a2e85e33b3/cover.png
 
 總而言之，我會讓你知道我收到報名信了，也會讓你知道你有沒有錄取。（但是沒錄取的通知信有可能是罐頭信件就是了，不好意思）
 
-在填寫報名表前強烈建議可參考：[如何決定錄取與否？對計畫的反思以及對報名信的建議](https://medium.com/hulis-blog/mentor-program-register-3648c1b82cd7)。
+在填寫報名表前強烈建議可參考：[如何決定錄取與否？對計畫的反思以及對報名信的建議](/2018/08/19/mentor-program-register-3648c1b82cd7/)。
 
 ### 廠商合作專區
 

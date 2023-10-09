@@ -181,7 +181,7 @@ photos: /img/there-is-no-magic-in-my-classroom-4926b67c06f5/cover.png
 
 ### 結語
 
-一直以來我都抱持著這樣的理念在進行教學，無論是[跟著小明一起搞懂技術名詞：MVC、SPA 與 SSR](https://medium.com/@hulitw/introduction-mvc-spa-and-ssr-545c941669e9)還是[零基礎的小明要如何成為前端工程師](https://medium.com/hulis-blog/frontend-engineer-guide-297821512f4e)，背後都是用這種理念在寫文章。
+一直以來我都抱持著這樣的理念在進行教學，無論是[跟著小明一起搞懂技術名詞：MVC、SPA 與 SSR](/2018/06/10/frontend-engineer-guide-297821512f4e/)，背後都是用這種理念在寫文章。
 
 因為我始終相信當你參與其中並走過那段歷史時，對於「現在」才會有更深刻的感受。把一個東西獨立拿出來教，它就只是一個點，但當你把它放進脈絡時，就能跟千千萬萬個點連在一起，成為一個完整的面。
 
@@ -191,4 +191,4 @@ photos: /img/there-is-no-magic-in-my-classroom-4926b67c06f5/cover.png
 
 最後，感謝閱讀。
 
-題外話，這篇比較偏「教」，之前寫過一篇類似但比較偏「學」的部分，有興趣的可以點擊連結觀看：[當我們在學程式時，要學的到底是什麼？](https://medium.com/@hulitw/learn-coding-9c572c2fb2)
+題外話，這篇比較偏「教」，之前寫過一篇類似但比較偏「學」的部分，有興趣的可以點擊連結觀看：[當我們在學程式時，要學的到底是什麼？](/2018/10/29/learn-coding-9c572c2fb2/)
