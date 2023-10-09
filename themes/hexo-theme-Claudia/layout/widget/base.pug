@@ -16,7 +16,7 @@ include methods
 - if (typeof authorName === 'object' && typeof authorName.name === 'string') authorName =  authorName.name
 - if (typeof authorName === 'object' && typeof authorName.nick === 'string') authorName =  authorName.nick
 - if (typeof authorName === 'object' && typeof authorName.nickname === 'string') authorName =  authorName.nickname
-
+- if (is_home()) { description='沒那麼技術的部落格，記錄生活以及各種瑣事'; thumbnail=full_url_for('/images/cover.png'); }
 doctype html
 html(lang=language class= `appearance-${ appearance }`)
   head
@@ -38,6 +38,7 @@ html(lang=language class= `appearance-${ appearance }`)
     meta(name='twitter:image' content=thumbnail)
     meta(name='twitter:description' content=description)
     meta(name='twitter:card' content='summary_large_image')
+    meta(name="google-site-verification" content="lTAMT4U8v-CtkYRIo8AmGaACB3EikdUYpiTHAylwGPE")
 
     <!-- Google Analytics -->
     if(theme.ga_track_id)
