@@ -5,6 +5,7 @@ categories:
   - 技術白話文
 tags:
   - 技術白話文
+photos: /img/session-and-cookie-15e47ed838bc/cover.png
 ---
 
 ![](/img/session-and-cookie-15e47ed838bc/0______k__NwbytNrqrFJP.jpg)

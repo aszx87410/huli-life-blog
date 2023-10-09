@@ -5,6 +5,7 @@ categories:
   - Others
 tags:
   - Others
+photos: /img/its-okay-if-you-dont-have-goal-35363a8d8266/cover.png
 ---
 
 ![](/img/its-okay-if-you-dont-have-goal-35363a8d8266/0__oZSyXCE1__LVH4abn.jpg)

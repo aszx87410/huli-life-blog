@@ -5,6 +5,7 @@ categories:
   - 職涯
 tags:
   - 職涯
+photos: /img/change-43bb422a30ed/cover.png
 ---
 
 假設你今天是一個菜逼八工程師，你可能非本科轉職，也可能本科系畢業，但不管怎樣，總之就是很菜就對了。

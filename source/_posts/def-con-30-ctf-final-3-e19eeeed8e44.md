@@ -5,6 +5,7 @@ categories:
   - 旅遊
 tags:
   - 旅遊
+photos: /img/def-con-30-ctf-final-3-e19eeeed8e44/cover.png
 ---
 
 第一篇寫台北飛美國心得，第二篇寫 DEF CON & CTF 心得，第三篇就來隨意寫一下其他的心得。

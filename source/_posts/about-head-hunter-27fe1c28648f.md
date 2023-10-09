@@ -5,6 +5,7 @@ categories:
   - 職涯
 tags:
   - 職涯
+photos: /img/about-head-hunter-27fe1c28648f/cover.png
 ---
 
 ![](/img/about-head-hunter-27fe1c28648f/0__SdmhD0ADCFunMzPk.jpg)

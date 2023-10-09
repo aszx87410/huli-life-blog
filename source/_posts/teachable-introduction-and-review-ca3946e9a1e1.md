@@ -5,6 +5,7 @@ categories:
   - Others
 tags:
   - Others
+photos: /img/teachable-introduction-and-review-ca3946e9a1e1/cover.png
 ---
 
 最近幾年線上課程滿夯的，除了那些主流的課程平台之外，也有些人會想選擇自己弄一個自己的平台，少了一些限制，也能夠免除掉跟平台的分成，一些優缺點我在[《把 Hahow 的課程下架之後，我的下一步是什麼？》](https://hulitw.medium.com/hahow-and-lidemy-2dab35919bb8)都有提過了。

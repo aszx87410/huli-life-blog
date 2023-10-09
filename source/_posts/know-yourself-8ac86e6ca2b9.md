@@ -5,6 +5,7 @@ categories:
   - Others
 tags:
   - Others
+photos: /img/know-yourself-8ac86e6ca2b9/cover.png
 ---
 
 ![](/img/know-yourself-8ac86e6ca2b9/0__iQHikzWJki__0yUtY.jpg)

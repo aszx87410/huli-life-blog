@@ -5,6 +5,7 @@ categories:
   - 教學計劃
 tags:
   - 教學計劃
+photos: /img/mentorship-program-350db93d5c9c/cover.png
 ---
 
 ![](/img/mentorship-program-350db93d5c9c/0__Til3Rhb3__yv4g3PN.jpg)

@@ -5,6 +5,7 @@ categories:
   - 教學計劃
 tags:
   - 教學計劃
+photos: /img/its-just-a-beginning-184b954df8a9/cover.png
 ---
 
 ![](/img/its-just-a-beginning-184b954df8a9/0__uaUOGoo6XWhdzseE.jpg)

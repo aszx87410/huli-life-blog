@@ -5,6 +5,7 @@ categories:
   - 教學計劃
 tags:
   - 教學計劃
+photos: /img/mentor-program-review-a9c6668dfb/cover.png
 ---
 
 在觀看此文章之前，如果你不知道什麼是程式導師實驗計畫，請點擊下方連結，但簡單來說就是一個小班教學的程式課程：[從零到一：程式導師實驗計畫](https://medium.com/@hulitw/mentor-program-b5f96ae1eed1)

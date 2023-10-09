@@ -5,6 +5,7 @@ categories:
   - Others
 tags:
   - Others
+photos: /img/freecodecamp-hackernoon-are-leaving-medium-1b7319d7a8a7/cover.png
 ---
 
 若你是平常有在關注程式相關的文章的人，你對於 [freeCodeCamp](https://www.freecodecamp.org/) 跟 [Hacker noon](https://hackernoon.com/) 這兩個組織應該不陌生。

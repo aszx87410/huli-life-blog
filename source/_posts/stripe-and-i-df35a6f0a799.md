@@ -5,6 +5,7 @@ categories:
   - 職涯
 tags:
   - 職涯
+photos: /img/stripe-and-i-df35a6f0a799/cover.png
 ---
 
 前陣子剛結束在新加坡的求職之旅，之前[寫了一篇](https://medium.com/hulis-blog/interview-prepare-b815d938f0de)整理這次的面試準備心得，除了那篇以外，還有一段是我很想特別記起來的。

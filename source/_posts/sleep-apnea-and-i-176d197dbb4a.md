@@ -5,6 +5,7 @@ categories:
   - Others
 tags:
   - Others
+photos: /img/sleep-apnea-and-i-176d197dbb4a/cover.png
 ---
 
 ![](/img/sleep-apnea-and-i-176d197dbb4a/0__X6eMgSXnDNC8C9Vt.jpg)

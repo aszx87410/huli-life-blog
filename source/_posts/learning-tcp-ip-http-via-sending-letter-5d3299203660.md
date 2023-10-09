@@ -5,6 +5,7 @@ categories:
   - 技術白話文
 tags:
   - 技術白話文
+photos: /img/learning-tcp-ip-http-via-sending-letter-5d3299203660/cover.png
 ---
 
 ![](/img/learning-tcp-ip-http-via-sending-letter-5d3299203660/0____Wl6dobqXN8IAcYf.jpg)

@@ -5,6 +5,7 @@ categories:
   - 教學計劃
 tags:
   - 教學計劃
+photos: /img/lidemy-mentor-program-4th-updates-c344302c8a2d/cover.png
 ---
 
 其實這一篇應該在更早一點的時間點就開始寫的，但最近要做的事情有點多，就不小心拖到現在了。

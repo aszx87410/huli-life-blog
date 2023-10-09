@@ -5,6 +5,7 @@ categories:
   - 職涯
 tags:
   - 職涯
+photos: /img/my-ideal-job-description-d72ec9cf5d0e/cover.png
 ---
 
 ![](/img/my-ideal-job-description-d72ec9cf5d0e/0__aqE3XXl4KOSOvyf1.jpg)

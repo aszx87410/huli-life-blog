@@ -5,6 +5,7 @@ categories:
   - 旅遊
 tags:
   - 旅遊
+photos: /img/def-con-30-ctf-final-1-79220bba7f02/cover.png
 ---
 
 終於結束了一週多的 DEF CON 之旅，這篇簡單記一下心得，會比較偏向紀錄整個旅程而非 DEF CON 本身，簡單來說就是遊記啦。

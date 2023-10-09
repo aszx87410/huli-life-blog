@@ -5,6 +5,7 @@ categories:
   - Others
 tags:
   - Others
+photos: /img/coolwallet-pro-b381f545878/cover.png
 ---
 
 利益揭露：此為與 CoolWallet Pro 合作的體驗文章，但使用心得是真實的。

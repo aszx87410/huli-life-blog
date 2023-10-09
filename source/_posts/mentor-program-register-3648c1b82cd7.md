@@ -5,6 +5,7 @@ categories:
   - 教學計劃
 tags:
   - 教學計劃
+photos: /img/mentor-program-register-3648c1b82cd7/cover.png
 ---
 
 [程式導師實驗計畫](https://medium.com/hulis-blog/mentor-program-s2-f876c4e13d3b)的報名結束了，在今天也正式寄出錄取與沒錄取的通知，想用這篇跟大家分享一下心得，也順便讓大家藉由這篇瞭解一下我在收學生的時候會考量到什麼。

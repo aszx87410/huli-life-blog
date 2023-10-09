@@ -5,6 +5,7 @@ categories:
   - 學習
 tags:
   - 學習
+photos: /img/there-is-no-magic-in-my-classroom-4926b67c06f5/cover.png
 ---
 
 ![](/img/there-is-no-magic-in-my-classroom-4926b67c06f5/0__beKPypfxkyRPpF__M.jpg)

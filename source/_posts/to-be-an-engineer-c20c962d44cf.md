@@ -5,6 +5,7 @@ categories:
   - 教學計劃
 tags:
   - 教學計劃
+photos: /img/to-be-an-engineer-c20c962d44cf/cover.png
 ---
 
 ![](/img/to-be-an-engineer-c20c962d44cf/0__UnEszfJtbsR0dzWt.jpg)

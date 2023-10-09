@@ -5,6 +5,7 @@ categories:
   - Others
 tags:
   - Others
+photos: /img/why-we-left-medium-512b14207cdf/cover.png
 ---
 
 ![](/img/why-we-left-medium-512b14207cdf/0__D1X9__iGituYfmjTr.jpg)

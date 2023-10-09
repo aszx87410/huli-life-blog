@@ -5,6 +5,7 @@ categories:
   - Others
 tags:
   - Others
+photos: /img/voicetube-hero-review-9409c2248845/cover.png
 ---
 
 利益揭露：本文所提到的課程由 VoiceTube 免費提供，並提出心得合作邀請。這是我第一次接到這樣的合作，但儘管如此，使用心得絕對真實。

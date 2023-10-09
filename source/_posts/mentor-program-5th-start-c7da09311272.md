@@ -5,6 +5,7 @@ categories:
   - 教學計劃
 tags:
   - 教學計劃
+photos: /img/mentor-program-5th-start-c7da09311272/cover.png
 ---
 
 沒錯，又到了程式導師實驗計畫開始招生的時候了。

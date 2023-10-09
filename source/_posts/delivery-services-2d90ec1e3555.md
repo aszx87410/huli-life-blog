@@ -5,6 +5,7 @@ categories:
   - 科技
 tags:
   - 科技
+photos: /img/delivery-services-2d90ec1e3555/cover.png
 ---
 
 以前在台北只要隨便走個路就滿街都是吃的，或者之前住新加坡 HDB 的時候，家裡附近也有 Hawker centre 能夠覓食。

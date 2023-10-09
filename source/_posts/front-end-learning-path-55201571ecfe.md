@@ -5,6 +5,7 @@ categories:
   - 學習
 tags:
   - 學習
+photos: /img/front-end-learning-path-55201571ecfe/cover.png
 ---
 
 ![](/img/front-end-learning-path-55201571ecfe/0__OxXsjpIAo3w32c4c.jpg)

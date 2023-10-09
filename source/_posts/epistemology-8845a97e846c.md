@@ -5,6 +5,7 @@ categories:
   - 學習
 tags:
   - 學習
+photos: /img/epistemology-8845a97e846c/cover.png
 ---
 
 ![](/img/epistemology-8845a97e846c/0__oVyOmwG1MCe2dcnp.jpg)

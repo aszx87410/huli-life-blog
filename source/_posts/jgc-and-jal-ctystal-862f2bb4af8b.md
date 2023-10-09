@@ -5,6 +5,7 @@ categories:
   - 旅遊
 tags:
   - 旅遊
+photos: /img/jgc-and-jal-ctystal-862f2bb4af8b/cover.png
 ---
 
 上個月我從 5/8 去日本一直到 5/31 回來，在那邊待了三個禮拜。而這次的日本之旅，其實不只是為了去那邊玩而已。

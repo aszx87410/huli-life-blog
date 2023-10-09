@@ -5,6 +5,7 @@ categories:
   - 學習
 tags:
   - 學習
+photos: /img/teaching-reflection-a1cbf3ae1997/cover.png
 ---
 
 ![](/img/teaching-reflection-a1cbf3ae1997/0____VOYSRKG8nx4khRP.jpg)

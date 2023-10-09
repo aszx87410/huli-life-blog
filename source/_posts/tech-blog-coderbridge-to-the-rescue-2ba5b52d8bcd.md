@@ -5,6 +5,7 @@ categories:
   - 寫作
 tags:
   - 寫作
+photos: /img/tech-blog-coderbridge-to-the-rescue-2ba5b52d8bcd/cover.png
 ---
 
 身為一個喜歡寫東西而且從中獲益的人，會一直推廣寫作這回事並不意外，像是之前就有寫過幾篇相關的文章：

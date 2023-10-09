@@ -5,6 +5,7 @@ categories:
   - Others
 tags:
   - Others
+photos: /img/you-live-too-comfortably-de6b51fa9875/cover.png
 ---
 
 ![](/img/you-live-too-comfortably-de6b51fa9875/0__sZnmB4ZskZMPlIx5.jpg)

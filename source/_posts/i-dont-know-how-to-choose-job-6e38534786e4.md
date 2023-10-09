@@ -5,6 +5,7 @@ categories:
   - 職涯
 tags:
   - 職涯
+photos: /img/i-dont-know-how-to-choose-job-6e38534786e4/cover.png
 ---
 
 ![](/img/i-dont-know-how-to-choose-job-6e38534786e4/0__MXxufhftQIW97nB4.jpg)

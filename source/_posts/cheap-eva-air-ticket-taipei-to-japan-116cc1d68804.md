@@ -5,6 +5,7 @@ categories:
   - 旅遊
 tags:
   - 旅遊
+photos: /img/cheap-eva-air-ticket-taipei-to-japan-116cc1d68804/cover.png
 ---
 
 ![](/img/cheap-eva-air-ticket-taipei-to-japan-116cc1d68804/0__WEqWmnx65YElO0Np.jpg)

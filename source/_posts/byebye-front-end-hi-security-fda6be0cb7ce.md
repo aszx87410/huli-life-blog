@@ -5,6 +5,7 @@ categories:
   - 職涯
 tags:
   - 職涯
+photos: /img/byebye-front-end-hi-security-fda6be0cb7ce/cover.png
 ---
 
 ![](/img/byebye-front-end-hi-security-fda6be0cb7ce/0__qHHqO1gwybwHZq2V.jpg)

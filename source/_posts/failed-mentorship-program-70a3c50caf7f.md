@@ -5,6 +5,7 @@ categories:
   - 教學計劃
 tags:
   - 教學計劃
+photos: /img/failed-mentorship-program-70a3c50caf7f/cover.png
 ---
 
 一年前，我在 Medium 上面發布了這篇文章：[真正的 Mentorship program：前端引路人計畫](https://medium.com/@hulitw/mentorship-program-350db93d5c9c)

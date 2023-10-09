@@ -5,6 +5,7 @@ categories:
   - Others
 tags:
   - Others
+photos: /img/after-playing-hacker-game-ctf-for-two-years-12dbfb6a3adb/cover.png
 ---
 
 ![](/img/after-playing-hacker-game-ctf-for-two-years-12dbfb6a3adb/1__qaaGL9RZh2kPOQ4Y1cYntQ.jpeg)

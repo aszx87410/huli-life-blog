@@ -5,6 +5,7 @@ categories:
   - 教學計劃
 tags:
   - 教學計劃
+photos: /img/from-online-to-offline-bd99e545277a/cover.png
 ---
 
 [程式導師實驗計畫第三期](https://medium.com/hulis-blog/mentor-program-3rd-47a2e85e33b3)從 4/15 開課到現在過了一個半月，原本這篇應該是要在一兩個禮拜前就寫好 po 出去，但前幾天沒什麼靈感外加住的地方不適合用電腦，只好拖到現在了。

@@ -5,6 +5,7 @@ categories:
   - 教學計劃
 tags:
   - 教學計劃
+photos: /img/weekly-note-part2-20fb2472d432/cover.png
 ---
 
 上集在這邊：https://medium.com/@hulitw/weekly-note-part1-197335682a61

@@ -5,6 +5,7 @@ categories:
   - 技術白話文
 tags:
   - 技術白話文
+photos: /img/what-is-encoding-ascii-unicode-utf8-5fe55a98bee0/cover.png
 ---
 
 ![](/img/what-is-encoding-ascii-unicode-utf8-5fe55a98bee0/0__vBV7zz1rjHQQOz6U.jpg)

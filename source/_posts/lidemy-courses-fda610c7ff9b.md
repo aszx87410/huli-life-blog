@@ -5,6 +5,7 @@ categories:
   - 教學計劃
 tags:
   - 教學計劃
+photos: /img/lidemy-courses-fda610c7ff9b/cover.png
 ---
 
 ![](/img/lidemy-courses-fda610c7ff9b/1____Jndg6GFlBuNHbqrjMQRkA.png)

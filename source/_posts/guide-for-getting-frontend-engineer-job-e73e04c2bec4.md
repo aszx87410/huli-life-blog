@@ -5,6 +5,7 @@ categories:
   - 職涯
 tags:
   - 職涯
+photos: /img/guide-for-getting-frontend-engineer-job-e73e04c2bec4/cover.png
 ---
 
 （原文發表於 [logdown](http://huli.logdown.com/posts/1550464-guide-for-getting-frontend-engineer-job)，重新檢視並改寫過後移植來這）

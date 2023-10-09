@@ -5,6 +5,7 @@ categories:
   - Others
 tags:
   - Others
+photos: /img/async-communication-f786eb49a1da/cover.png
 ---
 
 > _這其實不是一篇技術文，但就是因為不是技術文所以開頭才要來解釋一下什麼是同步。懶得看的話可以直接下拉看第二段。_

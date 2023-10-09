@@ -5,6 +5,7 @@ categories:
   - Others
 tags:
   - Others
+photos: /img/thanksgiving-event-873e0cd48833/cover.png
 ---
 
 在寫東西的過程當中，其實讀者一直是個很重要的因素。雖然說我覺得最好的情況是就算沒有人看也可以寫得很開心，但若是有人看而且被稱讚的話，那當然會更開心。

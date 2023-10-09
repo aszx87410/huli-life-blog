@@ -5,6 +5,7 @@ categories:
   - 職涯
 tags:
   - 職涯
+photos: /img/4-years-review-7fb7edc52687/cover.png
 ---
 
 ![](/img/4-years-review-7fb7edc52687/1__PkZi0VUQN54__4HfXRMJVKw.jpeg)

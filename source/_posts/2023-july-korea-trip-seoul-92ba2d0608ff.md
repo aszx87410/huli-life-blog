@@ -5,6 +5,7 @@ categories:
   - 旅遊
 tags:
   - 旅遊
+photos: /img/2023-july-korea-trip-seoul-92ba2d0608ff/cover.png
 ---
 
 這是南韓心得的下集，沒看過上集的話可以點這邊：[2023 年 7 月南韓十日遊心得：釜山篇](https://medium.com/@hulitw/2023-july-korea-trip-busan-a475e484e1fc)。

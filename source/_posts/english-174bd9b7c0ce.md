@@ -5,6 +5,7 @@ categories:
   - 學習
 tags:
   - 學習
+photos: /img/english-174bd9b7c0ce/cover.png
 ---
 
 其實我從來沒有計劃要寫這種類型的文章，只是最近有個網友透過 Medium 的 private note 功能問我如何提升英文能力，我就想到說這已經不是第一次有人問過我這個問題了。

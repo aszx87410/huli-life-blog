@@ -5,6 +5,7 @@ categories:
   - 學習
 tags:
   - 學習
+photos: /img/how-to-answer-question-eef8802126b3/cover.png
 ---
 
 ![](/img/how-to-answer-question-eef8802126b3/0__40uNERe3eBaqyIFH.jpg)

@@ -5,6 +5,7 @@ categories:
   - 寫作
 tags:
   - 寫作
+photos: /img/how-do-i-write-965328ae91fe/cover.png
 ---
 
 ![](/img/how-do-i-write-965328ae91fe/0____9QUTA89dOWF3wsE.jpg)

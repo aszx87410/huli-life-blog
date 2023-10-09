@@ -5,6 +5,7 @@ categories:
   - 教學計劃
 tags:
   - 教學計劃
+photos: /img/lidemy-mentor-program-4th-39f58a00067c/cover.png
 ---
 
 ![](/img/lidemy-mentor-program-4th-39f58a00067c/0__XSsBHNBIe02MwNtz.png)

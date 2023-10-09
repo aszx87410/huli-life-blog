@@ -5,6 +5,7 @@ categories:
   - 學習
 tags:
   - 學習
+photos: /img/cln-email-writing-part1-5262fcd9ff79/cover.png
 ---
 
 利益揭露：此課程為 CLN 邀請參與，但心得絕對真實。

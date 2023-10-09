@@ -5,6 +5,7 @@ categories:
   - Others
 tags:
   - Others
+photos: /img/teamwork-d2d0ac73812/cover.png
 ---
 
 ![](/img/teamwork-d2d0ac73812/0__JiotBXnj2WOq6zeV.jpg)

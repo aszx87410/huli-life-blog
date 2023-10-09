@@ -5,6 +5,7 @@ categories:
   - 寫作
 tags:
   - 寫作
+photos: /img/two-year-review-e029ac415a12/cover.png
 ---
 
 原本沒有注意到已經經營兩週年了，是在回顧文章的時候突然看到去年寫的[《一週年報告：在 Medium 上寫程式與科技類文章的成效如何？》](https://medium.com/@hulitw/one-year-review-2963f072572d)才發現的。

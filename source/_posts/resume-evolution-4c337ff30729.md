@@ -5,6 +5,7 @@ categories:
   - 職涯
 tags:
   - 職涯
+photos: /img/resume-evolution-4c337ff30729/cover.png
 ---
 
 ![](/img/resume-evolution-4c337ff30729/1__euypNT0__s38GbehGXhDotQ.jpeg)

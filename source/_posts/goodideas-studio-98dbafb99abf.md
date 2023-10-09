@@ -5,6 +5,7 @@ categories:
   - Others
 tags:
   - Others
+photos: /img/goodideas-studio-98dbafb99abf/cover.png
 ---
 
 ![](/img/goodideas-studio-98dbafb99abf/1__DiH9rH6CJiEk0Wa7s__6gFw.jpeg)

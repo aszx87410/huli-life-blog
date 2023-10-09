@@ -5,6 +5,7 @@ categories:
   - 技術白話文
 tags:
   - 技術白話文
+photos: /img/risk-of-service-exposure-a873d3418d99/cover.png
 ---
 
 ![](/img/risk-of-service-exposure-a873d3418d99/0__9JN71UTxZ6xMbGB7.jpg)

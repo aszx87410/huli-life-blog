@@ -5,6 +5,7 @@ categories:
   - 旅遊
 tags:
   - 旅遊
+photos: /img/travel-part2-818482a90bc9/cover.png
 ---
 
 ![](/img/travel-part2-818482a90bc9/1__8ukUiIC3lg6zRaz5bOprbg.jpeg)

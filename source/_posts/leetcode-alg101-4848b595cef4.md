@@ -5,6 +5,7 @@ categories:
   - 教學計劃
 tags:
   - 教學計劃
+photos: /img/leetcode-alg101-4848b595cef4/cover.png
 ---
 
 先別急著寫 leetcode 是我最近才推出的免費線上課程，總長度約 10 個小時，課程目的是希望讓初學者透過一系列的練習培養程式基礎能力、熟悉程式語法以及加強程式思維。如果你對這門課程感到好奇，課程連結在這邊：[https://lidemy.com/p/alg101-leetcode](https://lidemy.com/p/alg101-leetcode)，可以先點進去看看。

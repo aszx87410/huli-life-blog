@@ -5,6 +5,7 @@ categories:
   - 教學計劃
 tags:
   - 教學計劃
+photos: /img/hahow-and-lidemy-2dab35919bb8/cover.png
 ---
 
 今天，9/18 號，對我來說是個具有特殊意義的日子。

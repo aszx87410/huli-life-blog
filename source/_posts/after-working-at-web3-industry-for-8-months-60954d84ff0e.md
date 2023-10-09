@@ -5,6 +5,7 @@ categories:
   - 職涯
 tags:
   - 職涯
+photos: /img/after-working-at-web3-industry-for-8-months-60954d84ff0e/cover.png
 ---
 
 ![](/img/after-working-at-web3-industry-for-8-months-60954d84ff0e/1__aALCTHDXCeACQg__nbfGT9w.jpeg)

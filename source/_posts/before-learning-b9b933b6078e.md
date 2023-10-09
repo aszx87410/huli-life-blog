@@ -5,6 +5,7 @@ categories:
   - 學習
 tags:
   - 學習
+photos: /img/before-learning-b9b933b6078e/cover.png
 ---
 
 ![](/img/before-learning-b9b933b6078e/0__ruOViG4Z0Eb8AinG.jpg)

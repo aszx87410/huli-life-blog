@@ -5,6 +5,7 @@ categories:
   - 學習
 tags:
   - 學習
+photos: /img/ask-better-questions-19f01b02f436/cover.png
 ---
 
 ![](/img/ask-better-questions-19f01b02f436/0__Xwa6iaZsl2yUyzjw.jpg)

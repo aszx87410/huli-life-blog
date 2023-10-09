@@ -5,6 +5,7 @@ categories:
   - 教學計劃
 tags:
   - 教學計劃
+photos: /img/mentor-program-s2-f876c4e13d3b/cover.png
 ---
 
 ![](/img/mentor-program-s2-f876c4e13d3b/0__zS9ldrKDTqtmtVR8.jpg)

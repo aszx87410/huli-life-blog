@@ -5,6 +5,7 @@ categories:
   - 學習
 tags:
   - 學習
+photos: /img/cln-email-writing-part2-40213f9302a7/cover.png
 ---
 
 這篇是下集，還沒看過上集的可以先看上集：[CLN 新貴語文電郵寫作班心得（上）](https://medium.com/@hulitw/cln-email-writing-part1-5262fcd9ff79)

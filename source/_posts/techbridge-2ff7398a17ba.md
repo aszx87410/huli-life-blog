@@ -5,6 +5,7 @@ categories:
   - Others
 tags:
   - Others
+photos: /img/techbridge-2ff7398a17ba/cover.png
 ---
 
 ![](/img/techbridge-2ff7398a17ba/1__u1s22tZAzgpWM__zrtqSs9A.png)

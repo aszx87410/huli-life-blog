@@ -5,6 +5,7 @@ categories:
   - Others
 tags:
   - Others
+photos: /img/best-one-year-696aa373207d/cover.png
 ---
 
 ![](/img/best-one-year-696aa373207d/1__1BeqQknJ__akw8iEBcaqWig.jpeg)

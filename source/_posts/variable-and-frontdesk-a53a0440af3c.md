@@ -5,6 +5,7 @@ categories:
   - 技術白話文
 tags:
   - 技術白話文
+photos: /img/variable-and-frontdesk-a53a0440af3c/cover.png
 ---
 
 ![](/img/variable-and-frontdesk-a53a0440af3c/0__lSnFhHjWE7pLTNvt.jpg)

@@ -5,6 +5,7 @@ categories:
   - 科技
 tags:
   - 科技
+photos: /img/about-asiayo-chatbot-28704dc9b84a/cover.png
 ---
 
 昨天看到了 AsiaYo 的這篇文章（沒看過的可以先看，之後內容會有相關）：[AsiaYo 如何在一週內打造破萬使用者的 Chatbot](https://medium.com/asiayo-engineering/asiayo-%E5%A6%82%E4%BD%95%E5%9C%A8%E4%B8%80%E9%80%B1%E5%85%A7%E6%89%93%E9%80%A0%E7%A0%B4%E8%90%AC%E4%BD%BF%E7%94%A8%E8%80%85%E7%9A%84-chatbot-66bebe330896)

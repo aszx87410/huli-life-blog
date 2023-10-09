@@ -5,6 +5,7 @@ categories:
   - Others
 tags:
   - Others
+photos: /img/when-i-got-sg-offer-e4d91856bd96/cover.png
 ---
 
 ![](/img/when-i-got-sg-offer-e4d91856bd96/0__DIQI__wnPijhaJNmk.jpg)

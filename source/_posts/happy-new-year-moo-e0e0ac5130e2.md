@@ -5,6 +5,7 @@ categories:
   - Others
 tags:
   - Others
+photos: /img/happy-new-year-moo-e0e0ac5130e2/cover.png
 ---
 
 ![](/img/happy-new-year-moo-e0e0ac5130e2/1__1lFblwAZjaaXDdmhYDdOVw.jpeg)

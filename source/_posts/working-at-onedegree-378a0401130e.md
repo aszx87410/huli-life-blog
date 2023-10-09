@@ -5,6 +5,7 @@ categories:
   - 職涯
 tags:
   - 職涯
+photos: /img/working-at-onedegree-378a0401130e/cover.png
 ---
 
 如果有看過我之前寫的《[2020 資深前端工程師面試心得（4y, 100k+）](https://hulitw.medium.com/2020-senior-front-end-engineer-interview-249c719c1a97)》，應該會知道我後來去了一間叫做 OneDegree 的公司，我是 5 月11 號進去的，到現在大概半年多了，是個很適合寫心得的時間點。

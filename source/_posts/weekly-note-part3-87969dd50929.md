@@ -5,6 +5,7 @@ categories:
   - 教學計劃
 tags:
   - 教學計劃
+photos: /img/weekly-note-part3-87969dd50929/cover.png
 ---
 
 上中傳送門：

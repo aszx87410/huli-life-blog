@@ -5,6 +5,7 @@ categories:
   - Others
 tags:
   - Others
+photos: /img/experience-f37004cf80ff/cover.png
 ---
 
 ![](/img/experience-f37004cf80ff/0__mDYeWqxieDIp4VNJ.jpg)

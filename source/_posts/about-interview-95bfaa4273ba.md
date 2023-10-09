@@ -5,6 +5,7 @@ categories:
   - 教學計劃
 tags:
   - 教學計劃
+photos: /img/about-interview-95bfaa4273ba/cover.png
 ---
 
 先幫不知道這篇在寫什麼的讀者補一下脈絡。

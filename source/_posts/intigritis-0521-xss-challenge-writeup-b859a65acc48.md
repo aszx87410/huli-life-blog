@@ -5,6 +5,7 @@ categories:
   - Others
 tags:
   - Others
+photos: /img/intigritis-0521-xss-challenge-writeup-b859a65acc48/cover.png
 ---
 
 [Intigriti](https://www.intigriti.com/) 是國外的一個 bug bounty 平台，每個月都會推出一個 XSS 挑戰，有大約一到兩週的時間可以去思考，目標是在特定網站上面執行 `alert(document.domain)` ，解出來之後把結果透過 Intigriti 平台回報，最後會隨機抽 3 個解掉的人得到他們自己商店的優惠券。

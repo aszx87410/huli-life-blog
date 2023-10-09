@@ -5,6 +5,7 @@ categories:
   - 教學計劃
 tags:
   - 教學計劃
+photos: /img/mentor-program-2nd-mid-c7539f67b7d7/cover.png
 ---
 
 [程式導師實驗計畫第二期](https://medium.com/hulis-blog/mentor-program-s2-f876c4e13d3b)從今年 9 月 3 號開始到現在 11 月 4 號，經過了兩個月，而前八週，被我稱之為「基礎」的課程也正式告一段落，為期四個月的計畫也過了一半。

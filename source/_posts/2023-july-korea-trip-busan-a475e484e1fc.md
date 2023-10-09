@@ -5,6 +5,7 @@ categories:
   - 旅遊
 tags:
   - 旅遊
+photos: /img/2023-july-korea-trip-busan-a475e484e1fc/cover.png
 ---
 
 事情是這樣的，六月去完澳門之後，想說短期內應該不會再出國了吧，但有天在 YouTube 上看見了這支影片：

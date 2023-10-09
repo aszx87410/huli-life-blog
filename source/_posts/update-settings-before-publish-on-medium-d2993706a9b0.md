@@ -5,6 +5,7 @@ categories:
   - 寫作
 tags:
   - 寫作
+photos: /img/update-settings-before-publish-on-medium-d2993706a9b0/cover.png
 ---
 
 這篇簡單寫一下發表文章前我會設定的東西，大部分選項都藏在右上角那三個點裡面，點下去你會看到一堆可以設置的選項：

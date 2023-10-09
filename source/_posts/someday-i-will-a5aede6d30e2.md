@@ -5,6 +5,7 @@ categories:
   - Others
 tags:
   - Others
+photos: /img/someday-i-will-a5aede6d30e2/cover.png
 ---
 
 ![](/img/someday-i-will-a5aede6d30e2/1__6uEL3V6WSq44IFEVRhGFow.jpeg)

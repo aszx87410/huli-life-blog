@@ -5,6 +5,7 @@ categories:
   - Others
 tags:
   - Others
+photos: /img/the-programming-journey-1-b9b19c0ef05b/cover.png
 ---
 
 無意間看到一篇[文章](https://blog.alphacamp.co/2016/06/03/my-path-to-web-development/)在分享自己學網頁的歷程與心得，而這類型的文章其實我也曾經想要寫過。

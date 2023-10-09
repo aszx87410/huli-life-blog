@@ -5,6 +5,7 @@ categories:
   - Others
 tags:
   - Others
+photos: /img/fight-against-procrastination-but-lost-b43d3c4164e1/cover.png
 ---
 
 原本想要趁著閉關修煉的這段時期每天寫一篇日記，在一年後就可以來開個訂閱制的專案，每天都會重播我一年前的那天的日記。想說這樣應該超級有趣，若是不知道是一年前的日記，就跟每天追 live 差不多。

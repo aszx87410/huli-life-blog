@@ -5,6 +5,7 @@ categories:
   - 寫作
 tags:
   - 寫作
+photos: /img/do-you-really-want-to-write-tech-blog-on-medium-3dd25640f26c/cover.png
 ---
 
 ![](/img/do-you-really-want-to-write-tech-blog-on-medium-3dd25640f26c/0__9ORUsG5qbgYuKoR8.jpg)

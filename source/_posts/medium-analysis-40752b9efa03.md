@@ -5,6 +5,7 @@ categories:
   - Others
 tags:
   - Others
+photos: /img/medium-analysis-40752b9efa03/cover.png
 ---
 
 ### 前言

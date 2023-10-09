@@ -5,6 +5,7 @@ categories:
   - 寫作
 tags:
   - 寫作
+photos: /img/blog-e7a23a74ae2b/cover.png
 ---
 
 前幾天有個朋友問了我一個問題：

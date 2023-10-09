@@ -5,6 +5,7 @@ categories:
   - Others
 tags:
   - Others
+photos: /img/haidiliao-17e33c585350/cover.png
 ---
 
 還記得那天特別提早一點出門，就是為了避開排隊的人潮。

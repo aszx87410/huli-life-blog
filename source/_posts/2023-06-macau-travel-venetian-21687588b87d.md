@@ -5,6 +5,7 @@ categories:
   - 旅遊
 tags:
   - 旅遊
+photos: /img/2023-06-macau-travel-venetian-21687588b87d/cover.png
 ---
 
 ![](/img/2023-06-macau-travel-venetian-21687588b87d/1__5mqry9YbM__TOf0Mb70gRgQ.jpeg)

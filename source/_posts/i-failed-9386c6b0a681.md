@@ -5,6 +5,7 @@ categories:
   - Others
 tags:
   - Others
+photos: /img/i-failed-9386c6b0a681/cover.png
 ---
 
 去年 12 月 1 號，我在 Medium 發了這麼一篇文：[閉關修煉，一年後見](https://medium.com/@hulitw/best-one-year-696aa373207d)

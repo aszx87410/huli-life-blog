@@ -5,6 +5,7 @@ categories:
   - Others
 tags:
   - Others
+photos: /img/one-year-review-2963f072572d/cover.png
 ---
 
 在 Medium 上面跟程式相關的中文文章比較少，我猜原因之一是 Medium 本來就對一些技術文章不太友善（例如說要貼程式碼或者是比較自由的排版等等），所以很多人的技術文章還是習慣放在自己架的 blog。

@@ -5,6 +5,7 @@ categories:
   - 職涯
 tags:
   - 職涯
+photos: /img/interview-prepare-b815d938f0de/cover.png
 ---
 
 ![](/img/interview-prepare-b815d938f0de/1__UPo3vZAN6l3axfQ8__fim9g.jpeg)

@@ -5,6 +5,7 @@ categories:
   - Others
 tags:
   - Others
+photos: /img/smartwatch-review-55dac978bbf5/cover.png
 ---
 
 我以前不是一個喜歡戴手錶的人。

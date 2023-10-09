@@ -5,6 +5,7 @@ categories:
   - 學習
 tags:
   - 學習
+photos: /img/procrastination-ba12754ada49/cover.png
 ---
 
 ![](/img/procrastination-ba12754ada49/0__p9FMCEjwiOQecBH6.jpg)

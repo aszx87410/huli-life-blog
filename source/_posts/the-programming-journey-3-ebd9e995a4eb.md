@@ -5,6 +5,7 @@ categories:
   - Others
 tags:
   - Others
+photos: /img/the-programming-journey-3-ebd9e995a4eb/cover.png
 ---
 
 此篇為系列文章的最後一篇，如果你錯過前兩篇，傳送門在這：

@@ -5,6 +5,7 @@ categories:
   - 寫作
 tags:
   - 寫作
+photos: /img/why-blogging-ab77fd8c6ffa/cover.png
 ---
 
 ![](/img/why-blogging-ab77fd8c6ffa/0__4QR4TdySNRh58yJO.jpg)

@@ -5,6 +5,7 @@ categories:
   - 教學計劃
 tags:
   - 教學計劃
+photos: /img/mentor-program-2nd-result-3cb7c2b6627e/cover.png
 ---
 
 兩個月前我 po 了這篇：[四個月過去了，來找我學程式的學生們怎麼樣了？](https://medium.com/hulis-blog/mentor-program-2nd-review-e7c15f24dfb8)

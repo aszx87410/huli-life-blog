@@ -5,6 +5,7 @@ categories:
   - 技術白話文
 tags:
   - 技術白話文
+photos: /img/ramen-and-api-6238437dc544/cover.png
 ---
 
 API，全名叫做 Application Programming Interface，維基百科上的中文翻譯是：「應用程式介面」。這是一個你可能聽過很多次，但從來沒有理解過的東西，常常聽到工程師說著：「串 API」，但還是不知道 API 到底是什麼。

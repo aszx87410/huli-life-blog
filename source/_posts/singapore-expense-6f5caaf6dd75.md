@@ -5,6 +5,7 @@ categories:
   - Others
 tags:
   - Others
+photos: /img/singapore-expense-6f5caaf6dd75/cover.png
 ---
 
 一直都沒有裝記帳 App 的我，從來就不清楚自己每個月到底花多少錢，看到自己存款的時候總會疑惑一下：「咦？為什麼存款比想像中少？不是說好一個月至少存一半的嗎？」，接著仔細回想自己前幾個月到底買了什麼，回台機票、昂貴耳機、亂買東西…怎麼算都還是覺得自己沒有花這麼多。

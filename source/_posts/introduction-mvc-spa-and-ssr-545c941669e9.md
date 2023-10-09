@@ -5,6 +5,7 @@ categories:
   - 技術白話文
 tags:
   - 技術白話文
+photos: /img/introduction-mvc-spa-and-ssr-545c941669e9/cover.png
 ---
 
 這篇的靈感來自於 [Front-End Developers Taiwan](https://www.facebook.com/groups/f2e.tw/permalink/1642690352434990/) 裡面的一串討論，有人 po 了一個影片是來討論「MVC vs SPA」，這個標題一出來大家都驚呆了，想說怎麼會有這樣的比較，於是下面掀起一波激烈的討論，最後發現原 po 誤用了專有名詞，才導致這樣的結果。

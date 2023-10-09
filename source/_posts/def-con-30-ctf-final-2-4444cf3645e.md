@@ -5,6 +5,7 @@ categories:
   - 旅遊
 tags:
   - 旅遊
+photos: /img/def-con-30-ctf-final-2-4444cf3645e/cover.png
 ---
 
 上一篇裡面寫到了從台灣到美國的過程，以及對拉斯維加斯的一些心得，這篇就來寫一下 DEF CON 本身以及 CTF 的一些心得。

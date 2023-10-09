@@ -5,6 +5,7 @@ categories:
   - 學習
 tags:
   - 學習
+photos: /img/learn-coding-9c572c2fb2/cover.png
 ---
 
 ![](/img/learn-coding-9c572c2fb2/0__ue4x60JorXamJRJv.jpg)

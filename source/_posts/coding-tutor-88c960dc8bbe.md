@@ -5,6 +5,7 @@ categories:
   - 教學計劃
 tags:
   - 教學計劃
+photos: /img/coding-tutor-88c960dc8bbe/cover.png
 ---
 
 ![](/img/coding-tutor-88c960dc8bbe/0__ruYsmTVwOFEmL28I.jpg)

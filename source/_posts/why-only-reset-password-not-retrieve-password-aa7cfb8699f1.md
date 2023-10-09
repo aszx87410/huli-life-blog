@@ -5,6 +5,7 @@ categories:
   - 技術白話文
 tags:
   - 技術白話文
+photos: /img/why-only-reset-password-not-retrieve-password-aa7cfb8699f1/cover.png
 ---
 
 ![](/img/why-only-reset-password-not-retrieve-password-aa7cfb8699f1/0__d__btmcK3StRPxigr.jpg)

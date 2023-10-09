@@ -5,6 +5,7 @@ categories:
   - 旅遊
 tags:
   - 旅遊
+photos: /img/etihad-a380-auh-icn-first-class-352fdbbc08db/cover.png
 ---
 
 之前搭國泰的時候有在臉書上隨意 po 了一些心得，因為搭起來覺得不怎麼樣所以沒有認真寫。這次搭阿提哈德的頭等艙，終於有想像中的頭等艙的感覺了。

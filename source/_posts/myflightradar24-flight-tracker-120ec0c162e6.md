@@ -5,6 +5,7 @@ categories:
   - 旅遊
 tags:
   - 旅遊
+photos: /img/myflightradar24-flight-tracker-120ec0c162e6/cover.png
 ---
 
 ![](/img/myflightradar24-flight-tracker-120ec0c162e6/1__vZY26YMG8ggdr3Nd6YMxkA.png)

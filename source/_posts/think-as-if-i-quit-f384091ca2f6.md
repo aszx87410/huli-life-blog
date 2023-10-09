@@ -5,6 +5,7 @@ categories:
   - 職涯
 tags:
   - 職涯
+photos: /img/think-as-if-i-quit-f384091ca2f6/cover.png
 ---
 
 ![](/img/think-as-if-i-quit-f384091ca2f6/0__7fXy3cJnNldm3R35.jpg)

@@ -5,6 +5,7 @@ categories:
   - 教學計劃
 tags:
   - 教學計劃
+photos: /img/confused-d83a4091eca/cover.png
 ---
 
 ![](/img/confused-d83a4091eca/0__FBdKHmk__BjbgM3Nd.jpg)

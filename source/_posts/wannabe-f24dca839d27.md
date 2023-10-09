@@ -5,6 +5,7 @@ categories:
   - Others
 tags:
   - Others
+photos: /img/wannabe-f24dca839d27/cover.png
 ---
 
 ![](/img/wannabe-f24dca839d27/0__4f9lK7HkWbcIM__D5.jpg)

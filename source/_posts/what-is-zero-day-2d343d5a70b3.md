@@ -5,6 +5,7 @@ categories:
   - 技術白話文
 tags:
   - 技術白話文
+photos: /img/what-is-zero-day-2d343d5a70b3/cover.png
 ---
 
 ![](/img/what-is-zero-day-2d343d5a70b3/0__uG55OPFEIxpprlCn.jpg)

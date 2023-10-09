@@ -5,6 +5,7 @@ categories:
   - 職涯
 tags:
   - 職涯
+photos: /img/frontend-choice-2f9f76a1614e/cover.png
 ---
 
 最近看到前端臉書討論區的一篇[貼文](https://www.facebook.com/groups/f2e.tw/posts/6427388497298461/?__cft__%5B0%5D=AZVbdV7Y4Sw88x23-U_KW9gBQetMa7BzP_I_OMpROcM8gzxPNUlVh2_y_WOF0B44nzlE9ImSVOnKtn_RL6uhdp7O4ClqXE7idujXjDWRprO3AVn_OK1p81rcUxIdOy66_NkE2I8rLhxPG3yyq-iHYESg&__tn__=%2CO%2CP-R)之後有一些感想，就順便寫下來了。

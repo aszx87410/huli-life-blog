@@ -5,6 +5,7 @@ categories:
   - 職涯
 tags:
   - 職涯
+photos: /img/value-of-fron-tend-1e047d4cb341/cover.png
 ---
 
 （原文發表於 [Logdown](http://huli.logdown.com/posts/1655457-front-end-engineer-where-is-the-value)，重新檢視及改寫過後移植到這裡）

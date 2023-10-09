@@ -5,6 +5,7 @@ categories:
   - 職涯
 tags:
   - 職涯
+photos: /img/i-dont-know-what-i-want-about-career-383bee0be733/cover.png
 ---
 
 簡單記一下這次求職時的一些心得。
