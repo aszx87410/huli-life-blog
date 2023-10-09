@@ -1,0 +1,154 @@
+<!DOCTYPE html><html class="appearance-auto" lang="zh-TW"><head><meta charset="UTF-8"><title>白話 Session 與 Cookie：從經營雜貨店開始 - Huli's blog</title><meta name="description" content="
+在 Web 開發裡面有一個歷久不衰的議題，那就是 Session 與 Cookie 的區別。從我剛開始學程式時這一題就常出現在面試考題裡，一直到現在都還是能看見這個問題。
+這個問題重要嗎？
+我覺.."><meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, initial-scale=1"><meta name="image" content="https://life.huli.tw/img/session-and-cookie-15e47ed838bc/0______k__NwbytNrqrFJP.jpg"><meta name="original-source" content="https://life.huli.tw/2019/08/09/session-and-cookie-15e47ed838bc/"><link rel="canonical" href="https://life.huli.tw/2019/08/09/session-and-cookie-15e47ed838bc/"><meta property="og:locale" content="zh-TW"><meta property="og:type" content="article"><meta property="og:title" content="白話 Session 與 Cookie：從經營雜貨店開始 - Huli's blog"><meta property="og:description" content="
+在 Web 開發裡面有一個歷久不衰的議題，那就是 Session 與 Cookie 的區別。從我剛開始學程式時這一題就常出現在面試考題裡，一直到現在都還是能看見這個問題。
+這個問題重要嗎？
+我覺.."><meta property="og:url" content="https://life.huli.tw/2019/08/09/session-and-cookie-15e47ed838bc/"><meta property="og:site_name" content="Huli's blog"><meta property="og:image" content="https://life.huli.tw/img/session-and-cookie-15e47ed838bc/0______k__NwbytNrqrFJP.jpg"><meta name="twitter:title" content="白話 Session 與 Cookie：從經營雜貨店開始 - Huli's blog"><meta name="twitter:image" content="https://life.huli.tw/img/session-and-cookie-15e47ed838bc/0______k__NwbytNrqrFJP.jpg"><meta name="twitter:description" content="
+在 Web 開發裡面有一個歷久不衰的議題，那就是 Session 與 Cookie 的區別。從我剛開始學程式時這一題就常出現在面試考題裡，一直到現在都還是能看見這個問題。
+這個問題重要嗎？
+我覺.."><meta name="twitter:card" content="summary_large_image"><!-- Google Analytics --><!-- End Google Analytics --><link rel="icon" href="/images/lidemy_logo.png"><link rel="stylesheet" href="/style/common/bulma.css"><link rel="stylesheet" href="/style/base.css"><link rel="stylesheet" href="/style/common/helper.css"><script src="/js/common.js"></script><link rel="stylesheet" href="/style/post.css"><link rel="stylesheet" href="/style/themes/highlight-theme-light.css"><link rel="stylesheet" href="/style/common/jquery.fancybox.min.css"><script src="/js/highlight.pack.js"></script><meta name="description" content="
+在 Web 開發裡面有一個歷久不衰的議題，那就是 Session 與 Cookie 的區別。從我剛開始學程式時這一題就常出現在面試考題裡，一直到現在都還是能看見這個問題。
+這個問題重要嗎？
+我覺得滿重要的。因為 Session 所代表的是「狀態」，如果沒有了狀態，一大堆功能都會失效。對於工程師來說必須去理解什麼是 Session，以及如何實作它，而 Cookie 就是這之中很重要的一環。
+因此這會是一系列的文章，我稱之為 Session 與 Cookie 三部曲，會由淺入深，從不同的面向去看 Session 與 Cookie。
+這是系列文的第一篇，想用簡單白話的方式通俗地跟大家解釋什麼是 Session，什麼又是 Cookie，目標是希望沒有任何技術背景的人也能夠看懂。
+三篇的完整連結如下：
+1. 白話 .."><!-- hexo injector head_end start -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/hexo-math@4.0.0/dist/style.css">
+<!-- hexo injector head_end end --><meta name="generator" content="Hexo 6.3.0"><link rel="alternate" href="/atom.xml" title="Huli's blog" type="application/atom+xml">
+</head><body class="is-flex is-flex-direction-column"><header class="header-widget is-flex-shrink-0 is-hidden-mobile"><div class="container is-fullhd is-flex is-justify-content-space-between is-align-items-center is-full-height"><section class="is-hidden-mobile is-flex-shrink-0"><h2><a href="/">Huli's blog</a></h2></section><h3 class="is-hidden-mobile is-family-serif is-full-height is-flex is-align-items-center is-flex-shrink-0"><div class="is-full-height" id="postTopic"><p class="is-full-height is-flex-shrink-0 is-flex is-align-items-center is-justify-content-center">白話 Session 與 Cookie：從經營雜貨店開始</p><p class="is-full-height is-flex-shrink-0 is-flex is-align-items-center is-justify-content-center">點擊返回開頭</p></div></h3><aside class="is-flex-shrink-0"><h3 class="is-inline-block"><a href="/">首頁</a></h3><h3 class="is-inline-block"><a href="/about">關於我</a></h3><h3 class="is-inline-block"><a href="/archives">文章列表</a></h3></aside></div></header><header class="is-flex header-widget is-flex-shrink-0 is-align-items-center is-justify-content-center is-hidden-tablet"><h3 class="is-inline-block"><a href="/">首頁</a></h3><h3 class="is-inline-block"><a href="/about">關於我</a></h3><h3 class="is-inline-block"><a href="/archives">文章列表</a></h3></header><main><main class="container is-max-widescreen content section post-page pt-4 px-4"><div class="columns is-flex-desktop is-justify-content-center is-flex-direction-row-reverse"><div class="column is-3 is-hidden-mobile"><ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%B0%8F%E6%98%8E%E3%81%AE%E9%9B%9C%E8%B2%A8%E5%BA%97"><span class="toc-text">小明の雜貨店</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%87%89%E7%9B%B2%E7%97%87%E7%9A%84%E5%9B%B0%E6%93%BE"><span class="toc-text">臉盲症的困擾</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%96%B9%E6%B3%95%E9%9B%96%E8%80%81%E8%88%8A%E4%BD%86%E6%9C%89%E7%94%A8"><span class="toc-text">方法雖老舊但有用</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%B8%AD%E5%A0%B4%E4%BC%91%E6%81%AF"><span class="toc-text">中場休息</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%88%B0%E5%BA%95%E8%AA%B0%E6%9C%83%E9%9A%A8%E8%BA%AB%E6%94%9C%E5%B8%B6%E7%B4%99%E6%A2%9D%EF%BC%9F"><span class="toc-text">到底誰會隨身攜帶紙條？</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%92%96%E5%95%A1%E5%AF%84%E6%9D%AF%E7%9A%84%E7%85%A9%E6%83%B1"><span class="toc-text">咖啡寄杯的煩惱</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%84%B2%E5%AD%98%E7%8B%80%E6%85%8B%E7%9A%84%E6%96%B9%E5%BC%8F"><span class="toc-text">儲存狀態的方式</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%B8%BD%E7%B5%90"><span class="toc-text">總結</span></a></li></ol></div><div class="column is-9"><header class="my-4"><a href="/tags/%E6%8A%80%E8%A1%93%E7%99%BD%E8%A9%B1%E6%96%87"><i class="tag post-item-tag">技術白話文</i></a></header><h1 class="mt-0 mb-1 is-family-serif" id="postTitle">白話 Session 與 Cookie：從經營雜貨店開始</h1><time class="has-text-grey" datetime="2019-08-09T04:05:12.512Z">2019-08-09</time><article class="mt-2 post-content"><p><img src="/img/session-and-cookie-15e47ed838bc/0______k__NwbytNrqrFJP.jpg"></p>
+<p>在 Web 開發裡面有一個歷久不衰的議題，那就是 Session 與 Cookie 的區別。從我剛開始學程式時這一題就常出現在面試考題裡，一直到現在都還是能看見這個問題。</p>
+<p>這個問題重要嗎？</p>
+<p>我覺得滿重要的。因為 Session 所代表的是「狀態」，如果沒有了狀態，一大堆功能都會失效。對於工程師來說必須去理解什麼是 Session，以及如何實作它，而 Cookie 就是這之中很重要的一環。</p>
+<p>因此這會是一系列的文章，我稱之為 Session 與 Cookie 三部曲，會由淺入深，從不同的面向去看 Session 與 Cookie。</p>
+<p>這是系列文的第一篇，想用簡單白話的方式通俗地跟大家解釋什麼是 Session，什麼又是 Cookie，目標是希望沒有任何技術背景的人也能夠看懂。</p>
+<p>三篇的完整連結如下：</p>
+<p>1. <a target="_blank" rel="noopener" href="https://medium.com/@hulitw/session-and-cookie-15e47ed838bc">白話 Session 與 Cookie：從經營雜貨店開始</a><br>2. <a target="_blank" rel="noopener" href="https://github.com/aszx87410/blog/issues/45">淺談 Session 與 Cookie：一起來讀 RFC</a><br>3. <a target="_blank" rel="noopener" href="https://github.com/aszx87410/blog/issues/46">深入 Session 與 Cookie：Express、PHP 與 Rails 的實作</a></p>
+<p>要向沒有技術背景的人講這種概念性的東西，用一堆專有名詞絕對是最差勁的做法。而最好的做法通常是舉一個現實生活中很貼近的例子，藉由這種方式比較能讓毫無技術背景的讀者們去理解這到底是個什麼東西。</p>
+<p>因此，我們從經營雜貨店開始吧！</p>
+<h3 id="小明の雜貨店"><a href="#小明の雜貨店" class="headerlink" title="小明の雜貨店"></a>小明の雜貨店</h3><p>四十歲的小明退休以後在家閒得發慌，每一天都過得毫無目標而且渾渾噩噩。「退休以後不是應該無憂無慮嗎？」小明也是這樣問自己的，但沒辦法，他深知自己的個性就是這樣，沒辦法閒下來，一定要做點事情才行。</p>
+<p>於是，小明就用了退休金在家裡附近的巷口開了間雜貨店，並且取名為：「小明の雜貨店」，是個毫無創意的名稱，但把自己的名字放在招牌上一直是他的夢想。</p>
+<p>小明平時人緣還算不錯，在倒垃圾時會與旁邊的婆婆媽媽閒聊，說著那個誰誰誰的兒子考上了台大，誰誰誰的女兒最近交了個男友，成為左鄰右舍八卦網路的一部分。</p>
+<p>不只婆婆媽媽，連年輕的那一代也對他感覺不錯，八成是因為他很識相地不會硬要跟年輕人尬聊，看到他們都只是簡單點個頭示意一下，而不是像其他人劈頭就把私事全都問了一遍。</p>
+<p>因此在開幕那天，雜貨店好比 Apple Store 開幕一般（除了沒有人特地前一天就跑來排隊以外），周遭的鄰居們都跑來捧場，把整個店擠得水泄不通，單日營收甚至上看百萬。第一天就能有如此成績，可見人緣是多麽重要的一件事。有人緣，有人潮；有人潮，有錢潮。</p>
+<p>但開幕畢竟是開幕，通常都是一家商店這輩子的巔峰，除非有跳樓大拍賣（假的那種不算，例如說每天都在大拍賣的）或是週年慶，不然都很難超越了。</p>
+<p>隨著日曆一張張被撕開，店裡的生意慢慢恢復正常，還是喜歡傳統便利商店的都跑回去便利商店了，而嫌遠懶得走這麼多路的則選擇雜貨店消費。</p>
+<p>看似步上正軌的雜貨店，問題卻隨著時間慢慢浮上檯面。</p>
+<h3 id="臉盲症的困擾"><a href="#臉盲症的困擾" class="headerlink" title="臉盲症的困擾"></a>臉盲症的困擾</h3><p>小明身為雜貨店的店長兼唯一的店員，所有大小事都是他一個人在處理。傳統雜貨店跟便利商店最大的差別在哪裡？在於人情味。</p>
+<p>就像是你去菜市場買菜的時候會被說帥哥或美女，或者是去買早餐的時候老闆會問你：「一樣？」，你只要點個頭就行了。這些人與人之間的情感是無論資訊怎麼發展都無法取代的。</p>
+<p>可是小明沒有辦法，因為他根本記不起來是同一個人。</p>
+<p>每一個來店裡的人對小明來說都是一個獨立的個體，是完全不相干的。你可能會疑惑說：「就算認不出臉，認聲音、衣服、氣味也都可以吧？」，看來你是太低估小明了。</p>
+<p>小明不只認不出臉，他什麼都認不出來。我也不知道小明到底哪裡出了差錯，小明自己也不知道。但總之就是這樣，就算你每天來，每天穿著一樣的衣服，用著一樣的聲音，他都認不出來你是同一個人。</p>
+<p>講一個例子你就知道了，有一次有個顧客結完帳以後把發票忘在櫃檯，一出店門口才想起來，就立刻跑回去拿。結果小明完全沒認出來是同一個人，還以為這人是想來偷拿發票的，跟他確認過買的品項一致以後才願意把發票還給他。</p>
+<p>對，就是這麼誇張，小明每一次結帳都是在幫一個全新的人結帳。</p>
+<p>在生活上或許沒什麼問題，反正小明無依無靠也沒朋友，自己一個人生活慣了，可是在經營雜貨店上面就有很大的問題了。除了會讓人覺得很沒有人情味以外，最大的問題就是有些顧客的需求他沒辦法處理。</p>
+<p>有些人逛雜貨店喜歡慢慢挑慢慢選嘛，然後有些物品可能又很重，或者是在結帳的時候才突然想起來還要買什麼，這時候就會把東西先放在收銀台那裡，自己跑回去拿其他品項。</p>
+<p>我前面已經提過了，小明認人的能力是零，當客人拿新的物品回去收銀台的時候，小明已經認不出他來了。因此他不知道收銀台上面那些物品是誰的，客人也很難跟小明證明說：「對，這些是我剛剛想買的」。</p>
+<p>這個使用者體驗簡直差到不行，因此店裡的生意每況愈下，只有那種果斷型顧客會來消費（一進雜貨店就往自己的目標走，拿完之後立刻結帳的那種）。</p>
+<p>小明當然注意到了這個狀況，也知道不能再這樣下去了，繼續這樣的話大概不用兩個月店就會倒了。於是小明左思右想，快思慢想，東想西想，終於想到了一個解決方法。</p>
+<h3 id="方法雖老舊但有用"><a href="#方法雖老舊但有用" class="headerlink" title="方法雖老舊但有用"></a>方法雖老舊但有用</h3><p>前面有提到過小明最大的問題是「每個客人都是新的客人」，他沒辦法認出他們是同一個客人，所以自然也無法記住他們的「狀態」，而這個才是最大的問題。</p>
+<p>山不轉路轉，路不轉頭轉，既然小明自己沒辦法記住狀態，寫張紙條不就得了嗎？當你在收銀台結帳的時候寫一張紙條給你，上面寫著：「五香乖乖 x1、義美鮮奶茶 x1」，然後你就可以回去挑其他你想要的東西，當你再回來收銀台的時候把這張紙條給小明，小明就知道這些東西是你的。</p>
+<p>或者你是個常客，每次來都買一樣的東西，小明就在結帳時寫給你一張紙條，把你常買的東西全都寫上去，這樣下次結帳時你只要帶那一張紙條過來，小明就知道你常買什麼了！</p>
+<p>你有看過那種淒美愛情電影嗎？男女主角其中一方得了罕見疾病，每天都會徹底失憶一次，另一方就會在家裡幫他寫滿便條紙，透過那些便條紙，主角才能知道自己是誰、對方是誰，以及自己到底發生了什麼事。</p>
+<p>對，你可以把小明想像成就是失憶的那個，而便條紙就是給客人的紙條。既然自己記不住，就讓這些紙條代勞，把狀態放在上面。</p>
+<p>雖然說客人要把紙條留著其實滿不方便的，但前面說過小明人緣其實不錯，因此常客都會看在他的面子上把紙條帶著，讓這個機制得以繼續運作。而小明店裡的生意也因此好轉一點點。</p>
+<p>對，只有一點點而已，因為隨身攜帶一張紙條實在是太麻煩了，所以也沒多少人會這樣做。</p>
+<p>再繼續往下講之前，我們先進入中場休息。</p>
+<h3 id="中場休息"><a href="#中場休息" class="headerlink" title="中場休息"></a>中場休息</h3><p>讓我們先從比喻回到網路世界裡，HTTP 是無狀態的，所以每一個 Request 都是不相關的，就像是對小明來說每一位客人都是新的客人一樣，他根本不知道誰是誰。既然你沒辦法把他們關連，就代表狀態這件事情也不存在。</p>
+<p><img src="/img/session-and-cookie-15e47ed838bc/1__0yEme4DHELjmb4ItUEKxPw.png"></p>
+<p>那怎麼辦呢？</p>
+<p>在故事裡我們用紙條來解決這件事情，小明會在結帳時寫下紙條並遞給客人，客人下次只要再帶著紙條過來，小明就知道發生什麼事了。</p>
+<p><img src="/img/session-and-cookie-15e47ed838bc/1__srX7XlKxNdgSsZPclbN4vg.png"></p>
+<p>小明最大的問題就是他自己沒辦法記憶「狀態」，因此需要倚靠一個機制來幫他管理「狀態」，而這個機制我們就叫做 Session。</p>
+<p>原本對小明來說，每一個客人都是新的客人，彼此之間毫無關聯，所以也沒有任何狀態可言。但有了紙條以後，兩個在小明眼中完全不同的客人被關聯了起來，小明就可以知道：「原來這個新的客人是以前那個來買木材的客人！」</p>
+<p>所以 Session 是什麼？就是一種讓 Request 變成 stateful 的機制。以小明的例子來說，Session 就是一種讓客人之間能互相關聯起來的機制。</p>
+<p>小明靠紙條來實作 Session 機制，那在網路世界中可以靠什麼呢？</p>
+<p>舉一個最簡單的例子，網址！</p>
+<p>讓我們假設有個購物網站的網址是：market.tw，當你把蘋果加入購物車的時候，你其實是送一個 Request 給伺服器，然後伺服器會把你導到 market.tw?item1&#x3D;apple，接著你再把火山矽肺病加入購物車，網址就會變成：market.tw?item1&#x3D;apple&amp;item2&#x3D;pneumonoultramicroscopicsilicovolcanoconiosis</p>
+<p>最後你按下結帳，伺服器就靠著你網址列上的資訊來判斷你的狀態是什麼，在這個例子中就等同於看你的購物車裡面有什麼。</p>
+<p><img src="/img/session-and-cookie-15e47ed838bc/1__1R5DnG0NkD7z__fVPVG3smg.png"></p>
+<p>簡單來說呢，網址列上的資訊就是小明故事中的紙條，是儲存狀態的地方。而上述例子 Client 與 Server 透過網址列上的狀態來實作 Session 機制。</p>
+<p>好，中場休息差不多到這邊要結束了。這一段是想先拉回網路的部分，從原本故事中的比喻切回真實世界網路的運作模式，以及先讓大家理解 Session 到底是個什麼東西。</p>
+<p>在接下來的故事裡面，小明會碰到更多更多的問題，他能迎刃而解嗎？讓我們繼續看下去。</p>
+<h3 id="到底誰會隨身攜帶紙條？"><a href="#到底誰會隨身攜帶紙條？" class="headerlink" title="到底誰會隨身攜帶紙條？"></a>到底誰會隨身攜帶紙條？</h3><p>前面已經有提過了，儘管小明靠著這個紙條的機制留住了一些常客，但是新客人呢？有多少人會願意為了再來這間店而特地留下具有狀態的紙條？</p>
+<p>基本上沒有，因為這樣子太麻煩了！</p>
+<p>有天小明在快要入眠時，忽有一龐然大物拔山倒樹而來，蓋一靈感也。他想到了一個絕妙的 idea：「不會有人隨身攜帶紙條，但總會隨身攜帶手機吧！」</p>
+<p>於是流程就變成這樣子：</p>
+<ol>
+<li>客人來店裡消費，小明結帳時請他拿出手機，並在手機裡面留了一些資訊</li>
+<li>客人第二次來店裡，小明看看手機裡有沒有之前自己留下的資訊</li>
+</ol>
+<p>先不用管到底小明把資訊放在手機的哪裡，這不是重點；重點是手機裡的資訊取代了以前的紙條，客人不用刻意再帶一個沒有用的紙條了，只需要把本來就會隨身攜帶的手機拿出來就好，跟以前相比方便許多。</p>
+<p>好，接下來我們終於要講到標題的第二個東西了：Cookie。</p>
+<p>Cookie 是什麼？Cookie 就是故事裡面存在手機的資訊。</p>
+<p>想要知道真正使用 Cookie 的流程，你只要把上面的客人用「瀏覽器」來取代，小明用「伺服器」來取代，就是答案了：</p>
+<ol>
+<li>瀏覽器發送一個 Request 給 Server，Server 叫瀏覽器設置 Cookie，瀏覽器便把這些資料存在 Cookie 裡面。</li>
+<li>瀏覽器帶著 Cookie 一起發 Request 給 Server，Server 根據 Cookie 的內容決定狀態</li>
+</ol>
+<p><img src="/img/session-and-cookie-15e47ed838bc/1__7C__no8pc__iW4qIo3cKNRMA.png"></p>
+<p>雖然在現實生活中不是每個人都會隨身攜帶手機，但是每個瀏覽器都會把 Cookie 一併帶上去，也會按照 Server 的指令來儲存 Cookie。</p>
+<p>你可以把 Cookie 稱作是一個機制，Server 可以利用 Set-Cookie 這個語法讓 瀏覽器儲存一些內容，而這些內容會在瀏覽器發送 Request 時一併送上來。</p>
+<p>而瀏覽器裡儲存的那些內容也叫做 Cookie，就是我們故事中所提的小紙條或者是存在手機裡的資訊。</p>
+<p>前面有提過 Session 機制可以只靠網址列實作，跟 Cookie 可以一點關係都沒有。但在實際應用上，Session 之所以常常跟 Cookie 綁在一起，就是因為靠 Cookie 來實作 Session 機制的話非常方便。</p>
+<p>或者應該這樣說，Cookie 本來就是為了實作 Session 而生的。藉由標準化的規範，制定了一個專門用來讓瀏覽器與 Server 交換資料的機制，如果用故事來比喻，就好比政府制定說每個人隨身一定要攜帶手機，然後手機裡面一定要存小明留下來的狀態。</p>
+<p>這邊再來做個簡單的總結。</p>
+<p>Session 是什麼？就是一種讓 Request 變成 stateful 的機制。以小明的例子來說，Session 就是一種讓客人之間能互相關聯起來的機制。在故事裡面我們用了紙條跟手機裡的資訊來比喻，有多種方式可以達成 Session。</p>
+<p>在網路世界中，也有很多種方式可以來實作 Session，前面介紹過第一種是網址列，第二種就是靠 Cookie。而 Cookie 就是存在瀏覽器裡的一些資訊。</p>
+<p>講到這邊，差不多就把 Session 與 Cookie 的定義與介紹講完了，但故事還沒完呢，我們還有最後一個問題要來解決。</p>
+<h3 id="咖啡寄杯的煩惱"><a href="#咖啡寄杯的煩惱" class="headerlink" title="咖啡寄杯的煩惱"></a>咖啡寄杯的煩惱</h3><p>雖然店裡生意還可以，但小明無時無刻不想著怎麼樣發大財賺大錢，讓店裡的生意變得更好。他觀察到最近好多便利商店開始賣起了咖啡，而且時不時就買一送一或是第二件半價，並且貼心地提供了寄杯的服務。</p>
+<p>寄杯就是指說你今天先喝一杯，剩下那杯我幫你記著，你下次來的時候跟我講我再給你。如果不提供這種服務，那買一送一就一定要兩個人才能喝了（或是你立刻喝兩杯），根本就是排擠像小明這樣的邊緣人。秉持著將心比心的原則，小明當然是希望提供寄杯服務的。</p>
+<p>那該怎麼寄呢？</p>
+<p>照之前那樣不就得了嗎？原本客人的手機裡面會存著消費習慣之類的東西，現在多存一個還有幾杯咖啡不就行了？例如說客人買兩杯只喝一杯，就在上面寫著：coffee&#x3D;1，代表還剩一杯咖啡，下次來的時候只要出示這個資訊，就再給他一杯。</p>
+<p>聽起來十分合理，而且小明也這樣做了，店裡的生意變得更好，買咖啡的人愈來愈多，靠著咖啡就讓單月營收翻了兩倍。</p>
+<p>一切看似非常順利，直到小明月底對帳的時候。</p>
+<blockquote>
+<p>不對啊，為什麼買咖啡的數量只有 55 杯，賣出去的卻有 66 杯？</p>
+</blockquote>
+<p>一向很相信人的小明，在那一瞬間見識到了人心的險惡之處。沒錯，有人自己偷改資訊，例如說把 coffee&#x3D;1 加個幾劃改成 coffee&#x3D;7，就獲得了額外六杯的免費咖啡。</p>
+<p>這些奧步讓小明狠狠一夜之間變成了大人，絕望的小明把悲憤轉化成力量，只花了三個晚上就想到了兩個解決方法。</p>
+<p>第一個方法最簡單，就是只要把存在客人手機上的資訊加密就好了。例如說原本是 coffee&#x3D;1，經過小明自製的特殊加密演算法之後，會變成 ED85B89167A84B631C10B046B5FB7FC0 這串只有小明知道怎麼解開的密文。這樣一來，除非客人可以破解這段密碼，否則資訊就不可能被竄改。</p>
+<p>但有一個小缺點，那就是當小明想存的資訊愈來愈多之後，這一串字也會愈來愈長，就會在客人的手機裡面佔更大的容量。這個容量是有上限的，客人不會把整台手機都給你存這些資訊，所以這點要特別注意。</p>
+<p>這個方法解決問題的思路是這樣的：「既然存在手機上的資訊會被竄改，那我讓他不能改就好」。</p>
+<p>而第二個方法解決問題的思路是這樣的：「既然存在手機上的資訊會被竄改，那我把資訊存在我這邊不就好了嗎？」</p>
+<p>與其把那些消費習慣或是寄杯數量存在客人的手機裡，不如把這些東西記在我的筆記本裡面，並且用一種方式把這兩個資訊對應起來，這樣就不怕資料會被改動了。</p>
+<p>舉例來說，小明可以在筆記本寫下客人的身分證字號跟相關資訊，例如說：「A111111111 coffee&#x3D;1」，接著小明只在客人的手機裡面存「A111111111」，下次客人再來消費的時候，就透過身分證字號去筆記本裡面查，就知道客人到底還剩幾杯咖啡了。</p>
+<p>由於小明的筆記本每天下班都會鎖在保險箱裡面，因此不用害怕被偷或是被改，可以假設它一定是準確的。而這樣子的方式不把主要資訊存在客人那裡，而是存在自己這裡，所以也不會有被竄改的風險。</p>
+<p>可是有個問題，如果有人把身分證字號改成其他人的怎麼辦？那不就破功了嗎？就可以偽造其他人的身份。</p>
+<p>這個簡單，不如不要用身分證字號，用一個 16 位數的英數字混合亂碼好了，例如說：A59Uhe7I94J330mN，這樣就很難被猜到了吧！</p>
+<p>於是流程會變成這樣：</p>
+<p><img src="/img/session-and-cookie-15e47ed838bc/1____FDXY__p__4CFaDNKHu3PiOw.png"></p>
+<p>跟之前一樣，他們都是透過一張紙條或者是手機裡的資訊來溝通，但唯一的差別是客人跟小明之間只透過 A59Uhe7I94J330mN 這個存在手機裡的 ID 來驗證身份，其他相關資訊都寫在小明的筆記本裡面。</p>
+<p>這種驗證的方法就像是我曾經去過的網咖。因為會員打咖比較便宜嘛，一小 60 變成一小 36，不辦白不辦，就辦了一張會員卡。店員特別說明認卡不認人，一定要出示卡片才行。</p>
+<p>我只要去打咖的時候出示這張會員卡，店員就知道我曾經消費過多少錢，也知道我喜歡點的餐點，所有的資訊都是存在他們的系統裡面，而我的身份就是透過這張會員卡來表示。</p>
+<p>寄杯的例子中，會員卡就是 A59Uhe7I94J330mN 這個 ID，網咖的電腦系統就是小明的筆記本。</p>
+<p>小明最後決定用第二種方法，也就是這種靠 ID 認人的方式來管理客人的狀態。從此之後就沒有客人能夠竄改資訊了，而寄杯服務也運行的十分順利，真是皆大歡喜，可喜可賀。</p>
+<p>至於後來變得生意太好，讓小明開了分店以後碰到的那些問題，就又是另外一段故事了。</p>
+<h3 id="儲存狀態的方式"><a href="#儲存狀態的方式" class="headerlink" title="儲存狀態的方式"></a>儲存狀態的方式</h3><p>小明的故事說完了，該來把上面這一段變成網路的實際案例了。</p>
+<p>其實在網路世界中問題也是一樣的。前面已經提到過我們會把狀態存在 Cookie 裡面，讓 Request 之間能夠變得有關聯。假設我們今天要來做一個會員系統，那我要怎麼知道這個 Request 代表的是哪一個會員？</p>
+<p>最直覺的方式就是登入以後把會員帳號存在 Cookie 裡面嘛，這樣不就知道是誰了嗎？可是會碰到的問題就跟寄杯的故事一樣，Cookie 裡的東西是可以被竄改的，如果我改成了別人的會員帳號，我就可以偽造他的身份登入了！</p>
+<p>解決方法跟上面寄杯的解法一樣。</p>
+<p>第一個解法就是把 Cookie 裡面的內容給加密，這樣就無法被竄改了。這種方式就稱之為 Cookie-based session，意思就是你把所有的 Session 狀態都存在 Cookie 裡面。</p>
+<p>所以不要把「用 Cookie 來實作 Session 機制」跟「Cookie-based session」搞混了，兩者是不一樣的。</p>
+<p>至於缺點的話前面有提到，Cookie 的大小是有限制的，超過大小的話瀏覽器就不幫你存了。因此當你想存的資訊越來越多，Cookie 當然也越來越大，就有可能超過這個限制。或者是哪天你的加密方式以及密鑰被駭客破解，那駭客一樣可以偽造任何人的身份。</p>
+<p>第二個解法就是透過一個 ID 來辨識身份，這個 ID 稱之為 Session Identifier，簡稱 Session ID。Server 只在 Cookie 裡面存一個 Session ID，其餘的狀態都存在 Server 那邊，我習慣把 Server 那邊的資料稱為 Session Data：</p>
+<p><img src="/img/session-and-cookie-15e47ed838bc/1__atP0XsPDnpmHIvxACcoOvA.png"></p>
+<p>SessionID 的產生方式跟前面說的一樣，通常會是一個無法猜測的亂數。你可能會想說：「很難猜是一回事，但機率不是 0 阿！」，對，的確是有機率能夠猜到，但是那個機率太低太低了（例如說幾千億分之一之類的）。而且 Server 在你亂猜猜錯幾次之後就有可能把你 ban 掉不讓你繼續猜，所以沒什麼問題。</p>
+<p>不過這邊要特別注意的一點是 SessionID 基本上是種認證不認人的方式，也就是說一旦你的 SessionID 被偷走，別人就可以偽造你的身份來登入了。而這個 SessionID 通常都是保存在 Cookie 之中。</p>
+<p>這就是為什麼有些網站發生駭客入侵的情形之後你會突然被登出，因為駭客可能偷到一批 SessionID，這時候伺服器就會把所有 Session 資料全部清空，以故事來比喻就是把筆記本丟掉，買一本新的，這樣被偷走的那些 SessionID 就沒用了，而 Server 找不到你的 SessionID，自然就無法登入，因此把你給登出了。</p>
+<p>網站發生問題時客服會要你先把 Cookie 清掉也是類似的道理，因為 Cookie 跟狀態有關，有時候可能程式有一些 bug，把你導到了錯誤的狀態，把 Cookie 清空等於把狀態清空，重新再開始，就有可能變得正常。</p>
+<h3 id="總結"><a href="#總結" class="headerlink" title="總結"></a>總結</h3><p>其實我原本以為我很懂 Cookie 跟 Session，但越研究越發現好像不是這麼一回事，只是我自我感覺良好而已。但把該看的資料都看完一遍之後，再讓自己沈澱個幾天，大致上就能完全理解整個脈絡的發展。</p>
+<p>Session 是什麼？就是一種讓 Request 變成 stateful 的機制。以小明的例子來說，Session 就是一種讓客人之間能互相關聯起來的機制。在故事裡面我們用了紙條跟手機裡的資訊來比喻，有多種方式可以達成 Session。</p>
+<p>在網路世界中，也有很多種方式可以來實作 Session，前面介紹過第一種是網址列，第二種就是靠 Cookie，而 Cookie 就是存在瀏覽器裡的一些資訊。常見的錯誤認知是一定要有 Cookie 才能實作 Session，這是錯誤的。</p>
+<p>有了 Session 之後，會碰到資料被竄改的問題，這時候有兩種解決方式，一個是 Cookie-based session，意思是你照舊把狀態存在 Cookie，但是加密以後再存；另一個方法是把狀態存在 Server 端，靠一個 SessionID 來辨識，這個狀態你可以存成檔案，可以存在記憶體裡，也可以存在資料庫，只是實作方式的不同而已，但原理都是一樣的。</p>
+<p>而這個狀態儲存的地方在口語上也會被稱之為「Session」，例如說：「幫我把 user id 存在 session 裡」，或者是「登出記得把 session 清空」之類的，所以在實際用法中，我認為 session 之所以不好理解是因為太多地方用到同一個詞，但卻是在指涉不同的東西（可是又很類似）。跟 API 有點像，太多地方都用到這個詞了。</p>
+<p>前面提過這是系列文的第一篇，這一篇預設沒有任何基礎的人都可以看，但下一篇就不是了，會預設讀者有一些背景知識。</p>
+<p>三篇的完整連結如下：</p>
+<p>1. <a target="_blank" rel="noopener" href="https://medium.com/@hulitw/session-and-cookie-15e47ed838bc">白話 Session 與 Cookie：從經營雜貨店開始</a><br>2. <a target="_blank" rel="noopener" href="https://github.com/aszx87410/blog/issues/45">淺談 Session 與 Cookie：一起來讀 RFC</a><br>3. <a target="_blank" rel="noopener" href="https://github.com/aszx87410/blog/issues/46">深入 Session 與 Cookie：Express、PHP 與 Rails 的實作</a></p>
+<p>在寫這篇文章時有問過一些朋友的意見，特別感謝有與我討論的這些朋友們。</p>
+<p>想持續關注的話可以 follow 一下。單純手癢想按按鈕也可以按個 follow，或是考慮一下關注 <a target="_blank" rel="noopener" href="https://www.facebook.com/lidemytw/">Lidemy 粉絲專頁</a>。之後的系列文會放在另一個部落格，比較硬的技術文都在那：<a target="_blank" rel="noopener" href="https://github.com/aszx87410/blog">https://github.com/aszx87410/blog</a>。</p>
+<p>想看更多文章可以參考我的 Medium 文章列表：<a target="_blank" rel="noopener" href="https://aszx87410.github.io/blog/medium">https://aszx87410.github.io/blog/medium</a></p>
+</article><section class="jump-container is-flex is-justify-content-space-between my-6"><!-- em is empty placeholder--><a class="button is-default" href="/2019/08/19/lidemy-courses-fda610c7ff9b/" title="Lidemy 新課程上架以及課程說明"><i class="iconfont icon-prev mr-2 has-text-grey"></i><span class="has-text-weight-semibold">上一頁: Lidemy 新課程上架以及課程說明</span></a><a class="button is-default" href="/2019/07/25/mentorship-program-350db93d5c9c/" title="真正的 Mentorship program：前端引路人計畫"><span class="has-text-weight-semibold">下一頁: 真正的 Mentorship program：前端引路人計畫</span><i class="iconfont icon-next ml-2 has-text-grey"></i></a></section><article class="mt-6 comment-container"><script async repo="Haojen/abc" src="https://utteranc.es/client.js" issue-term="pathname" theme="preferred-color-scheme"></script></article></div></div></main></main><footer class="is-flex is-flex-direction-column is-align-items-center is-flex-shrink-0 is-family-serif"><section class="sns-container"><!-- Github--><a title="github" target="_blank" rel="noopener nofollow" href="//github.com/aszx87410"><i class="iconfont icon-github"></i></a><!-- Ins--><!-- RSS--><a title="rss" target="_blank" rel="noopener nofollow" href="/atom.xml"><i class="iconfont icon-rss"></i></a><!-- 知乎--><!-- 领英--><!-- 脸书--><a title="facebook" target="_blank" rel="noopener nofollow" href="//www.facebook.com/huli.blog"><i class="iconfont icon-tian7_facebook"></i></a></section><p><span>Copyright ©</span><span> Huli 2023</span></p><div class="is-flex is-justify-content-center is-flex-wrap-wrap"><p>Powered by Hexo &verbar;&nbsp;</p><p class="is-flex is-justify-content-center"><a title="Hexo theme author" target="_blank" rel="noopener" href="//github.com/haojen">Theme by Haojen&nbsp;</a></p><div style="margin-top: 2px"><a class="github-button" title="github-button" target="_blank" rel="noopener" href="https://github.com/haojen/hexo-theme-Claudia" data-color-scheme="no-preference: light; light: light; dark: dark;" data-show-count="true"></a></div></div><div><span></span></div></footer><script async defer src="https://buttons.github.io/buttons.js"></script><script src="/js/jquery-3.6.1.min.js"></script><script src="/js/jquery-fancybox.min.js"></script><script src="/js/img_zoom.js"></script><script src="/js/post.js"></script></body></html>

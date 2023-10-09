@@ -1,0 +1,179 @@
+<!DOCTYPE html><html class="appearance-auto" lang="zh-TW"><head><meta charset="UTF-8"><title>跟著小明一起搞懂技術名詞：MVC、SPA 與 SSR - Huli's blog</title><meta name="description" content="這篇的靈感來自於 Front-End Developers Taiwan 裡面的一串討論，有人 po 了一個影片是來討論「MVC vs SPA」，這個標題一出來大家都驚呆了，想說怎麼會有這樣的比較.."><meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, initial-scale=1"><meta name="image" content="https://life.huli.tw/img/introduction-mvc-spa-and-ssr-545c941669e9/1__x__MTlP9rGt4W__ioGsWM1lw.png"><meta name="original-source" content="https://life.huli.tw/2018/05/04/introduction-mvc-spa-and-ssr-545c941669e9/"><link rel="canonical" href="https://life.huli.tw/2018/05/04/introduction-mvc-spa-and-ssr-545c941669e9/"><meta property="og:locale" content="zh-TW"><meta property="og:type" content="article"><meta property="og:title" content="跟著小明一起搞懂技術名詞：MVC、SPA 與 SSR - Huli's blog"><meta property="og:description" content="這篇的靈感來自於 Front-End Developers Taiwan 裡面的一串討論，有人 po 了一個影片是來討論「MVC vs SPA」，這個標題一出來大家都驚呆了，想說怎麼會有這樣的比較.."><meta property="og:url" content="https://life.huli.tw/2018/05/04/introduction-mvc-spa-and-ssr-545c941669e9/"><meta property="og:site_name" content="Huli's blog"><meta property="og:image" content="https://life.huli.tw/img/introduction-mvc-spa-and-ssr-545c941669e9/1__x__MTlP9rGt4W__ioGsWM1lw.png"><meta name="twitter:title" content="跟著小明一起搞懂技術名詞：MVC、SPA 與 SSR - Huli's blog"><meta name="twitter:image" content="https://life.huli.tw/img/introduction-mvc-spa-and-ssr-545c941669e9/1__x__MTlP9rGt4W__ioGsWM1lw.png"><meta name="twitter:description" content="這篇的靈感來自於 Front-End Developers Taiwan 裡面的一串討論，有人 po 了一個影片是來討論「MVC vs SPA」，這個標題一出來大家都驚呆了，想說怎麼會有這樣的比較.."><meta name="twitter:card" content="summary_large_image"><!-- Google Analytics --><!-- End Google Analytics --><link rel="icon" href="/images/lidemy_logo.png"><link rel="stylesheet" href="/style/common/bulma.css"><link rel="stylesheet" href="/style/base.css"><link rel="stylesheet" href="/style/common/helper.css"><script src="/js/common.js"></script><link rel="stylesheet" href="/style/post.css"><link rel="stylesheet" href="/style/themes/highlight-theme-light.css"><link rel="stylesheet" href="/style/common/jquery.fancybox.min.css"><script src="/js/highlight.pack.js"></script><meta name="description" content="這篇的靈感來自於 Front-End Developers Taiwan 裡面的一串討論，有人 po 了一個影片是來討論「MVC vs SPA」，這個標題一出來大家都驚呆了，想說怎麼會有這樣的比較，於是下面掀起一波激烈的討論，最後發現原 po 誤用了專有名詞，才導致這樣的結果。
+雖然說很多技術名詞本來就是一個名詞各自表述，但基本概念通常都不會相差太遠，只有在細節上會有些許的爭議以及討論而已。
+身為致力於要讓新手更容易搞懂技術名詞的人，不如就讓我來嘗試看看講解這幾個東西吧！
+這篇文章的目標是：「只要你有網頁前端的基礎，就能夠搞懂我在說什麼」，如果你搞不懂的話，別擔心，不是你的錯，是我沒寫好。麻煩在下面留言一下讓我知道哪裡可以再改進。
+接下來我會以主角小明為中心點出發，試著從一段虛擬的故事不斷帶出：「為什麼 X.."><!-- hexo injector head_end start -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/hexo-math@4.0.0/dist/style.css">
+<!-- hexo injector head_end end --><meta name="generator" content="Hexo 6.3.0"><link rel="alternate" href="/atom.xml" title="Huli's blog" type="application/atom+xml">
+</head><body class="is-flex is-flex-direction-column"><header class="header-widget is-flex-shrink-0 is-hidden-mobile"><div class="container is-fullhd is-flex is-justify-content-space-between is-align-items-center is-full-height"><section class="is-hidden-mobile is-flex-shrink-0"><h2><a href="/">Huli's blog</a></h2></section><h3 class="is-hidden-mobile is-family-serif is-full-height is-flex is-align-items-center is-flex-shrink-0"><div class="is-full-height" id="postTopic"><p class="is-full-height is-flex-shrink-0 is-flex is-align-items-center is-justify-content-center">跟著小明一起搞懂技術名詞：MVC、SPA 與 SSR</p><p class="is-full-height is-flex-shrink-0 is-flex is-align-items-center is-justify-content-center">點擊返回開頭</p></div></h3><aside class="is-flex-shrink-0"><h3 class="is-inline-block"><a href="/">首頁</a></h3><h3 class="is-inline-block"><a href="/about">關於我</a></h3><h3 class="is-inline-block"><a href="/archives">文章列表</a></h3></aside></div></header><header class="is-flex header-widget is-flex-shrink-0 is-align-items-center is-justify-content-center is-hidden-tablet"><h3 class="is-inline-block"><a href="/">首頁</a></h3><h3 class="is-inline-block"><a href="/about">關於我</a></h3><h3 class="is-inline-block"><a href="/archives">文章列表</a></h3></header><main><main class="container is-max-widescreen content section post-page pt-4 px-4"><div class="columns is-flex-desktop is-justify-content-center is-flex-direction-row-reverse"><div class="column is-3 is-hidden-mobile"><ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%AC%AC%E4%B8%80%E5%B9%95%EF%BC%9A%E5%9C%A8%E5%BE%88%E4%B9%85%E5%BE%88%E4%B9%85%E4%BB%A5%E5%89%8D%E2%80%A6"><span class="toc-text">第一幕：在很久很久以前…</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%AC%AC%E4%BA%8C%E5%B9%95%EF%BC%9A%E7%97%9B%E6%94%B9%E5%89%8D%E9%9D%9E"><span class="toc-text">第二幕：痛改前非</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%AC%AC%E4%B8%89%E5%B9%95%EF%BC%9A%E6%AF%9B%E5%BE%88%E5%A4%9A%E7%9A%84%E4%BD%BF%E7%94%A8%E8%80%85"><span class="toc-text">第三幕：毛很多的使用者</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%AC%AC%E5%9B%9B%E5%B9%95%EF%BC%9A%E8%A1%8C%E9%8A%B7%E5%9C%98%E9%9A%8A%E7%9A%84%E6%9A%B4%E6%80%92"><span class="toc-text">第四幕：行銷團隊的暴怒</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%9C%80%E7%B5%82%E5%B9%95%EF%BC%9A%E5%89%8D%E7%AB%AF%E7%9A%84%E6%9C%AA%E4%BE%86"><span class="toc-text">最終幕：前端的未來</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%B5%90%E8%AA%9E"><span class="toc-text">結語</span></a></li></ol></div><div class="column is-9"><header class="my-4"><a href="/tags/%E6%8A%80%E8%A1%93%E7%99%BD%E8%A9%B1%E6%96%87"><i class="tag post-item-tag">技術白話文</i></a></header><h1 class="mt-0 mb-1 is-family-serif" id="postTitle">跟著小明一起搞懂技術名詞：MVC、SPA 與 SSR</h1><time class="has-text-grey" datetime="2018-05-04T17:45:34.464Z">2018-05-05</time><article class="mt-2 post-content"><p>這篇的靈感來自於 <a target="_blank" rel="noopener" href="https://www.facebook.com/groups/f2e.tw/permalink/1642690352434990/">Front-End Developers Taiwan</a> 裡面的一串討論，有人 po 了一個影片是來討論「MVC vs SPA」，這個標題一出來大家都驚呆了，想說怎麼會有這樣的比較，於是下面掀起一波激烈的討論，最後發現原 po 誤用了專有名詞，才導致這樣的結果。</p>
+<p>雖然說很多技術名詞本來就是一個名詞各自表述，但基本概念通常都不會相差太遠，只有在細節上會有些許的爭議以及討論而已。</p>
+<p>身為致力於要讓新手更容易搞懂技術名詞的人，不如就讓我來嘗試看看講解這幾個東西吧！</p>
+<p>這篇文章的目標是：「只要你有網頁前端的基礎，就能夠搞懂我在說什麼」，如果你搞不懂的話，別擔心，不是你的錯，是我沒寫好。麻煩在下面留言一下讓我知道哪裡可以再改進。</p>
+<p>接下來我會以主角小明為中心點出發，試著從一段虛擬的故事不斷帶出：「為什麼 XXX 會出現」、「為什麼我們需要 XXX」這些問題。如果你只對真實歷史的名詞演進有興趣，那你可能要去維基百科才能找到比較正確的資料。本故事純屬虛構，如有雷同…應該不太可能會有雷同啦，就讓我們開始吧！</p>
+<p>（先打個預防針，故事有點長，如果這些概念你都理解了應該會覺得這篇文章超級廢又超級長）</p>
+<h3 id="第一幕：在很久很久以前…"><a href="#第一幕：在很久很久以前…" class="headerlink" title="第一幕：在很久很久以前…"></a>第一幕：在很久很久以前…</h3><p>小明是一個初學程式的新手，在這之前有用 Dreamweaver 寫過一些簡單的靜態網頁，對 HTML、CSS 以及 JavaScript 都有一些基礎，而朋友們都推薦他去學 PHP 來補足後端的部分。</p>
+<p>經過了一個月的苦練之後，小明終於完成了他的第一個後端程式，是一個非常簡單的留言板系統（怕大家傷眼睛，這邊只截給大家看其中一部分）</p>
+<p><img src="/img/introduction-mvc-spa-and-ssr-545c941669e9/1__x__MTlP9rGt4W__ioGsWM1lw.png"></p>
+<p>PHP 程式碼、商業邏輯、HTML，全部東西都混在一起做撒尿牛丸，寫了這樣的程式碼之後，小明每次考試都考一百分呢！</p>
+<p>小明一開始覺得很興奮，自己終於能夠通曉前後端，成為全端工程師，便興沖沖的持續精進自己的後端技術，每天都加一個新的 feature 進去。過了兩個禮拜之後，小明整理了一下資料夾，發現總共有 100 個 PHP 檔案，每個檔案有超過 300 行 code，而且全部都是 PHP 跟 HTML 混在一起寫。</p>
+<p>他隨便點開其中一個檔案，看了 10 秒之後大喊：</p>
+<blockquote>
+<p>我到底寫了三小</p>
+</blockquote>
+<p>意識到自己寫的 code 很爛，是邁向一個好的工程師的第一步。</p>
+<h3 id="第二幕：痛改前非"><a href="#第二幕：痛改前非" class="headerlink" title="第二幕：痛改前非"></a>第二幕：痛改前非</h3><p>發現自己寫的程式碼連自己都看不懂的時候，小明覺得這樣不行，阿嶽也覺得不行，我也覺得不行。</p>
+<p>因此呢，小明跑去十分瀑布下面打坐了三天三夜，不斷想著該怎麼樣讓他的程式碼變得更好，能夠更好維護、更好讀懂。他不求一步登天，只希望三個月之後當他回顧自己寫的 code 時，不要罵髒話就好。</p>
+<p>就在第三天的晚上，他突然有了靈感，大喊了一聲：</p>
+<blockquote>
+<p>Eureka！</p>
+</blockquote>
+<p>就趕緊跑回家去重構自己的 code 了，而下面是他重構的結果：</p>
+<p><img src="/img/introduction-mvc-spa-and-ssr-545c941669e9/1__Cia4vNN2yV2ALk__yLZswqQ.png"></p>
+<p>這個範例跟之前差在哪邊呢？</p>
+<p>首先，他把任何跟資料有關的操作都放到一個叫做 Model 的地方去，所以你要改任何跟資料有關的東西，都到那邊就對了。</p>
+<p>再來，他也把所有跟顯示畫面有關的東西都放到其他地方去，我們就叫做 View 吧，View 裡面用一個 template 來塞入資料，不做任何跟資料有關的處理。</p>
+<p>如此一來，他就把資料跟畫面顯示這兩者切開了，並且讓開頭那段 PHP code 把這兩者連接起來，先去 Model 拿資料，再把資料塞入 View 裡面輸出。那這個「連接兩者」的角色，就叫做 Controller 吧！</p>
+<p>於是，MVC 就這樣出現了。為的就是要把原來亂七八糟的程式碼理出一個頭緒來，是你的就是你的，不是你的就給我滾遠點。你要存取資料庫就是去 Model 裡面，你要寫 HTML 就去 View，絕對不會出現在 View 裡面下 SQL Query 這種事情。</p>
+<p>所以 MVC 是什麼？就是一種設計模式，你只要把你的 code 像這樣子切開，都可以叫做 MVC，所以你不可能只看一個畫面就跟你朋友說：「欸欸，這個網站是 MVC，因為他有好多個頁面」，除非你可以通靈看到背後程式碼的架構長什麼樣子。</p>
+<p>話說後來又陸陸續續出現很多種模式，而且 MVC 其實也沒有想像中的職責這麼分明，在這邊我就不細講了，我自己對那整段歷史也沒有很熟，有興趣的可以參考：<a target="_blank" rel="noopener" href="http://blog.turn.tw/?p=1539">MVC 是一個巨大誤會</a></p>
+<p>然後我上面那段 code 是亂寫的，如果你對真實世界的 MVC 框架寫出來的 code 有興趣的話，會長成這樣：</p>
+<p><img src="/img/introduction-mvc-spa-and-ssr-545c941669e9/1__vS7pUdfsJ9jHpPToZzO2Pw.png"></p>
+<p>講到這裡我們做一個小總結，問自己三個問題：</p>
+<ol>
+<li>為什麼要有 MVC？</li>
+<li>有 MVC 跟沒有 MVC 的差別在哪？</li>
+<li>所以 MVC 是什麼？</li>
+</ol>
+<p>三個問題可以一起回答：</p>
+<blockquote>
+<p>因為小明寫的 code 太髒了太難維護，所以需要重構。而後來他發現用 Model、View、Controller 這三個概念來切的話可以把 code 寫得漂亮很多又好維護，就這樣做了。差別在於原本的 code 混在一起，遵守 MVC 的規範之後職責變得清楚很多。所以呢，MVC 就是一種架構，後端可以遵守 MVC 的架構去開發，前端也可以，就算不是 Web 也可以用 MVC。</p>
+</blockquote>
+<h3 id="第三幕：毛很多的使用者"><a href="#第三幕：毛很多的使用者" class="headerlink" title="第三幕：毛很多的使用者"></a>第三幕：毛很多的使用者</h3><p>小明把自己的爛 code 利用 MVC 模式重構之後，看起來還挺不賴的，至少比以前好很多，三個月過去了，也能看得懂自己以前寫的 code。把留言板的程式碼重構得差不多之後，小明決定把這個專案公開，開放給大家註冊使用，讓每個人都可以有自己的留言板。</p>
+<p>一開始狀況都還行，大家紛紛感激小明的無私奉獻，「祝樓主一生平安」、「感謝大大無私的分享」，可是好景不常，有天小明收到了一個回饋：</p>
+<blockquote>
+<p>我每次留言之後頁面都會刷新，我家網速又慢，每次都要等個十幾秒，有沒有可能不要重新整理頁面？你看人家 Gmail，我寄完信它也沒有重新整理啊！人家做得到你應該也做得到吧</p>
+</blockquote>
+<p>身為一個濫好人，小明乖乖的去研究 Gmail 到底是如何做到的，發現秘訣就在於一個神奇的東西：Ajax，全名 Asynchronous JavaScript and XML。</p>
+<p>全名聽起來很嚇人，但說穿了其實就是你在 JavaScript 裡面可以非同步的去呼叫 Server 的 API 並且拿資料回來，在 Ajax 出現之前，你要把資料帶過去都必須透過 Form 的方式，一定要換頁。可是有了 Ajax 以後，不換頁也能跟 Server 溝通。</p>
+<p>Gmail 就是利用這樣的原理，才能達成寄信不換頁。</p>
+<p>小明研究了一個假日之後便著手改造自己的留言板，把原本利用 Form 發送留言的地方變成 Ajax，可是他碰到了一個問題：</p>
+<blockquote>
+<p>原本我新增留言之後重新整理頁面就可以看到新的留言了，因為 Server 會把最新的結果傳回去；可是我現在用 Ajax，我要怎麼在不刷新頁面的前提下在畫面上新增留言？</p>
+</blockquote>
+<p>總而言之呢，利用 Ajax 之後的確是發了一個 Request 跟 Server 說你要新增留言，也成功了，可是畫面上不會平白無故就跑出一個新的留言。在經過短暫的思考後，小明得到一個很直覺的解法：「阿我就用 JavaScript 來新增就好啦！」</p>
+<p>經過一番修改之後，新增留言的程式碼從原本很簡單的一個 Form 表單，變成下面這個樣子：</p>
+<p><img src="/img/introduction-mvc-spa-and-ssr-545c941669e9/1__7Cpm59gTbiTw48gbHBwz__Q.png"></p>
+<p>使用者的需求被解決了，小明也有了技術上的成長，可謂是一石二鳥、一舉兩得，但小明天真的地方就在於他把使用者想得太簡單了。</p>
+<p>過了一個禮拜之後，同一個使用者又寫信給小明：</p>
+<blockquote>
+<p>很感謝你上次新增的功能，可是我有個疑問。我看 Gmail 無論做什麼操作都不會換頁，你的留言板也可以改成這樣嗎？這樣比較方便，謝謝。</p>
+</blockquote>
+<p>濫好人小明沒有仔細深究「比較方便」到底是怎樣的方便，純粹站在一個希望滿足使用者所有需求的角度跳下去研究 Gmail 到底還能夠做到什麼。</p>
+<p>他發現了 Gmail 跟其他網站不同的地方就是：「無論做什麼操作都不會換頁」，換頁指的是「你會有一段時間看到整個畫面全白，因為瀏覽器正在等待 Server 的 Response 才能載入 HTML」。</p>
+<p>你在用 Gmail 的時候，無論你是寫信、讀信、整理信件或是切換到設定頁，儘管你的網路跟烏龜一樣，你還是看不到任何全白畫面。</p>
+<p>為什麼？因為 Gmail 所有跟 Server 溝通的地方都是用 Ajax。</p>
+<p>這是改造前的範例，我們利用表單 POST 來新增一筆留言，所以你會看到一小段的白畫面：</p>
+<p><img src="/img/introduction-mvc-spa-and-ssr-545c941669e9/1__usRjA5fgHT7mkVgYGYgDOw.gif"></p>
+<p>這是改造後的範例，因為我們用 Ajax 來新增留言的關係，所以你不會看到任何白畫面的出現，使用者體驗好很多：</p>
+<p><img src="/img/introduction-mvc-spa-and-ssr-545c941669e9/1__iz2o4r4oEdHhAsuQaFqNeQ.gif"></p>
+<p>我們再舉一個簡單的小例子，假設小明今天寫了一個沒有用 Ajax 的 Minmail，他刪除一封信的流程是這樣的：</p>
+<ol>
+<li>點擊刪除之後，利用 Form 表單 POST 資料去 &#x2F;server&#x2F;delete_email</li>
+<li>&#x2F;server&#x2F;delete_email 處理完之後 redirect 回去信件列表</li>
+<li>瀏覽器重新載入信件列表（在載入之前你都會看到全白畫面）</li>
+</ol>
+<p>可是如果是像 Gmail 那樣子全部改成 Ajax 的話，就會變成：</p>
+<ol>
+<li>點擊刪除之後，利用 Ajax POST 資料去 &#x2F;server&#x2F;api&#x2F;delete_email</li>
+<li>&#x2F;server&#x2F;api&#x2F;delete_email 處理完之後回傳 Response</li>
+<li>利用 JavaScript 在前端把那封信的從畫面上移除</li>
+</ol>
+<p>後者利用 Ajax 跟後端同步資料，並且在前端用 JavaScript 更改畫面，所以你無論做什麼操作都不會換頁，也可以保證前後端的資料是同步的。</p>
+<p>知道區別以及原理之後，小明把整個網站都改造成這種形式，只要是任何原本用到 Form 的地方，現在全部都用 Ajax 拿資料並搭配 JavaScript 來做畫面上的處理。</p>
+<p>因此，留言列表現在變成 Ajax 拿資料回來之後由 JavaScript 把留言 append 到畫面上，就像我們剛剛示範的新增留言那樣。</p>
+<p>此時，小明突然有個非常驚人的發現：</p>
+<blockquote>
+<p>咦，如果我全部畫面都是由前端利用 JavaScript 動態產生的話，那我原本後端的 View  要幹嘛？</p>
+</blockquote>
+<p>咦，對啊，既然現在所有畫面都是在前端由 JavaScript 動態產生，那我後端不就永遠都輸出同一個檔案就好？如此一來，使用者看到的其實都是<strong>同一個頁面</strong>，而我們利用 JavaScript 在這個頁面上做變化。</p>
+<p>這個概念就叫做 SPA，全名是 Single Page Application，單頁式應用。與之對應的概念是 MPA，Multiple Page Application。</p>
+<p><img src="/img/introduction-mvc-spa-and-ssr-545c941669e9/1__M4Il9f__myqCnqDmfL__sjPw.png"></p>
+<p>就如同小明領悟的一樣，前端如果利用 SPA 來實作的話，會把原本應該是後端處理的一部份職責給搬到前端去，例如說狀態的管理跟路由。</p>
+<p>舉例來說，在以往 Server 根據不同的路徑對應到不同的 Controller，進而渲染出不同的 View。可是現在 Server 無論什麼路徑都會輸出同一個檔案，所以你在前端也要判斷現在的網址是哪個，才能決定在前端應該渲染出哪個畫面。</p>
+<p>再舉一個例子，假設我現在寫了一個電影列表的網站，首頁列出許多熱門電影，點進去可以看到個別電影的詳細資料。而我們做了以下動作：</p>
+<ol>
+<li>點進電影 A</li>
+<li>快速按上一頁</li>
+<li>快速點進電影 B</li>
+</ol>
+<p>如果是 SPA 的話，實作的邏輯應該會是：「點進單獨電影時發送一個 Request，等 Response 回來之後把資料顯示在畫面上」，乍聽之下沒什麼問題，但若是你在第三步的時候，第一步所發出去的電影 A 的 Response 才傳回來，你的畫面就會顯示出電影 A 的資訊，可是使用者點的明明就是電影 B。</p>
+<p>這就是我所說的狀態管理變複雜了，有些地方需要花點心思做處理。在以往 MPA 的時候完全不會發生這種事，你可以保證 Server 會回傳正確的結果，因為畫面是在後端 render 再回傳回來的，而且每一個頁面之間的狀態不會互相干擾。</p>
+<p>如果寫得好，我相信 SPA 的使用者體驗一定很不錯，因為用起來就跟你在用 Native App 差不多嘛，但你必須付出的代價是前端變得超級複雜，有一堆非同步的問題要考慮還有一大堆事情要做。此時的前端複雜度已經跟我們最開頭示範的那種簡單留言板相差許多了。</p>
+<p>在這種時候，前端也可以參考我們前面所說的 MVC 架構或是其他相關架構來讓程式碼的職責變得更分明，讓整個專案更好維護。所以你可以又有 MVC 又有 SPA，或是沒有 MVC 但有 SPA，這兩者是完全不同的概念。</p>
+<p>我之前寫過另外一篇文章，有興趣的話可以參考看看：<a target="_blank" rel="noopener" href="https://blog.techbridge.cc/2017/09/16/frontend-backend-mvc/">前後端分離與 SPA</a></p>
+<p>最後我舉一個一定要用 SPA 的例子：音樂播放網站。</p>
+<p>如果音樂播放網站是用 MPA 的話，每去一個新的網址就會把整個頁面換掉，那你的網頁播放器就會中斷了，這是完全沒辦法接受的事。所以唯一的解法就是：播放器永遠都在頁面上，只有其他部分的內容換掉。而這一切都是在前端用 JavaScript 來處理的。</p>
+<h3 id="第四幕：行銷團隊的暴怒"><a href="#第四幕：行銷團隊的暴怒" class="headerlink" title="第四幕：行銷團隊的暴怒"></a>第四幕：行銷團隊的暴怒</h3><p>小明花了整整一個月的時間不眠不休不吃不喝（誇飾法，開玩笑的），終於把整個網站改造成 SPA，而且還優化了不少地方，讓整個使用者體驗變得非常非常好。</p>
+<p>不久過後，這個留言板系統因為體驗實在是太好了，有越來越多人使用，短短一個月內就有了一百萬個來自世界各地的使用者註冊。還有來自國外的使用者甚至寫信給小明希望能夠付錢來擁有更多功能：</p>
+<blockquote>
+<p>Hey, thanks for building such a cool website, I really like it. Is there any premium plan? I am glad to pay for the additional features like custom domain or custom template.</p>
+</blockquote>
+<p>聽過一大堆創業講座的小明知道時候到了，可以把這個 side project 當作創業項目了！</p>
+<p>憑著現有的成績，小明很快地就募到了天使輪，找了幾個夥伴成立了一間公司，想要把這個留言板系統做成全世界第一的留言板，期許自己能成為留言板界的 WordPress。</p>
+<p>可是好景不常，過了一兩個月之後不知道為什麼，新的會員越來越少，砸下大筆的廣告費也只帶來短暫的成效而已，一旦廣告停了就又恢復以往冷清的樣子。</p>
+<p>奇怪，就算是熱潮退燒也沒退燒得這麼快才對，到底是發生什麼事呢？</p>
+<p>一個禮拜過後，專長是數位行銷的合夥人氣噗噗的跑到小明的位子前，口氣很差地質問他：</p>
+<blockquote>
+<p>你做了什麼？為什麼在搜尋引擎上面搜尋我們的網站，結果只會出現一大堆看不懂的程式碼？我們的網站 SEO 做的奇差無比你知道嗎？</p>
+</blockquote>
+<p>小明一開始覺得很委屈，他什麼都沒做，怎麼會落得如此下場。但經過左思右想之後，終於發現了癥結點：SPA。</p>
+<p>由於 SPA 是由前端的 JavaScript 動態產生內容，因此如果你對 SPA 的網站按下右鍵 -&gt; 檢視原始碼，只會看到空蕩蕩的一片，只看得到一個 JavaScript 檔案跟一些最基本的 tag。</p>
+<p>內容在哪裡？不在這裡，因為那是由 JavaScript 動態產生的。只有你的網站經由瀏覽器載入並且執行 JavaScript，等 Response 回來之後才會動態產生出內容。因此無論是哪個頁面，你檢視原始碼都看不到動態新增後的內容。</p>
+<p>慘了，這可是天大的壞消息。</p>
+<p>但其實也沒有那麼壞，因為強大的 Google 的爬蟲其實支援執行 JavaScript，所以他依然會 index 你在前端渲染之後的頁面。</p>
+<p>不過還是有兩個問題，第一個是我們不知道 Google 如何執行，會不會前端還沒完全渲染完就已經爬完了？第二個是除了 Google，還有其他很多搜尋引擎，有些可能沒有像 Google 這麼強大，碰到 SPA 就只能索引空蕩蕩的 HTML，內容幾乎空白。</p>
+<p>該怎麼辦呢？</p>
+<p>苦惱的小明跟公司請了長假，再度跑到十分瀑布下面修行，希望能夠重演當年想出 MVC 架構的劇本。很幸運地，過了三天之後，小明終於想到解法了，大喊了一聲：</p>
+<blockquote>
+<p>幹我知道了！</p>
+</blockquote>
+<p>小明的想法是這樣的，既然問題出在「第一次渲染」，那我們只要在第一次渲染的時候把該輸出的資料都輸出就好啦，對使用者來說還是一個 SPA，差別在於使用者接收到 HTML 的時候，就已經有完整的資料了。</p>
+<p>舉例來說，假設使用者拜訪顯示所有留言的頁面，我在 Server Side 先把所有留言都準備好然後 render 出來，這樣使用者一收到 Response 的時候就能夠看到所有留言，搜尋引擎也能順利地爬到。</p>
+<p>而後續的操作還是由 JavaScript 來處理，依舊能保持 SPA 的優點。或者我們能用一句話來總結：</p>
+<blockquote>
+<p>第一個頁面由 Server side render，之後的操作還是由 Client side render</p>
+</blockquote>
+<p>沒錯，這個概念就叫做 SSR，Server Side Rendering。</p>
+<p><img src="/img/introduction-mvc-spa-and-ssr-545c941669e9/1__4BFpYiH__sah6HMzby28YIA.png"></p>
+<p>有了 SSR 以後，就解決了 SEO 的問題，對網路爬蟲來說你有沒有用 SPA 都無所謂，他所抓到的內容都是一樣的。可是對使用者來說，一樣能享受到 SPA 所帶來的好處（不用換頁）。</p>
+<p>雖然我在這邊只用幾句話帶過去，看起來輕鬆寫意，但真的實作過的話你就會發現這不是一件容易的事，有很多細節要去考慮。總之呢，小明花了整整兩個月的時間才把整個網站都改成 SSR。</p>
+<p>不久後，在每個月的員工大會（新創嘛，一個月一次很合理）中 CMO 很開心地跟大家宣布產品在搜尋引擎上面的排名越來越高，自然流量也越來越多，註冊會員比起上個月增長了 200%。</p>
+<p>CMO 很開心，搜尋引擎很開心，員工很開心，小明當然也很開心。</p>
+<p>一天又平安的過去了，感謝飛天小明警的努力。</p>
+<h3 id="最終幕：前端的未來"><a href="#最終幕：前端的未來" class="headerlink" title="最終幕：前端的未來"></a>最終幕：前端的未來</h3><p>因為科技進步快速加上網路的普及，世界變動的比以前快很多。</p>
+<p>十年前手機還只是讓你打電話以及斤斤計較簡訊字數的工具，十年後就變成人手一台，不可或缺的小型電腦。</p>
+<p>身為經歷過這一切的人，小明在深夜裡邊刷著 leetcode 邊回憶起前端的發展，遙想十年前他以為 HTML 跟 CSS 才是主角，JavaScript 只是阻止使用者點右鍵或是做出會跟著鼠標移動的酷炫跑馬燈的小玩具。</p>
+<p>可是一切發展的越來越快，jQuery 的出現一統江湖，解決了惱人的跨瀏覽器問題，CSS 也因為預處理器的出現而變得更好維護，可以用更程式化的角度來撰寫。再過個兩三年，大家都不談 jQuery 了，而是談 Angular。可是又過了幾年，最潮的名詞變成 React，到現在 React 也沒那麼潮了，要潮的話請去寫 Vue。</p>
+<p>更別提 SPA 的遍地開花以及 SSR 的出現，更是將前端的複雜度提升了不只一個檔次。有了 SSR 你就不再只是前端了，畢竟 SSR 的 S 可是 Server 的意思，還必須要會一點 Server side 的技術才行。</p>
+<p>在 Mobile 的流量漸漸超越 Desktop 之後，前端的目標就邁向「可以逼近 Native App」的體驗。又像是個 App 可是又不用安裝，那該有多好，省了安裝這個步驟轉換率大幅提升，使用者開心公司也開心。</p>
+<p>於是大家開始提倡 PWA，Progressive Web App。Web 不再單純只是 Web，而是要用起來像個 App，看起來也像個 App。甚至利用 Service Worker 搭配快取，在沒有網路時也能夠使用部分功能，也可以用 Skeleton 先把畫面的骨架顯示出來。</p>
+<p>這一切的一切都為了一個目的：增進使用者體驗。</p>
+<p>前端複雜歸複雜，但身為真心喜愛前端的人，小明可是對未來充滿了希望。一想到能夠接觸更多新的技術，更多新的解法，可以打造出更好的產品，小明內心湧起的情緒不是挫折而是興奮，無比的興奮。</p>
+<p>東方的太陽緩緩升起，散射出的光芒灑在小明的房裡，提醒著他新的一天即將開始。</p>
+<h3 id="結語"><a href="#結語" class="headerlink" title="結語"></a>結語</h3><p>對我來說，一個技術的出現絕對是有其理由的。而不是簡單一句：「前端現在就是這麼複雜」，我認為只要能理解他出現的脈絡，就能更輕易的從宏觀的角度去理解這項技術。</p>
+<p>我們可以用三個問題來幫助自己理解一項事物：</p>
+<ol>
+<li>為什麼要有 XXX？</li>
+<li>沒有 XXX 跟有 XXX 的區別是什麼？</li>
+<li>所以 XXX 是什麼？</li>
+</ol>
+<p>MVC 就是因為 code 變得越來越亂，所以將職責區分清楚的一種設計模式。SPA 就是因為想增進使用者體驗，而出現的一種在前端利用 Ajax 達成不換頁的方法。SSR 就是因為要解決 SPA 的 SEO 問題而出現的解法。</p>
+<p>一切都是有理由的，一切都是有原因的。你可以不懂它怎麼實作，但你一定要懂它是為了什麼而生。程式是工具，工具的目的是解決問題，重要的不是工具本身，而是背後要解決的那個問題。</p>
+<p>感謝大家的閱讀，如果有任何錯誤麻煩不吝指出。另外，此篇文章只希望能給出一個大方向，對於細節如果要討論的話其實每個細節都可以再寫一篇專文，例如說 MVC 到底是在講哪個 MVC？SPA 在 Google 上的 SEO 真的比較差嗎？SSR 在首次加載頁面上犧牲的時間（因為要等 API 的資料回來才能 render）與增進 SEO 之間的取捨等等。</p>
+<p>喜歡的話可以拍個手，你知道 Medium 最多可以拍 50 下嗎？可以根據你的喜好程度拍不同次數的手，想要拍好拍滿的話我也是樂見其成。</p>
+<p>最後，再次感謝你的閱讀。</p>
+<p>想持續關注的話可以 follow 一下。單純手癢想按按鈕也可以按個 follow，或是考慮一下關注 <a target="_blank" rel="noopener" href="https://www.facebook.com/lidemytw/">Lidemy 粉絲專頁</a>。</p>
+<p>想看更多文章可以參考我的 Medium 文章列表：<a target="_blank" rel="noopener" href="https://aszx87410.github.io/blog/medium">https://aszx87410.github.io/blog/medium</a></p>
+</article><section class="jump-container is-flex is-justify-content-space-between my-6"><!-- em is empty placeholder--><a class="button is-default" href="/2018/06/03/value-of-fron-tend-1e047d4cb341/" title="前端工程師的價值在哪？"><i class="iconfont icon-prev mr-2 has-text-grey"></i><span class="has-text-weight-semibold">上一頁: 前端工程師的價值在哪？</span></a><a class="button is-default" href="/2018/03/01/eatigo-128375a0caf/" title="東南亞吃飯省錢必備神器：Eatigo"><span class="has-text-weight-semibold">下一頁: 東南亞吃飯省錢必備神器：Eatigo</span><i class="iconfont icon-next ml-2 has-text-grey"></i></a></section><article class="mt-6 comment-container"><script async repo="Haojen/abc" src="https://utteranc.es/client.js" issue-term="pathname" theme="preferred-color-scheme"></script></article></div></div></main></main><footer class="is-flex is-flex-direction-column is-align-items-center is-flex-shrink-0 is-family-serif"><section class="sns-container"><!-- Github--><a title="github" target="_blank" rel="noopener nofollow" href="//github.com/aszx87410"><i class="iconfont icon-github"></i></a><!-- Ins--><!-- RSS--><a title="rss" target="_blank" rel="noopener nofollow" href="/atom.xml"><i class="iconfont icon-rss"></i></a><!-- 知乎--><!-- 领英--><!-- 脸书--><a title="facebook" target="_blank" rel="noopener nofollow" href="//www.facebook.com/huli.blog"><i class="iconfont icon-tian7_facebook"></i></a></section><p><span>Copyright ©</span><span> Huli 2023</span></p><div class="is-flex is-justify-content-center is-flex-wrap-wrap"><p>Powered by Hexo &verbar;&nbsp;</p><p class="is-flex is-justify-content-center"><a title="Hexo theme author" target="_blank" rel="noopener" href="//github.com/haojen">Theme by Haojen&nbsp;</a></p><div style="margin-top: 2px"><a class="github-button" title="github-button" target="_blank" rel="noopener" href="https://github.com/haojen/hexo-theme-Claudia" data-color-scheme="no-preference: light; light: light; dark: dark;" data-show-count="true"></a></div></div><div><span></span></div></footer><script async defer src="https://buttons.github.io/buttons.js"></script><script src="/js/jquery-3.6.1.min.js"></script><script src="/js/jquery-fancybox.min.js"></script><script src="/js/img_zoom.js"></script><script src="/js/post.js"></script></body></html>

@@ -1,0 +1,96 @@
+<!DOCTYPE html><html class="appearance-auto" lang="zh-TW"><head><meta charset="UTF-8"><title>DEF CON 30 CTF final 遊記（上） - Huli's blog</title><meta name="description" content="終於結束了一週多的 DEF CON 之旅，這篇簡單記一下心得，會比較偏向紀錄整個旅程而非 DEF CON 本身，簡單來說就是遊記啦。
+開始之前先跟不知道什麼是 DEF CON 的人介紹一下。
+DE.."><meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, initial-scale=1"><meta name="image" content="https://life.huli.tw/img/def-con-30-ctf-final-1-79220bba7f02/1____vVM____M5vYMI3tGXP__kT1g.jpeg"><meta name="original-source" content="https://life.huli.tw/2022/08/16/def-con-30-ctf-final-1-79220bba7f02/"><link rel="canonical" href="https://life.huli.tw/2022/08/16/def-con-30-ctf-final-1-79220bba7f02/"><meta property="og:locale" content="zh-TW"><meta property="og:type" content="article"><meta property="og:title" content="DEF CON 30 CTF final 遊記（上） - Huli's blog"><meta property="og:description" content="終於結束了一週多的 DEF CON 之旅，這篇簡單記一下心得，會比較偏向紀錄整個旅程而非 DEF CON 本身，簡單來說就是遊記啦。
+開始之前先跟不知道什麼是 DEF CON 的人介紹一下。
+DE.."><meta property="og:url" content="https://life.huli.tw/2022/08/16/def-con-30-ctf-final-1-79220bba7f02/"><meta property="og:site_name" content="Huli's blog"><meta property="og:image" content="https://life.huli.tw/img/def-con-30-ctf-final-1-79220bba7f02/1____vVM____M5vYMI3tGXP__kT1g.jpeg"><meta name="twitter:title" content="DEF CON 30 CTF final 遊記（上） - Huli's blog"><meta name="twitter:image" content="https://life.huli.tw/img/def-con-30-ctf-final-1-79220bba7f02/1____vVM____M5vYMI3tGXP__kT1g.jpeg"><meta name="twitter:description" content="終於結束了一週多的 DEF CON 之旅，這篇簡單記一下心得，會比較偏向紀錄整個旅程而非 DEF CON 本身，簡單來說就是遊記啦。
+開始之前先跟不知道什麼是 DEF CON 的人介紹一下。
+DE.."><meta name="twitter:card" content="summary_large_image"><!-- Google Analytics --><!-- End Google Analytics --><link rel="icon" href="/images/lidemy_logo.png"><link rel="stylesheet" href="/style/common/bulma.css"><link rel="stylesheet" href="/style/base.css"><link rel="stylesheet" href="/style/common/helper.css"><script src="/js/common.js"></script><link rel="stylesheet" href="/style/post.css"><link rel="stylesheet" href="/style/themes/highlight-theme-light.css"><link rel="stylesheet" href="/style/common/jquery.fancybox.min.css"><script src="/js/highlight.pack.js"></script><meta name="description" content="終於結束了一週多的 DEF CON 之旅，這篇簡單記一下心得，會比較偏向紀錄整個旅程而非 DEF CON 本身，簡單來說就是遊記啦。
+開始之前先跟不知道什麼是 DEF CON 的人介紹一下。
+DEF CON 簡單來說就是一個資安相關的研討會，而其中有一個活動叫做 CTF，把它想成一個比賽就行了，每一年都會先有資格賽，資格賽打贏之後才能去參加決賽，每個隊伍都會有一台機器，主辦單位會在上面放一些有漏洞的服務，你要修補自己的，同時也要攻擊其他人的服務去拿分，分數多的就贏了。
+今年的 DEF CON 辦在拉斯維加斯，因為要飛去美國參賽（不去現場也可以，也能線上參賽，但一定要有人到場去佈置網路之類的設備開放給遠端去連線）。
+這次去美國因為我想搭日航（或至少是寰宇一家）累積我的哩程，所以沒有選擇應該是最快的台北直飛舊金.."><!-- hexo injector head_end start -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/hexo-math@4.0.0/dist/style.css">
+<!-- hexo injector head_end end --><meta name="generator" content="Hexo 6.3.0"><link rel="alternate" href="/atom.xml" title="Huli's blog" type="application/atom+xml">
+</head><body class="is-flex is-flex-direction-column"><header class="header-widget is-flex-shrink-0 is-hidden-mobile"><div class="container is-fullhd is-flex is-justify-content-space-between is-align-items-center is-full-height"><section class="is-hidden-mobile is-flex-shrink-0"><h2><a href="/">Huli's blog</a></h2></section><h3 class="is-hidden-mobile is-family-serif is-full-height is-flex is-align-items-center is-flex-shrink-0"><div class="is-full-height" id="postTopic"><p class="is-full-height is-flex-shrink-0 is-flex is-align-items-center is-justify-content-center">DEF CON 30 CTF final 遊記（上）</p><p class="is-full-height is-flex-shrink-0 is-flex is-align-items-center is-justify-content-center">點擊返回開頭</p></div></h3><aside class="is-flex-shrink-0"><h3 class="is-inline-block"><a href="/">首頁</a></h3><h3 class="is-inline-block"><a href="/about">關於我</a></h3><h3 class="is-inline-block"><a href="/archives">文章列表</a></h3></aside></div></header><header class="is-flex header-widget is-flex-shrink-0 is-align-items-center is-justify-content-center is-hidden-tablet"><h3 class="is-inline-block"><a href="/">首頁</a></h3><h3 class="is-inline-block"><a href="/about">關於我</a></h3><h3 class="is-inline-block"><a href="/archives">文章列表</a></h3></header><main><main class="container is-max-widescreen content section post-page pt-4 px-4"><div class="columns is-flex-desktop is-justify-content-center is-flex-direction-row-reverse"><div class="column is-3 is-hidden-mobile is-hidden"></div><div class="column is-9"><header class="my-4"><a href="/tags/%E6%97%85%E9%81%8A"><i class="tag post-item-tag">旅遊</i></a></header><h1 class="mt-0 mb-1 is-family-serif" id="postTitle">DEF CON 30 CTF final 遊記（上）</h1><time class="has-text-grey" datetime="2022-08-16T03:50:26.841Z">2022-08-16</time><article class="mt-2 post-content"><p>終於結束了一週多的 DEF CON 之旅，這篇簡單記一下心得，會比較偏向紀錄整個旅程而非 DEF CON 本身，簡單來說就是遊記啦。</p>
+<p>開始之前先跟不知道什麼是 DEF CON 的人介紹一下。</p>
+<p>DEF CON 簡單來說就是一個資安相關的研討會，而其中有一個活動叫做 CTF，把它想成一個比賽就行了，每一年都會先有資格賽，資格賽打贏之後才能去參加決賽，每個隊伍都會有一台機器，主辦單位會在上面放一些有漏洞的服務，你要修補自己的，同時也要攻擊其他人的服務去拿分，分數多的就贏了。</p>
+<p>今年的 DEF CON 辦在拉斯維加斯，因為要飛去美國參賽（不去現場也可以，也能線上參賽，但一定要有人到場去佈置網路之類的設備開放給遠端去連線）。</p>
+<p>這次去美國因為我想搭日航（或至少是寰宇一家）累積我的哩程，所以沒有選擇應該是最快的台北直飛舊金山再轉機 LAS（聯合航空），而是選擇了相對繞的：</p>
+<ol>
+<li>（CI 華航執飛）TSA -&gt; HND（羽田）</li>
+<li>（JL 日航）HND -&gt; LAX（洛杉磯）</li>
+<li>（AA 美航）LAX -&gt; LAS（拉斯維加斯）</li>
+</ol>
+<p>需要轉機兩次才會到達目的地。</p>
+<p>從松山機場出發時是早上，因為也沒什麼班機，整個機場空蕩蕩的：</p>
+<p><img src="/img/def-con-30-ctf-final-1-79220bba7f02/1____vVM____M5vYMI3tGXP__kT1g.jpeg"></p>
+<p>因為我有 JL（日本航空）的高卡會員（詳情可參考<a target="_blank" rel="noopener" href="https://medium.com/hulis-blog/jgc-and-jal-ctystal-862f2bb4af8b">《非典型微 JGC 修行（JMB 水晶卡）之旅》</a>），所以可以進貴賓室，目前松山機場只有唯一一間貴賓室，而且很空：</p>
+<p><img src="/img/def-con-30-ctf-final-1-79220bba7f02/1__CzTj__la6nq2RjaWTct3hRw.jpeg"></p>
+<p>當時是早上飛的，目前因為疫情所以都是點餐式的，拿到的早餐長這樣：</p>
+<p><img src="/img/def-con-30-ctf-final-1-79220bba7f02/1__nvw9hVLxFvPfHjzuZU0J1Q.jpeg"></p>
+<p>味道的話就普普通通，魚跟那個鹹蛋有點太鹹了導致最後沒吃完，接著在貴賓室再休息一下以後就跑去登機了，整台班機大概只有 50 個人左右，不過商務艙似乎是全滿，看起來是從日本來臺灣出差的上班族之類的。</p>
+<p>到了日本以後，會分批下機，要入境的先下，轉機的後下，會有地勤把要轉機的人都集合起來以後一起帶著走，重新過一次安檢，檢查一下隨身行李，過安檢以後就回到管制區了。</p>
+<p>在管制區隨意晃晃以後，就去了機場的日航貴賓室，因為等級不夠高沒辦法去頭等貴賓室，只能去商務貴賓室（Sakura Lounge），是個很舒服的地方，很大然後人又不會太多：</p>
+<p><img src="/img/def-con-30-ctf-final-1-79220bba7f02/1__u3yMbUZ__FqniBuDY__y4oAQ.jpeg"></p>
+<p>餐點的部份一樣是用點餐的，選擇滿多的，包括：</p>
+<ol>
+<li>招牌咖哩飯（可以選大份或小份）</li>
+<li>牛丼</li>
+<li>義大利麵</li>
+<li>日式傳統定食</li>
+<li>麵包</li>
+<li>沙拉</li>
+<li>鯛魚燒</li>
+<li>杏仁豆腐</li>
+<li>味噌湯</li>
+</ol>
+<p>點了招牌咖哩飯，有點偏鹹：</p>
+<p><img src="/img/def-con-30-ctf-final-1-79220bba7f02/1__FE27BfiPcYxqHs7N__fPHiQ.jpeg"></p>
+<p>然後有個插曲是前一天我在查位子時，到日航網站出現了「非自願調整艙等」的字樣，上網查了一下是說似乎就代表升等的意思。我在松山機場的時候其實就拿到了三段的登機證，看了一下飛美國那段，座位從 10A 被改到 4A，確實怎麼看都是商務。</p>
+<p>登機的時候也再次確認了一下，還真的被升等到商務了！我愛日航，日航我大哥，以後去日本只搭日航！</p>
+<p><img src="/img/def-con-30-ctf-final-1-79220bba7f02/1__jBm8IyRuqHYmOadVYBlYDg.jpeg"><br><img src="/img/def-con-30-ctf-final-1-79220bba7f02/1__dN0h4p51L6At2ysmIGs86w.jpeg"></p>
+<p>跟以前搭過的商務艙比起來差不多，不過機上的娛樂設備似乎有點偏舊就是了，不過無所謂，對我來說商務艙吃的才是重點，以前我在飛機上都點西式的，但是聽說日航的招牌是日式餐點，於是這次直接點日式的。</p>
+<p>底下放一些機上的餐點：</p>
+<p><img src="/img/def-con-30-ctf-final-1-79220bba7f02/1__3Mt360tLKPmCahEQdz__8mw.jpeg"><br><img src="/img/def-con-30-ctf-final-1-79220bba7f02/1__vrpB8NucX0tD5UCbLnE74g.jpeg"><br><img src="/img/def-con-30-ctf-final-1-79220bba7f02/1__qMMfK9bsXbmjvpmsOKUJBw.jpeg"></p>
+<p>總共是 10 個多小時的旅程，上機後沒多久就吃第一餐，因為有前菜、主菜還有甜點之類的，所以其實也吃得滿久，邊吃邊看「媽的多重宇宙」，看到後面覺得沒什麼興趣有點亂，就沒看完了。</p>
+<p>接著為了慶祝自己升艙，買了機上的 24hr wifi 支持一下，花了大概台幣 600，在飛機上滑手機。滑著滑著累了稍微睡一下，商務艙的好處就是可以躺平睡覺，比經濟艙舒服很多，不過因為沒什麼睡意，大概就睡了兩小時左右而已。</p>
+<p>起來以後看了另一部電影脫稿玩家，想看這部很久了，飛機上剛好有，真滴好看！看完之後也差不多到美國了。</p>
+<p>因為聽說美國很多人入境，會排很久，所以我轉機時間預留的很長，早上 11 點到洛杉磯，下午 5 點半才飛拉斯維加斯。因為有商務艙優勢，所以基本上是同班機的人前幾個下飛機的，一下飛機就直衝入境，雖然確實有人潮，但沒有想像中的多，大概排了 30~40 分鐘左右就成功入境了。</p>
+<p>入境的時候基本上就問說：</p>
+<ol>
+<li>你從哪裡來？</li>
+<li>你要去哪裡？</li>
+<li>來這邊幹嘛？</li>
+<li>你在台灣是做什麼的？</li>
+</ol>
+<p>很順利，大概聊個兩三分鐘就過關了，什麼文件都沒看。</p>
+<p>到了洛杉磯以後，就開始找尋機場的貴賓室，最先去的是 Terminal B 的 OneWorld 貴賓室，在進去貴賓室的時候對方看到我登機證先是傻了一下，誠如我開頭所說，我在松山機場的時候就把三段登機證都印出來了，但因為是華航印的，所以底都是華航的底，細看班號才會看到是 JL 或是 AA。</p>
+<p>而對方似乎看到那個底就以為我是搭華航班機，就不給進，後來我解釋了一下外加出示實體的日航藍寶石卡，就進去了。</p>
+<p>結果貴賓室裡面超級多人，然後餐點是自助式的，那邊目前對於口罩應該就是可戴可不戴，不戴的居多：</p>
+<p><img src="/img/def-con-30-ctf-final-1-79220bba7f02/1__etjr62__WnX32rPGHsbpP1w.jpeg"></p>
+<p>在這邊待一下之後上網查了其他貴賓室，發現洛杉磯其他航廈有 AA 自營的貴賓室，想說反正時間還很多，就去看一下。</p>
+<p>這邊補一個插曲，我到美國之後打開我的中華電信漫遊，事先買了 20GB 的方案，結果 T-Mobile 的網路慢到傻眼，根本跟不能用一樣。我後來查了一下似乎是頻段的問題？我的 Nokia 5.3 沒有支援 T-Mobile 的 4G 頻段所以才這麼慢之類的。</p>
+<p>洛杉磯機場的國際航廈是 B，B 管制區裡面有走道可以直接到 4 航廈，4 可以到 5，5 可以到 67，其他 123 好像跟這邊是分開的。除了 B 航廈以外，其他航廈都是美國國內線，所以相比之下都滿小的。</p>
+<p>我後來是先去 4 航廈的 AA 貴賓室，也是滿大的，而且食物品質好很多，人也沒這麼多：</p>
+<p><img src="/img/def-con-30-ctf-final-1-79220bba7f02/1__kpP3FQ0Z2ALAb__3YsWQ__Sw.jpeg"></p>
+<p>在這邊待了一個多小時之後繼續探險，把航廈都走過一遍，然後去 5 航廈的 AA 貴賓室看一下，人也滿少的，但食物不怎麼樣。</p>
+<p>結論：4 航廈樂勝。</p>
+<p>就這樣繞著繞著也到了登機時間，就跑去登機了。上飛機以後機長廣播說因為副機師的上個班機有一些問題，所以需要找一個替代的，會花一些時間。</p>
+<p>結果在飛機上等了一小時以後又說什麼天氣問題之類的，所以會繼續再 delay，總之在飛機上等了大概兩個多小時才正式起飛，飛一小時就到了，但加起來花了三小時QQ</p>
+<p>到拉斯維加斯以後果真名不虛傳，機場就可以直接開賭：</p>
+<p><img src="/img/def-con-30-ctf-final-1-79220bba7f02/1__ECYWuAxTyEgIaO__podto9w.jpeg"></p>
+<p>在等行李的時候也發現機場很多廣告都是資安相關的公司，很會抓時間。</p>
+<p>拿到行李之後就直接搭 Uber 去飯店，我還一度擔心沒有網路找不到司機，幸好等 Uber 的地方有免費 Wifi 可以用，這個真的很重要。在車上跟司機尬聊了一下，我搭 Uber 的尬聊起手式是「你開這個是正職嗎還是兼職」以及「當地比較多人用 Uber 還是 Lyft」，這兩個話題可以撐一陣子。</p>
+<p>到飯店之後用自動機器 check-in，發現還滿方便的，資料打一打之後就拿到房卡了，到了房間一度以為自己走錯，因為客廳長這個樣子：</p>
+<p><img src="/img/def-con-30-ctf-final-1-79220bba7f02/1__dI1NZOMKx9nVNonLJg__rug.jpeg"></p>
+<p>整個房間更像是一個套房那樣，這間是邊間，所以外面的景色也特別好。總而言之，似乎又是個升等。</p>
+<p>後來晚上跟其他隊友（網友）們碰面，出去外面買個東西以後，結束了在美國的第一天。</p>
+<p>我到美國的時候是禮拜三，比賽是禮拜五開始，有兩天的時間可以休息外加調整時差。</p>
+<p>禮拜四的話就是跟其他隊友出去晃晃，參觀各個拉斯維加斯的飯店。因為我以前員工旅遊去過澳門，所以有種既視感，畢竟澳門應該就是學拉斯維加斯的，只是規模沒這麼大。</p>
+<p>在這邊可以看到各種神奇建築，什麼雲霄飛車啦，火山爆發啦，超大水舞啦，假的凱旋門跟巴黎鐵塔啦，應有盡有。</p>
+<p>最後以一張照片做完第一篇的總結。</p>
+<p><img src="/img/def-con-30-ctf-final-1-79220bba7f02/1__SK2__EH9DeuD73FfM7A5GGw.jpeg"></p>
+<p>第二篇傳送門：<a target="_blank" rel="noopener" href="https://hulitw.medium.com/def-con-30-ctf-final-2-4444cf3645e">https://hulitw.medium.com/def-con-30-ctf-final-2-4444cf3645e</a></p>
+</article><section class="jump-container is-flex is-justify-content-space-between my-6"><!-- em is empty placeholder--><a class="button is-default" href="/2022/08/16/def-con-30-ctf-final-2-4444cf3645e/" title="DEF CON 30 CTF final 遊記（中）"><i class="iconfont icon-prev mr-2 has-text-grey"></i><span class="has-text-weight-semibold">上一頁: DEF CON 30 CTF final 遊記（中）</span></a><a class="button is-default" href="/2022/07/23/2022-07-tpe-sin-travel-92e5363560c1/" title="2022 年 7 月出國旅遊心得（星宇航空 TPE-SIN）"><span class="has-text-weight-semibold">下一頁: 2022 年 7 月出國旅遊心得（星宇航空 TPE-SIN）</span><i class="iconfont icon-next ml-2 has-text-grey"></i></a></section><article class="mt-6 comment-container"><script async repo="Haojen/abc" src="https://utteranc.es/client.js" issue-term="pathname" theme="preferred-color-scheme"></script></article></div></div></main></main><footer class="is-flex is-flex-direction-column is-align-items-center is-flex-shrink-0 is-family-serif"><section class="sns-container"><!-- Github--><a title="github" target="_blank" rel="noopener nofollow" href="//github.com/aszx87410"><i class="iconfont icon-github"></i></a><!-- Ins--><!-- RSS--><a title="rss" target="_blank" rel="noopener nofollow" href="/atom.xml"><i class="iconfont icon-rss"></i></a><!-- 知乎--><!-- 领英--><!-- 脸书--><a title="facebook" target="_blank" rel="noopener nofollow" href="//www.facebook.com/huli.blog"><i class="iconfont icon-tian7_facebook"></i></a></section><p><span>Copyright ©</span><span> Huli 2023</span></p><div class="is-flex is-justify-content-center is-flex-wrap-wrap"><p>Powered by Hexo &verbar;&nbsp;</p><p class="is-flex is-justify-content-center"><a title="Hexo theme author" target="_blank" rel="noopener" href="//github.com/haojen">Theme by Haojen&nbsp;</a></p><div style="margin-top: 2px"><a class="github-button" title="github-button" target="_blank" rel="noopener" href="https://github.com/haojen/hexo-theme-Claudia" data-color-scheme="no-preference: light; light: light; dark: dark;" data-show-count="true"></a></div></div><div><span></span></div></footer><script async defer src="https://buttons.github.io/buttons.js"></script><script src="/js/jquery-3.6.1.min.js"></script><script src="/js/jquery-fancybox.min.js"></script><script src="/js/img_zoom.js"></script><script src="/js/post.js"></script></body></html>
