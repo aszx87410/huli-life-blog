@@ -30,8 +30,8 @@ user:
 # API config: https://utteranc.es/
 comment_utteranc:
   enable: true
-  repo: Haojen/abc # your blog repo
-
+  issue_term: title
+  repo: aszx87410/huli-life-blog # your blog repo
 
 # documents: https://valine.js.org/quickstart.html
 comment_valine:
@@ -40,9 +40,9 @@ comment_valine:
   appKey:
 
 comment_disqus:
-    enable: false
-    url:  # the url of your website main domain like this https://xxx.xxx/
-    name: # the short name in disqus
+  enable: false
+  url: # the url of your website main domain like this https://xxx.xxx/
+  name: # the short name in disqus
 
 # dark
 # light
