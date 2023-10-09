@@ -13,7 +13,7 @@ timezone: Asia/Taipei
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://example.com/child' and root as '/child/'
-url: https://6d02-2001-268-9866-4d97-750c-6dc1-c3d1-7105.ngrok-free.app
+url: https://life.huli.tw
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
