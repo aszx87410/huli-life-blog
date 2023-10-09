@@ -3,6 +3,7 @@ const express = require("express");
 const fs = require("fs");
 const path = require("path");
 const frontMatter = require("front-matter");
+const sharp = require('sharp');
 
 const PORT = process.env.PORT || 3000;
 const basePath = path.join(__dirname, "../../");
@@ -86,7 +87,7 @@ async function main() {
     });
 
     await sleep(1000);
-    return;
+    // return;
   }
 }
 
@@ -146,12 +147,33 @@ async function generateImage({ postName, template }) {
     console.log("Create folder");
   }
 
-  const screenshotPath = path.join(postImgDir, "cover-en");
+  const screenshotPath = path.join(postImgDir, "cover-original");
   await takeScreenshot(page, screenshotPath);
-
+  const outputPath = path.join(postImgDir, "cover");
   await browser.close();
   server.close();
-  console.log("Done, you can find image at: " + screenshotPath + ".png");
+
+  await compress(screenshotPath + '.png', outputPath + '.png')
+
+  console.log("Done, you can find image at: " + outputPath + ".png");
+}
+
+async function compress(inputPath, outputPath){
+  return new Promise((resolve, reject) => {
+    sharp(inputPath)
+      .toFormat('png')
+      .png({ quality: 100 })
+      .toFile(outputPath, (err, info) => {
+        if (err) {
+          console.error(`Error processing ${inputPath}: ${err}`);
+          return reject(err)
+        } else {
+          console.log(`Compressed ${inputPath} to ${outputPath}`);
+          fs.unlinkSync(inputPath);
+          return resolve()
+        }
+      });
+  })
 }
 
 async function takeScreenshot(page, name) {

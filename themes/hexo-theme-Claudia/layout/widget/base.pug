@@ -1,19 +1,43 @@
+include methods
 
 - if (is_archive()) pageTitle = 'Archives'
 - if (is_tag()) pageTitle = 'Tag: ' + page.tag
 - if (is_category()) pageTitle = 'Category: ' + page.category
 - if (is_month()) pageTitle += ': ' + page.month + '/' + page.year
 - if (is_year()) pageTitle += ': ' + page.year
-- var pageTitle = page.title || theme.user && theme.user.name + "'s blog"
+- var pageTitle = (pageTitle || page.title || 'Home') + " - " + theme.user.name + "'s blog"
 - var appearance = theme.appearance ? theme.appearance : 'auto'
+- var canonicalUrl = page.permalink
+- var thumbnail = page.thumbnail || page.cover || (page.photos?.[0] && full_url_for(page.photos[0])) || full_url_for(getPostCoverImg(page))
+- var description = page.description || page.excerpt || config.description || page.content || pageTitle
+- description = truncate( strip_html(description), {length: 100, omission: '..'} )
+- var language = page.lang || page.language || config.language || 'zh-TW'
+- var authorName = page.author || config.author
+- if (typeof authorName === 'object' && typeof authorName.name === 'string') authorName =  authorName.name
+- if (typeof authorName === 'object' && typeof authorName.nick === 'string') authorName =  authorName.nick
+- if (typeof authorName === 'object' && typeof authorName.nickname === 'string') authorName =  authorName.nickname
 
 doctype html
-html(lang=config.language class= `appearance-${ appearance }`)
+html(lang=language class= `appearance-${ appearance }`)
   head
     meta(charset='UTF-8')
     title= pageTitle
-    meta(name="description" content= config.description || theme.user && theme.user.description)
+    meta(name="description" content=description)
     meta(name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, initial-scale=1")
+    meta(name='image' content=thumbnail)
+    meta(name='original-source' content=canonicalUrl)
+    link(rel='canonical' href=canonicalUrl)
+    meta(property='og:locale' content=language)
+    meta(property='og:type' content='article')
+    meta(property='og:title' content=pageTitle)
+    meta(property='og:description' content=description)
+    meta(property='og:url' content=canonicalUrl)
+    meta(property='og:site_name' content=config.title)
+    meta(property='og:image' content=thumbnail)
+    meta(name='twitter:title' content=pageTitle)
+    meta(name='twitter:image' content=thumbnail)
+    meta(name='twitter:description' content=description)
+    meta(name='twitter:card' content='summary_large_image')
 
     <!-- Google Analytics -->
     if(theme.ga_track_id)
