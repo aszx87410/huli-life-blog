@@ -26,7 +26,7 @@
 <p>因此這會是一系列的文章，我稱之為 Session 與 Cookie 三部曲，會由淺入深，從不同的面向去看 Session 與 Cookie。</p>
 <p>這是系列文的第一篇，想用簡單白話的方式通俗地跟大家解釋什麼是 Session，什麼又是 Cookie，目標是希望沒有任何技術背景的人也能夠看懂。</p>
 <p>三篇的完整連結如下：</p>
-<p>1. <a target="_blank" rel="noopener" href="https://medium.com/@hulitw/session-and-cookie-15e47ed838bc">白話 Session 與 Cookie：從經營雜貨店開始</a><br>2. <a target="_blank" rel="noopener" href="https://github.com/aszx87410/blog/issues/45">淺談 Session 與 Cookie：一起來讀 RFC</a><br>3. <a target="_blank" rel="noopener" href="https://github.com/aszx87410/blog/issues/46">深入 Session 與 Cookie：Express、PHP 與 Rails 的實作</a></p>
+<p>1. <a href="/2019/08/09/session-and-cookie-15e47ed838bc/">白話 Session 與 Cookie：從經營雜貨店開始</a><br>2. <a target="_blank" rel="noopener" href="https://github.com/aszx87410/blog/issues/45">淺談 Session 與 Cookie：一起來讀 RFC</a><br>3. <a target="_blank" rel="noopener" href="https://github.com/aszx87410/blog/issues/46">深入 Session 與 Cookie：Express、PHP 與 Rails 的實作</a></p>
 <p>要向沒有技術背景的人講這種概念性的東西，用一堆專有名詞絕對是最差勁的做法。而最好的做法通常是舉一個現實生活中很貼近的例子，藉由這種方式比較能讓毫無技術背景的讀者們去理解這到底是個什麼東西。</p>
 <p>因此，我們從經營雜貨店開始吧！</p>
 <h3 id="小明の雜貨店"><a href="#小明の雜貨店" class="headerlink" title="小明の雜貨店"></a>小明の雜貨店</h3><p>四十歲的小明退休以後在家閒得發慌，每一天都過得毫無目標而且渾渾噩噩。「退休以後不是應該無憂無慮嗎？」小明也是這樣問自己的，但沒辦法，他深知自己的個性就是這樣，沒辦法閒下來，一定要做點事情才行。</p>
@@ -147,7 +147,7 @@
 <p>而這個狀態儲存的地方在口語上也會被稱之為「Session」，例如說：「幫我把 user id 存在 session 裡」，或者是「登出記得把 session 清空」之類的，所以在實際用法中，我認為 session 之所以不好理解是因為太多地方用到同一個詞，但卻是在指涉不同的東西（可是又很類似）。跟 API 有點像，太多地方都用到這個詞了。</p>
 <p>前面提過這是系列文的第一篇，這一篇預設沒有任何基礎的人都可以看，但下一篇就不是了，會預設讀者有一些背景知識。</p>
 <p>三篇的完整連結如下：</p>
-<p>1. <a target="_blank" rel="noopener" href="https://medium.com/@hulitw/session-and-cookie-15e47ed838bc">白話 Session 與 Cookie：從經營雜貨店開始</a><br>2. <a target="_blank" rel="noopener" href="https://github.com/aszx87410/blog/issues/45">淺談 Session 與 Cookie：一起來讀 RFC</a><br>3. <a target="_blank" rel="noopener" href="https://github.com/aszx87410/blog/issues/46">深入 Session 與 Cookie：Express、PHP 與 Rails 的實作</a></p>
+<p>1. <a href="/2019/08/09/session-and-cookie-15e47ed838bc/">白話 Session 與 Cookie：從經營雜貨店開始</a><br>2. <a target="_blank" rel="noopener" href="https://github.com/aszx87410/blog/issues/45">淺談 Session 與 Cookie：一起來讀 RFC</a><br>3. <a target="_blank" rel="noopener" href="https://github.com/aszx87410/blog/issues/46">深入 Session 與 Cookie：Express、PHP 與 Rails 的實作</a></p>
 <p>在寫這篇文章時有問過一些朋友的意見，特別感謝有與我討論的這些朋友們。</p>
 <p>想持續關注的話可以 follow 一下。單純手癢想按按鈕也可以按個 follow，或是考慮一下關注 <a target="_blank" rel="noopener" href="https://www.facebook.com/lidemytw/">Lidemy 粉絲專頁</a>。之後的系列文會放在另一個部落格，比較硬的技術文都在那：<a target="_blank" rel="noopener" href="https://github.com/aszx87410/blog">https://github.com/aszx87410/blog</a>。</p>
 <p>想看更多文章可以參考我的 Medium 文章列表：<a target="_blank" rel="noopener" href="https://aszx87410.github.io/blog/medium">https://aszx87410.github.io/blog/medium</a></p>
