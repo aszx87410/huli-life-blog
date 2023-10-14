@@ -93,6 +93,11 @@ updated_option: "mtime"
 per_page: 10
 pagination_dir: page
 
+archive_generator:
+  per_page: 20
+  yearly: true
+  monthly: false
+
 # https://github.com/hexojs/hexo-generator-feed
 feed:
   enable: true

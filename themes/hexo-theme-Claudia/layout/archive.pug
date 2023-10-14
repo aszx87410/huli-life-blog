@@ -7,7 +7,7 @@ block topic
     span= `${ _p('archive') } · ${ page.year || __('all') }`
 
 block content
-    include widget/widget-post-list
+    include widget/widget-post-list-simple
         block sidebar
             div(style="position: sticky; top: 50px;")
                 include widget/widget-archives
