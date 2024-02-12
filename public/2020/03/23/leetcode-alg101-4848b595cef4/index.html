@@ -1,0 +1,138 @@
+<!DOCTYPE html><html class="appearance-auto" lang="zh-TW"><head><meta charset="UTF-8"><title>《先別急著寫 leetcode》線上課程製作全記錄 - Huli's blog</title><meta name="description" content="先別急著寫 leetcode 是我最近才推出的免費線上課程，總長度約 10 個小時，課程目的是希望讓初學者透過一系列的練習培養程式基礎能力、熟悉程式語法以及加強程式思維。如果你對這門課程感到好奇，.."><meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, initial-scale=1"><meta name="image" content="https://life.huli.tw/img/leetcode-alg101-4848b595cef4/1__hO0qv1nGnE4zczoc4VQCow.png"><meta name="original-source" content="https://life.huli.tw/2020/03/23/leetcode-alg101-4848b595cef4/"><link rel="canonical" href="https://life.huli.tw/2020/03/23/leetcode-alg101-4848b595cef4/"><meta property="og:locale" content="zh-TW"><meta property="og:type" content="article"><meta property="og:title" content="《先別急著寫 leetcode》線上課程製作全記錄 - Huli's blog"><meta property="og:description" content="先別急著寫 leetcode 是我最近才推出的免費線上課程，總長度約 10 個小時，課程目的是希望讓初學者透過一系列的練習培養程式基礎能力、熟悉程式語法以及加強程式思維。如果你對這門課程感到好奇，.."><meta property="og:url" content="https://life.huli.tw/2020/03/23/leetcode-alg101-4848b595cef4/"><meta property="og:site_name" content="Huli's blog"><meta property="og:image" content="https://life.huli.tw/img/leetcode-alg101-4848b595cef4/1__hO0qv1nGnE4zczoc4VQCow.png"><meta name="twitter:title" content="《先別急著寫 leetcode》線上課程製作全記錄 - Huli's blog"><meta name="twitter:image" content="https://life.huli.tw/img/leetcode-alg101-4848b595cef4/1__hO0qv1nGnE4zczoc4VQCow.png"><meta name="twitter:description" content="先別急著寫 leetcode 是我最近才推出的免費線上課程，總長度約 10 個小時，課程目的是希望讓初學者透過一系列的練習培養程式基礎能力、熟悉程式語法以及加強程式思維。如果你對這門課程感到好奇，.."><meta name="twitter:card" content="summary_large_image"><meta name="google-site-verification" content="lTAMT4U8v-CtkYRIo8AmGaACB3EikdUYpiTHAylwGPE"><!-- Google Analytics --><script async src="https://www.googletagmanager.com/gtag/js?id=G-X395CNYSX7"></script><script>window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-X395CNYSX7');</script><!-- End Google Analytics --><link rel="icon" href="/images/lidemy_logo.png"><link rel="stylesheet" href="/style/common/bulma.css"><link rel="stylesheet" href="/style/base.css"><link rel="stylesheet" href="/style/common/helper.css"><script src="/js/common.js"></script><link rel="stylesheet" href="/style/post.css"><link rel="stylesheet" href="/style/themes/highlight-theme-light.css"><link rel="stylesheet" href="/style/common/jquery.fancybox.min.css"><script src="/js/highlight.pack.js"></script><meta name="description" content="先別急著寫 leetcode 是我最近才推出的免費線上課程，總長度約 10 個小時，課程目的是希望讓初學者透過一系列的練習培養程式基礎能力、熟悉程式語法以及加強程式思維。如果你對這門課程感到好奇，課程連結在這邊：https://lidemy.com/p/alg101-leetcode，可以先點進去看看。
+而這篇就是想來記錄一下做這門課程的理由以及製作過程，還有做完課程之後的一些想法跟檢討。
+課程的起源我已經忘記從什麼時候開始有了要做這門課的想法，但我猜應該是去年九月十月，看著學生出去面試的時候才有的心得。換句話說，這門課原本完全不在我的計劃之內，我沒有想過要做這類型的課程。
+那到底學生出去面試以後發生了什麼事，會讓我想做這門課呢？
+身為一個不斷強調基礎的人，在我的課程裡面前幾週是學習 JavaScript .."><!-- hexo injector head_end start -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/hexo-math@4.0.0/dist/style.css">
+<!-- hexo injector head_end end --><meta name="generator" content="Hexo 6.3.0"><link rel="alternate" href="/atom.xml" title="Huli's blog" type="application/atom+xml">
+</head><body class="is-flex is-flex-direction-column"><header class="header-widget is-flex-shrink-0 is-hidden-mobile"><div class="container is-fullhd is-flex is-justify-content-space-between is-align-items-center is-full-height"><section class="is-hidden-mobile is-flex-shrink-0"><h2><a href="/">Huli's blog</a></h2></section><h3 class="is-hidden-mobile is-family-serif is-full-height is-flex is-align-items-center is-flex-shrink-0"><div class="is-full-height" id="postTopic"><p class="is-full-height is-flex-shrink-0 is-flex is-align-items-center is-justify-content-center">《先別急著寫 leetcode》線上課程製作全記錄</p><p class="is-full-height is-flex-shrink-0 is-flex is-align-items-center is-justify-content-center">點擊返回開頭</p></div></h3><aside class="is-flex-shrink-0"><h3 class="is-inline-block"><a href="/">首頁</a></h3><h3 class="is-inline-block"><a href="/about">關於我</a></h3><h3 class="is-inline-block"><a href="/archives">文章列表</a></h3></aside></div></header><header class="is-flex header-widget is-flex-shrink-0 is-align-items-center is-justify-content-center is-hidden-tablet"><h3 class="is-inline-block"><a href="/">首頁</a></h3><h3 class="is-inline-block"><a href="/about">關於我</a></h3><h3 class="is-inline-block"><a href="/archives">文章列表</a></h3></header><main><main class="container is-max-widescreen content section post-page pt-4 px-4"><div class="columns is-flex-desktop is-justify-content-center is-flex-direction-row-reverse"><div class="column is-3 is-hidden-mobile"><ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%AA%B2%E7%A8%8B%E7%9A%84%E8%B5%B7%E6%BA%90"><span class="toc-text">課程的起源</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%AA%B2%E7%A8%8B%E5%A4%A7%E7%B6%B1%E8%A6%8F%E5%8A%83"><span class="toc-text">課程大綱規劃</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%AA%B2%E7%A8%8B%E9%8C%84%E8%A3%BD%E5%89%8D%E7%BD%AE%E4%BD%9C%E6%A5%AD"><span class="toc-text">課程錄製前置作業</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%AA%B2%E7%A8%8B%E7%B0%A1%E5%A0%B1%E8%A3%BD%E4%BD%9C"><span class="toc-text">課程簡報製作</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%AA%B2%E7%A8%8B%E9%8C%84%E8%A3%BD"><span class="toc-text">課程錄製</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%B8%8A%E6%9E%B6%E5%8F%8A%E7%99%BC%E5%B8%83%E8%AA%B2%E7%A8%8B"><span class="toc-text">上架及發布課程</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%AA%B2%E7%A8%8B%E8%A3%BD%E4%BD%9C%E5%BF%83%E5%BE%97%E5%8F%8A%E6%AA%A2%E8%A8%8E"><span class="toc-text">課程製作心得及檢討</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%B8%BD%E7%B5%90"><span class="toc-text">總結</span></a></li></ol></div><div class="column is-9"><header class="my-4"><a href="/tags/%E6%95%99%E5%AD%B8%E8%A8%88%E5%8A%83"><i class="tag post-item-tag">教學計劃</i></a></header><h1 class="mt-0 mb-1 is-family-serif" id="postTitle">《先別急著寫 leetcode》線上課程製作全記錄</h1><time class="has-text-grey" datetime="2020-03-23T10:07:40.910Z">2020-03-23</time><article class="mt-2 post-content"><p>先別急著寫 leetcode 是我最近才推出的免費線上課程，總長度約 10 個小時，課程目的是希望讓初學者透過一系列的練習培養程式基礎能力、熟悉程式語法以及加強程式思維。如果你對這門課程感到好奇，課程連結在這邊：<a target="_blank" rel="noopener" href="https://lidemy.com/p/alg101-leetcode">https://lidemy.com/p/alg101-leetcode</a>，可以先點進去看看。</p>
+<p>而這篇就是想來記錄一下做這門課程的理由以及製作過程，還有做完課程之後的一些想法跟檢討。</p>
+<h3 id="課程的起源"><a href="#課程的起源" class="headerlink" title="課程的起源"></a>課程的起源</h3><p>我已經忘記從什麼時候開始有了要做這門課的想法，但我猜應該是去年九月十月，看著學生出去面試的時候才有的心得。換句話說，這門課原本完全不在我的計劃之內，我沒有想過要做這類型的課程。</p>
+<p>那到底學生出去面試以後發生了什麼事，會讓我想做這門課呢？</p>
+<p>身為一個不斷強調基礎的人，在我的課程裡面前幾週是學習 JavaScript 並且熟悉程式語法，有一些作業讓他們實作內建函式，也提供了一些基本的題目讓他們練習。不過以時間上來看，大概兩三週就結束了，之後就再也沒有這種程式解題類型的題目出現。</p>
+<p>因為我一開始認為這種程式邏輯的東西，可以透過寫應用程式來培養。你在寫 todo list 或留言版這種實際功能的時候，就能鍛鍊到這一塊，就能對寫程式愈來愈熟悉，也更有程式相關的思維邏輯，思考方式也會跟著改變。</p>
+<p>但是當課程結束，有些學生出去面試的時候，讓我對上述的觀念產生質疑。這些學生是有能力的，他們可以獨立寫出一些簡單的應用程式，這是完全沒有問題的，可是對於一些我認為再簡單不過的題目，卻卡關卡很久。</p>
+<p>例如說判斷質數、印出九九乘法表或其他大概是 ACM 一星題左右程度的那些題目。這點是出乎我意料的，我沒有預期到這種狀況。我原本認為既然學程式這麼久，這些東西應該就要像吃飯喝水般容易（就是俗稱的水題）。更何況這些題目是我國中剛學程式沒多久以後就覺得很簡單的題目，所以一開始不太能理解為什麼解不出來。</p>
+<p>但後來仔細想想，其實剛開始學程式的時候我也是有經過訓練的，特別去訓練這些題目。而且自己說雖然不太準，但從其他人的角度看起來，我的確是有這方面的天份，在早期學程式的時候都過得滿順利的。</p>
+<p>總之呢，在這段過程中我清楚地意識到了一件事：「對有些初學者來說，這些程式基礎是需要經過訓練的」，如果沒有這種訓練，這方面的能力進步的可能會滿慢的。</p>
+<p>再加上近幾年刷題風潮盛行，有許多初學者基礎都還沒打好，就傻傻地跟別人去學怎麼刷題，我覺得這樣效益不大。為什麼不大？因為基礎還沒打好就去刷題，大概就跟你國中的時候去寫大學的數學題一樣，你碰到了題目發現不會，就針對這題去學解法；學完以後碰到下一題還是不會，就只能針對那題再去學一次解法。一旦碰過沒看過的題目，就完全解不出來了，因為你學的是解法，而不是解題。</p>
+<p>可是如果有乖乖把基礎打好，國中的時候解國中的題目，高中的時候解高中的，到了大學，儘管有些題目沒有看過，但依然能夠憑著以前的基礎解出來。有了基礎之後更往上走才會走得踏實，成效也會比較好一點。</p>
+<p>所以這堂課就是秉持著這樣的概念產生的，課名也是這樣取出來的。希望初學者們不要急著去寫 leetcode，而是先把基礎打好，才去看看怎樣的學習方法比較適合自己。話說當初在課名選擇上面，還有想了另一個比較嗆的名稱：「你連這些水題都不會，學別人刷什麼題」，後來覺得這當作課名有點太長，當作副標題好像比較適合。</p>
+<h3 id="課程大綱規劃"><a href="#課程大綱規劃" class="headerlink" title="課程大綱規劃"></a>課程大綱規劃</h3><p>通常有了課程的粗略想法以後，我會開始規劃大綱。只要大綱能順利完成，就只剩下錄製的部分了。</p>
+<p>在大綱的規劃上面，我使用的工具是 Evernote：</p>
+<p><img src="/img/leetcode-alg101-4848b595cef4/1__hO0qv1nGnE4zczoc4VQCow.png"></p>
+<p>會使用 Evernote 是因為手機跟電腦上都可以很方便地存取，而且資料是同步的。所以出門在外的時候有靈感就可以直接記起來，方便很多。而在筆記的使用上我也沒有用什麼特殊的功能，大多數時候都是純文字而已，就真的只是為了記錄一些想法。</p>
+<p>大綱內容大概會像底下這樣子，把標題跟內容都先想好：</p>
+<blockquote>
+<p><em>## Unit2：寫程式之前，先學會「看程式」</em></p>
+</blockquote>
+<blockquote>
+<p><em>「看程式碼」指的不是掃過去而已，而是你在看的時候，就會知道程式碼是怎麼執行的了。所以這一個單元要讓大家知道程式碼執行流程</em></p>
+</blockquote>
+<blockquote>
+<p><em>## Unit2.1：你其實看不懂程式碼</em></p>
+</blockquote>
+<blockquote>
+<p><em>給兩個範例，練習一行一行跑：</em></p>
+</blockquote>
+<blockquote>
+<p><em>1. 陣列總和<br>2. 找最大值</em></p>
+</blockquote>
+<blockquote>
+<p><em>## Unit2.2：人體編譯器<br>給練習然後一行一行跑<br>這時候給真的程式碼<br>範例同上</em></p>
+</blockquote>
+<blockquote>
+<p><em>## Unit2.3：Debug 神器：Debugger<br>chrome devtool debugger 的使用<br>別的程式語言也有 debugger<br>範例同上</em></p>
+</blockquote>
+<blockquote>
+<p><em>## Unit2.4：Log 雖可恥但有用<br>## Unit2.5：實戰練習：找次大值<br>## Unit2.6：實戰練習：字串轉大寫<br>## Unit2.7：實戰練習：刪除特定字元<br>## Project2：人體編譯器</em></p>
+</blockquote>
+<blockquote>
+<p><em>出三個作業，給程式碼讓他們一行行寫下執行流程<br>記得附上參考解答</em></p>
+</blockquote>
+<blockquote>
+<p><em>1. 找次小值<br>2. 大小寫互換<br>3. 印出因數</em></p>
+</blockquote>
+<p>只要先把大單元的標題（ _Unit2：寫程式之前，先學會「看程式」_）想出來，底下的內容就比較好規劃。而底下小單元規劃好之後，就可以來想單元的範例應該要是什麼，想完範例之後這整個單元就規劃完成了。</p>
+<p>在完成課程大綱的雛形，把每一個單元以及小單元的內容都大致想過之後，我就把課程大綱搬到 <a target="_blank" rel="noopener" href="https://github.com/Lidemy/ALG101-too-weak-to-leetcode">GitHub</a> 上面了：</p>
+<p><img src="/img/leetcode-alg101-4848b595cef4/1__RC0Pq0slWstg3kihzgKaWw.png"></p>
+<p>搬到上面去有兩個理由：</p>
+<ol>
+<li>想把 GitHub 當作課程的資源彙整處，大綱、範例程式碼跟簡報都在這邊</li>
+<li>想嘗試用 Git 版本控制來記錄課程的每一個改變，把課程當作一個專案</li>
+</ol>
+<p>這個階段結束之後，課程大綱就完成了。也就是說，大概已經知道每一個單元要教什麼，心裡已經有個藍圖。接下來就可以開始錄課程影片了嗎？不不不，在錄製之前，還需要做一些前置作業的準備。</p>
+<h3 id="課程錄製前置作業"><a href="#課程錄製前置作業" class="headerlink" title="課程錄製前置作業"></a>課程錄製前置作業</h3><p>由於先別急著寫 leetcode 是一門需要大量練習的課程，因此若是能提供作業讓學生練習，那再好不過了。不過，既然有作業，那會有人改嗎？如果沒人改的話，那會不會就降低寫的動力？可是如果有人改，那誰要來改？</p>
+<p>幸運的是，這一堂課所教的重點是程式解題，而在程式解題的領域中，有一個東西叫做 Online Judge System，一個線上的批改系統，只要送出你的程式碼，就可以讓電腦來幫忙判斷有沒有寫對。</p>
+<p>為了這堂課程，必須要先準備這個系統才行。所以在思考大綱的同時，其實我也一邊做著這個準備，找尋現有的工具來架設一個線上批改系統。</p>
+<p>這是最後完成的樣子：</p>
+<p><img src="/img/leetcode-alg101-4848b595cef4/1__ImEiRF__fu0dDR8b343W7IQ.png"></p>
+<p>學生可以自行看到測驗題目跟內容並且提交程式碼，會由系統來判定是否正確。若是希望知道更多技術細節，可以參考：<a target="_blank" rel="noopener" href="https://blog.techbridge.cc/2020/03/20/build-your-own-online-judge/">自己架一個 Online Judge 系統</a>，裡面有完整說明。</p>
+<p>不過在系統架設上沒有花太多時間，因為是拿別人已經做好的開源系統來改。最花時間的其實是出題目。對，你有想過題目哪裡來嗎？原本我想要用一個叫做 NPSC 比賽的題目，但去詢問過後發現沒有辦法，只好轉個念頭：好吧，就讓我自己出題吧！</p>
+<p>目前系統上面的 50 幾題題目都是我自己出的，包括題目敘述跟測資，都是我一個人弄的。原本想要出到 100 題，後來想說算了，這樣要花太多時間，先把必要的題目弄好就行了。</p>
+<p>以上就是我所說的前置作業，為了搭配課程，必須要先架設出一個線上批改系統，並且自己出題目讓內容變得豐富。</p>
+<h3 id="課程簡報製作"><a href="#課程簡報製作" class="headerlink" title="課程簡報製作"></a>課程簡報製作</h3><p>這時候就能開始錄製了嗎？還沒！</p>
+<p>在錄製以前還有最後一樣前置作業，那就是課程簡報。需要有課程簡報搭配課程影片，才能讓重點更加明確。</p>
+<p>這次的課程簡報我捨棄了以前常用的 Keynote 或是 Google Slides，使用了很潮的 <a target="_blank" rel="noopener" href="https://github.com/jxnblk/mdx-deck">mdx-deck</a>。這是什麼呢？這是一套可以用 Markdown + React 來做簡報的工具，會用這套的主因其實是想要嘗試 <a target="_blank" rel="noopener" href="https://codesurfer.pomb.us/">Code Surfer</a> 這一套潮到爆的工具，可以達成的效果如下：</p>
+<p>undefined</p>
+<p>能夠針對程式碼來做一些動畫，而且設定的方式滿容易的。就是因為想嘗試這一套工具，所以才採用了 mdx-deck。而使用這一套的好處還有一個，那就是最後做出來的簡報其實就是網頁，可以直接放到 GitHub 上面，並且透過 GitHub Pages 讓大家瀏覽！</p>
+<p>做簡報的時候也是重新檢視課程大綱的機會，發現哪邊有問題就回去把大綱修一修，沒問題的話就照著大綱把簡報弄出來。最花時間的就是我上面提到的程式碼的動畫，因為需要設定一些東西，所以有點繁瑣，不過看到效果就會覺得一切都值得了。</p>
+<p>在製作簡報的同時腦中也可以一併思考在錄製時應該要講一些什麼內容，這樣在錄製的時候就會容易很多。</p>
+<h3 id="課程錄製"><a href="#課程錄製" class="headerlink" title="課程錄製"></a>課程錄製</h3><p>簡報完成了，終於可以來進行課程的錄製。</p>
+<p>這邊先來介紹一下我錄製時會使用的工具：</p>
+<p><img src="/img/leetcode-alg101-4848b595cef4/1__Dn6Hve9QroebmdUzUIjvmw.jpeg"></p>
+<p>硬體部份是：</p>
+<ol>
+<li>MacBook Pro (Retina, 13-inch, Early 2015), 2.7 GHz i5, 8G RAM</li>
+<li>22 吋 LG IPS FULLHD 顯示器</li>
+<li>羅技 C922 PRO STREAM 網路攝影機</li>
+<li>Blue Yeti 雪怪麥克風</li>
+</ol>
+<p>軟體部分則是使用 OBS：</p>
+<p><img src="/img/leetcode-alg101-4848b595cef4/1__joCbCfqxPrTdXoeB9QLykQ.png"></p>
+<p>有人可能會問說：「那後製呢，你用什麼後製？」，不好意思，目前課程內容都沒有後製，都是沒有混直接發，課程影片也都是一刀未剪一鏡到底。會這樣做純粹是因為偷懶而且節省時間（後製加上影片輸出要花不少時間），這也是我一直說自己的課程影片品質不夠好的主因。</p>
+<p>每次錄課程都會盡量把一個大單元錄完，只有錄的第一個影片會點開聽一下聲音，看一下影像，看看有沒有什麼地方怪怪的，沒有的話就繼續錄下去。錄完之後會先把影片檔改檔名，這樣方便辨識。</p>
+<p>整個單元都錄完之後就把課程影片先傳到 Google Drive 保存，再傳到 YouTube 做備份，傳到 YouTube 的另一個好處是可以開放部分影片當作試看以及宣傳。</p>
+<p>錄製課程的效率根據當日狀況而定，狀況好的話一天可以錄完三個單元，不好的話可能錄個一兩支影片就累了。如果在影片中沒有什麼太大的失誤，我通常都不會重錄，所以滿多影片就是錄一次就錄完了。</p>
+<h3 id="上架及發布課程"><a href="#上架及發布課程" class="headerlink" title="上架及發布課程"></a>上架及發布課程</h3><p>現在萬事俱備，只欠東風了。課程相關的資源差不多都準備完畢了，只要把課程上架就行了。目前 Lidemy 所使用的課程系統是 Teachable，後台長這樣：</p>
+<p><img src="/img/leetcode-alg101-4848b595cef4/1__wYHyRkjVJQ__5pzdMWHi__Ag.png"></p>
+<p>Teachable 有一個很棒的功能是從 Google drive 直接把影片同步過來，這功能超級方便！而且搭配批量上傳可以讓上架課程變得超容易，效率快很多。這邊基本上就是新增一下課程內容，上傳課程影片，然後再把相關的資源給貼上去。</p>
+<p>課程內容的部分處理好了，最後就是來寫一下課程介紹，這樣介紹頁面才有東西。還要做一下課程的封面圖，身為一個不會做圖的人，發現 keynote 意外的好用，我都是直接用 keynote 來做圖：</p>
+<p><img src="/img/leetcode-alg101-4848b595cef4/1__dMIbYsr2NYa8uwOMgE__88g.png"></p>
+<p>東西都準備完成以後，就可以發布課程囉！課程製作也到此告一段落。</p>
+<h3 id="課程製作心得及檢討"><a href="#課程製作心得及檢討" class="headerlink" title="課程製作心得及檢討"></a>課程製作心得及檢討</h3><p>把這堂線上課程完成並且推出以後，最大的獲益者其實是我，因為這是一堂我很想做的課程。我的課程是由上往下的，意思是，當有些人覺得課程 A 太難的時候，我就會想說是不是缺少了一些什麼基礎，所以才會覺得 A 很難？當我找到缺少的那一塊，就會來做課程 B，補足 A 沒有提到的先備知識。</p>
+<p>以此類推，有可能課程 B 還是太難，就有了課程 C。所以我才說課程是由上往下的，因為很多時候我並不知道課程 A 是難的，我以為已經夠簡單了。而這次的先別急著寫 leetcode，就是我原本以為不需要的一堂課。</p>
+<p>之所以會對這堂課感到這麼興奮，是因為它總結了許多我想做的事，像是：</p>
+<ol>
+<li>架一個 OJ 系統並且自己出題</li>
+<li>把簡報、製作流程跟範例程式碼都公開出去</li>
+<li>用 Git 記錄製作流程</li>
+<li>用很潮的方法做簡報</li>
+<li>幫助初學者</li>
+</ol>
+<p>我很開心能夠完成這個作品。</p>
+<p>話說有個小插曲稍微提一下好了，那就是這堂課的收費，其實我中間有在思考這堂課是不是應該收費，或是想說也可以課程內容不收費，可是作業檢討影片要收費，這樣一半收費一半免費的模式。</p>
+<p>但後來我還是決定這堂課要免費，原因很簡單，那就是我希望這堂課是個初學者必備的課程，是一堂修完之後，會跟其他人推薦的課程。為了更容易把這堂課散播出去，免費的效益是最高的。</p>
+<p>再者，就跟我當初<a href="/2018/09/18/hahow-and-lidemy-2dab35919bb8/">下架 Hahow 上面課程</a>的理由一樣：</p>
+<blockquote>
+<p><em>作為一堂基礎課程，就代表無論你修哪一個程式語言，你都可以在這邊找到有用的參考資料。我希望這樣子的課程是免費的，是可以公開給大家的，而我也確信這樣可以幫到更多的學生。</em></p>
+</blockquote>
+<p>然後這一堂課也有一些尚未改進的缺點，例如說：</p>
+<ol>
+<li>簡報內容有誤，有些錯誤甚至在錄製時沒有發覺，就照著簡報念過去了</li>
+<li>課程後期有些地方應該要用簡報輔助，但是卻只有口頭帶過</li>
+<li>備課有進步空間，有些概念在錄製時沒有講得很清楚</li>
+<li>OJ 上的題目有誤</li>
+<li>課程影片品質還有進步空間</li>
+</ol>
+<p>先在這邊記著，以後才不會忘記。如果你上過課程並且發現一些可以改進的地方，麻煩請讓我知道，可以直接在文章底下留言。</p>
+<h3 id="總結"><a href="#總結" class="headerlink" title="總結"></a>總結</h3><p>寫這篇文章主要是想記錄一下自己做這堂課的流程以及心得，如果有人對這堂課的製作過程感到好奇的話，就可以來參考看看。而我自己其實也滿好奇其他人在製作線上課程的流程是什麼樣子的。</p>
+<p>最後呢，當然也不免俗地要來宣傳一下這堂課程。</p>
+<p>這是一堂課程內容將近 10 個小時的免費課程，目標族群是會寫程式卻覺得自己基礎不紮實的人，藉由一系列的基本題目來熟悉程式基礎語法以及程式思維，詳情可以參考課程說明：<a target="_blank" rel="noopener" href="https://lidemy.com/p/alg101-leetcode">https://lidemy.com/p/alg101-leetcode</a></p>
+<p>想持續關注的話可以 follow 一下，單純手癢想按按鈕也可以按個 follow，或是考慮一下關注 <a target="_blank" rel="noopener" href="https://www.facebook.com/lidemytw/?source=post_page---------------------------">Lidemy 粉絲專頁</a>。想看更多文章可以參考我的 Medium 文章列表：<a target="_blank" rel="noopener" href="https://aszx87410.github.io/blog/medium?source=post_page---------------------------">https://aszx87410.github.io/blog/medium</a>。</p>
+</article><section class="jump-container is-flex is-justify-content-space-between my-6"><!-- em is empty placeholder--><a class="button is-default" href="/2020/04/19/mindset-36c163303217/" title="打造「正確」學習 mindset"><i class="iconfont icon-prev mr-2 has-text-grey"></i><span class="has-text-weight-semibold">上一頁: 打造「正確」學習 mindset</span></a><a class="button is-default" href="/2020/03/02/cln-email-writing-part2-40213f9302a7/" title="CLN 新貴語文電郵寫作班心得（下）"><span class="has-text-weight-semibold">下一頁: CLN 新貴語文電郵寫作班心得（下）</span><i class="iconfont icon-next ml-2 has-text-grey"></i></a></section><article class="mt-6 comment-container"><script async repo="aszx87410/huli-life-blog" src="https://utteranc.es/client.js" issue-term="title" theme="preferred-color-scheme"></script></article></div></div></main></main><footer class="is-flex is-flex-direction-column is-align-items-center is-flex-shrink-0 is-family-serif"><section class="sns-container"><!-- Github--><a title="github" target="_blank" rel="noopener nofollow" href="//github.com/aszx87410"><i class="iconfont icon-github"></i></a><!-- Ins--><!-- RSS--><a title="rss" target="_blank" rel="noopener nofollow" href="/atom.xml"><i class="iconfont icon-rss"></i></a><!-- 知乎--><!-- 领英--><!-- 脸书--><a title="facebook" target="_blank" rel="noopener nofollow" href="//www.facebook.com/huli.blog"><i class="iconfont icon-tian7_facebook"></i></a></section><p><span>Copyright ©</span><span> Huli 2024</span></p><div class="is-flex is-justify-content-center is-flex-wrap-wrap"><p>Powered by Hexo &verbar;&nbsp;</p><p class="is-flex is-justify-content-center"><a title="Hexo theme author" target="_blank" rel="noopener" href="//github.com/haojen">Theme by Haojen&nbsp;</a></p><div style="margin-top: 2px"><a class="github-button" title="github-button" target="_blank" rel="noopener" href="https://github.com/haojen/hexo-theme-Claudia" data-color-scheme="no-preference: light; light: light; dark: dark;" data-show-count="true"></a></div></div><div><span></span></div></footer><script async defer src="https://buttons.github.io/buttons.js"></script><script src="/js/jquery-3.6.1.min.js"></script><script src="/js/jquery-fancybox.min.js"></script><script src="/js/img_zoom.js"></script><script src="/js/post.js"></script></body></html>
