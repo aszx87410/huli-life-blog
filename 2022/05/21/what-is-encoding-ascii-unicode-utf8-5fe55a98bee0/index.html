@@ -1,20 +1,16 @@
 <!DOCTYPE html><html class="appearance-auto" lang="zh-TW"><head><meta charset="UTF-8"><title>為什麼打開檔案時會看到亂碼？跟著小明一起從傳紙條學習編碼 - Huli's blog</title><meta name="description" content="
 一定許多人都有過這種經驗。
-收到朋友傳來的檔案，點開來以後卻顯示一堆看不懂的文字，這就是俗稱的「亂碼」。從亂碼這個問題當作出發點，這篇我想帶大家以比較白話的方式去看為什麼會產生這個問題，以及這個.."><meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, initial-scale=1"><meta name="image" content="https://life.huli.tw/img/what-is-encoding-ascii-unicode-utf8-5fe55a98bee0/0__vBV7zz1rjHQQOz6U.jpg"><meta name="original-source" content="https://life.huli.tw/2022/05/21/what-is-encoding-ascii-unicode-utf8-5fe55a98bee0/"><link rel="canonical" href="https://life.huli.tw/2022/05/21/what-is-encoding-ascii-unicode-utf8-5fe55a98bee0/"><meta property="og:locale" content="zh-TW"><meta property="og:type" content="article"><meta property="og:title" content="為什麼打開檔案時會看到亂碼？跟著小明一起從傳紙條學習編碼 - Huli's blog"><meta property="og:description" content="
-一定許多人都有過這種經驗。
-收到朋友傳來的檔案，點開來以後卻顯示一堆看不懂的文字，這就是俗稱的「亂碼」。從亂碼這個問題當作出發點，這篇我想帶大家以比較白話的方式去看為什麼會產生這個問題，以及這個.."><meta property="og:url" content="https://life.huli.tw/2022/05/21/what-is-encoding-ascii-unicode-utf8-5fe55a98bee0/"><meta property="og:site_name" content="Huli's blog"><meta property="og:image" content="https://life.huli.tw/img/what-is-encoding-ascii-unicode-utf8-5fe55a98bee0/0__vBV7zz1rjHQQOz6U.jpg"><meta name="twitter:title" content="為什麼打開檔案時會看到亂碼？跟著小明一起從傳紙條學習編碼 - Huli's blog"><meta name="twitter:image" content="https://life.huli.tw/img/what-is-encoding-ascii-unicode-utf8-5fe55a98bee0/0__vBV7zz1rjHQQOz6U.jpg"><meta name="twitter:description" content="
-一定許多人都有過這種經驗。
-收到朋友傳來的檔案，點開來以後卻顯示一堆看不懂的文字，這就是俗稱的「亂碼」。從亂碼這個問題當作出發點，這篇我想帶大家以比較白話的方式去看為什麼會產生這個問題，以及這個.."><meta name="twitter:card" content="summary_large_image"><meta name="google-site-verification" content="lTAMT4U8v-CtkYRIo8AmGaACB3EikdUYpiTHAylwGPE"><!-- Google Analytics --><script async src="https://www.googletagmanager.com/gtag/js?id=G-X395CNYSX7"></script><script>window.dataLayer = window.dataLayer || [];
-function gtag(){dataLayer.push(arguments);}
-gtag('js', new Date());
-gtag('config', 'G-X395CNYSX7');</script><!-- End Google Analytics --><link rel="icon" href="/images/lidemy_logo.png"><link rel="stylesheet" href="/style/common/bulma.css"><link rel="stylesheet" href="/style/base.css"><link rel="stylesheet" href="/style/common/helper.css"><script src="/js/common.js"></script><link rel="stylesheet" href="/style/post.css"><link rel="stylesheet" href="/style/themes/highlight-theme-light.css"><link rel="stylesheet" href="/style/common/jquery.fancybox.min.css"><script src="/js/highlight.pack.js"></script><meta name="description" content="
+收到朋友傳來的檔案，點開來以後卻顯示一堆看不懂的文字，這就是俗稱的「亂碼」。從亂碼這個問題當作出發點，這篇我想帶大家以比較白話的方式去看為什麼會產生這個問題，以及這個問題該如何解決，目的是想讓沒什麼技術背景的人，也能理解「編碼」到底是什麼，以及一些重要的細節。
+我們.."><meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, initial-scale=1"><meta name="image" content="https://life.huli.tw/img/what-is-encoding-ascii-unicode-utf8-5fe55a98bee0/0__vBV7zz1rjHQQOz6U.jpg"><meta name="original-source" content="https://life.huli.tw/2022/05/21/what-is-encoding-ascii-unicode-utf8-5fe55a98bee0/"><link rel="canonical" href="https://life.huli.tw/2022/05/21/what-is-encoding-ascii-unicode-utf8-5fe55a98bee0/"><meta property="og:locale" content="zh-TW"><meta property="og:type" content="article"><meta property="og:title" content="為什麼打開檔案時會看到亂碼？跟著小明一起從傳紙條學習編碼 - Huli's blog"><meta property="og:description" content="
 一定許多人都有過這種經驗。
 收到朋友傳來的檔案，點開來以後卻顯示一堆看不懂的文字，這就是俗稱的「亂碼」。從亂碼這個問題當作出發點，這篇我想帶大家以比較白話的方式去看為什麼會產生這個問題，以及這個問題該如何解決，目的是想讓沒什麼技術背景的人，也能理解「編碼」到底是什麼，以及一些重要的細節。
-我們就從一個小故事開始吧，主角是好久沒出現的小明，地點是學校，時間是 2000 年，一個智慧型手機還沒流行的年代。
-上課無聊不用功，想盡辦法來溝通小明是一位國中二年級的學生，沒錯，就是俗稱的中二。
-他在上課的時候總是不專心，聽不進去老師在講什麼，也不想聽進去。感到無聊的他，想要透過跟同學聊天來打發時間。可是這是在上課，又能跟誰聊天呢？
-在那個傳簡訊一封要三塊的年代，傳紙條顯然是個更超值且合理的選擇。
-班上有另外一位叫做小.."><!-- hexo injector head_end start -->
+我們.."><meta property="og:url" content="https://life.huli.tw/2022/05/21/what-is-encoding-ascii-unicode-utf8-5fe55a98bee0/"><meta property="og:site_name" content="Huli's blog"><meta property="og:image" content="https://life.huli.tw/img/what-is-encoding-ascii-unicode-utf8-5fe55a98bee0/0__vBV7zz1rjHQQOz6U.jpg"><meta name="twitter:title" content="為什麼打開檔案時會看到亂碼？跟著小明一起從傳紙條學習編碼 - Huli's blog"><meta name="twitter:image" content="https://life.huli.tw/img/what-is-encoding-ascii-unicode-utf8-5fe55a98bee0/0__vBV7zz1rjHQQOz6U.jpg"><meta name="twitter:description" content="
+一定許多人都有過這種經驗。
+收到朋友傳來的檔案，點開來以後卻顯示一堆看不懂的文字，這就是俗稱的「亂碼」。從亂碼這個問題當作出發點，這篇我想帶大家以比較白話的方式去看為什麼會產生這個問題，以及這個問題該如何解決，目的是想讓沒什麼技術背景的人，也能理解「編碼」到底是什麼，以及一些重要的細節。
+我們.."><meta name="twitter:card" content="summary_large_image"><meta name="google-site-verification" content="lTAMT4U8v-CtkYRIo8AmGaACB3EikdUYpiTHAylwGPE"><!-- Google Analytics --><script async src="https://www.googletagmanager.com/gtag/js?id=G-X395CNYSX7"></script><script>window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-X395CNYSX7');</script><!-- End Google Analytics --><link rel="icon" href="/images/lidemy_logo.png"><link rel="stylesheet" href="/style/common/bulma.css"><link rel="stylesheet" href="/style/base.css"><link rel="stylesheet" href="/style/common/helper.css"><script src="/js/common.js"></script><link rel="stylesheet" href="/style/post.css"><link rel="stylesheet" href="/style/themes/highlight-theme-light.css"><link rel="stylesheet" href="/style/common/jquery.fancybox.min.css"><script src="/js/highlight.pack.js"></script><!-- hexo injector head_end start -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css">
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/hexo-math@4.0.0/dist/style.css">
@@ -143,7 +139,7 @@ gtag('config', 'G-X395CNYSX7');</script><!-- End Google Analytics --><link rel="
 <p>最後，如果你對編碼的歷史有興趣，或是對實際上電腦到底要怎麼儲存，底下附上我在寫這篇文章以前參考過的一些資料，希望對你有幫助。</p>
 <ol>
 <li><a target="_blank" rel="noopener" href="https://sites.google.com/site/lph760210/encoding">文字編碼二三事</a></li>
-<li><a target="_blank" rel="noopener" href="https://www.csie.ntu.edu.tw/~p92005/Joel/Unicode.html">每個軟體開發者都絕對一定要會的Unicode及字元集必備知識(沒有藉口！)</a></li>
+<li><a target="_blank" rel="noopener" href="https://illya.tw/joel-on-software/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses">每個軟體開發者都絕對一定要會的Unicode及字元集必備知識(沒有藉口！)</a></li>
 <li><a target="_blank" rel="noopener" href="https://speakerdeck.com/inndy/gong-cheng-shi-ding-yao-dong-de-text-encoding">工程師一定要懂的 Text Encoding</a></li>
 <li><a target="_blank" rel="noopener" href="http://utf8everywhere.org/zh-cn">UTF-8 遍地开花</a></li>
 <li><a target="_blank" rel="noopener" href="https://www.cnblogs.com/malecrab/p/5300503.html">细说：Unicode, UTF-8, UTF-16, UTF-32, UCS-2, UCS-4</a></li>

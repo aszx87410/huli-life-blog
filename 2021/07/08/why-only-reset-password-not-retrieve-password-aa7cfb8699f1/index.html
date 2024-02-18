@@ -1,21 +1,16 @@
 <!DOCTYPE html><html class="appearance-auto" lang="zh-TW"><head><meta charset="UTF-8"><title>為什麼忘記密碼時只能重設，不把舊密碼告訴我？ - Huli's blog</title><meta name="description" content="
 （原文發佈於 Cymetrics Tech Blog：為什麼忘記密碼時只能重設，不把舊密碼告訴我？）
-某天小明在整理他的我的最愛（到底誰的），發現了一個以前很常逛，但已經將近半年多沒去的一個論壇.."><meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, initial-scale=1"><meta name="image" content="https://life.huli.tw/img/why-only-reset-password-not-retrieve-password-aa7cfb8699f1/0__d__btmcK3StRPxigr.jpg"><meta name="original-source" content="https://life.huli.tw/2021/07/08/why-only-reset-password-not-retrieve-password-aa7cfb8699f1/"><link rel="canonical" href="https://life.huli.tw/2021/07/08/why-only-reset-password-not-retrieve-password-aa7cfb8699f1/"><meta property="og:locale" content="zh-TW"><meta property="og:type" content="article"><meta property="og:title" content="為什麼忘記密碼時只能重設，不把舊密碼告訴我？ - Huli's blog"><meta property="og:description" content="
-（原文發佈於 Cymetrics Tech Blog：為什麼忘記密碼時只能重設，不把舊密碼告訴我？）
-某天小明在整理他的我的最愛（到底誰的），發現了一個以前很常逛，但已經將近半年多沒去的一個論壇.."><meta property="og:url" content="https://life.huli.tw/2021/07/08/why-only-reset-password-not-retrieve-password-aa7cfb8699f1/"><meta property="og:site_name" content="Huli's blog"><meta property="og:image" content="https://life.huli.tw/img/why-only-reset-password-not-retrieve-password-aa7cfb8699f1/0__d__btmcK3StRPxigr.jpg"><meta name="twitter:title" content="為什麼忘記密碼時只能重設，不把舊密碼告訴我？ - Huli's blog"><meta name="twitter:image" content="https://life.huli.tw/img/why-only-reset-password-not-retrieve-password-aa7cfb8699f1/0__d__btmcK3StRPxigr.jpg"><meta name="twitter:description" content="
-（原文發佈於 Cymetrics Tech Blog：為什麼忘記密碼時只能重設，不把舊密碼告訴我？）
-某天小明在整理他的我的最愛（到底誰的），發現了一個以前很常逛，但已經將近半年多沒去的一個論壇.."><meta name="twitter:card" content="summary_large_image"><meta name="google-site-verification" content="lTAMT4U8v-CtkYRIo8AmGaACB3EikdUYpiTHAylwGPE"><!-- Google Analytics --><script async src="https://www.googletagmanager.com/gtag/js?id=G-X395CNYSX7"></script><script>window.dataLayer = window.dataLayer || [];
-function gtag(){dataLayer.push(arguments);}
-gtag('js', new Date());
-gtag('config', 'G-X395CNYSX7');</script><!-- End Google Analytics --><link rel="icon" href="/images/lidemy_logo.png"><link rel="stylesheet" href="/style/common/bulma.css"><link rel="stylesheet" href="/style/base.css"><link rel="stylesheet" href="/style/common/helper.css"><script src="/js/common.js"></script><link rel="stylesheet" href="/style/post.css"><link rel="stylesheet" href="/style/themes/highlight-theme-light.css"><link rel="stylesheet" href="/style/common/jquery.fancybox.min.css"><script src="/js/highlight.pack.js"></script><meta name="description" content="
+某天小明在整理他的我的最愛（到底誰的），發現了一個以前很常逛，但已經將近半年多沒去的一個論壇。小明想回去看看那邊變得怎麼樣了，於是點進去那個論壇，輸入了帳號密碼，得到了密碼錯誤的回覆。
+嘗試了.."><meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, initial-scale=1"><meta name="image" content="https://life.huli.tw/img/why-only-reset-password-not-retrieve-password-aa7cfb8699f1/0__d__btmcK3StRPxigr.jpg"><meta name="original-source" content="https://life.huli.tw/2021/07/08/why-only-reset-password-not-retrieve-password-aa7cfb8699f1/"><link rel="canonical" href="https://life.huli.tw/2021/07/08/why-only-reset-password-not-retrieve-password-aa7cfb8699f1/"><meta property="og:locale" content="zh-TW"><meta property="og:type" content="article"><meta property="og:title" content="為什麼忘記密碼時只能重設，不把舊密碼告訴我？ - Huli's blog"><meta property="og:description" content="
 （原文發佈於 Cymetrics Tech Blog：為什麼忘記密碼時只能重設，不把舊密碼告訴我？）
 某天小明在整理他的我的最愛（到底誰的），發現了一個以前很常逛，但已經將近半年多沒去的一個論壇。小明想回去看看那邊變得怎麼樣了，於是點進去那個論壇，輸入了帳號密碼，得到了密碼錯誤的回覆。
-嘗試了幾次之後，系統提示小明可以使用「忘記密碼」的功能，所以小明填了自己的 email 之後去信箱收信，發現系統傳來一個「重設密碼」的連結。雖然說最後小明成功利用重新設定的密碼登入，但有個問題讓他百思不得其解：
-
-「奇怪欸，幹嘛要我重設密碼，為什麼不把舊的密碼寄給我就好？」
-
-應該有許多人都跟小明一樣，有過類似的疑惑。把舊密碼寄給我不是很好嗎，幹嘛強迫我換密碼？
-這一個看似簡單的問題，背後其實藏了許多資訊安全相關的概念，就.."><!-- hexo injector head_end start -->
+嘗試了.."><meta property="og:url" content="https://life.huli.tw/2021/07/08/why-only-reset-password-not-retrieve-password-aa7cfb8699f1/"><meta property="og:site_name" content="Huli's blog"><meta property="og:image" content="https://life.huli.tw/img/why-only-reset-password-not-retrieve-password-aa7cfb8699f1/0__d__btmcK3StRPxigr.jpg"><meta name="twitter:title" content="為什麼忘記密碼時只能重設，不把舊密碼告訴我？ - Huli's blog"><meta name="twitter:image" content="https://life.huli.tw/img/why-only-reset-password-not-retrieve-password-aa7cfb8699f1/0__d__btmcK3StRPxigr.jpg"><meta name="twitter:description" content="
+（原文發佈於 Cymetrics Tech Blog：為什麼忘記密碼時只能重設，不把舊密碼告訴我？）
+某天小明在整理他的我的最愛（到底誰的），發現了一個以前很常逛，但已經將近半年多沒去的一個論壇。小明想回去看看那邊變得怎麼樣了，於是點進去那個論壇，輸入了帳號密碼，得到了密碼錯誤的回覆。
+嘗試了.."><meta name="twitter:card" content="summary_large_image"><meta name="google-site-verification" content="lTAMT4U8v-CtkYRIo8AmGaACB3EikdUYpiTHAylwGPE"><!-- Google Analytics --><script async src="https://www.googletagmanager.com/gtag/js?id=G-X395CNYSX7"></script><script>window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-X395CNYSX7');</script><!-- End Google Analytics --><link rel="icon" href="/images/lidemy_logo.png"><link rel="stylesheet" href="/style/common/bulma.css"><link rel="stylesheet" href="/style/base.css"><link rel="stylesheet" href="/style/common/helper.css"><script src="/js/common.js"></script><link rel="stylesheet" href="/style/post.css"><link rel="stylesheet" href="/style/themes/highlight-theme-light.css"><link rel="stylesheet" href="/style/common/jquery.fancybox.min.css"><script src="/js/highlight.pack.js"></script><!-- hexo injector head_end start -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css">
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/hexo-math@4.0.0/dist/style.css">
