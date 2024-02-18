@@ -2,6 +2,87 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://life.huli.tw/2022/05/21/what-is-encoding-ascii-unicode-utf8-5fe55a98bee0/</loc>
+    
+    <lastmod>2024-02-18</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://life.huli.tw/2020/09/07/learning-how-to-learn-7c92be9b72fa/</loc>
+    
+    <lastmod>2024-02-18</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://life.huli.tw/2017/10/18/interview-prepare-b815d938f0de/</loc>
+    
+    <lastmod>2024-02-18</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://life.huli.tw/2017/12/21/mentor-program-b5f96ae1eed1/</loc>
+    
+    <lastmod>2024-02-18</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://life.huli.tw/2019/07/26/mentorship-program-350db93d5c9c/</loc>
+    
+    <lastmod>2024-02-18</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://life.huli.tw/2017/10/22/stripe-and-i-df35a6f0a799/</loc>
+    
+    <lastmod>2024-02-18</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://life.huli.tw/2019/04/13/4-years-review-7fb7edc52687/</loc>
+    
+    <lastmod>2024-02-18</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://life.huli.tw/2020/01/13/weekly-note-part2-20fb2472d432/</loc>
+    
+    <lastmod>2024-02-18</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://life.huli.tw/2019/12/16/mentor-program-3rd-result-df178bb55f4/</loc>
+    
+    <lastmod>2024-02-18</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://life.huli.tw/2024/02/12/japan-software-engineer-salary/</loc>
     
     <lastmod>2024-02-16</lastmod>
@@ -84,15 +165,6 @@
   
   <url>
     <loc>https://life.huli.tw/2020/01/13/weekly-note-part3-87969dd50929/</loc>
-    
-    <lastmod>2023-10-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://life.huli.tw/2020/01/13/weekly-note-part2-20fb2472d432/</loc>
     
     <lastmod>2023-10-09</lastmod>
     
@@ -236,15 +308,6 @@
   </url>
   
   <url>
-    <loc>https://life.huli.tw/2017/10/22/stripe-and-i-df35a6f0a799/</loc>
-    
-    <lastmod>2023-10-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://life.huli.tw/2019/11/15/someday-i-will-a5aede6d30e2/</loc>
     
     <lastmod>2023-10-09</lastmod>
@@ -317,15 +380,6 @@
   </url>
   
   <url>
-    <loc>https://life.huli.tw/2019/07/26/mentorship-program-350db93d5c9c/</loc>
-    
-    <lastmod>2023-10-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://life.huli.tw/2020/04/19/mindset-36c163303217/</loc>
     
     <lastmod>2023-10-09</lastmod>
@@ -354,24 +408,6 @@
   
   <url>
     <loc>https://life.huli.tw/2018/08/20/mentor-program-register-3648c1b82cd7/</loc>
-    
-    <lastmod>2023-10-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://life.huli.tw/2017/12/21/mentor-program-b5f96ae1eed1/</loc>
-    
-    <lastmod>2023-10-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://life.huli.tw/2019/12/16/mentor-program-3rd-result-df178bb55f4/</loc>
     
     <lastmod>2023-10-09</lastmod>
     
@@ -453,15 +489,6 @@
   
   <url>
     <loc>https://life.huli.tw/2020/03/23/leetcode-alg101-4848b595cef4/</loc>
-    
-    <lastmod>2023-10-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://life.huli.tw/2020/09/07/learning-how-to-learn-7c92be9b72fa/</loc>
     
     <lastmod>2023-10-09</lastmod>
     
@@ -713,15 +740,6 @@
   </url>
   
   <url>
-    <loc>https://life.huli.tw/2019/04/13/4-years-review-7fb7edc52687/</loc>
-    
-    <lastmod>2023-10-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://life.huli.tw/2023/07/27/2023-july-korea-trip-seoul-92ba2d0608ff/</loc>
     
     <lastmod>2023-10-09</lastmod>
@@ -795,15 +813,6 @@
   
   <url>
     <loc>https://life.huli.tw/2021/09/10/when-i-got-sg-offer-e4d91856bd96/</loc>
-    
-    <lastmod>2023-10-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://life.huli.tw/2022/05/21/what-is-encoding-ascii-unicode-utf8-5fe55a98bee0/</loc>
     
     <lastmod>2023-10-09</lastmod>
     
@@ -993,15 +1002,6 @@
   
   <url>
     <loc>https://life.huli.tw/2018/05/05/introduction-mvc-spa-and-ssr-545c941669e9/</loc>
-    
-    <lastmod>2023-10-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://life.huli.tw/2017/10/18/interview-prepare-b815d938f0de/</loc>
     
     <lastmod>2023-10-09</lastmod>
     
@@ -1237,7 +1237,7 @@
 
   <url>
     <loc>https://life.huli.tw/</loc>
-    <lastmod>2024-02-16</lastmod>
+    <lastmod>2024-02-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -1245,63 +1245,63 @@
   
   <url>
     <loc>https://life.huli.tw/tags/%E8%81%B7%E6%B6%AF/</loc>
-    <lastmod>2024-02-16</lastmod>
+    <lastmod>2024-02-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://life.huli.tw/tags/%E6%97%85%E9%81%8A/</loc>
-    <lastmod>2024-02-16</lastmod>
+    <lastmod>2024-02-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://life.huli.tw/tags/%E7%A7%91%E6%8A%80/</loc>
-    <lastmod>2024-02-16</lastmod>
+    <lastmod>2024-02-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://life.huli.tw/tags/%E6%95%99%E5%AD%B8%E8%A8%88%E5%8A%83/</loc>
-    <lastmod>2024-02-16</lastmod>
+    <lastmod>2024-02-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://life.huli.tw/tags/Others/</loc>
-    <lastmod>2024-02-16</lastmod>
+    <lastmod>2024-02-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://life.huli.tw/tags/%E5%AD%B8%E7%BF%92/</loc>
-    <lastmod>2024-02-16</lastmod>
+    <lastmod>2024-02-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://life.huli.tw/tags/%E5%AF%AB%E4%BD%9C/</loc>
-    <lastmod>2024-02-16</lastmod>
+    <lastmod>2024-02-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://life.huli.tw/tags/%E6%8A%80%E8%A1%93%E7%99%BD%E8%A9%B1%E6%96%87/</loc>
-    <lastmod>2024-02-16</lastmod>
+    <lastmod>2024-02-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://life.huli.tw/tags/%E6%97%A5%E6%9C%AC/</loc>
-    <lastmod>2024-02-16</lastmod>
+    <lastmod>2024-02-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -1310,63 +1310,63 @@
   
   <url>
     <loc>https://life.huli.tw/categories/%E8%81%B7%E6%B6%AF/</loc>
-    <lastmod>2024-02-16</lastmod>
+    <lastmod>2024-02-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://life.huli.tw/categories/%E6%97%85%E9%81%8A/</loc>
-    <lastmod>2024-02-16</lastmod>
+    <lastmod>2024-02-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://life.huli.tw/categories/%E7%A7%91%E6%8A%80/</loc>
-    <lastmod>2024-02-16</lastmod>
+    <lastmod>2024-02-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://life.huli.tw/categories/%E6%95%99%E5%AD%B8%E8%A8%88%E5%8A%83/</loc>
-    <lastmod>2024-02-16</lastmod>
+    <lastmod>2024-02-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://life.huli.tw/categories/Others/</loc>
-    <lastmod>2024-02-16</lastmod>
+    <lastmod>2024-02-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://life.huli.tw/categories/%E5%AD%B8%E7%BF%92/</loc>
-    <lastmod>2024-02-16</lastmod>
+    <lastmod>2024-02-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://life.huli.tw/categories/%E5%AF%AB%E4%BD%9C/</loc>
-    <lastmod>2024-02-16</lastmod>
+    <lastmod>2024-02-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://life.huli.tw/categories/%E6%8A%80%E8%A1%93%E7%99%BD%E8%A9%B1%E6%96%87/</loc>
-    <lastmod>2024-02-16</lastmod>
+    <lastmod>2024-02-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://life.huli.tw/categories/%E6%97%A5%E6%9C%AC/</loc>
-    <lastmod>2024-02-16</lastmod>
+    <lastmod>2024-02-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>

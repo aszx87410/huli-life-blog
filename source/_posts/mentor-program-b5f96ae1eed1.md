@@ -10,7 +10,7 @@ photos: /img/mentor-program-b5f96ae1eed1/cover.png
 
 ![](/img/mentor-program-b5f96ae1eed1/1__K7bBVfi4k9a7wUci__nCg__w.jpeg)
 
-前幾天我在滑臉書的時候，看到了這個 [UX Mentorship Program](http://jennyshen.com/mentorship.html)，覺得很有趣。其實我之前也有想過類似的東西，但始終沒有付諸行動，這次趁著熱度還在，下定決心要來弄一個程式版的導師計畫。
+前幾天我在滑臉書的時候，看到了一個 UX Mentorship Program，覺得很有趣。其實我之前也有想過類似的東西，但始終沒有付諸行動，這次趁著熱度還在，下定決心要來弄一個程式版的導師計畫。
 
 在開始介紹這個計畫之前，先來簡單介紹一下我自己。
 

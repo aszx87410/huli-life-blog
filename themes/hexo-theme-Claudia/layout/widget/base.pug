@@ -10,7 +10,7 @@ include methods
 - var canonicalUrl = page.permalink
 - var thumbnail = page.thumbnail || page.cover || (getPostCoverImg(page) && full_url_for(getPostCoverImg(page))) || (page.photos?.[0] && full_url_for(page.photos[0])) 
 - var description = page.description || page.excerpt || config.description || page.content || pageTitle
-- description = truncate( strip_html(description), {length: 100, omission: '..'} )
+- description = truncate( strip_html(description), {length: 150, omission: '..'} )
 - var language = page.lang || page.language || config.language || 'zh-TW'
 - var authorName = page.author || config.author
 - if (typeof authorName === 'object' && typeof authorName.name === 'string') authorName =  authorName.name

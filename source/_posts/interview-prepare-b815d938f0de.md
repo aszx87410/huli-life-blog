@@ -302,7 +302,7 @@ R: 修好之後趕快上線，隔天上班補足相關測試
 
 1.  [Questions I’m asking in interviews](https://jvns.ca/blog/2013/12/30/questions-im-asking-in-interviews/)
 2.  [開發人員的面試指南  — A developer’s guide to interviewing](https://blog.louie.lu/2017/04/30/%E9%96%8B%E7%99%BC%E4%BA%BA%E5%93%A1%E7%9A%84%E9%9D%A2%E8%A9%A6%E6%8C%87%E5%8D%97-a-developers-guide-to-interviewing/)
-3.  [「Any questions?」英文面試的最後一題，你該這樣答！](https://www.managertoday.com.tw/dictionary/cond/52235)
+3.  [「Any questions?」英文面試的最後一題，你該這樣答！](https://www.managertoday.com.tw/english/view/52235)
 4.  [【職場英文】沒問題就是有問題！ 面試時你應該問的 9 個好問題！](https://tw.blog.voicetube.com/archives/21421)
 
 ### 總結

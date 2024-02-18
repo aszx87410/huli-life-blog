@@ -23,7 +23,7 @@ Stripe 是我心目中的第一志願，是我「最想進去」的公司，沒�
 好，還是沒印象嗎？那你可以參考底下這兩篇新聞：
 
 1. [線上金流明星 Stripe 再獲 1.5 億美元投資，市值達 90 億美元｜數位時代](https://www.bnext.com.tw/article/42046/stripe-raises-d-round-funding)
-2. [Stripe：連 PayPal 創辦人都投資的金流公司 - INSIDE 硬塞的網路趨勢觀察](https://www.inside.com.tw/2014/04/24/stripe)
+2. [Stripe：連 PayPal 創辦人都投資的金流公司 - INSIDE 硬塞的網路趨勢觀察](https://www.inside.com.tw/article/3668-stripe)
 
 簡單來說，Stripe 就是一間提供金流服務的公司，只要是跟金流有關的一切，都找他就對了。你也可以想成是 Paypal 或是台灣的歐付寶，但其實有些差異就是了。
 
@@ -53,7 +53,7 @@ Stripe 在我心目中的地位崇高，總是會有個理由，一定是有些�
 
 就算最後求職者沒有錄取，我保證他也一定會大大讚賞這間公司的面試流程。因為現在做得不錯的公司太少太少了，一堆公司的面試流程都爛的可以。
 
-而 Stripe 公開面試流程這個舉動，我就覺得非常好，我覺得其他公司也可以考慮跟進。更重要的是，在 Stripe 公開出來的[工程師面試流程](https://stripe.com/jobs/engineering-onsite.pdf)裡面，有清楚說明了會用哪些方法來衡量這個求職者是不是他們想要的工程師。
+而 Stripe 公開面試流程這個舉動，我就覺得非常好，我覺得其他公司也可以考慮跟進。更重要的是，在 Stripe 公開出來的工程師面試流程裡面，有清楚說明了會用哪些方法來衡量這個求職者是不是他們想要的工程師。
 
 比起其他考演算法白板題的公司，Stripe 更注重的是工程師解決工作上會碰到的實際問題的能力，因此面試中會給你一個 project，要你去找出裡面的 bug 並且解掉之類的。
 
@@ -75,7 +75,7 @@ Stripe 在我心目中的地位崇高，總是會有個理由，一定是有些�
 
 ### 從未想過的位置：Support Engineer
 
-其實當初是無聊在 Stripe 官網上面看看有哪些職缺，突然發現新加坡有辦公室，就立刻用地點來篩選，發現跟工程師相關的只有一個缺，叫做 [Support Engineer](https://stripe.com/jobs/positions/support-engineer-singapore)。
+其實當初是無聊在 Stripe 官網上面看看有哪些職缺，突然發現新加坡有辦公室，就立刻用地點來篩選，發現跟工程師相關的只有一個缺，叫做 Support Engineer。
 
 在這之前，我對這職缺的理解是 0。我知道的都是那種前端、後端工程師，沒碰過這種 Support Engineer。
 

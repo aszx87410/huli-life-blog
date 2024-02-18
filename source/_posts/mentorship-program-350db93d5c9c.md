@@ -90,7 +90,7 @@ photos: /img/mentorship-program-350db93d5c9c/cover.png
 
 例如說學習 CSS Selector 的 [CSS Dinner](https://flukeout.github.io/) 以及 Flexbox 的 [Flexbox Froggy](https://flexboxfroggy.com/)，或者是六角學院出的 [Flex Pirate](https://hexschool.github.io/flexbox-pirate/index.html#/)，都是我覺得很有趣而且可以幫助到學習的專案。
 
-之前我做了一個 [Lidemy HTTP Challenge](https://lidemy-http-challenge.herokuapp.com/start)，後來也輔導學生做了一個[異世界?r3:0挑戰](https://r30challenge.herokuapp.com/)，都是想用遊戲或者至少是闖關的方式來讓大家理解某個主題。
+之前我做了一個 Lidemy HTTP Challenge，後來也輔導學生做了一個異世界?r3:0挑戰，都是想用遊戲或者至少是闖關的方式來讓大家理解某個主題。
 
 ![](/img/mentorship-program-350db93d5c9c/1__DNmYlpF13fdHLOCN0eMnrA.png)
 

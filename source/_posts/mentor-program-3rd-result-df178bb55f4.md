@@ -55,9 +55,9 @@ photos: /img/mentor-program-3rd-result-df178bb55f4/cover.png
 
 不知道大家有沒有看過一些玩遊戲學程式的網站？例如說 [Flexbox Froggy](https://flexboxfroggy.com/) 或是六角學院的 [Flex Private](https://hexschool.github.io/flexbox-pirate/index.html#/)，都是藉由有趣的小遊戲來學習特定概念。
 
-這一期的課程我也做了兩個，第一個是：[Lidemy HTTP Challenge](https://lidemy-http-challenge.herokuapp.com/start)，目的是想讓學生熟悉 HTTP 的相關操作以及概念，是純文字的，所以就算是用 curl 也可以順利遊玩。
+這一期的課程我也做了兩個，第一個是：Lidemy HTTP Challenge，目的是想讓學生熟悉 HTTP 的相關操作以及概念，是純文字的，所以就算是用 curl 也可以順利遊玩。
 
-第二個是[異世界?r3:0 挑戰](https://r30challenge.herokuapp.com/)，是跟學生 [Min](https://medium.com/u/c7713dd3b6f6) 合作的作品，關卡的 idea 主要是我出的，其他都交給學生來處理，最後做出了一個 MUD 風格的遊戲，裡面的題目都與網站前後端有關。
+第二個是異世界?r3:0 挑戰，是跟學生 [Min](https://medium.com/u/c7713dd3b6f6) 合作的作品，關卡的 idea 主要是我出的，其他都交給學生來處理，最後做出了一個 MUD 風格的遊戲，裡面的題目都與網站前後端有關。
 
 再來不太算遊戲，是 [Lazy Hackathon](https://github.com/Lidemy/lazy-hackathon)，是與另外一名學生 [Yakim Hsu](https://medium.com/u/1b8faea10a91) 合作的作品，我也只是大概提供了 idea，其餘實作皆由學生自行完成。就是故意做一個速度很慢的網站，讓大家想辦法去優化。
 

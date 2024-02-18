@@ -245,7 +245,7 @@ UTF-8 那張轉換表格在講的事情是一樣的，它是在定義說：「�
 最後，如果你對編碼的歷史有興趣，或是對實際上電腦到底要怎麼儲存，底下附上我在寫這篇文章以前參考過的一些資料，希望對你有幫助。
 
 1.  [文字編碼二三事](https://sites.google.com/site/lph760210/encoding)
-2.  [每個軟體開發者都絕對一定要會的Unicode及字元集必備知識(沒有藉口！)](https://www.csie.ntu.edu.tw/~p92005/Joel/Unicode.html)
+2.  [每個軟體開發者都絕對一定要會的Unicode及字元集必備知識(沒有藉口！)](https://illya.tw/joel-on-software/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses)
 3.  [工程師一定要懂的 Text Encoding](https://speakerdeck.com/inndy/gong-cheng-shi-ding-yao-dong-de-text-encoding)
 4.  [UTF-8 遍地开花](http://utf8everywhere.org/zh-cn)
 5.  [细说：Unicode, UTF-8, UTF-16, UTF-32, UCS-2, UCS-4](https://www.cnblogs.com/malecrab/p/5300503.html)

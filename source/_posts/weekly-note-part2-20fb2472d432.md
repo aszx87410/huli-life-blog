@@ -450,11 +450,6 @@ php 也知道預設的 port 是 3306，所以才不用特別做設定
 最後再講回課程  
 之前已經有跟大家稍微說過了，如果你想把作業當作作品集拿出去的話  
 請先把作業做得精緻一點  
-例如說第八週的 twitch api，你要做到這種程度：  
-[https://cwenwen.github.io/APIsPractice/Twitch_API/](https://cwenwen.github.io/APIsPractice/Twitch_API/)
-
-如果是 blog，要做到這種程度：  
-[http://enter3017sky.tw/index.php](http://enter3017sky.tw/index.php)
 
 留言板的話規模其實也偏小，要做大不太容易  
 建議直接用 php 改做上面那種個人 blog 之類的比較好  
