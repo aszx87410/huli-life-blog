@@ -8,7 +8,7 @@ include methods
 - var pageTitle = (pageTitle || page.title || 'Home') + " - " + theme.user.name + "'s blog"
 - var appearance = theme.appearance ? theme.appearance : 'auto'
 - var canonicalUrl = page.permalink
-- var thumbnail = page.thumbnail || page.cover || (getPostCoverImg(page) && full_url_for(getPostCoverImg(page))) || (page.photos?.[0] && full_url_for(page.photos[0])) 
+- var thumbnail = page.thumbnail || (page.cover && full_url_for(page.cover)) || (getPostCoverImg(page) && full_url_for(getPostCoverImg(page))) || (page.photos?.[0] && full_url_for(page.photos[0])) 
 - var description = page.description || page.excerpt || config.description || page.content || pageTitle
 - description = truncate( strip_html(description), {length: 150, omission: '..'} )
 - var language = page.lang || page.language || config.language || 'zh-TW'
