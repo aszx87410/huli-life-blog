@@ -112,7 +112,7 @@ gtag('config', 'G-X395CNYSX7');</script><!-- End Google Analytics --><link rel="
 <p><img src="/img/what-is-encoding-ascii-unicode-utf8-5fe55a98bee0/1__nFJqVzseXyfkAd47RZkYew.png"></p>
 <p>看起來很難懂對吧？但如果我跟你說，它其實就是這張表的進階版呢：</p>
 <p><img src="/img/what-is-encoding-ascii-unicode-utf8-5fe55a98bee0/1__tfuP9X0PW8EAOwV68odGGA.png"></p>
-<p>UTF-8 那張轉換表格在講的事情是一樣的，它是在定義說：「你本來的 code point 如果是 0-127，那就用一個 byte 來存就好。如果本來是 128-2047，就用兩個 byte 來存」。</p>
+<p>UTF-8 那張轉換表格在講的事情是一樣的，它是在定義說：「你本來的 code point 如果是 0 - 127，那就用一個 byte 來存就好。如果本來是 128 - 2047，就用兩個 byte 來存」。</p>
 <p>而你會在表格中看到 Byte1、Byte2 最前面幾個數字是固定的，這就跟小明製作的表格一樣，目的是把前面最幾個數字當成「指示」。</p>
 <p>舉例來說，電腦在看到一個 byte 的最左邊是 0 的時候，就知道這一個 byte 就代表一個字。在看到最左邊是 110 的時候，就知道這個 byte 要跟下一個 byte 一起看，才能表示完整的一個字。</p>
 <p>就跟小明的表格一樣，最左邊是 0 代表是英文，最左邊是 1 代表它是 1-99 頁的中文，邏輯是完全一樣的。</p>
