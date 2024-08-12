@@ -1,4 +1,4 @@
-name: Build Claudia blog
+name: Build blog
 on:
   push:
     branches: [main]
@@ -10,7 +10,7 @@ jobs:
   build-deploy:
     runs-on: macos-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
       - run: npm install hexo-cli -g
       - run: npm ci
       - run: hexo generate
