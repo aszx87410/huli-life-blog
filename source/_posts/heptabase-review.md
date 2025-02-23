@@ -25,7 +25,7 @@ Heptabase 這個軟體的核心理念跟創辦人詹雨安的學習經歷脫不�
 
 先簡單講一下我知道的 Heptabase 的歷史，時間軸很可能沒有到很精確（因為算是推測出來的），但應該也相去不遠。
 
-2021 年中的時候，一款叫做 Project Meta 的軟體誕生了（話說最早期的官網還在：https://projectmeta.netlify.app/ ），目前也還找得到 2021 年 9 月創辦人接受的訪問：[星箭廣播 127 集——他想改變 Internet，第一步是打造全新的筆記軟體（ft. 詹雨安）](https://blog.starrocket.io/posts/star-rocket-podcast-ep127-project-meta-founder-alan-chan-talks-about-his-vision-and-his-note-taking-tool-meta-a/)。然而，在 10 月底的時候 Faceboko 宣布要改名成 Meta，因此這個 Project Meta 就決定換一個名稱，改成了 Heptabase。
+2021 年中的時候，一款叫做 Project Meta 的軟體誕生了（話說最早期的官網還在：https://projectmeta.netlify.app/ ），目前也還找得到 2021 年 9 月創辦人接受的訪問：[星箭廣播 127 集——他想改變 Internet，第一步是打造全新的筆記軟體（ft. 詹雨安）](https://blog.starrocket.io/posts/star-rocket-podcast-ep127-project-meta-founder-alan-chan-talks-about-his-vision-and-his-note-taking-tool-meta-a/)。然而，在 10 月底的時候 Facebook 宣布要改名成 Meta，因此這個 Project Meta 就決定換一個名稱，改成了 Heptabase。
 
 但不管是 Project Meta 還是 Heptabase，在當時都還沒沒無聞，直到 2022 年 1 月，當他們入選知名矽谷加速器 Y Combinator 的時候（[相關臉書貼文](https://www.facebook.com/cjinc/posts/pfbid0e2gsDRzgXrs1RdcGkAzfcRvQfMcMiPSAfcMh2ysYkBFQd8EBYUh7cUHrZUc7k639l)），才被更多人知道。
 
