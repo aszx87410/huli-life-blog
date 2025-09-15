@@ -5,8 +5,8 @@ categories:
   - 學習
 tags:
   - 學習
-photos: /img/learning-japanese-english-and-korean-review/cover.png
-cover: /img/learning-japanese-english-and-korean-review/cover.png
+photos: /img/learning-japanese-english-and-korean-review/p1.png
+cover: /img/learning-japanese-english-and-korean-review/p1.png
 ---
 
 利益揭露：本篇心得為尚進美日韓語邀約體驗後撰寫，屬合作分享文章。
