@@ -6,7 +6,7 @@
   <link href="https://life.huli.tw/atom.xml" rel="self"/>
   
   <link href="https://life.huli.tw/"/>
-  <updated>2026-09-23T13:56:28.763Z</updated>
+  <updated>2026-09-26T02:28:26.310Z</updated>
   <id>https://life.huli.tw/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Samsung Galaxy S25 沒有 eSIM，就自己裝一個上去吧之 ESTKme 使用心得</title>
+    <link href="https://life.huli.tw/2026/09/26/samsung-galaxy-s25-estkme-esim/"/>
+    <id>https://life.huli.tw/2026/09/26/samsung-galaxy-s25-estkme-esim/</id>
+    <published>2026-09-26T02:34:07.000Z</published>
+    <updated>2026-09-26T02:28:26.310Z</updated>
+    
+    <content type="html"><![CDATA[<p>如同我<a href="https://life.huli.tw/2026/09/23/my-smartphone-history/">之前</a>所寫過的，最近換了一支 Samsung Galaxy S25，最驚訝的事情莫過於居然不支援 eSIM。在確認這個事實的當下覺得天都要塌了，我費盡千辛萬苦從台灣帶來日本，結果不支援 eSIM。都 2026 年了，怎麼可能有兩萬塊的手機不支援？</p><p>心灰意冷的我讓 AI 幫我查一下，意外地發現居然有公司在賣「實體 eSIM 卡」，順便讓我稍微學到了 eSIM 跟 SIM 卡的原理。這篇會從原理稍微簡單講起，懶得看的可以直接跳到後面。</p><h2 id="簡易版-SIM-卡與-eSIM-原理"><a href="#簡易版-SIM-卡與-eSIM-原理" class="headerlink" title="簡易版 SIM 卡與 eSIM 原理"></a>簡易版 SIM 卡與 eSIM 原理</h2><p>我們所謂的實體 SIM 卡，裡面存的是一組 profile，你就簡單想成有個 ID 跟 key 就好，前者就是你的身份，後者是一把鑰匙，來證明你是誰。而這個 profile 基本上是寫死的，從出廠就寫在晶片裡面。</p><p>而 eSIM 的話，就是你手機上有一個晶片（叫做 eUICC）可以一次管理多個 profile，就能支援多組號碼。</p><p>如果有用過 eSIM 的話，最常見的啟用方式是去掃 QRCode，這個 QRCode 的內容並不是 profile 本身，它只是一個取貨碼，你要憑這個取貨碼去電信公司的伺服器下載 profile，而且只能下載一次。這就是為什麼啟用 eSIM 的時候要有網路，否則你下載不下來。</p><p>對手機來說其實是差不多的，反正不管是實體 SIM 卡還是 eSIM，最後看到的都是那組 profile，溝通的介面是一樣的。</p><p>以上就是簡易版的原理。</p><p>既然 eUICC 就只是個可以管理多個 profile 的晶片，那如果我們把實體 SIM 卡上的晶片也換成這個呢？不就有一個實體的 eSIM 卡可以用了嗎？這就是實體 eSIM 卡的原理。</p><p>原本 eUICC 是裝在手機上，有廠商把它裝在實體 SIM 卡上，就可以讓沒有支援 eSIM 的手機也有這個功能。</p><p>但由於現在大部分手機都支援 eSIM 了，所以「實體 eSIM 卡」的知名度不怎麼高，在買 S25 之前我也完全沒聽過這種東西，甚至不知道為什麼要有。買了 S25 之後，只覺得有人做這種產品真是太好了，簡直造福社會。</p><h2 id="實體-eSIM-卡的選擇"><a href="#實體-eSIM-卡的選擇" class="headerlink" title="實體 eSIM 卡的選擇"></a>實體 eSIM 卡的選擇</h2><p>我查過一輪之後，幾個比較知名的品牌大概是：</p><ol><li><a href="https://www.9esim.com/en">9eSIM</a></li><li><a href="https://store.estk.me/">ESTKme</a></li><li><a href="https://esim.me/pricing">eSIMme</a></li></ol><p>台灣的話也有個公司專門做這個：<a href="https://aicard.biz/">AIC eSIM</a>。</p><p>eSIMme 跟 AIC eSIM 管理上都要用官方 App，而前兩個 9eSIM 跟 ESTKme 可以用第三方的。</p><p>由於之前在 PTT 上面看到有人用 9eSIM 有點問題：<a href="https://www.ptt.cc/bbs/MobileComm/M.1743685345.A.64E.html">Re: [問題] 三星用戶選5ber還是eSTK?</a>，因此最後選了 ESTKme，我看網路上的心得文比較多。</p><p>話說如果你特別注重來自中國的產品，有些 eUICC 是來自中國的，如 9eSIM 之前的版本就有明確寫是自中國。但有些廠商也不會明寫就是了，可以自己再多查查。</p><h2 id="ESTKme-使用心得"><a href="#ESTKme-使用心得" class="headerlink" title="ESTKme 使用心得"></a>ESTKme 使用心得</h2><p>我是直接在官網上買的 ESTKme Plus+，官方語言可以切英文中文，切中文就是用港幣付款，價格為 140 港幣，加上送到日本的運費 55 港幣，共 195 港幣折合台幣 790 元。</p><p>9&#x2F;7 買的，9&#x2F;8 出貨，用的是順豐速運從中國深圳寄出，9&#x2F;15 送到，大概一個禮拜，速度還算滿快的。</p><p><img src="/img/samsung-galaxy-s25-estkme-esim/p1.jpg" alt="estk 外裝"></p><p><img src="/img/samsung-galaxy-s25-estkme-esim/p2.jpg" alt="estk sim卡"></p><p>使用方法很簡單，就是把這個卡放進插槽裡（我是放在 SIM1），接著在手機上面下載 App 來管理 profile。</p><p>雖然說可以用第三方的 App，但我還是優先用了<a href="https://play.google.com/store/apps/details?id=me.estk.lpa">官方的 ESTKme App</a>，裝好之後就跟一般正常開通 eSIM 差不多，拿 app 去掃 QRCode，下載，結束，輕輕鬆鬆。</p><p>我在日本用的是 Povo 2.0（現在好像也有人推薦來日本旅遊用這個），訊號跟使用上都沒問題。</p><p>就是這麼簡單，問題就這樣被解決了，我的 S25 也擁有了 eSIM 的功能，再次感謝這些廠商。</p><h2 id="結論"><a href="#結論" class="headerlink" title="結論"></a>結論</h2><p>感謝三星 S25 讓我知道居然還有這種東西可以用，也感謝 PTT 上面資料滿齊全，再感謝 AI 查資料非常方便，日本這邊也有網友分享實測結果，看了更安心了。</p><p>話說這種實體 eSIM 卡有個附加價值是，假設哪天你要換手機，直接把實體 eSIM 卡換過去就好，不用重新發行 eSIM。但如果讓我選，我還是選有 eSIM 功能的手機就是了，有原生功能還是最方便的，手機也不是天天在換。</p><p>若是你也不小心買到沒有 eSIM 功能的手機，誠心推薦這種實體 eSIM 卡，購買前可以先查一下自己手機是不是支援（應該是大部分都可以，少部分不行）。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;如同我&lt;a href=&quot;https://life.huli.tw/2026/09/23/my-smartphone-history/&quot;&gt;之前&lt;/a&gt;所寫過的，最近換了一支 Samsung Galaxy S25，最驚訝的事情莫過於居然不支援 eSIM。在確認這個事實的當下覺得</summary>
+      
+    
+    
+    
+    <category term="科技" scheme="https://life.huli.tw/categories/%E7%A7%91%E6%8A%80/"/>
+    
+    
+    <category term="科技" scheme="https://life.huli.tw/tags/%E7%A7%91%E6%8A%80/"/>
+    
+  </entry>
   
   <entry>
     <title>我的手機史：一年只花 2500 塊在買手機</title>
@@ -490,31 +514,6 @@
     
     
     <category term="思考人生" scheme="https://life.huli.tw/tags/%E6%80%9D%E8%80%83%E4%BA%BA%E7%94%9F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>不會日文去考 JLPT 日檢 N2 可以得幾分？</title>
-    <link href="https://life.huli.tw/2024/08/29/jlpt-n2-failed/"/>
-    <id>https://life.huli.tw/2024/08/29/jlpt-n2-failed/</id>
-    <published>2024-08-29T03:54:24.919Z</published>
-    <updated>2024-08-31T00:37:04.656Z</updated>
-    
-    <content type="html"><![CDATA[<p><img src="/img/jlpt-n2-failed/p1.jpg" alt="買的書，但全部沒看"></p><p>來日本生活九個月以後，在今年七月考了日檢，由於考日檢的目的是高度人才加分，因此 N2 以下都不考慮，所以在不會什麼日文的狀況下直接報了個 N2，想說碰碰運氣，順便想實測一下能猜到多少分。</p><p>大概講一下我的日文程度大概到哪邊：</p><ol><li>五十音看得懂，但有些很像的還是要想一下</li><li>很常分不清楚有沒有濁音</li><li>日常生活會用到的日文只有買東西的時候一直說：「大丈夫です」（不用塑膠袋、不用會員卡等等）以及「レシート大丈夫です」，不用收據。</li><li>基本上不會文法也不會什麼單字，「我住在日本」不會說，因為我不知道「住」怎麼講，連接詞也不知道用什麼，更別提什麼動詞變化了，那是什麼？</li><li>聽力的部分，只有與漢字相似的音可以猜一猜，否則聽不懂</li></ol><p>換句話說，我的日文程度跟沒學過日文但常來日本玩的人差不多，搞不好還更爛一些。</p><p>但畢竟都花錢考試了嘛，所以想說還是來準備一下，因此就買了文章開頭的那些書籍，但最後全部都沒看。</p><p>很多人以為我在自我介紹裡面寫的「生活上是重度拖延症患者，有很多想做的事，卻幾乎都沒有執行」只是隨便寫寫的，沒有，那是千真萬確的，真的全部都沒看，有些書我連打開都沒打開來過。我也曾經想透過其他管道例如說 YouTube 學習，覺得 Yuta 老師的日本語教室還滿不錯的，但看到第三課就沒看了，第三課教的大概是這些：</p><p><img src="/img/jlpt-n2-failed/p2.png" alt="買的書，但全部沒看"></p><p>介紹完背景之後，先直接公佈成績好了：</p><ul><li>言語知識 25 &#x2F; 60</li><li>讀解 23 &#x2F; 60</li><li>聽力 19 &#x2F; 60</li><li>總分 67 &#x2F; 180</li></ul><p><img src="/img/jlpt-n2-failed/p3.png" alt="日檢成績"></p><p>及格線是 90 分，所以還差得很遠。</p><p>前面閱讀的部分因為有漢字，還可以大概猜一下意思，我還是有認真考的，試著透過漢字去猜題目在寫什麼，不過只看得懂漢字顯然是不太夠的。而聽力的部分我原本想說應該聽得懂一點吧，結果發現全部都聽不懂，因此最後是直接用猜的，比想像中還慘不忍睹。</p><p>大概就是這樣，然後今天也剛報完了年底的日檢，希望這段時間我會乖乖唸書。</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;&lt;img src=&quot;/img/jlpt-n2-failed/p1.jpg&quot; alt=&quot;買的書，但全部沒看&quot;&gt;&lt;/p&gt;
-&lt;p&gt;來日本生活九個月以後，在今年七月考了日檢，由於考日檢的目的是高度人才加分，因此 N2 以下都不考慮，所以在不會什麼日文的狀況下直接報了個 N2，想說碰</summary>
-      
-    
-    
-    
-    <category term="日本" scheme="https://life.huli.tw/categories/%E6%97%A5%E6%9C%AC/"/>
-    
-    
-    <category term="日本" scheme="https://life.huli.tw/tags/%E6%97%A5%E6%9C%AC/"/>
     
   </entry>
   
